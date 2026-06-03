@@ -117,7 +117,7 @@ def _fetch_dragonball(cutoff_ts: float) -> list[dict]:
 
 def _fetch_chiikawa(max_items: int = 15) -> list[dict]:
     try:
-        resp = requests.get("https://chiikawaworld.com/news/", headers=HEADERS, timeout=15)
+        resp = requests.get("https://chiikawamarket.jp/blogs/news", headers=HEADERS, timeout=15)
         soup = BeautifulSoup(resp.text, "lxml")
         items = []
         for a in soup.find_all("a", href=True):
@@ -142,18 +142,18 @@ def _fetch_chiikawa(max_items: int = 15) -> list[dict]:
 
 def _fetch_jojo(max_items: int = 15) -> list[dict]:
     try:
-        resp = requests.get("https://jojoweb.jp/", headers=HEADERS, timeout=15)
+        resp = requests.get("https://jojo-portal.com/news/", headers=HEADERS, timeout=15)
         soup = BeautifulSoup(resp.text, "lxml")
         items = []
         for a in soup.find_all("a", href=True):
             href = a["href"]
-            if not re.search(r"jojoweb\.jp/(?:news|information|topics)/\d+|/(?:news|information)/\d+", href):
+            if not re.search(r"jojo-portal\.com/(?:news|information)/\d+|/(?:news)/\w+", href):
                 continue
             title = a.get_text(strip=True)
             if not title or len(title) < 5:
                 continue
             if href.startswith("/"):
-                href = "https://jojoweb.jp" + href
+                href = "https://jojo-portal.com" + href
             uid_match = re.search(r"/(\w+)/(\d+)", href)
             uid = f"jojo_{uid_match.group(2)}" if uid_match else href
             items.append({"uid": uid, "title": title, "url": href, "source": "ジョジョ"})

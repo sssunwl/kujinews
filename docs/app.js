@@ -1,6 +1,39 @@
 const DATA_URL = "./data/kuji.json";
 const NEWS_URL = "./data/ip_news.json";
 
+// ── Japanese → Chinese keyword map ───────────────────
+const JP_ZH = [
+  ["一番くじちょこっと","一番賞 mini"],["一番くじ","一番賞"],["みんなのくじ","大家的抽獎"],
+  ["TVアニメ","電視動畫"],["劇場版アニメ","劇場版動畫"],["劇場版","劇場版"],
+  ["ワンピース","航海王"],["ドラゴンボール","七龍珠"],["ちいかわ","吉伊卡哇"],
+  ["鬼滅の刃","鬼滅之刃"],["呪術廻戦","咒術迴戰"],["僕のヒーローアカデミア","我的英雄學院"],
+  ["進撃の巨人","進擊的巨人"],["ジョジョの奇妙な冒険","JOJO的奇妙冒險"],["ジョジョ","JOJO"],
+  ["NARUTO-ナルト-","火影忍者"],["NARUTO","火影忍者"],["名探偵コナン","名偵探柯南"],
+  ["ハイキュー","排球少年"],["鋼の錬金術師","鋼之鍊金術師"],["銀魂","銀魂"],
+  ["スラムダンク","灌籃高手"],["東京リベンジャーズ","東京復仇者"],["ブルーロック","藍色監獄"],
+  ["チェンソーマン","鏈鋸人"],["葬送のフリーレン","葬送的芙莉蓮"],
+  ["薬屋のひとりごと","藥師少女的獨語"],["ダンダダン","丹丹丹丹"],
+  ["家庭教師ヒットマンREBORN","家庭教師 REBORN!"],
+  ["ポケットモンスター","Pokémon 寶可夢"],["スティッチ","史迪奇"],
+  ["北斗の拳","北斗神拳"],["STEEL BALL RUN","鋼之球場賽跑"],
+  ["ガンダム","鋼彈"],["機動戦士","機動戰士"],["BLEACH","死神"],
+  ["プリキュア","光之美少女"],["アイカツ","偶像學園"],
+  ["学園アイドルマスター","學園偶像大師"],["ラブライブ","LoveLive!"],
+  ["アズールレーン","碧藍航線"],["ウマ娘","賽馬娘"],["ブルーアーカイブ","藍色檔案"],
+  ["葬送","葬送"],["芙莉蓮","芙莉蓮"],["薬屋","藥師"],
+  ["サッカー日本代表","日本足球代表"],["Disney","迪士尼"],
+  ["スター・ウォーズ","星際大戰"],["MARVEL","漫威"],
+  ["ホワイトタイガー","白老虎"],["ブラックタイガー","黑老虎"],
+  ["MOTHER2","MOTHER 2"],["赤髪海賊団","紅髮海賊團"],
+  ["ケロロ軍曹","Keroro 軍曹"],["森永製菓","森永製菓"],
+];
+
+function zhHint(title) {
+  let r = title;
+  for (const [jp, zh] of JP_ZH) r = r.split(jp).join(zh);
+  return r === title ? null : r;
+}
+
 // ── Brand directory data ──────────────────────────────
 const BRANDS = [
   { name:"一番くじ", name_zh:"一番賞", company:"Bandai Spirits",
@@ -84,8 +117,8 @@ const IP_MAP = {
   "ワンピース":    { zh:"航海王",  official:"https://one-piece.com/news/index.html", twitter:"https://x.com/onepiecehunter" },
   "ドラゴンボール": { zh:"七龍珠",  official:"https://dragon-ball-official.com/news/", twitter:"https://x.com/DB_official_" },
   "REBORN!":     { zh:"REBORN!", official:"https://khreborn-anime.jp/", twitter:"https://x.com/khreborn_anime" },
-  "ちいかわ":     { zh:"吉伊卡哇", official:"https://chiikawaworld.com/news/", twitter:"https://x.com/ngnchiikawa" },
-  "ジョジョ":     { zh:"JOJO",    official:"https://jojoweb.jp/", twitter:"https://x.com/anime_jojo" },
+  "ちいかわ":     { zh:"吉伊卡哇", official:"https://chiikawamarket.jp/", twitter:"https://x.com/anime_chiikawa" },
+  "ジョジョ":     { zh:"JOJO",    official:"https://jojo-portal.com/", twitter:"https://x.com/araki_jojo" },
 };
 
 let kujiData = null;
@@ -298,12 +331,17 @@ function renderIP(ip) {
 
   if (ipNews.length) {
     html += section("📰 最新消息",
-      ipNews.map(n => `
+      ipNews.map(n => {
+        const nzh = zhHint(n.title);
+        return `
         <a class="news-item" href="${n.url || info.official}" target="_blank" rel="noopener">
           <span class="news-dot"></span>
-          <span class="news-title">${escHtml(n.title)}</span>
-        </a>
-      `).join("")
+          <span>
+            <div class="news-title">${escHtml(n.title)}</div>
+            ${nzh ? `<div class="news-zh">${escHtml(nzh)}</div>` : ""}
+          </span>
+        </a>`;
+      }).join("")
     );
   }
 
@@ -357,10 +395,14 @@ function itemHTML(item, highlight = false) {
   const day = item.date ? `${parseInt(item.date.split("-")[2])}日` : "—";
   const ipTag = item.ip_tags?.[0] ? `<span class="ip-tag">${item.ip_tags[0]}</span>` : "";
   const url = item.official_url || item.url || "#";
+  const zh = zhHint(item.title);
+  const titleBlock = zh
+    ? `<span class="kuji-title-wrap"><span class="kuji-title">${escHtml(item.title)}</span><span class="kuji-zh">${escHtml(zh)}</span></span>`
+    : `<span class="kuji-title">${escHtml(item.title)}</span>`;
   return `
     <a class="kuji-item${highlight ? " today-release" : ""}" href="${url}" target="_blank" rel="noopener">
       <span class="kuji-date">${day}</span>
-      <span class="kuji-title">${escHtml(item.title)}</span>
+      ${titleBlock}
       ${ipTag}
       <span class="kuji-brand">${escHtml(item.brand)}</span>
       <span class="kuji-arrow">↗</span>
