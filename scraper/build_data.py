@@ -195,16 +195,41 @@ def main() -> None:
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=2))
     print(f"\nSaved {len(all_items)} items to {OUT}")
 
-    # Save IP news for web
-    print("\n[IP新聞] 抓取中...")
-    import sys
+    # Save IP news for web (with translation)
+    print("\n[IP新聞] 抓取並翻譯中...")
+    import sys, urllib.parse
     sys.path.insert(0, str(Path(__file__).parent))
     from ip_news import fetch_all_news
-    raw_news = fetch_all_news(lookback_hours=9999)  # 不過濾時間，取全部
+    raw_news = fetch_all_news(lookback_hours=9999)
+
+    _translate_headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+
+    def translate_zh(text: str) -> str:
+        try:
+            params = {"client": "gtx", "sl": "ja", "tl": "zh-TW", "dt": "t", "q": text}
+            r = requests.get("https://translate.googleapis.com/translate_a/single",
+                             params=params, headers=_translate_headers, timeout=6)
+            data = r.json()
+            result = "".join(seg[0] for seg in data[0] if seg[0]).strip()
+            return result
+        except Exception as e:
+            print(f"    translate error: {e}")
+            return ""
+
     ip_news_out: dict = {}
     for item in raw_news:
         src = item.get("source", "")
-        ip_news_out.setdefault(src, []).append({"title": item["title"], "url": item["url"]})
+        title = item.get("title", "")
+        title_zh = translate_zh(title) if title else ""
+        if title_zh == title:
+            title_zh = ""  # no point storing same text
+        print(f"  [{src}] {title[:30]} → {title_zh[:30]}")
+        ip_news_out.setdefault(src, []).append({
+            "title": title,
+            "title_zh": title_zh,
+            "url": item.get("url", ""),
+        })
+        time.sleep(0.25)
     OUT_NEWS.write_text(json.dumps(ip_news_out, ensure_ascii=False, indent=2))
     print(f"Saved IP news to {OUT_NEWS}")
 
