@@ -1,3 +1,4 @@
+import re
 import time
 import requests
 import feedparser
@@ -5,7 +6,6 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timezone, timedelta
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; KujiUniverse/1.0)"}
-JST = timezone(timedelta(hours=9))
 
 
 def _hours_ago(hours: int) -> float:
@@ -32,68 +32,95 @@ def _fetch_rss(url: str, label: str, cutoff_ts: float) -> list[dict]:
         return []
 
 
-def _scrape_news_page(url: str, label: str, article_sel: str, title_sel: str, link_sel: str) -> list[dict]:
+def _fetch_one_piece(max_items: int = 15) -> list[dict]:
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=15)
+        resp = requests.get("https://one-piece.com/news/index.html", headers=HEADERS, timeout=15)
         soup = BeautifulSoup(resp.text, "lxml")
         items = []
-        for article in soup.select(article_sel)[:20]:
-            title_el = article.select_one(title_sel)
-            link_el = article.select_one(link_sel)
-            if not title_el:
+        for a in soup.find_all("a", href=True):
+            href = a["href"]
+            # 新聞頁格式：/news/NNNNN/index.html
+            if not re.match(r"^/news/\d+/", href):
                 continue
-            title = title_el.get_text(strip=True)
-            href = link_el.get("href", "") if link_el else ""
-            if href and href.startswith("/"):
-                from urllib.parse import urlparse
-                base = urlparse(url)
-                href = f"{base.scheme}://{base.netloc}{href}"
-            uid = href or title
-            items.append({"uid": uid, "title": title, "url": href, "source": label})
+            title = a.get_text(strip=True)
+            # 去除開頭的 "NEW" 標籤
+            title = re.sub(r"^NEW\s*", "", title).strip()
+            # 去除末尾的日期與分類（例：2026/06/03イベント・施設）
+            title = re.sub(r"\d{4}/\d{2}/\d{2}.*$", "", title).strip()
+            if not title or len(title) < 5:
+                continue
+            full_url = "https://one-piece.com" + href
+            uid = href.split("/")[2]  # news ID 數字
+            items.append({"uid": f"op_{uid}", "title": title, "url": full_url, "source": "ワンピース"})
+            if len(items) >= max_items:
+                break
         return items
     except Exception as e:
-        print(f"[news] scrape {label} error: {e}")
+        print(f"[news] One Piece error: {e}")
+        return []
+
+
+def _fetch_reborn(max_items: int = 15) -> list[dict]:
+    try:
+        resp = requests.get("https://khreborn-anime.jp/", headers=HEADERS, timeout=15)
+        soup = BeautifulSoup(resp.text, "lxml")
+        items = []
+        for a in soup.find_all("a", href=True):
+            href = a["href"]
+            if not re.search(r"khreborn-anime\.jp/news/\d+", href):
+                continue
+            raw = a.get_text(strip=True)
+            # 去除開頭的日期（格式：2026.05.15INFORMATION...）
+            title = re.sub(r"^\d{4}\.\d{2}\.\d{2}[A-Z\s]*", "", raw).strip()
+            if not title or len(title) < 5:
+                continue
+            uid_match = re.search(r"/news/(\d+)", href)
+            uid = f"reborn_{uid_match.group(1)}" if uid_match else href
+            items.append({"uid": uid, "title": title, "url": href, "source": "REBORN!"})
+            if len(items) >= max_items:
+                break
+        return items
+    except Exception as e:
+        print(f"[news] REBORN! error: {e}")
+        return []
+
+
+def _fetch_dragonball(cutoff_ts: float) -> list[dict]:
+    # 先試 RSS
+    items = _fetch_rss("https://dragon-ball-official.com/rss.xml", "ドラゴンボール", cutoff_ts)
+    if items:
+        return items
+    # fallback：爬新聞頁
+    try:
+        resp = requests.get("https://dragon-ball-official.com/news/", headers=HEADERS, timeout=15)
+        soup = BeautifulSoup(resp.text, "lxml")
+        result = []
+        for a in soup.find_all("a", href=True):
+            href = a["href"]
+            if not re.search(r"/news/\d+_\d+", href):
+                continue
+            title = a.get_text(strip=True)
+            if not title or len(title) < 5:
+                continue
+            if href.startswith("/"):
+                href = "https://dragon-ball-official.com" + href
+            uid_match = re.search(r"/news/(\w+)", href)
+            uid = f"db_{uid_match.group(1)}" if uid_match else href
+            result.append({"uid": uid, "title": title, "url": href, "source": "ドラゴンボール"})
+            if len(result) >= 15:
+                break
+        return result
+    except Exception as e:
+        print(f"[news] Dragon Ball error: {e}")
         return []
 
 
 def fetch_all_news(lookback_hours: int = 9) -> list[dict]:
     cutoff = _hours_ago(lookback_hours)
     news = []
-
-    # One Piece — official news page (no public RSS confirmed)
-    news += _scrape_news_page(
-        "https://one-piece.com/news/index.html",
-        "ワンピース",
-        article_sel="li.news_li, article, .news-item, li[class*='news']",
-        title_sel="h2, h3, .title, strong",
-        link_sel="a",
-    )
-
-    # Dragon Ball — official RSS
-    news += _fetch_rss(
-        "https://dragon-ball-official.com/rss.xml",
-        "ドラゴンボール",
-        cutoff,
-    )
-    # fallback scrape if RSS empty
-    if not any(n["source"] == "ドラゴンボール" for n in news):
-        news += _scrape_news_page(
-            "https://dragon-ball-official.com/news/",
-            "ドラゴンボール",
-            article_sel="article, li.news-item, .news_list li",
-            title_sel="h2, h3, .title",
-            link_sel="a",
-        )
-
-    # REBORN! 20th anniversary — scrape official site
-    news += _scrape_news_page(
-        "https://khreborn-anime.jp/",
-        "REBORN!",
-        article_sel="article, li.news_item, .news-list li, .information li",
-        title_sel="h2, h3, p, .title",
-        link_sel="a",
-    )
-
+    news += _fetch_one_piece()
+    news += _fetch_dragonball(cutoff)
+    news += _fetch_reborn()
     return news
 
 
