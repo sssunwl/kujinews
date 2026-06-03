@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KujiUniverse</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">KujiUniverse</div>
+    <nav class="main-nav">
+      <button class="nav-btn active" data-view="today">今日</button>
+      <button class="nav-btn" data-view="calendar">年曆</button>
+      <button class="nav-btn" data-view="ip">IP別</button>
+    </nav>
+  </header>
+
+  <!-- Today View -->
+  <div id="view-today" class="view active">
+    <main id="today-content" class="content">
+      <div class="loading">読み込み中...</div>
+    </main>
+  </div>
+
+  <!-- Calendar View -->
+  <div id="view-calendar" class="view hidden">
+    <div class="sticky-bar">
+      <div class="month-nav" id="month-nav"></div>
+    </div>
+    <main id="calendar-content" class="content">
+      <div class="loading">読み込み中...</div>
+    </main>
+  </div>
+
+  <!-- IP View -->
+  <div id="view-ip" class="view hidden">
+    <div class="sticky-bar">
+      <div class="ip-tabs" id="ip-tabs">
+        <button class="tab-btn active" data-ip="ワンピース">ワンピース</button>
+        <button class="tab-btn" data-ip="ドラゴンボール">ドラゴンボール</button>
+        <button class="tab-btn" data-ip="REBORN!">REBORN!</button>
+        <button class="tab-btn" data-ip="ちいかわ">ちいかわ</button>
+        <button class="tab-btn" data-ip="ジョジョ">ジョジョ</button>
+      </div>
+    </div>
+    <main id="ip-content" class="content">
+      <div class="loading">読み込み中...</div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -115,12 +115,64 @@ def _fetch_dragonball(cutoff_ts: float) -> list[dict]:
         return []
 
 
+def _fetch_chiikawa(max_items: int = 15) -> list[dict]:
+    try:
+        resp = requests.get("https://chiikawaworld.com/news/", headers=HEADERS, timeout=15)
+        soup = BeautifulSoup(resp.text, "lxml")
+        items = []
+        for a in soup.find_all("a", href=True):
+            href = a["href"]
+            if not re.search(r"chiikawaworld\.com/news/\d+|/news/\d+", href):
+                continue
+            title = a.get_text(strip=True)
+            if not title or len(title) < 5:
+                continue
+            if href.startswith("/"):
+                href = "https://chiikawaworld.com" + href
+            uid_match = re.search(r"/news/(\d+)", href)
+            uid = f"chii_{uid_match.group(1)}" if uid_match else href
+            items.append({"uid": uid, "title": title, "url": href, "source": "ちいかわ"})
+            if len(items) >= max_items:
+                break
+        return items
+    except Exception as e:
+        print(f"[news] Chiikawa error: {e}")
+        return []
+
+
+def _fetch_jojo(max_items: int = 15) -> list[dict]:
+    try:
+        resp = requests.get("https://jojoweb.jp/", headers=HEADERS, timeout=15)
+        soup = BeautifulSoup(resp.text, "lxml")
+        items = []
+        for a in soup.find_all("a", href=True):
+            href = a["href"]
+            if not re.search(r"jojoweb\.jp/(?:news|information|topics)/\d+|/(?:news|information)/\d+", href):
+                continue
+            title = a.get_text(strip=True)
+            if not title or len(title) < 5:
+                continue
+            if href.startswith("/"):
+                href = "https://jojoweb.jp" + href
+            uid_match = re.search(r"/(\w+)/(\d+)", href)
+            uid = f"jojo_{uid_match.group(2)}" if uid_match else href
+            items.append({"uid": uid, "title": title, "url": href, "source": "ジョジョ"})
+            if len(items) >= max_items:
+                break
+        return items
+    except Exception as e:
+        print(f"[news] JOJO error: {e}")
+        return []
+
+
 def fetch_all_news(lookback_hours: int = 9) -> list[dict]:
     cutoff = _hours_ago(lookback_hours)
     news = []
     news += _fetch_one_piece()
     news += _fetch_dragonball(cutoff)
     news += _fetch_reborn()
+    news += _fetch_chiikawa()
+    news += _fetch_jojo()
     return news
 
 
