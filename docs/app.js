@@ -244,8 +244,10 @@ function jumpToCalMonth(key) {
 }
 
 const BRAND_DOT = {
-  "一番くじ": "ichiban",
+  "一番くじ":   "ichiban",
   "みんなのくじ": "minna",
+  "Happyくじ":  "happy",
+  "グッスマくじ": "gsm",
 };
 function brandDot(brand) {
   return BRAND_DOT[brand] || "other";
@@ -336,6 +338,9 @@ function renderCalGrid(container) {
     <div class="cal-legend">
       <span class="cal-dot ichiban"></span>一番くじ
       <span class="cal-dot minna"></span>みんなのくじ
+      <span class="cal-dot happy"></span>Happyくじ
+      <span class="cal-dot gsm"></span>グッスマ
+      <span class="cal-dot other"></span>其他
     </div>
   `;
 

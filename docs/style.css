@@ -244,6 +244,8 @@ header {
 .cal-dot { width: 5px; height: 5px; border-radius: 50%; flex-shrink: 0; }
 .cal-dot.ichiban { background: #C4963A; }
 .cal-dot.minna   { background: #9B59B6; }
+.cal-dot.happy   { background: #E74C3C; }
+.cal-dot.gsm     { background: #27AE60; }
 .cal-dot.other   { background: #3498DB; }
 .cal-day.selected { background: var(--gold-light); border: 1.5px solid var(--gold); }
 

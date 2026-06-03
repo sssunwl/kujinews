@@ -1,6 +1,174 @@
 {
-  "generated_at": "2026-06-04T04:47:06.672941+09:00",
+  "generated_at": "2026-06-04T05:14:41.864304+09:00",
   "months": [
+    {
+      "key": "2025-11",
+      "label": "2025年11月",
+      "items": [
+        {
+          "id": "haikyu",
+          "title": "Happyくじ『ハイキュー!!』店舗販売",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/haikyu/",
+          "month_key": "2025-11",
+          "ip_tags": [],
+          "date": "2025-11-14",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/haikyu/"
+        }
+      ]
+    },
+    {
+      "key": "2025-12",
+      "label": "2025年12月",
+      "items": [
+        {
+          "id": "sanrio-holiday",
+          "title": "Happyくじ『Sanrio characters Holiday Collection』ン・キホーテ、イトーヨーカドー、古本市場、WonderGOO、GEO、駿河屋、玉光堂、TSUTAYA、その他ホビーショップ、書店 等店舗販売",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/sanrio-holiday/",
+          "month_key": "2025-12",
+          "ip_tags": [],
+          "date": "2025-12-06",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/sanrio-holiday/"
+        },
+        {
+          "id": "zootopia2",
+          "title": "Happyくじ『ズートピア2』店舗販売",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/zootopia2/",
+          "month_key": "2025-12",
+          "ip_tags": [],
+          "date": "2025-12-19",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/zootopia2/"
+        },
+        {
+          "id": "tomandjerry5",
+          "title": "Happyくじ『TOM and JERRY FUNNY ART!』5店舗販売",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/tomandjerry5/",
+          "month_key": "2025-12",
+          "ip_tags": [],
+          "date": "2025-12-26",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/tomandjerry5/"
+        }
+      ]
+    },
+    {
+      "key": "2026-02",
+      "label": "2026年2月",
+      "items": [
+        {
+          "id": "swewoks",
+          "title": "Happyくじ / STAR WARS™『EWOKS』市場、BOOKOFF、駿河屋、イエローサブマリン、ドン・キホーテ、Happyくじオンライン、その他ホビーショップ、書店等店舗販売オンライン",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/swewoks/",
+          "month_key": "2026-02",
+          "ip_tags": [],
+          "date": "2026-02-06",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/swewoks/"
+        },
+        {
+          "id": "d-cat",
+          "title": "Happyくじ 『Disney にゃん・にゃん・にゃん』、長野県、岐阜県、静岡県、愛知県、 三重県、滋賀県、京都府、大阪府、兵庫県、奈良県、和歌山県の一部店舗)、ミニストップ、イトーヨーカドー、ドン・キホーテ、TSUTAYA、古本市場、ブックオフ、Happyくじオンライン、その他ホビーショップ、書店等店舗販売オンライン",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/d-cat/",
+          "month_key": "2026-02",
+          "ip_tags": [],
+          "date": "2026-02-20",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/d-cat/"
+        }
+      ]
+    },
+    {
+      "key": "2026-03",
+      "label": "2026年3月",
+      "items": [
+        {
+          "id": "seven-eleven",
+          "title": "Happyくじ『セブン-イレブン』",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/seven-eleven/",
+          "month_key": "2026-03",
+          "ip_tags": [],
+          "date": "2026-03-13",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/seven-eleven/"
+        },
+        {
+          "id": "disney-stitch",
+          "title": "Happyくじ『Stitch Colorful Kawaii』ップ、Happyくじオンライン等店舗販売オンライン",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/disney-stitch/",
+          "month_key": "2026-03",
+          "ip_tags": [],
+          "date": "2026-03-27",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/disney-stitch/"
+        }
+      ]
+    },
+    {
+      "key": "2026-04",
+      "label": "2026年4月",
+      "items": [
+        {
+          "id": "pixar2026",
+          "title": "Happyくじ / PIXAR 2026店舗販売",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/pixar2026/",
+          "month_key": "2026-04",
+          "ip_tags": [],
+          "date": "2026-04-17",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/pixar2026/"
+        }
+      ]
+    },
+    {
+      "key": "2026-05",
+      "label": "2026年5月",
+      "items": [
+        {
+          "id": "baymax3-0",
+          "title": "Happyくじ『ベイマックス』vol.3.0店舗販売",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/baymax3-0/",
+          "month_key": "2026-05",
+          "ip_tags": [],
+          "date": "2026-05-15",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/baymax3-0/"
+        },
+        {
+          "id": "swmandg",
+          "title": "Happyくじ / STAR WARS™ 『マンダロリアン・アンド・グローグー』ーショップ、Happyくじオンライン等店舗販売オンライン",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/swmandg/",
+          "month_key": "2026-05",
+          "ip_tags": [],
+          "date": "2026-05-22",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/swmandg/"
+        },
+        {
+          "id": "puppet-sunsun",
+          "title": "Happyくじ「パペットスンスン」店舗販売",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/puppet-sunsun/",
+          "month_key": "2026-05",
+          "ip_tags": [],
+          "date": "2026-05-29",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/puppet-sunsun/"
+        }
+      ]
+    },
     {
       "key": "2026-06",
       "label": "2026年6月",
@@ -767,6 +935,50 @@
       "label": "発売月未定",
       "items": [
         {
+          "id": "delicious-in-dungeon",
+          "title": "ãªã³ã©ã¤ã³ããã°ãã¹ããããªã³ã©ã¤ã³ ãã³ã¸ã§ã³é£¯2025å¹´1æ17æ¥ï¼éï¼12:00 ã 2025å¹´3æ12æ¥ï¼æ°´ï¼23:591å 800åï¼ç¨è¾¼ï¼",
+          "brand": "グッスマくじ",
+          "url": "https://kuji.goodsmile.com/products/delicious-in-dungeon/",
+          "month_key": null,
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.goodsmile.com/products/delicious-in-dungeon/"
+        },
+        {
+          "id": "denwa_neko_and_shigoto_neko",
+          "title": "ãªã³ã©ã¤ã³ããã°ãã¹ããããªã³ã©ã¤ã³ é»è©±ç«ã¨ä»äºç«2026å¹´4æ28æ¥ï¼ç«ï¼12:00 ã 2026å¹´6æ17æ¥ï¼æ°´ï¼23:591å 800åï¼ç¨è¾¼ï¼",
+          "brand": "グッスマくじ",
+          "url": "https://kuji.goodsmile.com/products/denwa_neko_and_shigoto_neko/",
+          "month_key": null,
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.goodsmile.com/products/denwa_neko_and_shigoto_neko/"
+        },
+        {
+          "id": "haikyu",
+          "title": "åºé ­è²©å£²ã°ãã¹ããã ãã¤ã­ã¥ã¼!!2026å¹´4æ3æ¥ï¼éï¼ããçºå£²äºå®1å 880åï¼ç¨è¾¼ï¼å ¨å½ã®ã»ãã³âã¤ã¬ãã³ãã¤ãã¼ã¨ã¼ã«ãã¼åºèã«ãããåæ±ãã®ãªãå ´åããçºå£²æ¥ãç°ãªãå ´åããããã¾ãã",
+          "brand": "グッスマくじ",
+          "url": "https://kuji.goodsmile.com/products/haikyu/",
+          "month_key": null,
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.goodsmile.com/products/haikyu/"
+        },
+        {
+          "id": "miku-2025-autumn",
+          "title": "åºé ­è²©å£²ã°ãã¹ããã åé³ãã¯ 2025 Autumn2025å¹´9æ5æ¥ï¼éï¼ããé æ¬¡çºå£²äºå®å ¨å½ã®ã»ãã³âã¤ã¬ãã³ãã¤ãã¼ã¨ã¼ã«ãã¼åºèã«ãããåæ±ãã®ãªãå ´åããçºå£²æ¥ãç°ãªãå ´åããããã¾ãã",
+          "brand": "グッスマくじ",
+          "url": "https://kuji.goodsmile.com/products/miku-2025-autumn/",
+          "month_key": null,
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.goodsmile.com/products/miku-2025-autumn/"
+        },
+        {
           "id": "min_100",
           "title": "みんなのくじ 「DIVE!!」",
           "brand": "みんなのくじ",
@@ -1355,6 +1567,39 @@
           "ip_tags": [],
           "date": null,
           "price": null
+        },
+        {
+          "id": "persona-3-reload",
+          "title": "ãªã³ã©ã¤ã³ããã°ãã¹ããããªã³ã©ã¤ã³ ãã«ã½ã3 ãªã­ã¼ã2025å¹´3æ28æ¥ï¼éï¼12:00 ã 2025å¹´5æ21æ¥ï¼æ°´ï¼23:591å 800åï¼ç¨è¾¼ï¼",
+          "brand": "グッスマくじ",
+          "url": "https://kuji.goodsmile.com/products/persona-3-reload/",
+          "month_key": null,
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.goodsmile.com/products/persona-3-reload/"
+        },
+        {
+          "id": "pui-pui-molcar-the-movie-molmax",
+          "title": "ãªã³ã©ã¤ã³ããã°ãã¹ããããªã³ã©ã¤ã³ PUI PUI ã¢ã«ã«ã¼ ã¶ã»ã ã¼ãã¼ MOLMAX2024å¹´11æ29æ¥ï¼éï¼12:00 ã 2024å¹´1æ8æ¥ï¼æï¼23:591å 800åï¼ç¨è¾¼ï¼",
+          "brand": "グッスマくじ",
+          "url": "https://kuji.goodsmile.com/products/pui-pui-molcar-the-movie-molmax/",
+          "month_key": null,
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.goodsmile.com/products/pui-pui-molcar-the-movie-molmax/"
+        },
+        {
+          "id": "urban-myth-dissolution-center",
+          "title": "ãªã³ã©ã¤ã³ããã°ãã¹ããããªã³ã©ã¤ã³ é½å¸ä¼èª¬è§£ä½ã»ã³ã¿ã¼2025å¹´11æ14æ¥ï¼éï¼12:00 ã 2026å¹´1æ14æ¥ï¼æ°´ï¼23:591å 2,500åï¼ç¨è¾¼ï¼",
+          "brand": "グッスマくじ",
+          "url": "https://kuji.goodsmile.com/products/urban-myth-dissolution-center/",
+          "month_key": null,
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.goodsmile.com/products/urban-myth-dissolution-center/"
         }
       ]
     }

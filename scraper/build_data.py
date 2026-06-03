@@ -107,6 +107,71 @@ def scrape_month(year: int, month: int, brand_label: str, brand_slug: str) -> li
     return [i for i in items if not (i["id"] in seen or seen.add(i["id"]))]  # type: ignore
 
 
+def _make_item(uid: str, title: str, url: str, brand: str,
+               date: Optional[str] = None, official_url: Optional[str] = None) -> dict:
+    return {"id": uid, "title": title, "brand": brand, "url": url,
+            "month_key": date[:7] if date else None, "ip_tags": tag_ip(title),
+            "date": date, "price": None, "official_url": official_url}
+
+
+def scrape_happykuji() -> list[dict]:
+    print("\n[Happyくじ] listing")
+    soup = get("https://www.h-kuji.com/goods/")
+    if not soup:
+        return []
+    items = []
+    seen: set[str] = set()
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        if "/goods/" not in href or href == "https://www.h-kuji.com/goods/":
+            continue
+        text = a.get_text(strip=True)
+        if not text or len(text) < 8:
+            continue
+        m = re.search(r"(20\d\d)年(\d+)月(\d+)日", text)
+        date = f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}" if m else None
+        title = re.sub(r"\d{4}年.{0,50}", "", text).strip()
+        title = re.sub(r"\d+(\.\d+)?円.*", "", title).strip()
+        title = re.sub(r"\s+", " ", title).strip()
+        if not title or len(title) < 4:
+            title = a.get_text(strip=True)[:60]
+        uid = href.rstrip("/").split("/")[-1]
+        if uid in seen:
+            continue
+        seen.add(uid)
+        items.append(_make_item(uid, title, href, "Happyくじ", date, href))
+    return items
+
+
+def scrape_goodsmile() -> list[dict]:
+    print("\n[グッスマくじ] listing")
+    soup = get("https://kuji.goodsmile.com/lineup/")
+    if not soup:
+        return []
+    items = []
+    seen: set[str] = set()
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        if "/products/" not in href:
+            continue
+        text = a.get_text(strip=True)
+        if not text or len(text) < 8:
+            continue
+        m = re.search(r"(20\d\d)年(\d+)月(\d+)日", text)
+        date = f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}" if m else None
+        title = re.sub(r"(店頭販売|オンラインくじ|schedule.*|\d{4}年.*)", "", text).strip()
+        title = re.sub(r"\s+", " ", title).strip()
+        if not title or len(title) < 4:
+            continue
+        slug = href.rstrip("/").split("/")[-1]
+        if slug in seen:
+            continue
+        seen.add(slug)
+        full_url = "https://kuji.goodsmile.com" + href if href.startswith("/") else href
+        items.append(_make_item(slug, title, full_url, "グッスマくじ", date, full_url))
+    return items
+
+
 def enrich_dates(items: list[dict]) -> list[dict]:
     for item in items:
         print(f"  fetching detail: {item['title'][:40]}")
@@ -140,6 +205,10 @@ def main() -> None:
         # みんなのくじ uses different URL pattern — scrape minkuji listing instead
         # (handled separately below)
         all_items += min_items
+
+    # Other brands
+    all_items += scrape_happykuji()
+    all_items += scrape_goodsmile()
 
     # みんなのくじ doesn't use month-based URLs — scrape listing directly
     print("\n[みんなのくじ] listing")
