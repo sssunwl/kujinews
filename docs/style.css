@@ -205,12 +205,13 @@ header {
 /* ── Calendar desktop layout ── */
 .cal-layout {
   display: flex;
-  gap: 24px;
+  gap: 20px;
   align-items: flex-start;
+  min-width: 0;
 }
-.cal-left { flex: 0 0 320px; }
-.cal-right { flex: 1; min-width: 0; }
-@media (max-width: 680px) {
+.cal-left { flex: 0 0 260px; min-width: 0; overflow: hidden; }
+.cal-right { flex: 1; min-width: 0; overflow: hidden; }
+@media (max-width: 640px) {
   .cal-layout { flex-direction: column; }
   .cal-left { flex: none; width: 100%; }
 }
@@ -281,6 +282,20 @@ header {
 .cal-detail { }
 .cal-detail-title { font-size: 13px; font-weight: 600; color: var(--navy); margin-bottom: 8px; }
 
+.undated-toggle {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 8px 12px; margin-top: 16px; margin-bottom: 0;
+  background: var(--bg); border: 1px solid var(--border);
+  border-radius: 8px; cursor: pointer; font-size: 12.5px;
+  font-weight: 600; color: var(--muted);
+  transition: border-color 0.15s;
+}
+.undated-toggle:hover { border-color: var(--navy); color: var(--navy); }
+.undated-toggle.open .undated-arrow { transform: rotate(90deg); }
+.undated-arrow { transition: transform 0.2s; display: inline-block; }
+.undated-body { margin-top: 6px; }
+.hidden { display: none; }
+
 /* ── IP news item ── */
 .news-item {
   display: flex;
@@ -303,19 +318,24 @@ header {
 }
 .news-source-link:hover { opacity: 0.85; }
 
-/* ── Brand directory ── */
+/* ── Brand directory (Pinterest masonry) ── */
 .brands-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 14px;
+  column-count: 2;
+  column-gap: 12px;
 }
+@media (min-width: 860px) { .brands-grid { column-count: 3; } }
+@media (max-width: 480px)  { .brands-grid { column-count: 1; } }
 
 .brand-card {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 16px;
+  padding: 14px;
   transition: box-shadow 0.15s, border-color 0.15s;
+  break-inside: avoid;
+  margin-bottom: 12px;
+  display: inline-block;   /* needed for column masonry */
+  width: 100%;
 }
 .brand-card:hover { box-shadow: 0 3px 12px rgba(0,0,0,0.08); border-color: var(--gold); }
 

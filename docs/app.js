@@ -358,12 +358,15 @@ function renderCalGrid(container) {
       : `<div class="empty" style="padding:12px 0">暫無くじ</div>`}
   `;
 
-  // Show undated items at bottom
-  const undated = [...monthUndatedItems, ...(selectedDate ? [] : unknownItems.slice(0, 20))];
+  // Show undated items — collapsible, default collapsed
+  const undated = [...monthUndatedItems, ...(selectedDate ? [] : unknownItems.slice(0, 60))];
   if (!selectedDate && undated.length) {
     listHTML += `
-      <div class="cal-detail-title" style="margin-top:16px">📦 未定日期（${undated.length}件）</div>
-      ${undated.map(i => itemHTML(i)).join("")}
+      <div class="undated-toggle" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('hidden')">
+        <span>📦 未定日期（${undated.length}件）</span>
+        <span class="undated-arrow">▸</span>
+      </div>
+      <div class="undated-body hidden">${undated.map(i => itemHTML(i)).join("")}</div>
     `;
   }
 

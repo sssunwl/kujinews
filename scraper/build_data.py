@@ -45,7 +45,7 @@ def tag_ip(title: str) -> list[str]:
 def get(url: str) -> Optional[BeautifulSoup]:
     try:
         r = requests.get(url, headers=HEADERS, timeout=15)
-        return BeautifulSoup(r.text, "lxml")
+        return BeautifulSoup(r.content, "lxml")  # bytes → BS4 handles encoding
     except Exception as e:
         print(f"  GET error {url}: {e}")
         return None
@@ -241,13 +241,14 @@ def main() -> None:
     all_items += scrape_goodsmile()
     all_items += scrape_kotobukiya()
 
-    # みんなのくじ doesn't use month-based URLs — scrape listing directly
+    # みんなのくじ — scrape from kujimap, extract charahiroba official link
     print("\n[みんなのくじ] listing")
+    minkuji_new: list[dict] = []
     soup = get(f"{BASE}/minkuji")
     if soup:
         for a in soup.find_all("a", href=True):
             href = a["href"]
-            if not re.search(r"/minkuji/min_\d+$", href):
+            if not re.search(r"/minkuji/min_", href):
                 continue
             title = a.get_text(strip=True)
             if not title or len(title) < 4:
@@ -257,16 +258,24 @@ def main() -> None:
             uid = href.split("/")[-1]
             if any(i["id"] == uid for i in all_items):
                 continue
-            all_items.append({
-                "id": uid,
-                "title": title,
-                "brand": "みんなのくじ",
-                "url": href,
-                "month_key": None,
-                "ip_tags": tag_ip(title),
-                "date": None,
-                "price": None,
+            # Derive charahiroba URL: min_100 → detail?id=100; others via scrape_detail
+            num_m = re.search(r"min_(\d+)$", uid)
+            official: Optional[str] = f"https://charahiroba.com/minkuji/lineup/detail?id={num_m.group(1)}" if num_m else None
+            minkuji_new.append({
+                "id": uid, "title": title, "brand": "みんなのくじ",
+                "url": href, "month_key": None, "ip_tags": tag_ip(title),
+                "date": None, "price": None, "official_url": official,
             })
+    # Enrich dates (also picks up non-numeric official URLs)
+    print(f"  enriching {len(minkuji_new)} みんなのくじ items...")
+    for item in minkuji_new:
+        detail = scrape_detail(item["url"])
+        item["date"] = detail.get("date")
+        item["month_key"] = item["date"][:7] if item.get("date") else None
+        if not item["official_url"]:
+            item["official_url"] = detail.get("official_url")
+        time.sleep(0.3)
+    all_items += minkuji_new
 
     # Sort within each month by date, then by id
     all_items.sort(key=lambda x: (x.get("month_key") or "9999", x.get("date") or "9999", x["id"]))
