@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T05:14:41.864304+09:00",
+  "generated_at": "2026-06-04T05:29:39.184263+09:00",
   "months": [
     {
       "key": "2025-11",
@@ -135,6 +135,39 @@
       "label": "2026年5月",
       "items": [
         {
+          "id": "sousaishojoteien5",
+          "title": "ã³ããã­ã¤ãã åµå½©å°å¥³åº­å ããã¾ãï¼åµå½©ãã¬ã³ãº ï½5å¨å¹´ã ãå ¨å¡éåâªï½",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/sousaishojoteien5/",
+          "month_key": "2026-05",
+          "ip_tags": [],
+          "date": "2026-05-06",
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/sousaishojoteien5/"
+        },
+        {
+          "id": "trinity-7",
+          "title": "ã³ããã­ã¤ãã ããªããã£ã»ãã³",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/trinity-7/",
+          "month_key": "2026-05",
+          "ip_tags": [],
+          "date": "2026-05-10",
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/trinity-7/"
+        },
+        {
+          "id": "idolypride_flowerdress",
+          "title": "ã³ããã­ã¤ãã IDOLY PRIDE -Flower Dress-",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/idolypride_flowerdress/",
+          "month_key": "2026-05",
+          "ip_tags": [],
+          "date": "2026-05-11",
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/idolypride_flowerdress/"
+        },
+        {
           "id": "baymax3-0",
           "title": "Happyくじ『ベイマックス』vol.3.0店舗販売",
           "brand": "Happyくじ",
@@ -146,6 +179,17 @@
           "official_url": "https://www.h-kuji.com/goods/baymax3-0/"
         },
         {
+          "id": "xenoglossia",
+          "title": "ã³ããã­ã¤ãã ã¢ã¤ãã«ãã¹ã¿ã¼ XENOGLOSSIA",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/xenoglossia/",
+          "month_key": "2026-05",
+          "ip_tags": [],
+          "date": "2026-05-17",
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/xenoglossia/"
+        },
+        {
           "id": "swmandg",
           "title": "Happyくじ / STAR WARS™ 『マンダロリアン・アンド・グローグー』ーショップ、Happyくじオンライン等店舗販売オンライン",
           "brand": "Happyくじ",
@@ -155,6 +199,28 @@
           "date": "2026-05-22",
           "price": null,
           "official_url": "https://www.h-kuji.com/goods/swmandg/"
+        },
+        {
+          "id": "SAKAMOTO_DAYS",
+          "title": "ã³ããã­ã¤ãã TVã¢ãã¡ãSAKAMOTO DAYSã",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/SAKAMOTO_DAYS/",
+          "month_key": "2026-05",
+          "ip_tags": [],
+          "date": "2026-05-24",
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/SAKAMOTO_DAYS/"
+        },
+        {
+          "id": "hundred-line_ura100",
+          "title": "HUNDRED LINE -æçµé²è¡å­¦å- 100ç¨®ç¼¶ããã¸ãã -è£100æ¥ç·¨-",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/hundred-line_ura100/",
+          "month_key": "2026-05",
+          "ip_tags": [],
+          "date": "2026-05-25",
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/hundred-line_ura100/"
         },
         {
           "id": "puppet-sunsun",
@@ -218,6 +284,17 @@
           "date": "2026-06-06",
           "price": null,
           "official_url": "https://1kuji.com/products/mother2_2/"
+        },
+        {
+          "id": "shinycolors_scene02",
+          "title": "ã³ããã­ã¤ãã ã¢ã¤ãã«ãã¹ã¿ã¼ ã·ã£ã¤ãã¼ã«ã©ã¼ãº scene02",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/shinycolors_scene02/",
+          "month_key": "2026-06",
+          "ip_tags": [],
+          "date": "2026-06-07",
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/shinycolors_scene02/"
         },
         {
           "id": "1bankuji_10680",
@@ -343,6 +420,17 @@
           "date": "2026-06-30",
           "price": null,
           "official_url": "https://1kuji.com/products/marriagetoxin"
+        },
+        {
+          "id": "nipponsangoku",
+          "title": "ã³ããã­ã¤ãã TVã¢ãã¡ãæ¥æ¬ä¸åã",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/nipponsangoku/",
+          "month_key": "2026-06",
+          "ip_tags": [],
+          "date": "2026-06-30",
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/nipponsangoku/"
         }
       ]
     },
@@ -350,6 +438,17 @@
       "key": "2026-07",
       "label": "2026年7月",
       "items": [
+        {
+          "id": "umdc_bkb",
+          "title": "é½å¸ä¼èª¬è§£ä½ã»ã³ã¿ã¼Ãã¶ãã¶ ãã¼ã«ã¼ãã£ã¼ã",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/umdc_bkb/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-02",
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/umdc_bkb/"
+        },
         {
           "id": "1bankuji_op_giant",
           "title": "一番くじ ワンピース -エルバフ編- GIANT BASH!! Vol.1",

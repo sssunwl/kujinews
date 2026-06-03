@@ -172,6 +172,36 @@ def scrape_goodsmile() -> list[dict]:
     return items
 
 
+def scrape_kotobukiya() -> list[dict]:
+    print("\n[コトブキヤくじ] listing")
+    soup = get("https://kuji.kotobukiya.co.jp/index.html")
+    if not soup:
+        return []
+    items = []
+    seen: set[str] = set()
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        if "/lp/" not in href:
+            continue
+        text = a.get_text(strip=True)
+        if not text or len(text) < 6:
+            continue
+        # Date format: 2026.6.30(火)まで  OR  2026.7.2(木)まで
+        m = re.search(r"(20\d\d)\.(\d+)\.(\d+)", text)
+        date = f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}" if m else None
+        title = re.sub(r"20\d\d\.\d+\.\d+.*", "", text).strip()
+        title = re.sub(r"\s+", " ", title).strip()
+        if not title or len(title) < 4:
+            continue
+        slug = href.rstrip("/").split("/")[-1]
+        if slug in seen:
+            continue
+        seen.add(slug)
+        full_url = "https://kuji.kotobukiya.co.jp" + href if href.startswith("/") else href
+        items.append(_make_item(slug, title, full_url, "コトブキヤくじ", date, full_url))
+    return items
+
+
 def enrich_dates(items: list[dict]) -> list[dict]:
     for item in items:
         print(f"  fetching detail: {item['title'][:40]}")
@@ -209,6 +239,7 @@ def main() -> None:
     # Other brands
     all_items += scrape_happykuji()
     all_items += scrape_goodsmile()
+    all_items += scrape_kotobukiya()
 
     # みんなのくじ doesn't use month-based URLs — scrape listing directly
     print("\n[みんなのくじ] listing")
@@ -240,20 +271,35 @@ def main() -> None:
     # Sort within each month by date, then by id
     all_items.sort(key=lambda x: (x.get("month_key") or "9999", x.get("date") or "9999", x["id"]))
 
-    # Group by month
-    months_map: dict[str, list] = {}
+    # Group by month (new data)
+    new_map: dict[str, list] = {}
     for item in all_items:
         key = item.get("month_key") or "unknown"
-        months_map.setdefault(key, []).append(item)
+        new_map.setdefault(key, []).append(item)
+
+    # Load existing data and preserve past months
+    current_key = f"{now.year}-{now.month:02d}"
+    existing_past: dict[str, list] = {}
+    if OUT.exists():
+        try:
+            old = json.loads(OUT.read_text())
+            for m in old.get("months", []):
+                if m["key"] != "unknown" and m["key"] < current_key:
+                    existing_past[m["key"]] = m["items"]
+        except Exception:
+            pass
+
+    # Merge: keep past months, update current/future
+    merged_map = {**existing_past, **new_map}
 
     months_out = []
-    for key in sorted(months_map.keys()):
+    for key in sorted(merged_map.keys()):
         if key == "unknown":
             label = "発売月未定"
         else:
-            y, m = key.split("-")
-            label = f"{y}年{int(m)}月"
-        months_out.append({"key": key, "label": label, "items": months_map[key]})
+            y, m_str = key.split("-")
+            label = f"{y}年{int(m_str)}月"
+        months_out.append({"key": key, "label": label, "items": merged_map[key]})
 
     data = {
         "generated_at": datetime.now(JST).isoformat(),

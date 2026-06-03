@@ -87,24 +87,52 @@ header {
   border-bottom: 1px solid var(--border);
 }
 
-.month-nav, .ip-tabs {
+.cal-selectors { border-bottom: 1px solid var(--border); }
+
+.year-nav {
   display: flex;
   gap: 6px;
-  padding: 8px 20px;
+  padding: 8px 20px 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.year-nav::-webkit-scrollbar { display: none; }
+
+.month-nav, .ip-tabs {
+  display: flex;
+  gap: 5px;
+  padding: 4px 20px 8px;
   overflow-x: auto;
   scrollbar-width: none;
 }
 .month-nav::-webkit-scrollbar, .ip-tabs::-webkit-scrollbar { display: none; }
+
+.year-btn {
+  flex-shrink: 0;
+  background: transparent;
+  border: 1.5px solid var(--border);
+  color: var(--muted);
+  padding: 5px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 13.5px;
+  font-weight: 600;
+  transition: all 0.18s;
+  white-space: nowrap;
+}
+.year-btn.active, .year-btn:hover {
+  background: var(--navy); border-color: var(--navy); color: #fff;
+}
 
 .month-btn, .tab-btn {
   flex-shrink: 0;
   background: transparent;
   border: 1.5px solid var(--border);
   color: var(--muted);
-  padding: 4px 14px;
-  border-radius: 20px;
+  padding: 3px 11px;
+  border-radius: 16px;
   cursor: pointer;
-  font-size: 12.5px;
+  font-size: 11.5px;
   font-weight: 500;
   transition: all 0.18s;
   white-space: nowrap;
@@ -246,6 +274,7 @@ header {
 .cal-dot.minna   { background: #9B59B6; }
 .cal-dot.happy   { background: #E74C3C; }
 .cal-dot.gsm     { background: #27AE60; }
+.cal-dot.koto    { background: #E67E22; }
 .cal-dot.other   { background: #3498DB; }
 .cal-day.selected { background: var(--gold-light); border: 1.5px solid var(--gold); }
 

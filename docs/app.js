@@ -212,13 +212,52 @@ function renderToday() {
 // ── Calendar View ─────────────────────────────────────
 function renderCalendar() {
   const months = kujiData.months || [];
-  const nav = document.getElementById("month-nav");
   const content = document.getElementById("calendar-content");
-  nav.innerHTML = months.map(m =>
-    `<button class="month-btn" data-key="${m.key}" onclick="jumpToCalMonth('${m.key}')">${m.label}</button>`
-  ).join("");
+
+  // Build year → months map from data
+  const yearSet = new Set();
+  months.forEach(m => { if (m.key !== "unknown") yearSet.add(m.key.split("-")[0]); });
+  const years = [...yearSet].sort();
+
+  // Year nav
+  const yearNav = document.getElementById("year-nav");
+  yearNav.innerHTML = years.map(y =>
+    `<button class="year-btn" data-year="${y}" onclick="selectCalYear('${y}')">${y}年</button>`
+  ).join("") +
+  `<button class="month-btn" data-key="unknown" onclick="jumpToCalMonth('unknown')">未定</button>`;
+
+  // Month nav (1-12)
+  const monthNav = document.getElementById("month-nav");
+  monthNav.innerHTML = Array.from({length:12}, (_,i) => {
+    const mn = i + 1;
+    return `<button class="month-btn" data-month="${mn}" onclick="selectCalMonth(${mn})">${mn}月</button>`;
+  }).join("");
+
   renderCalGrid(content);
-  highlightMonthNav();
+  highlightCalSelectors();
+}
+
+function selectCalYear(year) {
+  calState.year = parseInt(year);
+  calState.selectedDate = null;
+  renderCalGrid(document.getElementById("calendar-content"));
+  highlightCalSelectors();
+}
+
+function selectCalMonth(month) {
+  calState.month = month;
+  calState.selectedDate = null;
+  renderCalGrid(document.getElementById("calendar-content"));
+  highlightCalSelectors();
+}
+
+function highlightCalSelectors() {
+  document.querySelectorAll(".year-btn").forEach(b => {
+    b.classList.toggle("active", b.dataset.year === String(calState.year));
+  });
+  document.querySelectorAll("#month-nav .month-btn").forEach(b => {
+    b.classList.toggle("active", parseInt(b.dataset.month) === calState.month);
+  });
 }
 
 function jumpToCalMonth(key) {
@@ -244,10 +283,11 @@ function jumpToCalMonth(key) {
 }
 
 const BRAND_DOT = {
-  "一番くじ":   "ichiban",
-  "みんなのくじ": "minna",
-  "Happyくじ":  "happy",
-  "グッスマくじ": "gsm",
+  "一番くじ":     "ichiban",
+  "みんなのくじ":  "minna",
+  "Happyくじ":   "happy",
+  "グッスマくじ":  "gsm",
+  "コトブキヤくじ": "koto",
 };
 function brandDot(brand) {
   return BRAND_DOT[brand] || "other";
@@ -340,6 +380,7 @@ function renderCalGrid(container) {
       <span class="cal-dot minna"></span>みんなのくじ
       <span class="cal-dot happy"></span>Happyくじ
       <span class="cal-dot gsm"></span>グッスマ
+      <span class="cal-dot koto"></span>コトブキヤ
       <span class="cal-dot other"></span>其他
     </div>
   `;
@@ -357,22 +398,13 @@ function changeCalMonth(delta) {
   if (calState.month > 12) { calState.month = 1; calState.year++; }
   if (calState.month < 1)  { calState.month = 12; calState.year--; }
   calState.selectedDate = null;
-  const key = `${calState.year}-${String(calState.month).padStart(2,"0")}`;
-  document.querySelectorAll(".month-btn").forEach(b => b.classList.remove("active"));
-  document.querySelector(`.month-btn[data-key="${key}"]`)?.classList.add("active");
   renderCalGrid(document.getElementById("calendar-content"));
+  highlightCalSelectors();
 }
 
 function selectCalDay(dk) {
   calState.selectedDate = calState.selectedDate === dk ? null : dk;
   renderCalGrid(document.getElementById("calendar-content"));
-}
-
-function highlightMonthNav() {
-  const key = `${calState.year}-${String(calState.month).padStart(2,"0")}`;
-  const btn = document.querySelector(`.month-btn[data-key="${key}"]`);
-  if (btn) { btn.classList.add("active"); btn.scrollIntoView({ inline:"center", behavior:"smooth" }); }
-  else document.querySelector(".month-btn")?.classList.add("active");
 }
 
 // ── IP View ───────────────────────────────────────────
