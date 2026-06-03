@@ -7,6 +7,7 @@ import re
 import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+from typing import Optional
 
 import requests
 from bs4 import BeautifulSoup
@@ -33,7 +34,7 @@ def tag_ip(title: str) -> list[str]:
     return tags
 
 
-def get(url: str) -> BeautifulSoup | None:
+def get(url: str) -> Optional[BeautifulSoup]:
     try:
         r = requests.get(url, headers=HEADERS, timeout=15)
         return BeautifulSoup(r.text, "lxml")

@@ -57,29 +57,29 @@ function renderToday() {
   const weekItems    = allItems.filter(i => i.date && i.date > todayKey && i.date <= fmtDate(in7));
   const monthItems   = allItems.filter(i => i.date && i.date > fmtDate(in7) && i.date <= fmtDate(in30));
 
-  const weekday = ["日","月","火","水","木","金","土"][now.getDay()];
-  const dateLabel = `${now.getFullYear()}年${now.getMonth()+1}月${now.getDate()}日（${weekday}）`;
+  const weekday = ["日","一","二","三","四","五","六"][now.getDay()];
+  const dateLabel = `${now.getFullYear()}年${now.getMonth()+1}月${now.getDate()}日（週${weekday}）`;
 
   let html = `
     <div class="today-header">
       <div class="today-date">${dateLabel}</div>
-      <div class="today-sub">最終更新：${kujiData.generated_at ? new Date(kujiData.generated_at).toLocaleString("ja-JP") : "—"}</div>
+      <div class="today-sub">最後更新：${kujiData.generated_at ? new Date(kujiData.generated_at).toLocaleString("zh-TW") : "—"}</div>
     </div>
   `;
 
-  html += renderSection("🎲 本日発売", todayItems.length
+  html += renderSection("🎲 今日發售", todayItems.length
     ? todayItems.map(i => renderKujiItem(i, true)).join("")
-    : '<div class="empty" style="padding:12px 0">本日の発売なし</div>'
+    : '<div class="empty" style="padding:12px 0">今日暫無發售</div>'
   );
 
-  html += renderSection("📅 今週発売（7日以内）", weekItems.length
+  html += renderSection("📅 本週發售（7日內）", weekItems.length
     ? weekItems.map(i => renderKujiItem(i, false)).join("")
-    : '<div class="empty" style="padding:12px 0">今週の発売なし</div>'
+    : '<div class="empty" style="padding:12px 0">本週暫無發售</div>'
   );
 
-  html += renderSection("🗓 今月の残り", monthItems.length
+  html += renderSection("🗓 本月其餘", monthItems.length
     ? monthItems.slice(0, 15).map(i => renderKujiItem(i, false)).join("")
-    : '<div class="empty" style="padding:12px 0">今月の予定なし</div>'
+    : '<div class="empty" style="padding:12px 0">本月暫無安排</div>'
   );
 
   content.innerHTML = html;
@@ -101,7 +101,7 @@ function renderCalendar() {
   const content = document.getElementById("calendar-content");
 
   if (!months.length) {
-    content.innerHTML = '<div class="empty">データなし</div>';
+    content.innerHTML = '<div class="empty">暫無資料</div>';
     return;
   }
 
@@ -110,7 +110,7 @@ function renderCalendar() {
   ).join("");
 
   let html = kujiData.generated_at
-    ? `<div class="generated-at">更新：${new Date(kujiData.generated_at).toLocaleString("ja-JP")}</div>`
+    ? `<div class="generated-at">最後更新：${new Date(kujiData.generated_at).toLocaleString("zh-TW")}</div>`
     : "";
 
   for (const month of months) {
@@ -123,7 +123,7 @@ function renderCalendar() {
         </div>
         ${items.length
           ? items.map(i => renderKujiItem(i, false)).join("")
-          : '<div class="empty" style="padding:16px">情報なし</div>'}
+          : '<div class="empty" style="padding:16px">暫無資料</div>'}
       </div>
     `;
   }
@@ -171,17 +171,17 @@ function renderIP(ip) {
   const officialUrl = IP_OFFICIAL[ip] || "#";
 
   let html = renderSection(
-    "🎲 関連くじ",
+    "🎲 相關くじ",
     ipKuji.length
       ? ipKuji.map(i => renderKujiItem(i, false)).join("")
-      : '<div class="empty" style="padding:16px">該当なし</div>'
+      : '<div class="empty" style="padding:16px">暫無相關くじ</div>'
   );
 
   html += `
     <div class="section-wrap">
-      <div class="section-label">📰 公式ニュース</div>
+      <div class="section-label">📰 官方最新消息</div>
       <a class="news-link-btn" href="${officialUrl}" target="_blank" rel="noopener">
-        公式サイトで最新情報を見る ↗
+        前往官網查看最新資訊 ↗
       </a>
     </div>
   `;
