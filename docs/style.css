@@ -40,6 +40,8 @@ header {
   flex-direction: column;
   line-height: 1.15;
   flex-shrink: 0;
+  cursor: pointer;
+  user-select: none;
 }
 .logo-sub {
   font-size: 9px;

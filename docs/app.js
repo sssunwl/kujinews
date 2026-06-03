@@ -160,6 +160,13 @@ async function loadNews() {
 }
 
 // ── Navigation ───────────────────────────────────────
+function goHome() {
+  document.querySelectorAll(".nav-btn").forEach(b => b.classList.remove("active"));
+  document.querySelector('[data-view="today"]').classList.add("active");
+  document.querySelectorAll(".view").forEach(v => v.classList.add("hidden"));
+  document.getElementById("view-today").classList.remove("hidden");
+}
+
 function setupNav() {
   document.querySelectorAll(".nav-btn").forEach(btn => {
     btn.addEventListener("click", () => {
@@ -215,7 +222,20 @@ function renderCalendar() {
 }
 
 function jumpToCalMonth(key) {
-  if (key === "unknown") return;
+  if (key === "unknown") {
+    // Show all undated items
+    const content = document.getElementById("calendar-content");
+    const allItems = getAllItems();
+    const undated = allItems.filter(i => !i.date);
+    content.innerHTML = `
+      <div class="cal-detail">
+        <div class="cal-detail-title">📦 発売日未定 全部（${undated.length}件）</div>
+        ${undated.map(i => itemHTML(i)).join("")}
+      </div>`;
+    document.querySelectorAll(".month-btn").forEach(b => b.classList.remove("active"));
+    document.querySelector('.month-btn[data-key="unknown"]')?.classList.add("active");
+    return;
+  }
   const [y, m] = key.split("-").map(Number);
   calState.year = y; calState.month = m; calState.selectedDate = null;
   renderCalGrid(document.getElementById("calendar-content"));
