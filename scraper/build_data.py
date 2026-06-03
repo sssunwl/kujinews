@@ -15,6 +15,14 @@ from bs4 import BeautifulSoup
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; KujiUniverse/1.0)"}
 BASE = "https://kujimap.com"
 OUT = Path(__file__).parent.parent / "docs" / "data" / "kuji.json"
+OUT_NEWS = Path(__file__).parent.parent / "docs" / "data" / "ip_news.json"
+
+OFFICIAL_DOMAINS = [
+    "1kuji.com", "h-kuji.com", "charahiroba.com", "kuji.goodsmile.com",
+    "kuji.kotobukiya.co.jp", "anymykuji.com", "kujimate.com",
+    "kuji.dmm.com", "drawdraw.jp", "kujibikido.com", "kujiluck.com",
+    "taito.co.jp/taitokuji", "segaplaza.jp",
+]
 JST = timezone(timedelta(hours=9))
 
 IP_KEYWORDS = {
@@ -59,7 +67,13 @@ def scrape_detail(url: str) -> dict:
         if m:
             price = int(m.group(1))
             break
-    return {"date": date, "price": price}
+    official_url = None
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        if any(d in href for d in OFFICIAL_DOMAINS) and "kujimap" not in href:
+            official_url = href
+            break
+    return {"date": date, "price": price, "official_url": official_url}
 
 
 def scrape_month(year: int, month: int, brand_label: str, brand_slug: str) -> list[dict]:
@@ -98,6 +112,8 @@ def enrich_dates(items: list[dict]) -> list[dict]:
         print(f"  fetching detail: {item['title'][:40]}")
         detail = scrape_detail(item["url"])
         item["date"] = detail.get("date")
+        item["price"] = detail.get("price")
+        item["official_url"] = detail.get("official_url")
         item["price"] = detail.get("price")
         time.sleep(0.4)
     return items
@@ -178,6 +194,19 @@ def main() -> None:
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=2))
     print(f"\nSaved {len(all_items)} items to {OUT}")
+
+    # Save IP news for web
+    print("\n[IP新聞] 抓取中...")
+    import sys
+    sys.path.insert(0, str(Path(__file__).parent))
+    from ip_news import fetch_all_news
+    raw_news = fetch_all_news(lookback_hours=9999)  # 不過濾時間，取全部
+    ip_news_out: dict = {}
+    for item in raw_news:
+        src = item.get("source", "")
+        ip_news_out.setdefault(src, []).append({"title": item["title"], "url": item["url"]})
+    OUT_NEWS.write_text(json.dumps(ip_news_out, ensure_ascii=False, indent=2))
+    print(f"Saved IP news to {OUT_NEWS}")
 
 
 if __name__ == "__main__":

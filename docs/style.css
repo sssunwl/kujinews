@@ -3,7 +3,8 @@
   --surface: #FFFFFF;
   --navy: #1B3A5C;
   --gold: #C4963A;
-  --gold-light: #F0E4C8;
+  --gold-light: #F5EDD8;
+  --red: #E03030;
   --text: #2C2C2C;
   --muted: #8A8A8A;
   --border: #E8E3DB;
@@ -39,12 +40,12 @@ header {
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.06em;
+  flex-shrink: 0;
 }
 
-/* ── Main nav (pill tags) ── */
 .main-nav {
   display: flex;
-  gap: 6px;
+  gap: 4px;
   background: rgba(255,255,255,0.08);
   padding: 4px;
   border-radius: 24px;
@@ -53,25 +54,16 @@ header {
 .nav-btn {
   background: transparent;
   border: none;
-  color: rgba(255,255,255,0.55);
-  padding: 5px 16px;
+  color: rgba(255,255,255,0.5);
+  padding: 5px 14px;
   border-radius: 20px;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 12.5px;
   font-weight: 500;
   transition: all 0.2s;
-  letter-spacing: 0.02em;
 }
-
-.nav-btn.active {
-  background: var(--gold);
-  color: #fff;
-}
-
-.nav-btn:not(.active):hover {
-  color: rgba(255,255,255,0.9);
-  background: rgba(255,255,255,0.12);
-}
+.nav-btn.active { background: var(--gold); color: #fff; }
+.nav-btn:not(.active):hover { color: rgba(255,255,255,0.9); background: rgba(255,255,255,0.1); }
 
 /* ── Sticky bar ── */
 .sticky-bar {
@@ -89,8 +81,7 @@ header {
   overflow-x: auto;
   scrollbar-width: none;
 }
-.month-nav::-webkit-scrollbar,
-.ip-tabs::-webkit-scrollbar { display: none; }
+.month-nav::-webkit-scrollbar, .ip-tabs::-webkit-scrollbar { display: none; }
 
 .month-btn, .tab-btn {
   flex-shrink: 0;
@@ -105,14 +96,9 @@ header {
   transition: all 0.18s;
   white-space: nowrap;
 }
-
-.month-btn.active,
-.month-btn:hover,
-.tab-btn.active,
-.tab-btn:hover {
-  background: var(--navy);
-  border-color: var(--navy);
-  color: #fff;
+.month-btn.active, .month-btn:hover,
+.tab-btn.active, .tab-btn:hover {
+  background: var(--navy); border-color: var(--navy); color: #fff;
 }
 
 /* ── Views ── */
@@ -120,46 +106,30 @@ header {
 .view.hidden { display: none; }
 
 .content {
-  max-width: 780px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 24px 20px 80px;
 }
 
-/* ── Today view ── */
-.today-header {
-  margin-bottom: 28px;
-}
+/* ── Today ── */
+.today-header { margin-bottom: 24px; }
+.today-date { font-size: 20px; font-weight: 700; color: var(--navy); }
+.today-sub { font-size: 11.5px; color: var(--muted); margin-top: 2px; }
 
-.today-date {
-  font-size: 22px;
-  font-weight: 700;
-  color: var(--navy);
-  margin-bottom: 2px;
-}
+.section-wrap { margin-bottom: 28px; }
 
-.today-sub {
-  font-size: 12px;
-  color: var(--muted);
-}
-
-/* ── Section label ── */
 .section-label {
-  font-size: 11.5px;
+  font-size: 11px;
   font-weight: 700;
   color: var(--muted);
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  margin-bottom: 10px;
   padding-bottom: 6px;
   border-bottom: 1px solid var(--border);
-  display: flex;
-  align-items: center;
-  gap: 6px;
+  margin-bottom: 10px;
 }
 
-.section-wrap { margin-bottom: 32px; }
-
-/* ── Kuji item card ── */
+/* ── Kuji item ── */
 .kuji-item {
   display: flex;
   align-items: center;
@@ -173,107 +143,157 @@ header {
   color: inherit;
   transition: box-shadow 0.15s, border-color 0.15s, transform 0.15s;
 }
-
 .kuji-item:hover {
-  box-shadow: 0 3px 14px rgba(0,0,0,0.09);
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
   border-color: var(--gold);
   transform: translateY(-1px);
 }
+.kuji-item.today-release { border-left: 3px solid var(--gold); background: linear-gradient(to right, #FFFBF2, #fff); }
 
-.kuji-item.today-release {
-  border-left: 3px solid var(--gold);
-  background: linear-gradient(to right, #FFFBF2, var(--surface));
+.kuji-date { flex-shrink: 0; width: 34px; font-size: 12px; color: var(--gold); font-weight: 700; text-align: center; }
+.kuji-title { flex: 1; font-size: 13px; line-height: 1.4; }
+.kuji-brand { flex-shrink: 0; font-size: 10.5px; color: var(--muted); background: var(--bg); padding: 2px 8px; border-radius: 10px; border: 1px solid var(--border); }
+.ip-tag { flex-shrink: 0; font-size: 10px; padding: 2px 7px; border-radius: 8px; background: #E3EBF4; color: var(--navy); font-weight: 600; }
+.kuji-arrow { flex-shrink: 0; color: var(--muted); font-size: 13px; }
+
+/* ── Calendar grid ── */
+.cal-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+.cal-title { font-size: 15px; font-weight: 700; color: var(--navy); }
+.cal-nav-btn {
+  background: none; border: 1.5px solid var(--border);
+  width: 28px; height: 28px; border-radius: 50%;
+  cursor: pointer; color: var(--muted); font-size: 14px;
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.15s;
 }
+.cal-nav-btn:hover { background: var(--navy); border-color: var(--navy); color: #fff; }
 
-.kuji-date {
-  flex-shrink: 0;
-  width: 36px;
-  font-size: 12px;
-  color: var(--gold);
-  font-weight: 700;
-  text-align: center;
-}
-
-.kuji-title {
-  flex: 1;
-  font-size: 13px;
-  line-height: 1.45;
-}
-
-.kuji-brand {
-  flex-shrink: 0;
-  font-size: 10.5px;
-  color: var(--muted);
-  background: var(--bg);
-  padding: 2px 8px;
-  border-radius: 10px;
-  border: 1px solid var(--border);
-}
-
-.ip-tag {
-  flex-shrink: 0;
-  font-size: 10px;
-  padding: 2px 7px;
-  border-radius: 8px;
-  background: #E3EBF4;
-  color: var(--navy);
-  font-weight: 600;
-}
-
-.kuji-arrow {
-  flex-shrink: 0;
-  color: var(--muted);
-  font-size: 13px;
-}
-
-/* ── Month section (calendar) ── */
-.month-section { margin-bottom: 40px; }
-
-.month-title {
-  font-size: 15px;
-  font-weight: 700;
-  color: var(--navy);
-  padding: 10px 0 8px;
-  border-bottom: 2px solid var(--gold);
-  margin-bottom: 12px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.month-count {
-  font-size: 11px;
-  font-weight: 400;
-  color: var(--muted);
-}
-
-/* ── News item ── */
-.news-link-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 16px;
-  background: var(--navy);
-  color: #fff;
-  border-radius: 20px;
-  text-decoration: none;
-  font-size: 13px;
-  margin-top: 8px;
-  transition: opacity 0.2s;
-}
-.news-link-btn:hover { opacity: 0.85; }
-
-/* ── Loading / empty ── */
-.loading, .empty {
-  text-align: center;
-  color: var(--muted);
-  padding: 50px 20px;
-  font-size: 14px;
-}
-
-.generated-at {
-  text-align: right;
-  font-size: 11px;
-  color: var(--muted);
+.cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 3px;
   margin-bottom: 20px;
 }
+
+.cal-dow {
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--muted);
+  padding: 4px 0;
+}
+.cal-dow:first-child { color: #C0392B; }
+.cal-dow:last-child { color: #2471A3; }
+
+.cal-day {
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  position: relative;
+  transition: background 0.15s;
+  min-height: 38px;
+  padding: 2px;
+}
+.cal-day:hover { background: var(--gold-light); }
+.cal-day.today { background: var(--navy); color: #fff; font-weight: 700; }
+.cal-day.today:hover { background: var(--navy); }
+.cal-day.other-month { color: var(--border); cursor: default; }
+.cal-day.other-month:hover { background: none; }
+.cal-day.has-kuji::after {
+  content: "";
+  display: block;
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--gold);
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+.cal-day.today.has-kuji::after { background: var(--gold); }
+.cal-day.selected { background: var(--gold-light); border: 1.5px solid var(--gold); }
+
+.cal-detail { margin-bottom: 32px; }
+.cal-detail-title { font-size: 13px; font-weight: 600; color: var(--navy); margin-bottom: 8px; }
+
+/* ── IP news item ── */
+.news-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.15s;
+}
+.news-item:hover { color: var(--navy); }
+.news-dot { flex-shrink: 0; width: 6px; height: 6px; border-radius: 50%; background: var(--gold); margin-top: 7px; }
+.news-title { font-size: 13px; line-height: 1.5; flex: 1; }
+.news-source-link {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 8px 16px; background: var(--navy); color: #fff;
+  border-radius: 20px; text-decoration: none; font-size: 12.5px;
+  margin-top: 10px; transition: opacity 0.2s;
+}
+.news-source-link:hover { opacity: 0.85; }
+
+/* ── Brand directory ── */
+.brands-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+.brand-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  transition: box-shadow 0.15s, border-color 0.15s;
+}
+.brand-card:hover { box-shadow: 0 3px 12px rgba(0,0,0,0.08); border-color: var(--gold); }
+
+.brand-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; margin-bottom: 8px; }
+
+.brand-name-wrap {}
+.brand-name { font-size: 15px; font-weight: 700; color: var(--navy); }
+.brand-name-zh { font-size: 12px; color: var(--muted); margin-top: 1px; }
+.brand-company { font-size: 11px; color: var(--muted); }
+
+.brand-links { display: flex; gap: 8px; flex-shrink: 0; flex-wrap: wrap; justify-content: flex-end; }
+
+.brand-link {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 4px 10px; border-radius: 16px;
+  font-size: 11.5px; text-decoration: none; font-weight: 500;
+  border: 1.5px solid var(--border); color: var(--navy);
+  transition: all 0.15s; white-space: nowrap;
+}
+.brand-link:hover { background: var(--navy); color: #fff; border-color: var(--navy); }
+.brand-link.twitter { border-color: #1DA1F2; color: #1DA1F2; }
+.brand-link.twitter:hover { background: #1DA1F2; color: #fff; }
+
+.brand-desc { font-size: 13px; color: #444; margin-bottom: 10px; line-height: 1.55; }
+
+.brand-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+.brand-tag {
+  font-size: 10.5px; padding: 2px 8px; border-radius: 10px;
+  background: var(--gold-light); color: #7A5A1A; border: 1px solid #E8D5A0;
+}
+
+/* ── Loading / empty ── */
+.loading, .empty { text-align: center; color: var(--muted); padding: 50px 20px; font-size: 14px; }
+.generated-at { text-align: right; font-size: 11px; color: var(--muted); margin-bottom: 16px; }
+
+/* ── Month section (list mode) ── */
+.month-section { margin-bottom: 40px; }
+.month-title {
+  font-size: 15px; font-weight: 700; color: var(--navy);
+  padding: 10px 0 8px; border-bottom: 2px solid var(--gold);
+  margin-bottom: 12px; display: flex; align-items: center; gap: 8px;
+}
+.month-count { font-size: 11px; font-weight: 400; color: var(--muted); }
