@@ -214,10 +214,10 @@ function renderCalendar() {
   const months = kujiData.months || [];
   const content = document.getElementById("calendar-content");
 
-  // Build year → months map from data
+  // Build year → months map from data (2025+ only)
   const yearSet = new Set();
   months.forEach(m => { if (m.key !== "unknown") yearSet.add(m.key.split("-")[0]); });
-  const years = [...yearSet].sort();
+  const years = [...yearSet].sort().filter(y => parseInt(y) >= 2025);
 
   // Year nav
   const yearNav = document.getElementById("year-nav");
@@ -242,6 +242,7 @@ function selectCalYear(year) {
   calState.selectedDate = null;
   renderCalGrid(document.getElementById("calendar-content"));
   highlightCalSelectors();
+  scrollToCalTop();
 }
 
 function selectCalMonth(month) {
@@ -249,6 +250,13 @@ function selectCalMonth(month) {
   calState.selectedDate = null;
   renderCalGrid(document.getElementById("calendar-content"));
   highlightCalSelectors();
+  scrollToCalTop();
+}
+
+function scrollToCalTop() {
+  const bar = document.querySelector("#view-calendar .sticky-bar");
+  const offset = bar ? bar.getBoundingClientRect().bottom + window.scrollY : 120;
+  window.scrollTo({ top: offset, behavior: "smooth" });
 }
 
 function highlightCalSelectors() {
@@ -358,9 +366,9 @@ function renderCalGrid(container) {
       : `<div class="empty" style="padding:12px 0">暫無くじ</div>`}
   `;
 
-  // Show undated items — collapsible, default collapsed
-  const undated = [...monthUndatedItems, ...(selectedDate ? [] : unknownItems.slice(0, 60))];
-  if (!selectedDate && undated.length) {
+  // Show undated items — collapsible, default collapsed, always visible
+  const undated = [...monthUndatedItems, ...unknownItems.slice(0, 60)];
+  if (undated.length) {
     listHTML += `
       <div class="undated-toggle" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('hidden')">
         <span>📦 未定日期（${undated.length}件）</span>
@@ -379,12 +387,12 @@ function renderCalGrid(container) {
     </div>
     ${gridHTML}
     <div class="cal-legend">
-      <span class="cal-dot ichiban"></span>一番くじ
-      <span class="cal-dot minna"></span>みんなのくじ
-      <span class="cal-dot happy"></span>Happyくじ
-      <span class="cal-dot gsm"></span>グッスマ
-      <span class="cal-dot koto"></span>コトブキヤ
-      <span class="cal-dot other"></span>其他
+      <span><div class="cal-dot ichiban"></div>一番くじ</span>
+      <span><div class="cal-dot minna"></div>みんなのくじ</span>
+      <span><div class="cal-dot happy"></div>Happyくじ</span>
+      <span><div class="cal-dot gsm"></div>グッスマくじ</span>
+      <span><div class="cal-dot koto"></div>コトブキヤくじ</span>
+      <span><div class="cal-dot other"></div>その他</span>
     </div>
   `;
 

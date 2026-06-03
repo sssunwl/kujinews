@@ -1,6 +1,102 @@
 {
-  "generated_at": "2026-06-04T05:46:52.173539+09:00",
+  "generated_at": "2026-06-04T05:50:27.073157+09:00",
   "months": [
+    {
+      "key": "2013-07",
+      "label": "2013年7月",
+      "items": [
+        {
+          "id": "min_nameko3",
+          "title": "みんなのくじ おさわり探偵 なめこ栽培キットDeluxe ～夏祭り～",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_nameko3",
+          "month_key": "2013-07",
+          "ip_tags": [],
+          "date": "2013-07-13",
+          "price": null,
+          "official_url": null
+        }
+      ]
+    },
+    {
+      "key": "2013-12",
+      "label": "2013年12月",
+      "items": [
+        {
+          "id": "min_nameko5",
+          "title": "みんなのくじ おさわり探偵なめこ栽培キット～冬の贈り物～",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_nameko5",
+          "month_key": "2013-12",
+          "ip_tags": [],
+          "date": "2013-12-14",
+          "price": null,
+          "official_url": null
+        }
+      ]
+    },
+    {
+      "key": "2015-01",
+      "label": "2015年1月",
+      "items": [
+        {
+          "id": "min_inou",
+          "title": "みんなのくじ 「異能バトルは日常系のなかで」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_inou",
+          "month_key": "2015-01",
+          "ip_tags": [],
+          "date": "2015-01-31",
+          "price": null,
+          "official_url": null
+        }
+      ]
+    },
+    {
+      "key": "2015-02",
+      "label": "2015年2月",
+      "items": [
+        {
+          "id": "min_yuyuyu",
+          "title": "みんなのくじ 「結城友奈は勇者である」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_yuyuyu",
+          "month_key": "2015-02",
+          "ip_tags": [],
+          "date": "2015-02-07",
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=26"
+        }
+      ]
+    },
+    {
+      "key": "2015-03",
+      "label": "2015年3月",
+      "items": [
+        {
+          "id": "min_terraformars",
+          "title": "みんなのくじ 「テラフォーマーズ」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_terraformars",
+          "month_key": "2015-03",
+          "ip_tags": [],
+          "date": "2015-03-07",
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=29"
+        },
+        {
+          "id": "min_yowapeda",
+          "title": "みんなのくじ 「弱虫ペダル GRANDE ROAD」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_yowapeda",
+          "month_key": "2015-03",
+          "ip_tags": [],
+          "date": "2015-03-14",
+          "price": null,
+          "official_url": null
+        }
+      ]
+    },
     {
       "key": "2015-06",
       "label": "2015年6月",
@@ -15,6 +111,84 @@
           "date": "2015-06-27",
           "price": null,
           "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=31"
+        },
+        {
+          "id": "min_durarara",
+          "title": "みんなのくじ 「デュラララ!!×２」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_durarara",
+          "month_key": "2015-06",
+          "ip_tags": [],
+          "date": "2015-06-27",
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=35"
+        }
+      ]
+    },
+    {
+      "key": "2015-07",
+      "label": "2015年7月",
+      "items": [
+        {
+          "id": "min_yowapeda2",
+          "title": "みんなのくじ 「弱虫ペダル GRANDE ROAD～回れ！高回転！～」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_yowapeda2",
+          "month_key": "2015-07",
+          "ip_tags": [],
+          "date": "2015-07-11",
+          "price": null,
+          "official_url": null
+        },
+        {
+          "id": "min_plarail",
+          "title": "みんなのくじ 「プラレール」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_plarail",
+          "month_key": "2015-07",
+          "ip_tags": [],
+          "date": "2015-07-25",
+          "price": null,
+          "official_url": null
+        }
+      ]
+    },
+    {
+      "key": "2015-08",
+      "label": "2015年8月",
+      "items": [
+        {
+          "id": "min_thomas",
+          "title": "みんなのくじ 「きかんしゃトーマスとなかまたち」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_thomas",
+          "month_key": "2015-08",
+          "ip_tags": [],
+          "date": "2015-08-04",
+          "price": null,
+          "official_url": null
+        },
+        {
+          "id": "min_danmachi",
+          "title": "みんなのくじ 「ダンジョンに出会いを求めるのは間違っているだろうか」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_danmachi",
+          "month_key": "2015-08",
+          "ip_tags": [],
+          "date": "2015-08-08",
+          "price": null,
+          "official_url": null
+        },
+        {
+          "id": "min_terraformars2",
+          "title": "みんなのくじ 「テラフォーマーズ ～くじを引く意志は――あるか。～」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_terraformars2",
+          "month_key": "2015-08",
+          "ip_tags": [],
+          "date": "2015-08-22",
+          "price": null,
+          "official_url": null
         }
       ]
     },
@@ -32,6 +206,101 @@
           "date": "2015-09-05",
           "price": null,
           "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=40"
+        },
+        {
+          "id": "min_tohken",
+          "title": "みんなのくじ 「刀剣乱舞」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_tohken",
+          "month_key": "2015-09",
+          "ip_tags": [],
+          "date": "2015-09-26",
+          "price": null,
+          "official_url": null
+        }
+      ]
+    },
+    {
+      "key": "2015-10",
+      "label": "2015年10月",
+      "items": [
+        {
+          "id": "min_arslan",
+          "title": "みんなのくじ 「アルスラーン戦記」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_arslan",
+          "month_key": "2015-10",
+          "ip_tags": [],
+          "date": "2015-10-17",
+          "price": null,
+          "official_url": null
+        },
+        {
+          "id": "min_zetsubou",
+          "title": "みんなのくじ 「絶対絶望少女 ダンガンロンパ Another Episode」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_zetsubou",
+          "month_key": "2015-10",
+          "ip_tags": [],
+          "date": "2015-10-24",
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=41"
+        }
+      ]
+    },
+    {
+      "key": "2015-11",
+      "label": "2015年11月",
+      "items": [
+        {
+          "id": "min_showbyrock2",
+          "title": "みんなのくじ 「SHOW BY ROCK!!～2nd LIVEだニャン!～」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_showbyrock2",
+          "month_key": "2015-11",
+          "ip_tags": [],
+          "date": "2015-11-07",
+          "price": null,
+          "official_url": null
+        },
+        {
+          "id": "min_littleprince",
+          "title": "みんなのくじ 「リトルプリンス 星の王子さまと私」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_littleprince",
+          "month_key": "2015-11",
+          "ip_tags": [],
+          "date": "2015-11-21",
+          "price": null,
+          "official_url": null
+        }
+      ]
+    },
+    {
+      "key": "2015-12",
+      "label": "2015年12月",
+      "items": [
+        {
+          "id": "min_danmachi2",
+          "title": "みんなのくじ 「ダンジョンに出会いを求めるのは間違っているだろうか～女神たちの宴～」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_danmachi2",
+          "month_key": "2015-12",
+          "ip_tags": [],
+          "date": "2015-12-12",
+          "price": null,
+          "official_url": null
+        },
+        {
+          "id": "min_minions",
+          "title": "みんなのくじ 「ミニオンズ」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_minions",
+          "month_key": "2015-12",
+          "ip_tags": [],
+          "date": "2015-12-19",
+          "price": null,
+          "official_url": null
         }
       ]
     },
@@ -39,6 +308,17 @@
       "key": "2016-01",
       "label": "2016年1月",
       "items": [
+        {
+          "id": "min_durarara2",
+          "title": "みんなのくじ 「デュラララ!!×2　～湯けむり旅情編～」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_durarara2",
+          "month_key": "2016-01",
+          "ip_tags": [],
+          "date": "2016-01-23",
+          "price": null,
+          "official_url": null
+        },
         {
           "id": "min_47",
           "title": "みんなのくじ 「食戟のソーマ～くじ処ゆきひら～」",
@@ -66,6 +346,34 @@
           "date": "2016-02-06",
           "price": null,
           "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=48"
+        },
+        {
+          "id": "min_ensemble-stars",
+          "title": "みんなのくじ 「あんさんぶるスターズ！」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_ensemble-stars",
+          "month_key": "2016-02",
+          "ip_tags": [],
+          "date": "2016-02-13",
+          "price": null,
+          "official_url": null
+        }
+      ]
+    },
+    {
+      "key": "2016-03",
+      "label": "2016年3月",
+      "items": [
+        {
+          "id": "min_heavyobject",
+          "title": "みんなのくじ 「ヘヴィーオブジェクト」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_heavyobject",
+          "month_key": "2016-03",
+          "ip_tags": [],
+          "date": "2016-03-05",
+          "price": null,
+          "official_url": null
         }
       ]
     },
@@ -87,6 +395,51 @@
       ]
     },
     {
+      "key": "2016-06",
+      "label": "2016年6月",
+      "items": [
+        {
+          "id": "min_ensemble-stars2",
+          "title": "みんなのくじ 「あんさんぶるスターズ！～王の帰還～」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_ensemble-stars2",
+          "month_key": "2016-06",
+          "ip_tags": [],
+          "date": "2016-06-18",
+          "price": null,
+          "official_url": null
+        }
+      ]
+    },
+    {
+      "key": "2016-07",
+      "label": "2016年7月",
+      "items": [
+        {
+          "id": "min_sb69_3",
+          "title": "みんなのくじ 「SHOW BY ROCK!! ～サマーLIVEだにゃん♪～」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_sb69_3",
+          "month_key": "2016-07",
+          "ip_tags": [],
+          "date": "2016-07-09",
+          "price": null,
+          "official_url": null
+        },
+        {
+          "id": "min_beyblade",
+          "title": "みんなのくじ 「ベイブレードバースト」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_beyblade",
+          "month_key": "2016-07",
+          "ip_tags": [],
+          "date": "2016-07-23",
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=58"
+        }
+      ]
+    },
+    {
       "key": "2016-09",
       "label": "2016年9月",
       "items": [
@@ -100,6 +453,17 @@
           "date": "2016-09-10",
           "price": null,
           "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=62"
+        },
+        {
+          "id": "min_hai-furi",
+          "title": "みんなのくじ 「ハイスクール・フリート」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_hai-furi",
+          "month_key": "2016-09",
+          "ip_tags": [],
+          "date": "2016-09-24",
+          "price": null,
+          "official_url": null
         }
       ]
     },
@@ -117,6 +481,17 @@
           "date": "2016-10-01",
           "price": null,
           "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=66"
+        },
+        {
+          "id": "min_ensemble-stars3",
+          "title": "みんなのくじ 「あんさんぶるスターズ！～5人揃って流星隊！～」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_ensemble-stars3",
+          "month_key": "2016-10",
+          "ip_tags": [],
+          "date": "2016-10-15",
+          "price": null,
+          "official_url": null
         }
       ]
     },
@@ -134,6 +509,62 @@
           "date": "2017-01-28",
           "price": null,
           "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=77"
+        }
+      ]
+    },
+    {
+      "key": "2017-03",
+      "label": "2017年3月",
+      "items": [
+        {
+          "id": "min_yowapeda3",
+          "title": "みんなのくじ 「弱虫ペダル NEW GENERATION～新世代総北、始動!!～」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_yowapeda3",
+          "month_key": "2017-03",
+          "ip_tags": [],
+          "date": "2017-03-25",
+          "price": null,
+          "official_url": null
+        }
+      ]
+    },
+    {
+      "key": "2017-05",
+      "label": "2017年5月",
+      "items": [
+        {
+          "id": "min_hstar-mu",
+          "title": "みんなのくじ 「スタミュ」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_hstar-mu",
+          "month_key": "2017-05",
+          "ip_tags": [],
+          "date": "2017-05-13",
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=83"
+        },
+        {
+          "id": "min_shibainumaru",
+          "title": "みんなのくじ 「柴犬まる」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_shibainumaru",
+          "month_key": "2017-05",
+          "ip_tags": [],
+          "date": "2017-05-20",
+          "price": null,
+          "official_url": null
+        },
+        {
+          "id": "min_yoi",
+          "title": "みんなのくじ 「ユーリ!!! on ICE」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_yoi",
+          "month_key": "2017-05",
+          "ip_tags": [],
+          "date": "2017-05-27",
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=85"
         }
       ]
     },
@@ -194,6 +625,34 @@
       ]
     },
     {
+      "key": "2017-08",
+      "label": "2017年8月",
+      "items": [
+        {
+          "id": "min_kemono-friends",
+          "title": "みんなのくじ 「けものフレンズ」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_kemono-friends",
+          "month_key": "2017-08",
+          "ip_tags": [],
+          "date": "2017-08-12",
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=92"
+        },
+        {
+          "id": "min_danmachi3",
+          "title": "みんなのくじ 「ソード・オラトリア ダンジョンに出会いを求めるのは間違っているだろうか外伝」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_danmachi3",
+          "month_key": "2017-08",
+          "ip_tags": [],
+          "date": "2017-08-26",
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=93"
+        }
+      ]
+    },
+    {
       "key": "2017-09",
       "label": "2017年9月",
       "items": [
@@ -218,6 +677,23 @@
           "date": "2017-09-23",
           "price": null,
           "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=95"
+        }
+      ]
+    },
+    {
+      "key": "2017-10",
+      "label": "2017年10月",
+      "items": [
+        {
+          "id": "min_popute2",
+          "title": "みんなのくじ 「ポプテピピック」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_popute2",
+          "month_key": "2017-10",
+          "ip_tags": [],
+          "date": "2017-10-21",
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=96"
         }
       ]
     },
@@ -431,6 +907,23 @@
           "date": "2023-01-21",
           "price": null,
           "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=122"
+        }
+      ]
+    },
+    {
+      "key": "2023-02",
+      "label": "2023年2月",
+      "items": [
+        {
+          "id": "min_miku_towel",
+          "title": "みんなのくじ 「初音ミク　タオルフェス！ 」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_miku_towel",
+          "month_key": "2023-02",
+          "ip_tags": [],
+          "date": "2023-02-25",
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=123"
         }
       ]
     },
