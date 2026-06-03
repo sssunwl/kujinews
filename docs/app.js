@@ -223,6 +223,14 @@ function jumpToCalMonth(key) {
   document.querySelector(`.month-btn[data-key="${key}"]`)?.classList.add("active");
 }
 
+const BRAND_DOT = {
+  "一番くじ": "ichiban",
+  "みんなのくじ": "minna",
+};
+function brandDot(brand) {
+  return BRAND_DOT[brand] || "other";
+}
+
 function renderCalGrid(container) {
   const { year, month, selectedDate } = calState;
   const allItems = getAllItems();
@@ -234,59 +242,89 @@ function renderCalGrid(container) {
     if (i.date) { if (!dateMap[i.date]) dateMap[i.date] = []; dateMap[i.date].push(i); }
   });
 
-  // All items in this calendar month
-  const monthItems = allItems.filter(i => i.month_key === monthKey || (i.date && i.date.startsWith(monthKey)));
+  // All items in this calendar month (with date)
+  const monthDatedItems = allItems.filter(i => i.date && i.date.startsWith(monthKey));
+  // Undated items from this month_key or 発売月未定
+  const monthUndatedItems = allItems.filter(i => !i.date && i.month_key === monthKey);
+  // みんなのくじ etc with no month set — show under "未定"
+  const unknownItems = allItems.filter(i => !i.date && !i.month_key);
 
   const firstDay = new Date(year, month - 1, 1);
   const lastDay  = new Date(year, month, 0);
   const startDow = firstDay.getDay();
 
-  let calHTML = `
-    <div class="generated-at">資料最後更新：${kujiData.generated_at ? new Date(kujiData.generated_at).toLocaleString("zh-TW") : "—"}</div>
+  // Build calendar grid HTML
+  let gridHTML = `<div class="cal-grid">
+    ${["日","一","二","三","四","五","六"].map(d => `<div class="cal-dow">${d}</div>`).join("")}`;
+
+  for (let i = 0; i < startDow; i++) gridHTML += `<div class="cal-day other-month"></div>`;
+
+  for (let d = 1; d <= lastDay.getDate(); d++) {
+    const dk = `${year}-${String(month).padStart(2,"0")}-${String(d).padStart(2,"0")}`;
+    const items = dateMap[dk] || [];
+    const isToday = dk === todayKey;
+    const isSelected = dk === selectedDate;
+    let cls = "cal-day";
+    if (isToday) cls += " today";
+    if (isSelected && !isToday) cls += " selected";
+    if (items.length) cls += " has-kuji";
+
+    // Unique brand dots
+    const dotBrands = [...new Set(items.map(i => i.brand))];
+    const dots = dotBrands.length
+      ? `<div class="cal-dots">${dotBrands.map(b => `<div class="cal-dot ${brandDot(b)}"></div>`).join("")}</div>`
+      : "";
+
+    gridHTML += `<div class="${cls}" onclick="selectCalDay('${dk}')">${d}${dots}</div>`;
+  }
+  gridHTML += `</div>`;
+
+  // Right panel: kuji list
+  const displayItems = selectedDate
+    ? (dateMap[selectedDate] || [])
+    : monthDatedItems;
+
+  const [, , dd] = (selectedDate || "").split("-");
+  const listLabel = selectedDate
+    ? `${month}月${parseInt(dd)}日 の くじ`
+    : `${year}年${month}月 全部（${monthDatedItems.length}件）`;
+
+  let listHTML = `
+    <div class="cal-detail-title">${listLabel}</div>
+    ${displayItems.length
+      ? displayItems.map(i => itemHTML(i)).join("")
+      : `<div class="empty" style="padding:12px 0">暫無くじ</div>`}
+  `;
+
+  // Show undated items at bottom
+  const undated = [...monthUndatedItems, ...(selectedDate ? [] : unknownItems.slice(0, 20))];
+  if (!selectedDate && undated.length) {
+    listHTML += `
+      <div class="cal-detail-title" style="margin-top:16px">📦 未定日期（${undated.length}件）</div>
+      ${undated.map(i => itemHTML(i)).join("")}
+    `;
+  }
+
+  const calLeft = `
+    <div class="generated-at">最後更新：${kujiData.generated_at ? new Date(kujiData.generated_at).toLocaleString("zh-TW") : "—"}</div>
     <div class="cal-header">
       <button class="cal-nav-btn" onclick="changeCalMonth(-1)">‹</button>
       <span class="cal-title">${year}年${month}月</span>
       <button class="cal-nav-btn" onclick="changeCalMonth(1)">›</button>
     </div>
-    <div class="cal-grid">
-      ${["日","一","二","三","四","五","六"].map(d => `<div class="cal-dow">${d}</div>`).join("")}
-  `;
-
-  for (let i = 0; i < startDow; i++) calHTML += `<div class="cal-day other-month"></div>`;
-
-  for (let d = 1; d <= lastDay.getDate(); d++) {
-    const dk = `${year}-${String(month).padStart(2,"0")}-${String(d).padStart(2,"0")}`;
-    const isToday = dk === todayKey;
-    const isSelected = dk === selectedDate;
-    const hasKuji = !!dateMap[dk];
-    let cls = "cal-day";
-    if (isToday) cls += " today";
-    if (isSelected && !isToday) cls += " selected";
-    if (hasKuji) cls += " has-kuji";
-    calHTML += `<div class="${cls}" onclick="selectCalDay('${dk}')">${d}</div>`;
-  }
-  calHTML += `</div>`;
-
-  // Show items: filtered by selected day, or all month items if no day selected
-  const displayItems = selectedDate
-    ? (dateMap[selectedDate] || [])
-    : monthItems.filter(i => i.date); // only show dated items in default view
-
-  const [, , dd] = (selectedDate || "").split("-");
-  const listLabel = selectedDate
-    ? `${month}月${parseInt(dd)}日 的くじ`
-    : `${year}年${month}月 全部くじ（${displayItems.length}件）`;
-
-  calHTML += `
-    <div class="cal-detail">
-      <div class="cal-detail-title">${listLabel}</div>
-      ${displayItems.length
-        ? displayItems.map(i => itemHTML(i)).join("")
-        : `<div class="empty" style="padding:12px 0">暫無くじ</div>`}
+    ${gridHTML}
+    <div class="cal-legend">
+      <span class="cal-dot ichiban"></span>一番くじ
+      <span class="cal-dot minna"></span>みんなのくじ
     </div>
   `;
 
-  container.innerHTML = calHTML;
+  container.innerHTML = `
+    <div class="cal-layout">
+      <div class="cal-left">${calLeft}</div>
+      <div class="cal-right cal-detail">${listHTML}</div>
+    </div>
+  `;
 }
 
 function changeCalMonth(delta) {
