@@ -1,10 +1,8 @@
-name: KujiUniverse Monitor
+name: KujiUniverse Daily Report
 
 on:
   schedule:
-    - cron: "0 23 * * *"   # 08:00 JST
-    - cron: "0 5 * * *"    # 14:00 JST
-    - cron: "0 11 * * *"   # 20:00 JST
+    - cron: "0 0 * * *"   # 09:00 JST 每天一次
   workflow_dispatch:
 
 permissions:
@@ -23,10 +21,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Build calendar data (kuji.json)
+      - name: Build calendar data (kuji.json + ip_news.json)
         run: python scraper/build_data.py
 
-      - name: Run TG monitor
+      - name: Send daily TG report
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -36,6 +34,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data/kuji.json data/seen.json
-          git diff --staged --quiet || git commit -m "chore: update kuji data & seen [skip ci]"
+          git add docs/data/kuji.json docs/data/ip_news.json data/seen.json
+          git diff --staged --quiet || git commit -m "chore: daily update [skip ci]"
           git push
