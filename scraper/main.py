@@ -44,8 +44,25 @@ JP_ZH = [
     ("スター・ウォーズ","星際大戰"),("MARVEL","漫威"),
     ("赤髪海賊団","紅髮海賊團"),("エルバフ編","艾爾巴夫篇"),
     ("ケロロ軍曹","Keroro 軍曹"),
-    ("発売","發售"),("新作","新作"),("公開","公開"),("登場","登場"),
+    # 品牌/系列詞
+    ("アイドルマスター","偶像大師"),("シャイニーカラーズ","閃耀色彩"),
+    ("シャイニー","閃耀"),("アイカツ!","偶像學園!"),("プリキュア","光之美少女"),
+    ("仮面ライダー","假面騎士"),("ウルトラマン","超人力霸王"),
+    ("ドラゴンクエスト","勇者鬥惡龍"),("ファイナルファンタジー","Final Fantasy"),
+    ("ペルソナ","Persona"),("ダンジョン飯","迷宮飯"),
+    ("葬送のフリーレン","葬送的芙莉蓮"),("日本三國","日本三國"),
+    ("都市伝説解体センター","都市傳說解體中心"),
+    ("SAKAMOTO DAYS","坂本日常"),("HUNDRED LINE","百行"),
+    ("IDOLY PRIDE","IDOLY PRIDE"),
+    ("Happyくじ","Happy 抽獎"),("グッスマくじ","Good Smile 抽獎"),
+    ("コトブキヤくじ","壽屋抽獎"),("タイトーくじ","TAITO 抽獎"),
+    # 通用詞
+    ("発売","發售"),("発売予定","預定發售"),("開催決定","舉辦確定"),
+    ("新作","新作"),("公開","公開"),("登場","登場"),("再販","再版"),
+    ("オンライン","線上"),("店頭","門市"),("限定","限定"),
     ("フィギュア","Figure"),("ぬいぐるみ","布偶"),("グッズ","周邊"),
+    ("アクリル","壓克力"),("缶バッジ","徽章"),("タオル","毛巾"),
+    ("まで","為止"),("より","起"),("予定","預定"),
 ]
 
 IP_ZH = {
@@ -88,11 +105,12 @@ def load_news_json() -> dict:
 
 
 # ── 近三天開售 ───────────────────────────────────────────
-def upcoming_kuji(days: int = 3) -> list[dict]:
+def upcoming_kuji(before: int = 3, after: int = 3) -> list[dict]:
+    """Return kuji releasing from today-before to today+after (inclusive)."""
     now = datetime.now(JST)
     target_dates = {
         (now + timedelta(days=d)).strftime("%Y-%m-%d")
-        for d in range(days + 1)
+        for d in range(-before, after + 1)
     }
     items = [i for i in load_kuji_json() if i.get("date") in target_dates]
     items.sort(key=lambda x: x["date"])
@@ -184,14 +202,14 @@ def main() -> None:
     weekday = ["一","二","三","四","五","六","日"][now.weekday()]
     date_label = f"{now.year}年{now.month}月{now.day}日（週{weekday}）"
 
-    upcoming = upcoming_kuji(days=3)
+    upcoming = upcoming_kuji(before=3, after=3)
     new_announcements = new_kuji_announcements(seen["kuji"])
     ip_block, new_news_uids = fmt_ip_news(seen["news"])
 
     sep = "──────────────"
     msg_parts = [
         f"🌟 <b>Kuji宇宙 每日報告</b>\n📅 {date_label}",
-        f"{sep}\n⏰ <b>近三天發售くじ</b>\n\n{fmt_upcoming(upcoming)}",
+        f"{sep}\n⏰ <b>近期發售くじ（前後3天）</b>\n\n{fmt_upcoming(upcoming)}",
         f"{sep}\n🆕 <b>今日新公告</b>\n\n{fmt_announcements(new_announcements)}",
         f"{sep}\n📰 <b>IP 最新消息</b>\n\n{ip_block}",
         f"{sep}\n🌐 <a href=\"{SITE_URL}\">Kuji宇宙</a>",
