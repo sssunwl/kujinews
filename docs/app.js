@@ -139,6 +139,7 @@ let calState = { year: 0, month: 0, selectedDate: null };
 
 // ── Init ──────────────────────────────────────────────
 async function init() {
+  initStars();
   const now = new Date();
   calState.year = now.getFullYear();
   calState.month = now.getMonth() + 1;
@@ -147,6 +148,33 @@ async function init() {
   renderToday();
   setupIPTabs();
   renderBrands();
+}
+
+function initStars() {
+  const canvas = document.createElement('canvas');
+  canvas.style.cssText = 'position:fixed;inset:0;pointer-events:none;z-index:-1;';
+  document.body.prepend(canvas);
+  let stars = [], raf;
+  const resize = () => {
+    canvas.width = innerWidth; canvas.height = innerHeight;
+    stars = Array.from({length:220}, () => ({
+      x: Math.random()*canvas.width, y: Math.random()*canvas.height,
+      r: Math.random()*1.2+0.2, base: Math.random()*0.45+0.15,
+      spd: Math.random()*0.004+0.001, ph: Math.random()*Math.PI*2,
+    }));
+  };
+  const draw = t => {
+    const ctx = canvas.getContext('2d');
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    stars.forEach(s => {
+      const op = s.base + Math.sin(t*0.001*s.spd*1000+s.ph)*0.25;
+      ctx.beginPath(); ctx.arc(s.x,s.y,s.r,0,Math.PI*2);
+      ctx.fillStyle = `rgba(255,255,255,${Math.max(0,op)})`; ctx.fill();
+    });
+    raf = requestAnimationFrame(draw);
+  };
+  resize(); window.addEventListener('resize', () => { cancelAnimationFrame(raf); resize(); requestAnimationFrame(draw); });
+  requestAnimationFrame(draw);
 }
 
 async function loadData() {
@@ -226,11 +254,11 @@ function renderCalendar() {
   ).join("") +
   `<button class="month-btn" data-key="unknown" onclick="jumpToCalMonth('unknown')">未定</button>`;
 
-  // Month nav (1-12)
-  const monthNav = document.getElementById("month-nav");
-  monthNav.innerHTML = Array.from({length:12}, (_,i) => {
+  // Month: 4×3 number grid
+  const monthGrid = document.getElementById("month-grid");
+  monthGrid.innerHTML = Array.from({length:12}, (_,i) => {
     const mn = i + 1;
-    return `<button class="month-btn" data-month="${mn}" onclick="selectCalMonth(${mn})">${mn}月</button>`;
+    return `<button class="month-num-btn" data-month="${mn}" onclick="selectCalMonth(${mn})">${mn}</button>`;
   }).join("");
 
   renderCalGrid(content);
@@ -263,7 +291,7 @@ function highlightCalSelectors() {
   document.querySelectorAll(".year-btn").forEach(b => {
     b.classList.toggle("active", b.dataset.year === String(calState.year));
   });
-  document.querySelectorAll("#month-nav .month-btn").forEach(b => {
+  document.querySelectorAll("#month-grid .month-num-btn").forEach(b => {
     b.classList.toggle("active", parseInt(b.dataset.month) === calState.month);
   });
 }
@@ -512,21 +540,43 @@ function getAllItems() {
 }
 
 function itemHTML(item, highlight = false) {
-  const day = item.date ? `${parseInt(item.date.split("-")[2])}日` : "—";
-  const ipTag = item.ip_tags?.[0] ? `<span class="ip-tag">${item.ip_tags[0]}</span>` : "";
+  const d = item.date;
+  const dayLabel = d ? `${parseInt(d.split("-")[1])}月${parseInt(d.split("-")[2])}日` : "—";
   const url = item.official_url || item.url || "#";
   const zh = zhHint(item.title);
-  const titleBlock = zh
-    ? `<span class="kuji-title-wrap"><span class="kuji-title">${escHtml(item.title)}</span><span class="kuji-zh">${escHtml(zh)}</span></span>`
-    : `<span class="kuji-title">${escHtml(item.title)}</span>`;
+  const displayTitle = zh || item.title;
+  const hasImage = !!item.image_url;
+  const uid = item.id || Math.random().toString(36).slice(2);
+  const panelId = `ep-${uid}`;
+
+  const subLine = zh
+    ? `<a class="kuji-jp-link" href="${url}" target="_blank" rel="noopener">${escHtml(item.title)} ↗</a>`
+    : "";
+
   return `
-    <a class="kuji-item${highlight ? " today-release" : ""}" href="${url}" target="_blank" rel="noopener">
-      <span class="kuji-date">${day}</span>
-      ${titleBlock}
-      ${ipTag}
-      <span class="kuji-brand">${escHtml(item.brand)}</span>
-      <span class="kuji-arrow">↗</span>
-    </a>`;
+    <div class="kuji-wrap">
+      <div class="kuji-item${highlight ? " today-release" : ""}">
+        <span class="kuji-date">${dayLabel}</span>
+        <span class="kuji-title-wrap">
+          <a class="kuji-title-main" href="${url}" target="_blank" rel="noopener">${escHtml(displayTitle)}</a>
+          ${subLine ? `<span class="kuji-title-sub">${subLine}</span>` : ""}
+        </span>
+        <span class="kuji-brand">${escHtml(item.brand)}</span>
+        <button class="kuji-expand-btn" onclick="toggleExpand('${panelId}',this)" title="展開">▾</button>
+      </div>
+      <div class="kuji-expand-panel hidden" id="${panelId}">
+        ${hasImage
+          ? `<img src="${escHtml(item.image_url)}" alt="${escHtml(displayTitle)}" loading="lazy">`
+          : `<a class="kuji-view-btn" href="${url}" target="_blank" rel="noopener">→ 點此查看官網</a>`}
+      </div>
+    </div>`;
+}
+
+function toggleExpand(panelId, btn) {
+  const panel = document.getElementById(panelId);
+  if (!panel) return;
+  const open = panel.classList.toggle("hidden") === false;
+  btn.classList.toggle("open", open);
 }
 
 function section(label, inner) {

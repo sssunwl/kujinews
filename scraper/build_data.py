@@ -73,7 +73,15 @@ def scrape_detail(url: str) -> dict:
         if any(d in href for d in OFFICIAL_DOMAINS) and "kujimap" not in href:
             official_url = href
             break
-    return {"date": date, "price": price, "official_url": official_url}
+    # Extract product-specific og:image (filter out generic site images)
+    image_url = None
+    GENERIC_IMGS = ["ogp.jpg", "ogp.png", "ogp_new", "summary.jpg", "opengraph", "default_ogp", "banner.png"]
+    og_tag = soup.find("meta", property="og:image")
+    if og_tag:
+        img = og_tag.get("content", "")
+        if img and not any(g in img for g in GENERIC_IMGS):
+            image_url = img
+    return {"date": date, "price": price, "official_url": official_url, "image_url": image_url}
 
 
 def scrape_month(year: int, month: int, brand_label: str, brand_slug: str) -> list[dict]:
@@ -209,7 +217,7 @@ def enrich_dates(items: list[dict]) -> list[dict]:
         item["date"] = detail.get("date")
         item["price"] = detail.get("price")
         item["official_url"] = detail.get("official_url")
-        item["price"] = detail.get("price")
+        item["image_url"] = detail.get("image_url")
         time.sleep(0.4)
     return items
 
@@ -274,6 +282,7 @@ def main() -> None:
         item["month_key"] = item["date"][:7] if item.get("date") else None
         if not item["official_url"]:
             item["official_url"] = detail.get("official_url")
+        item["image_url"] = detail.get("image_url")
         time.sleep(0.3)
     all_items += minkuji_new
 
