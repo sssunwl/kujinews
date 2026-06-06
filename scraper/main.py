@@ -99,6 +99,13 @@ def upcoming_kuji(days: int = 3) -> list[dict]:
     return items
 
 
+def _link(text: str, url: str) -> str:
+    """Wrap text in Telegram HTML hyperlink if URL exists."""
+    if url:
+        return f'<a href="{url}">{text}</a>'
+    return text
+
+
 def fmt_upcoming(items: list[dict]) -> str:
     if not items:
         return "（近三天暫無發售）"
@@ -108,97 +115,98 @@ def fmt_upcoming(items: list[dict]) -> str:
         m, d = int(date_str[5:7]), int(date_str[8:10])
         zh = zh_hint(item["title"])
         url = item.get("official_url") or item.get("url", "")
-        lines.append(f"📅 <b>{m}月{d}日</b>")
-        lines.append(f"{item['title']}")
+        title_linked = _link(item["title"], url)
+        lines.append(f"📅 <b>{m}月{d}日</b>  {title_linked}")
         if zh:
-            lines.append(f"→ {zh}")
-        if url:
-            lines.append(f"🔗 {url}")
-        lines.append("")
-    return "\n".join(lines).strip()
+            lines.append(f"   → {zh}")
+    return "\n".join(lines)
 
 
-# ── 今日新公告（seen.json 去重） ─────────────────────────
 def new_kuji_announcements(seen_ids: list[str]) -> list[dict]:
     all_items = load_kuji_json()
     seen_set = set(seen_ids)
-    new = [i for i in all_items if i["id"] not in seen_set]
-    return new[:15]
+    return [i for i in all_items if i["id"] not in seen_set][:10]
 
 
 def fmt_announcements(items: list[dict]) -> str:
     if not items:
         return "（今日暫無新公告）"
     lines = []
-    for item in items[:8]:
+    for item in items[:6]:
         zh = zh_hint(item["title"])
         url = item.get("official_url") or item.get("url", "")
-        lines.append(f"▸ {item['title']}")
+        title_linked = _link(item["title"], url)
+        lines.append(f"▸ {title_linked}")
         if zh:
             lines.append(f"   → {zh}")
-        if url:
-            lines.append(f"   🔗 {url}")
     return "\n".join(lines)
 
 
-# ── IP 最新消息 ──────────────────────────────────────────
-def fmt_ip_news() -> str:
+def fmt_ip_news(seen_news: list[str]) -> tuple[str, list[str]]:
+    """Returns (formatted block, list of new news UIDs seen this run)."""
     news = load_news_json()
     if not news:
-        return "（暫無最新消息）"
+        return "（暫無最新消息）", []
+    seen_set = set(seen_news)
     lines = []
+    new_uids: list[str] = []
+
     for ip_key, zh_name in IP_ZH.items():
-        items = news.get(ip_key, [])[:4]
-        if not items:
+        all_items = news.get(ip_key, [])
+        # Only show items not yet sent
+        new_items = [n for n in all_items if n.get("url", "") not in seen_set][:3]
+        if not new_items:
             continue
         lines.append(f"<b>[{zh_name}]</b>")
-        for n in items:
+        for n in new_items:
             title = n.get("title", "")
             title_zh = n.get("title_zh", "") or zh_hint(title)
             url = n.get("url", "")
-            lines.append(f"・{title}")
+            uid = url or title
+            new_uids.append(uid)
+            title_linked = _link(title, url)
+            lines.append(f"・{title_linked}")
             if title_zh and title_zh != title:
                 lines.append(f"  → {title_zh}")
-            if url:
-                lines.append(f"  🔗 {url}")
         lines.append("")
-    return "\n".join(lines).strip()
+
+    block = "\n".join(lines).strip() if lines else "（今日暫無 IP 新消息）"
+    return block, new_uids
 
 
 # ── 主程序 ────────────────────────────────────────────────
 def main() -> None:
     seen = load_seen()
+    if "news" not in seen:
+        seen["news"] = []
+
     now = datetime.now(JST)
     weekday = ["一","二","三","四","五","六","日"][now.weekday()]
     date_label = f"{now.year}年{now.month}月{now.day}日（週{weekday}）"
 
-    # 近三天開售
     upcoming = upcoming_kuji(days=3)
-
-    # 新公告（今日全新未推送過的くじ）
     new_announcements = new_kuji_announcements(seen["kuji"])
+    ip_block, new_news_uids = fmt_ip_news(seen["news"])
 
-    # IP 新聞（從 ip_news.json 讀，不另行爬取）
-    ip_block = fmt_ip_news()
-
-    # 如果三個都沒有內容，仍然送出每日報告
     sep = "──────────────"
     msg_parts = [
         f"🌟 <b>Kuji宇宙 每日報告</b>\n📅 {date_label}",
         f"{sep}\n⏰ <b>近三天發售くじ</b>\n\n{fmt_upcoming(upcoming)}",
         f"{sep}\n🆕 <b>今日新公告</b>\n\n{fmt_announcements(new_announcements)}",
         f"{sep}\n📰 <b>IP 最新消息</b>\n\n{ip_block}",
-        f"{sep}\n🌐 {SITE_URL}",
+        f"{sep}\n🌐 <a href=\"{SITE_URL}\">Kuji宇宙</a>",
     ]
 
     message = "\n\n".join(msg_parts)
     notify.send(message)
-    print(f"Sent daily report: {len(upcoming)} upcoming, {len(new_announcements)} new")
+    print(f"Sent: {len(upcoming)} upcoming, {len(new_announcements)} new kuji, {len(new_news_uids)} new news")
 
-    # 更新 seen.json
+    # 更新 seen.json（kuji + news 都去重）
     all_items = load_kuji_json()
     seen["kuji"] = list(set(seen["kuji"]) | {i["id"] for i in all_items})
     seen["kuji"] = seen["kuji"][-1000:]
+    seen["news"] = list(set(seen["news"]) | set(new_news_uids))
+    seen["news"] = seen["news"][-2000:]
     save_seen(seen)
 
 
