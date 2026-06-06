@@ -131,23 +131,53 @@ def scrape_happykuji() -> list[dict]:
     seen: set[str] = set()
     for a in soup.find_all("a", href=True):
         href = a["href"]
-        if "/goods/" not in href or href == "https://www.h-kuji.com/goods/":
+        if "/goods/" not in href or href in ("https://www.h-kuji.com/goods/", "https://www.h-kuji.com/goods"):
             continue
         text = a.get_text(strip=True)
-        if not text or len(text) < 8:
+        if not text or len(text) < 4:
             continue
         m = re.search(r"(20\d\d)年(\d+)月(\d+)日", text)
         date = f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}" if m else None
-        title = re.sub(r"\d{4}年.{0,50}", "", text).strip()
-        title = re.sub(r"\d+(\.\d+)?円.*", "", title).strip()
+        # Extract clean title: remove date and price info
+        title = re.sub(r"\d{4}年\d+月\d+日.*$", "", text).strip()
+        title = re.sub(r"\d+(\.\d+)?円.*$", "", title).strip()
         title = re.sub(r"\s+", " ", title).strip()
-        if not title or len(title) < 4:
-            title = a.get_text(strip=True)[:60]
+        if not title:
+            title = text[:60]
         uid = href.rstrip("/").split("/")[-1]
         if uid in seen:
             continue
         seen.add(uid)
         items.append(_make_item(uid, title, href, "Happyくじ", date, href))
+    return items
+
+
+def scrape_sanrio() -> list[dict]:
+    """Scrape サンリオ当りくじ items from kujimap/others (sanrio_ prefix)."""
+    print("\n[サンリオ当りくじ] listing")
+    soup = get(f"{BASE}/others")
+    if not soup:
+        return []
+    items = []
+    seen: set[str] = set()
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        if not re.search(r"/others/sanrio", href):
+            continue
+        title = a.get_text(strip=True)
+        if not title or len(title) < 4:
+            continue
+        if href.startswith("/"):
+            href = BASE + href
+        uid = href.split("/")[-1]
+        if uid in seen:
+            continue
+        seen.add(uid)
+        items.append({
+            "id": uid, "title": title, "brand": "サンリオ当りくじ",
+            "url": href, "month_key": None, "ip_tags": tag_ip(title),
+            "date": None, "price": None, "official_url": None, "image_url": None,
+        })
     return items
 
 
@@ -248,6 +278,7 @@ def main() -> None:
     all_items += scrape_happykuji()
     all_items += scrape_goodsmile()
     all_items += scrape_kotobukiya()
+    all_items += scrape_sanrio()
 
     # みんなのくじ — scrape from kujimap, extract charahiroba official link
     print("\n[みんなのくじ] listing")

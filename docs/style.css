@@ -95,10 +95,10 @@ header {
 .year-nav { display: flex; gap: 6px; padding: 8px 20px 4px; overflow-x: auto; scrollbar-width: none; }
 .year-nav::-webkit-scrollbar { display: none; }
 
-/* Month: 4×3 number grid */
+/* Month: 6×2 grid */
 .month-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 4px;
   padding: 4px 16px 8px;
 }
@@ -106,16 +106,27 @@ header {
   background: rgba(255,255,255,0.04);
   border: 1px solid var(--border);
   color: var(--muted);
-  padding: 5px 0;
+  padding: 5px 2px;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 600;
   text-align: center;
   transition: all 0.18s;
+  white-space: nowrap;
 }
 .month-num-btn.active,
 .month-num-btn:hover { background: var(--navy); border-color: var(--nebula); color: #fff; }
+
+.undated-toggle {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 8px 12px; margin-top: 16px;
+  background: rgba(74,158,255,0.06);
+  border: 1px solid rgba(74,158,255,0.2);
+  border-radius: 8px; cursor: pointer; font-size: 12px;
+  font-weight: 600; color: var(--nebula); transition: all 0.15s;
+}
+.undated-toggle:hover { border-color: var(--nebula); background: rgba(74,158,255,0.1); }
 
 .ip-tabs { display: flex; gap: 5px; padding: 8px 20px; overflow-x: auto; scrollbar-width: none; }
 .ip-tabs::-webkit-scrollbar { display: none; }
@@ -313,8 +324,10 @@ header {
 }
 .news-item:hover { color: var(--gold); }
 .news-dot { flex-shrink: 0; width: 5px; height: 5px; border-radius: 50%; background: var(--gold); margin-top: 8px; }
-.news-title { font-size: 13px; line-height: 1.5; flex: 1; }
-.news-zh { font-size: 11px; color: var(--nebula); margin-top: 1px; }
+.news-title-zh { font-size: 13.5px; font-weight: 600; line-height: 1.4; color: var(--text); }
+.news-title-jp { font-size: 10.5px; color: var(--muted); margin-top: 2px; line-height: 1.3; }
+.news-jp-link { color: var(--muted); text-decoration: none; }
+.news-jp-link:hover { color: var(--nebula); }
 .news-source-link {
   display: inline-flex; align-items: center; gap: 6px;
   padding: 8px 16px; background: var(--navy); color: var(--text);

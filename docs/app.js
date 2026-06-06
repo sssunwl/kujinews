@@ -125,6 +125,7 @@ const BRANDS = [
 ];
 
 const IP_MAP = {
+  "バンダイ":      { zh:"萬代",    official:"https://p-bandai.jp/press/",             twitter:"https://x.com/BANDAI_SPIRITS" },
   "ワンピース":    { zh:"航海王",  official:"https://one-piece.com/news/index.html",   twitter:"https://x.com/OPspoiler" },
   "ドラゴンボール": { zh:"七龍珠",  official:"https://dragon-ball-official.com/news/",  twitter:"https://x.com/DB_official_jp" },
   "REBORN!":     { zh:"REBORN!", official:"https://khreborn-anime.jp/",              twitter:"https://x.com/khreborn_anime" },
@@ -134,7 +135,7 @@ const IP_MAP = {
 
 let kujiData = null;
 let newsData = null;
-let currentIP = "ワンピース";
+let currentIP = "バンダイ";
 let calState = { year: 0, month: 0, selectedDate: null };
 
 // ── Init ──────────────────────────────────────────────
@@ -254,11 +255,11 @@ function renderCalendar() {
   ).join("") +
   `<button class="month-btn" data-key="unknown" onclick="jumpToCalMonth('unknown')">未定</button>`;
 
-  // Month: 4×3 number grid
+  // Month: 6×2 grid with "X月"
   const monthGrid = document.getElementById("month-grid");
   monthGrid.innerHTML = Array.from({length:12}, (_,i) => {
     const mn = i + 1;
-    return `<button class="month-num-btn" data-month="${mn}" onclick="selectCalMonth(${mn})">${mn}</button>`;
+    return `<button class="month-num-btn" data-month="${mn}" onclick="selectCalMonth(${mn})">${mn}月</button>`;
   }).join("");
 
   renderCalGrid(content);
@@ -282,9 +283,10 @@ function selectCalMonth(month) {
 }
 
 function scrollToCalTop() {
-  const bar = document.querySelector("#view-calendar .sticky-bar");
-  const offset = bar ? bar.getBoundingClientRect().bottom + window.scrollY : 120;
-  window.scrollTo({ top: offset, behavior: "smooth" });
+  const content = document.getElementById("calendar-content");
+  if (!content) return;
+  const top = content.getBoundingClientRect().top + window.scrollY - 12;
+  window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
 }
 
 function highlightCalSelectors() {
@@ -470,14 +472,16 @@ function renderIP(ip) {
   if (ipNews.length) {
     html += section("📰 最新消息",
       ipNews.map(n => {
-        // Prefer pre-translated title_zh from json, fallback to keyword hint
-        const nzh = n.title_zh || zhHint(n.title);
+        const nzh = n.title_zh || zhHint(n.title) || "";
+        const url = n.url || info.official || "#";
+        const mainTitle = (nzh && nzh !== n.title) ? nzh : n.title;
+        const jpSub = (nzh && nzh !== n.title) ? n.title : "";
         return `
-        <a class="news-item" href="${n.url || info.official}" target="_blank" rel="noopener">
+        <a class="news-item" href="${url}" target="_blank" rel="noopener">
           <span class="news-dot"></span>
           <span>
-            <div class="news-title">${escHtml(n.title)}</div>
-            ${nzh && nzh !== n.title ? `<div class="news-zh">${escHtml(nzh)}</div>` : ""}
+            <div class="news-title-zh">${escHtml(mainTitle)}</div>
+            ${jpSub ? `<div class="news-title-jp"><a class="news-jp-link" href="${url}" target="_blank" rel="noopener">${escHtml(jpSub)} ↗</a></div>` : ""}
           </span>
         </a>`;
       }).join("")
