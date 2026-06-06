@@ -147,15 +147,18 @@ def _fetch_jojo(max_items: int = 15) -> list[dict]:
         items = []
         for a in soup.find_all("a", href=True):
             href = a["href"]
-            if not re.search(r"jojo-portal\.com/(?:news|information)/\d+|/(?:news)/\w+", href):
+            # 格式：/news/CATEGORY/ID/（如 /news/info/584/）
+            if not re.search(r"/news/\w+/\d+", href):
                 continue
-            title = a.get_text(strip=True)
-            if not title or len(title) < 5:
+            raw = a.get_text(strip=True)
+            # 去除開頭日期+分類標籤（如 2026.06.05INFO / 2026.06.05ANIME）
+            title = re.sub(r"^\d{4}\.\d{2}\.\d{2}[A-Z]+", "", raw).strip()
+            if not title or len(title) < 8:
                 continue
             if href.startswith("/"):
                 href = "https://jojo-portal.com" + href
-            uid_match = re.search(r"/(\w+)/(\d+)", href)
-            uid = f"jojo_{uid_match.group(2)}" if uid_match else href
+            uid_match = re.search(r"/news/\w+/(\d+)", href)
+            uid = f"jojo_{uid_match.group(1)}" if uid_match else href
             items.append({"uid": uid, "title": title, "url": href, "source": "ジョジョ"})
             if len(items) >= max_items:
                 break

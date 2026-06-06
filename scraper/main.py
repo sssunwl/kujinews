@@ -171,8 +171,11 @@ def fmt_ip_news(seen_news: list[str]) -> tuple[str, list[str]]:
 
     for ip_key, zh_name in IP_ZH.items():
         all_items = news.get(ip_key, [])
-        # Only show items not yet sent
-        new_items = [n for n in all_items if n.get("url", "") not in seen_set][:3]
+        # 只顯示未推送過、且標題夠長（避免抓到導航標籤）的項目
+        new_items = [
+            n for n in all_items
+            if n.get("url", "") not in seen_set and len(n.get("title", "")) >= 10
+        ][:2]
         if not new_items:
             continue
         lines.append(f"<b>[{zh_name}]</b>")
