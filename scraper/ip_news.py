@@ -117,21 +117,20 @@ def _fetch_dragonball(cutoff_ts: float) -> list[dict]:
 
 def _fetch_chiikawa(max_items: int = 15) -> list[dict]:
     try:
-        resp = requests.get("https://chiikawamarket.jp/blogs/news", headers=HEADERS, timeout=15)
-        soup = BeautifulSoup(resp.text, "lxml")
+        rss_url = "https://news.google.com/rss/search?q=ちいかわ&hl=ja&gl=JP&ceid=JP:ja"
+        feed = feedparser.parse(rss_url)
         items = []
-        for a in soup.find_all("a", href=True):
-            href = a["href"]
-            if not re.search(r"chiikawaworld\.com/news/\d+|/news/\d+", href):
-                continue
-            title = a.get_text(strip=True)
+        seen: set[str] = set()
+        for entry in feed.entries:
+            title = entry.get("title", "").strip()
+            url = entry.get("link", "")
             if not title or len(title) < 5:
                 continue
-            if href.startswith("/"):
-                href = "https://chiikawaworld.com" + href
-            uid_match = re.search(r"/news/(\d+)", href)
-            uid = f"chii_{uid_match.group(1)}" if uid_match else href
-            items.append({"uid": uid, "title": title, "url": href, "source": "ちいかわ"})
+            uid = f"chii_{hash(url) & 0xffffffff}"
+            if uid in seen:
+                continue
+            seen.add(uid)
+            items.append({"uid": uid, "title": title, "url": url, "source": "ちいかわ"})
             if len(items) >= max_items:
                 break
         return items

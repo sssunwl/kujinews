@@ -287,6 +287,10 @@ header {
 .cal-dot.happy   { background: #E74C3C; }
 .cal-dot.gsm     { background: #27AE60; }
 .cal-dot.koto    { background: #E67E22; }
+.cal-dot.sega    { background: #1E90FF; }
+.cal-dot.taito   { background: #FF69B4; }
+.cal-dot.anymy   { background: #00CED1; }
+.cal-dot.bikido  { background: #BA55D3; }
 .cal-dot.other   { background: var(--nebula); }
 
 .cal-legend {

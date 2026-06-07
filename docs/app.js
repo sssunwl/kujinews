@@ -28,6 +28,9 @@ const JP_ZH = [
   ["MOTHER2","MOTHER 2"],["赤髪海賊団","紅髮海賊團"],["エルバフ編","艾爾巴夫篇"],
   ["ケロロ軍曹","Keroro 軍曹"],["森永製菓","森永製菓"],
   ["ジョジョ奇妙な冒険","JOJO的奇妙冒險"],["風影奪還編","風影奪還篇"],
+  ["セガラッキーくじ","SEGA 幸運賞"],["タイトーくじ","TAITO 賞"],
+  ["エニマイくじ","Anymy 賞"],["くじ引き堂","くじ引き堂"],
+  ["グッスマくじ","Good Smile 賞"],["コトブキヤくじ","壽屋 賞"],
   ["発売","發售"],["再販","再版"],["予定","預定"],["限定","限定"],
   ["新作","新作"],["公開","公開"],["登場","登場"],["情報","資訊"],
   ["バンプレスト","萬代南夢宮景品"],["メガハウス","MegaHouse"],
@@ -57,22 +60,22 @@ const BRANDS = [
     twitter:"@HappyKuji", twitter_url:"https://x.com/HappyKuji",
     desc:"空くじなし，主打 Disney、PIXAR、MARVEL、哈利波特及動漫聯名，設計路線較偏西洋系。",
     tags:["Disney","PIXAR","MARVEL","哈利波特"] },
-  { name:"グッスマくじ", name_zh:"Good Smile Kuji", company:"Good Smile Company", domain:"goodsmile.com",
+  { name:"グッスマくじ", name_zh:"Good Smile 賞", company:"Good Smile Company", domain:"goodsmile.com",
     url:"https://kuji.goodsmile.com/", url2:"https://kuji.goodsmile.com/en/", url2_label:"英文版",
     twitter:"@GOODSMILEKUJI", twitter_url:"https://x.com/GOODSMILEKUJI",
     desc:"Good Smile 旗下，景品品質高，近年成長快速，初音未來、葬送的芙莉蓮、Persona 常見。",
     tags:["初音未來","排球少年","Persona","葬送的芙莉蓮"] },
-  { name:"コトブキヤくじ", name_zh:"壽屋 Kuji", company:"Kotobukiya", domain:"kotobukiya.co.jp",
+  { name:"コトブキヤくじ", name_zh:"壽屋 賞", company:"Kotobukiya", domain:"kotobukiya.co.jp",
     url:"https://kuji.kotobukiya.co.jp/",
     twitter:"@kotobukiya_kuji", twitter_url:"https://x.com/kotobukiya_kuji",
     desc:"壽屋旗下，模型品質較高，偏向收藏玩家，線上抽獎模式完善。",
     tags:["模型系","收藏向","線上抽"] },
-  { name:"エニマイくじ", name_zh:"Anymy Kuji", company:"Anymy", domain:"anymykuji.com",
+  { name:"エニマイくじ", name_zh:"Anymy 賞", company:"Anymy", domain:"anymykuji.com",
     url:"https://anymykuji.com/",
     twitter:"@Anymy_info", twitter_url:"https://x.com/Anymy_info",
     desc:"新興品牌，近期開始與葬送的芙莉蓮等熱門作品合作，成長中。",
     tags:["葬送的芙莉蓮","新興品牌"] },
-  { name:"くじメイト", name_zh:"Kujimate（Animate）", company:"Animate", domain:"kujimate.com",
+  { name:"くじメイト", name_zh:"Kujimate（Animate 旗下）", company:"Animate", domain:"kujimate.com",
     url:"https://kujimate.com/",
     twitter:"@kujimate", twitter_url:"https://x.com/kujimate",
     desc:"Animate 經營，幾乎全線上抽，女性向作品比例高，BL/乙女常見。",
@@ -82,12 +85,12 @@ const BRANDS = [
     twitter:"@minnanokuji", twitter_url:"https://x.com/minnanokuji",
     desc:"FuRyu 推出，女性向動漫比例高，SSS 系列景品設計精緻，品質口碑佳。",
     tags:["女性向","SSS系列","FuRyu"] },
-  { name:"タイトーくじ", name_zh:"TAITO Kuji", company:"Taito", domain:"taito.co.jp",
+  { name:"タイトーくじ", name_zh:"TAITO 賞", company:"Taito", domain:"taito.co.jp",
     url:"https://www.taito.co.jp/taitokuji",
     twitter:"@Taito_Toys", twitter_url:"https://x.com/Taito_Toys",
     desc:"動漫、遊戲作品為主，偶爾推出大型模型獎品，全家便利店為主要通路。",
     tags:["動漫","遊戲","全家便利店"] },
-  { name:"セガラッキーくじ", name_zh:"SEGA Lucky Kuji", company:"Sega", domain:"sega.co.jp",
+  { name:"セガラッキーくじ", name_zh:"SEGA 幸運賞", company:"Sega", domain:"sega.co.jp",
     url:"https://segaplaza.jp/lp/lottery/",
     twitter:"@SegaPrize", twitter_url:"https://x.com/SegaPrize",
     desc:"SEGA 旗下，名偵探柯南、藍色監獄、LoveLive 等作品常見，景品偏向 SEGA PRIZE 風格。",
@@ -102,7 +105,7 @@ const BRANDS = [
     twitter:"@drawdraw_jp", twitter_url:"https://x.com/drawdraw_jp",
     desc:"線上くじ平台，品項多元，常見熱門動漫 IP 合作。",
     tags:["線上","動漫"] },
-  { name:"くじ引き堂", name_zh:"くじ引き堂", company:"Kujibikido", domain:"kujibikido.com",
+  { name:"くじ引き堂", name_zh:"抽獎堂", company:"Kujibikido", domain:"kujibikido.com",
     url:"https://kujibikido.com/",
     twitter:"@kujibikido", twitter_url:"https://x.com/kujibikido",
     desc:"線上くじ平台，商品種類廣，定期推出新系列。",
@@ -117,7 +120,7 @@ const BRANDS = [
     twitter_url:"https://x.com/sanrioatarikuji",
     desc:"三麗鷗自家授權，Hello Kitty、大耳狗、布丁狗等全線角色，設計風格統一精緻。",
     tags:["Hello Kitty","大耳狗","布丁狗","Cinnamoroll"] },
-  { name:"カプコンくじ", name_zh:"Capcom Kuji", company:"Capcom", domain:"capcom.co.jp",
+  { name:"カプコンくじ", name_zh:"Capcom 賞", company:"Capcom", domain:"capcom.co.jp",
     url:"https://www.capcom.co.jp/", twitter:"@Capcom_capkuji",
     twitter_url:"https://x.com/Capcom_capkuji",
     desc:"Capcom 官方授權，魔物獵人、惡靈古堡、快打旋風等遊戲 IP 為主。",
@@ -129,7 +132,7 @@ const IP_MAP = {
   "ワンピース":    { zh:"航海王",  official:"https://one-piece.com/news/index.html",   twitter:"https://x.com/OPspoiler" },
   "ドラゴンボール": { zh:"七龍珠",  official:"https://dragon-ball-official.com/news/",  twitter:"https://x.com/DB_official_jp" },
   "REBORN!":     { zh:"REBORN!", official:"https://khreborn-anime.jp/",              twitter:"https://x.com/khreborn_anime" },
-  "ちいかわ":     { zh:"吉伊卡哇", official:"https://chiikawamarket.jp/blogs/news",    twitter:"https://x.com/anime_chiikawa" },
+  "ちいかわ":     { zh:"吉伊卡哇", official:"https://chiikawa-online.jp/",            twitter:"https://x.com/anime_chiikawa" },
   "ジョジョ":     { zh:"JOJO",    official:"https://jojo-portal.com/news/",           twitter:"https://x.com/araki_jojo" },
 };
 
@@ -321,11 +324,15 @@ function jumpToCalMonth(key) {
 }
 
 const BRAND_DOT = {
-  "一番くじ":     "ichiban",
-  "みんなのくじ":  "minna",
-  "Happyくじ":   "happy",
-  "グッスマくじ":  "gsm",
-  "コトブキヤくじ": "koto",
+  "一番くじ":       "ichiban",
+  "みんなのくじ":    "minna",
+  "Happyくじ":     "happy",
+  "グッスマくじ":    "gsm",
+  "コトブキヤくじ":  "koto",
+  "セガラッキーくじ": "sega",
+  "タイトーくじ":    "taito",
+  "エニマイくじ":    "anymy",
+  "くじ引き堂":     "bikido",
 };
 function brandDot(brand) {
   return BRAND_DOT[brand] || "other";
@@ -422,6 +429,10 @@ function renderCalGrid(container) {
       <span><div class="cal-dot happy"></div>Happyくじ</span>
       <span><div class="cal-dot gsm"></div>グッスマくじ</span>
       <span><div class="cal-dot koto"></div>コトブキヤくじ</span>
+      <span><div class="cal-dot sega"></div>セガラッキーくじ</span>
+      <span><div class="cal-dot taito"></div>タイトーくじ</span>
+      <span><div class="cal-dot anymy"></div>エニマイくじ</span>
+      <span><div class="cal-dot bikido"></div>くじ引き堂</span>
       <span><div class="cal-dot other"></div>その他</span>
     </div>
   `;
