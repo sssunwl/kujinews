@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T11:41:44.830834+09:00",
+  "generated_at": "2026-06-08T11:48:22.099743+09:00",
   "months": [
     {
       "key": "2013-07",
@@ -1363,18 +1363,6 @@
           "price": null,
           "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=145",
           "image_url": null
-        },
-        {
-          "id": "min_145",
-          "title": "フリューくじ　ジュラシック・ワールド／復活の大地",
-          "brand": "みんなのくじ",
-          "url": "https://kujimap.com/minkuji/min_145",
-          "month_key": "2025-07",
-          "ip_tags": [],
-          "date": "2025-07-26",
-          "price": null,
-          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=145",
-          "image_url": null
         }
       ]
     },
@@ -1412,15 +1400,15 @@
           "image_url": null
         },
         {
-          "id": "min_143",
-          "title": "フリューくじ 「刀剣乱舞ONLINE　～ぬーどるストッパーの陣 其ノ六～」",
+          "id": "min_144",
+          "title": "フリューくじ　バック・トゥ・ザ・フューチャー",
           "brand": "みんなのくじ",
-          "url": "https://kujimap.com/minkuji/min_143",
+          "url": "https://kujimap.com/minkuji/min_144",
           "month_key": "2025-10",
           "ip_tags": [],
-          "date": "2025-10-18",
+          "date": "2025-10-24",
           "price": null,
-          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=143",
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=144",
           "image_url": null
         },
         {
@@ -1518,6 +1506,18 @@
           "date": "2026-01-17",
           "price": null,
           "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=149",
+          "image_url": null
+        },
+        {
+          "id": "min_148",
+          "title": "フリューくじ 刀剣乱舞ONLINE　御伴散歩　～ぽちくじ～",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_148",
+          "month_key": "2026-01",
+          "ip_tags": [],
+          "date": "2026-01-24",
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=148",
           "image_url": null
         },
         {
@@ -1657,17 +1657,6 @@
       "key": "2026-05",
       "label": "2026年5月",
       "items": [
-        {
-          "id": "sousaishojoteien5",
-          "title": "コトブキヤくじ 創彩少女庭園 くりまろ＆創彩フレンズ ～5周年だよ全員集合♪～",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/sousaishojoteien5/",
-          "month_key": "2026-05",
-          "ip_tags": [],
-          "date": "2026-05-06",
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/sousaishojoteien5/"
-        },
         {
           "id": "trinity-7",
           "title": "コトブキヤくじ トリニティセブン",
@@ -1859,6 +1848,18 @@
           "date": "2026-06-13",
           "price": null,
           "official_url": "https://1kuji.com/products/db_ex11",
+          "image_url": null
+        },
+        {
+          "id": "min_151",
+          "title": "フリューくじ　アニメ「ハイキュー!!」　グッズコレクション2",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_151",
+          "month_key": "2026-06",
+          "ip_tags": [],
+          "date": "2026-06-13",
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=151",
           "image_url": null
         },
         {
