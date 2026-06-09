@@ -1,6 +1,31 @@
 {
   "ワンピース": [
     {
+      "title": "「ワンピース“大海賊時代”展」が7月4日(土)より韓国の済州島にて開催",
+      "title_zh": "「海賊王『大海賊時代』展覽」將於7月4日（週六）在韓國濟州島舉辦",
+      "url": "https://one-piece.com/news/79925/index.html"
+    },
+    {
+      "title": "バンプレストから「Paldolce collection チョッパーとベポとハートの海賊団」が登場",
+      "title_zh": "Banpresto 現已發售“Paldolce 系列 Chopper、Bepo 和 Heart Pirates”",
+      "url": "https://one-piece.com/news/79924/index.html"
+    },
+    {
+      "title": "バンプレストから「ゴムひも付きぬいぐるみ～チョッパーピンク帽子ver.～」が登場",
+      "title_zh": "Banpresto 發售“彈力繩毛絨玩具～Chopper 粉紅色帽子 ver.～”",
+      "url": "https://one-piece.com/news/79837/index.html"
+    },
+    {
+      "title": "バンプレストの「ワールドコレクタブルフィギュア」シリーズに「親子の血筋III」が登場",
+      "title_zh": "《親子血統 III》現已進駐 Banpresto 的「世界收藏人物」系列",
+      "url": "https://one-piece.com/news/79836/index.html"
+    },
+    {
+      "title": "バンプレストの「Grandista」シリーズにジュエリー・ボニーが登場",
+      "title_zh": "珠寶 Bonnie 出現在 Banpresto 的“Grandista”系列中",
+      "url": "https://one-piece.com/news/79835/index.html"
+    },
+    {
       "title": "麦わらストアに「ノスタルジックシリーズ」の新商品が登場",
       "title_zh": "「懷舊系列」新品現已登陸麥原店",
       "url": "https://one-piece.com/news/79927/index.html"
@@ -49,34 +74,24 @@
       "title": "USJ「ワンピース・プレミア・サマー 2026」アトラクション詳細＆ビジュアルを公開",
       "title_zh": "USJ“One Piece Premier Summer 2026”景點詳細資訊和視覺效果發布",
       "url": "https://one-piece.com/news/79937/index.html"
-    },
-    {
-      "title": "フィギュアページに「赤髪海賊団」のアイテムを追加！",
-      "title_zh": "圖頁追加「紅髮海賊團」商品！",
-      "url": "https://one-piece.com/news/79870/index.html"
-    },
-    {
-      "title": "「ONE PIECE DAY’26」チケット抽選申込開始&来場者特典の一部を公開",
-      "title_zh": "「ONE PIECE DAY’26」門票抽籤申請開始&部分遊客福利發布",
-      "url": "https://one-piece.com/news/79896/index.html"
-    },
-    {
-      "title": "『ONE PIECE』の名シーンを立体再現した「プチラマシリーズ」から新作登場",
-      "title_zh": "隆重介紹以 3D 方式再現《海賊王》中著名場景的「Petitrama 系列」新產品。",
-      "url": "https://one-piece.com/news/79843/index.html"
-    },
-    {
-      "title": "『ONE PIECE』原作イラスト使用の6月バースデイ商品が登場",
-      "title_zh": "使用《ONE PIECE》原創插畫的六月生日商品現已上市",
-      "url": "https://one-piece.com/news/79786/index.html"
-    },
-    {
-      "title": "バンプレスト「めちゃもふぐっとぬいぐるみ」にメリー号の船首が登場",
-      "title_zh": "梅里號的弓出現在 Banpresto 的“Mechamofugutto 毛絨玩具”中",
-      "url": "https://one-piece.com/news/79816/index.html"
     }
   ],
   "ドラゴンボール": [
+    {
+      "title": "ウィークリー☆キャラクター紹介！第259回目はTVスペシャル『ドラゴンボールZ たったひとりの最終決戦〜フリーザに挑んだZ戦士 孫悟空の父〜』の「カナッサ星人」！ウィークリー☆キャラクター紹介！COLUMNS2026.06.09",
+      "title_zh": "每週☆人物介紹！第259集是電視特輯《七龍珠Z 唯一的最終戰 孫悟空的父親，挑戰弗力札的Z戰士》中的「外星人卡納薩」！每週☆人物介紹！專欄2026.06.09",
+      "url": "https://dragon-ball-official.com/news/01_4239.html"
+    },
+    {
+      "title": "[鳥山明ほぼ全仕事] 1日おきに更新24時間限定公開！　2026/06/09鳥山明ほぼ全仕事COLUMNS2026.06.09",
+      "title_zh": "【鳥山明幾乎全部作品】隔日更新，24小時開放！　2026/06/09 鳥山明 幾乎全部作品 COLUMNS2026.06.09",
+      "url": "https://dragon-ball-official.com/news/01_4246.html"
+    },
+    {
+      "title": "【6月8日（月）】「Weekly Dragonball News」配信！Weekly Dragonball Newsドラゴンボール超SOLID EDGE WORKSバンプレストBANDAI SPIRITSアミューズメント景品最強ジャンプバンダイガシャポンHGドラゴンボール一番くじDBSCGHistory BoxレジェンズCOLUMNS2026.06.08",
+      "title_zh": "【6月8日星期一】《七龍珠週刊》發售！每週龍珠新聞 七龍珠 Super SOLID EDGE WORKS Banpresto BANDAI SPIRITS 娛樂獎品 最強跳躍 萬代扭蛋 HG 龍珠 一番九 DBSCG歷史盒子傳奇專欄2026.06.08",
+      "url": "https://dragon-ball-official.com/news/01_4249.html"
+    },
     {
       "title": "『History Box』シリーズに「ミスター・サタン」が登場！ドラゴンボールZHistory Boxミスター・サタンバンプレストBANDAI SPIRITSアミューズメント景品FIGURE2026.06.08",
       "title_zh": "「撒旦先生」出現在「歷史盒子」系列中！七龍珠Z歷史盒子 撒旦先生 Banpresto BANDAI SPIRITS 遊藝獎品手辦2026.06.08",
@@ -121,21 +136,6 @@
       "title": "【6月1日（月）】「Weekly Dragonball News」配信！Weekly Dragonball Newsアミューズメント景品ドラゴンボール ゲキシン スクアドラS.H.Figuarts最強ジャンプDBSCGドラゴンボールスーパーダイバーズCOLUMNS2026.06.01",
       "title_zh": "【6月1日星期一】《七龍珠新聞週刊》發售！每週龍珠新聞 娛樂獎品 七龍珠 Gexin Squadra S.H.Figuarts 最強跳躍 DBSCG 七龍珠超潛水員 COLUMNS2026.06.01",
       "url": "https://dragon-ball-official.com/news/01_4234.html"
-    },
-    {
-      "title": "『ドラゴンボールZ』より「孫悟飯〈Z戦士〉（初回限定〈Z戦士〉集結台座A付属版）」がS.H.Figuartsに登場！ドラゴンボールZ孫悟飯TAMASHII NATIONSS.H.FiguartsFIGURE2026.05.29",
-      "title_zh": "《七龍珠Z》中的「孫悟飯<Z戰士>(初版限定<Z戰士>收集底座A附贈版)」現已在S.H.Figuarts發售！七龍珠 Z 兒子悟飯 TAMASHII NATIONSS.H.Figuarts圖2026.05.29",
-      "url": "https://dragon-ball-official.com/news/01_4232.html"
-    },
-    {
-      "title": "「ドラゴンボール DUAL BURST」が発売決定！2026年7月よりガシャポン®自販機シリーズから順次登場予定!!バンダイガシャポンFIGURE2026.05.29",
-      "title_zh": "《七龍珠DUAL BURST》即將發售！預定自2026年7月起從Gashapon®自動販賣機系列依序發售！ ！萬代扭蛋手辦2026.05.29",
-      "url": "https://dragon-ball-official.com/news/01_4213.html"
-    },
-    {
-      "title": "「びっくらたまご ドラゴンボールZ～激闘編～」が発売開始!!ドラゴンボールZ雑貨GOODS2026.05.28",
-      "title_zh": "《美玉子 龍珠Z ～激戰版～》發售中！ ！七龍珠Z雜貨GOODS2026.05.28",
-      "url": "https://dragon-ball-official.com/news/01_4225.html"
     }
   ],
   "REBORN!": [
@@ -146,7 +146,7 @@
     },
     {
       "title": "アニメ『家庭教師ヒットマンREBORN!』公式オンラインショップOPEN！20th ANNIVERSARYグッズ も販売！",
-      "title_zh": "動畫《家庭教師殺手 REBORN!》官方網路商店開幕！ 20th ANNIVERSARY 商品也正在販售！",
+      "title_zh": "動畫《家庭教師殺手 REBORN!》官方網路商店開幕！ 20週年紀念商品也正在販售！",
       "url": "https://khreborn-anime.jp/news/75/"
     },
     {
@@ -248,7 +248,7 @@
     },
     {
       "title": "荒木飛呂彦の初連載作『魔少年ビーティー』のその後を、西尾維新×出水ぽすかの最強タッグが描く新たな〝ビーティー″が再びウルトラジャンプに登場！",
-      "title_zh": "繼荒木飛呂彥首部連載作品《魔法少年貝蒂》之後，由西尾維信和出水Posuka最強團隊繪製的新《貝蒂》在Ultra Jump回歸！",
+      "title_zh": "繼荒木飛呂彥首部連載作品《魔法小子貝蒂》之後，由西尾維信和出水Posuka最強團隊繪製的新《貝蒂》在《Ultra Jump》中回歸！",
       "url": "https://jojo-portal.com/news/comics/575/"
     }
   ]
