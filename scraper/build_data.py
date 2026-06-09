@@ -84,6 +84,44 @@ def scrape_detail(url: str) -> dict:
     return {"date": date, "price": price, "official_url": official_url, "image_url": image_url}
 
 
+_SUPPORTED_IMG_DOMAINS = ["1kuji.com", "h-kuji.com", "charahiroba.com", "kujibikido.com"]
+_GENERIC_IMGS = ["ogp.jpg", "ogp.png", "ogp_new", "default_ogp", "opengraph", "banner.png"]
+
+
+def get_official_image(official_url: str) -> Optional[str]:
+    """Get product-specific image from official page. Only processes known-accessible domains."""
+    if not official_url or not any(d in official_url for d in _SUPPORTED_IMG_DOMAINS):
+        return None
+    soup = get(official_url)
+    if not soup:
+        return None
+
+    # 1kuji.com: look for top_banner img in assets.1kuji.com
+    if "1kuji.com" in official_url:
+        for img in soup.find_all("img"):
+            src = img.get("src", "")
+            if "top_banner" in src and "assets.1kuji.com" in src:
+                return src if src.startswith("http") else "https:" + src
+
+    # h-kuji.com / kujibikido.com: og:image is product-specific
+    if "h-kuji.com" in official_url or "kujibikido.com" in official_url:
+        og = soup.find("meta", property="og:image")
+        if og:
+            src = og.get("content", "")
+            if src and not any(g in src for g in _GENERIC_IMGS):
+                return src
+
+    # charahiroba.com (みんなのくじ): lazy-load data-src images
+    if "charahiroba.com" in official_url:
+        for img in soup.find_all("img"):
+            for attr in ("data-src", "src"):
+                src = img.get(attr, "")
+                if src and "file.charahiroba.com" in src and "trans/contents" in src:
+                    return "https:" + src if src.startswith("//") else src
+
+    return None
+
+
 def scrape_month(year: int, month: int, brand_label: str, brand_slug: str) -> list[dict]:
     url = f"{BASE}/{brand_slug}/{brand_slug}_{year}{month:02d}"
     soup = get(url)
@@ -116,10 +154,11 @@ def scrape_month(year: int, month: int, brand_label: str, brand_slug: str) -> li
 
 
 def _make_item(uid: str, title: str, url: str, brand: str,
-               date: Optional[str] = None, official_url: Optional[str] = None) -> dict:
+               date: Optional[str] = None, official_url: Optional[str] = None,
+               image_url: Optional[str] = None) -> dict:
     return {"id": uid, "title": title, "brand": brand, "url": url,
             "month_key": date[:7] if date else None, "ip_tags": tag_ip(title),
-            "date": date, "price": None, "official_url": official_url}
+            "date": date, "price": None, "official_url": official_url, "image_url": image_url}
 
 
 def scrape_happykuji() -> list[dict]:
@@ -149,96 +188,25 @@ def scrape_happykuji() -> list[dict]:
             continue
         seen.add(uid)
         items.append(_make_item(uid, title, href, "Happyくじ", date, href))
-    return items
-
-
-def scrape_segaluck(max_recent: int = 30) -> list[dict]:
-    """Scrape セガラッキーくじ from kujimap.com/segaluck (newest = last in list)."""
-    print("\n[セガラッキーくじ] listing")
-    soup = get(f"{BASE}/segaluck")
-    if not soup:
-        return []
-    all_found: list[dict] = []
-    seen: set[str] = set()
-    for a in soup.find_all("a", href=True):
-        href = a["href"]
-        if not re.search(r"/segaluck/sega_", href):
-            continue
-        title = a.get_text(strip=True)
-        if not title or len(title) < 4:
-            continue
-        if href.startswith("/"):
-            href = BASE + href
-        uid = href.split("/")[-1]
-        if uid in seen:
-            continue
-        seen.add(uid)
-        all_found.append({
-            "id": uid, "title": title, "brand": "セガラッキーくじ",
-            "url": href, "month_key": None, "ip_tags": tag_ip(title),
-            "date": None, "price": None, "official_url": None, "image_url": None,
-        })
-    items = all_found[-max_recent:]  # newest items are last
-    print(f"  enriching {len(items)} セガラッキーくじ items...")
+    # Enrich og:image from each h-kuji.com product page
     for item in items:
-        detail = scrape_detail(item["url"])
-        item["date"] = detail.get("date")
-        item["month_key"] = item["date"][:7] if item.get("date") else None
-        item["official_url"] = detail.get("official_url")
-        item["image_url"] = detail.get("image_url")
+        img = get_official_image(item["official_url"])
+        if img:
+            item["image_url"] = img
         time.sleep(0.3)
     return items
 
 
-def scrape_taito(max_recent: int = 30) -> list[dict]:
-    """Scrape タイトーくじ from kujimap.com/honpo (newest = last in list)."""
-    print("\n[タイトーくじ] listing")
-    soup = get(f"{BASE}/honpo")
-    if not soup:
-        return []
-    all_found: list[dict] = []
-    seen: set[str] = set()
-    for a in soup.find_all("a", href=True):
-        href = a["href"]
-        if not re.search(r"/honpo/honpo_", href):
-            continue
-        title = a.get_text(strip=True)
-        if not title or len(title) < 4:
-            continue
-        if href.startswith("/"):
-            href = BASE + href
-        uid = href.split("/")[-1]
-        if uid in seen:
-            continue
-        seen.add(uid)
-        all_found.append({
-            "id": uid, "title": title, "brand": "タイトーくじ",
-            "url": href, "month_key": None, "ip_tags": tag_ip(title),
-            "date": None, "price": None, "official_url": None, "image_url": None,
-        })
-    items = all_found[-max_recent:]  # newest items are last
-    print(f"  enriching {len(items)} タイトーくじ items...")
-    for item in items:
-        detail = scrape_detail(item["url"])
-        item["date"] = detail.get("date")
-        item["month_key"] = item["date"][:7] if item.get("date") else None
-        item["official_url"] = detail.get("official_url")
-        item["image_url"] = detail.get("image_url")
-        time.sleep(0.3)
-    return items
-
-
-def scrape_anymykuji() -> list[dict]:
-    """Scrape エニマイくじ from kujimap.com/others (anymy_ prefix)."""
-    print("\n[エニマイくじ] listing")
-    soup = get(f"{BASE}/others")
+def _scrape_kujimap_listing(path: str, link_pattern: str, brand: str) -> list[dict]:
+    """共用：從 kujimap 列表頁抓出候選項目（不含日期）。"""
+    soup = get(f"{BASE}/{path}")
     if not soup:
         return []
     items = []
     seen: set[str] = set()
     for a in soup.find_all("a", href=True):
         href = a["href"]
-        if not re.search(r"/others/anymy", href):
+        if not re.search(link_pattern, href):
             continue
         title = a.get_text(strip=True)
         if not title or len(title) < 4:
@@ -250,19 +218,61 @@ def scrape_anymykuji() -> list[dict]:
             continue
         seen.add(uid)
         items.append({
-            "id": uid, "title": title, "brand": "エニマイくじ",
+            "id": uid, "title": title, "brand": brand,
             "url": href, "month_key": None, "ip_tags": tag_ip(title),
             "date": None, "price": None, "official_url": None, "image_url": None,
         })
-    print(f"  enriching {len(items)} エニマイくじ items...")
+    return items
+
+
+def _month_hint_from_title(title: str) -> Optional[str]:
+    """詳情頁沒有日期時的備案：嘗試從標題裡的「年.月」線索推算 month_key
+    （例：「クロミ当りくじ（2022.02）」→ "2022-02"）。只接受「年+月」都明確的格式，
+    避免只有年份時用猜的月份污染日曆顯示。"""
+    m = re.search(r"(20\d\d)[.．](\d{1,2})", title)
+    if m and 1 <= int(m.group(2)) <= 12:
+        return f"{m.group(1)}-{int(m.group(2)):02d}"
+    return None
+
+
+def _enrich_all(items: list[dict], brand: str) -> list[dict]:
+    """走訪每個項目的 KujiMap 詳情頁拿真實日期/官網/圖片 —— 與 みんなのくじ・エニマイくじ
+    用的是同一套手法。不在這裡篩選新舊：enrich 後每個項目會有真實 date，
+    自然會被分進正確的月份分類，不會再落入「未定」。"""
+    print(f"  enriching {len(items)} {brand} items...")
     for item in items:
         detail = scrape_detail(item["url"])
         item["date"] = detail.get("date")
-        item["month_key"] = item["date"][:7] if item.get("date") else None
+        item["month_key"] = item["date"][:7] if item.get("date") else _month_hint_from_title(item["title"])
         item["official_url"] = detail.get("official_url")
         item["image_url"] = detail.get("image_url")
+        if not item["image_url"] and item.get("official_url"):
+            item["image_url"] = get_official_image(item["official_url"])
+            if item["image_url"]:
+                time.sleep(0.3)
         time.sleep(0.3)
     return items
+
+
+def scrape_segaluck() -> list[dict]:
+    """Scrape セガラッキーくじ from kujimap.com/segaluck."""
+    print("\n[セガラッキーくじ] listing")
+    items = _scrape_kujimap_listing("segaluck", r"/segaluck/sega_", "セガラッキーくじ")
+    return _enrich_all(items, "セガラッキーくじ")
+
+
+def scrape_taito() -> list[dict]:
+    """Scrape タイトーくじ from kujimap.com/honpo."""
+    print("\n[タイトーくじ] listing")
+    items = _scrape_kujimap_listing("honpo", r"/honpo/honpo_", "タイトーくじ")
+    return _enrich_all(items, "タイトーくじ")
+
+
+def scrape_anymykuji() -> list[dict]:
+    """Scrape エニマイくじ from kujimap.com/others (anymy_ prefix)."""
+    print("\n[エニマイくじ] listing")
+    items = _scrape_kujimap_listing("others", r"/others/anymy", "エニマイくじ")
+    return _enrich_all(items, "エニマイくじ")
 
 
 def scrape_kujibikido(max_items: int = 20) -> list[dict]:
@@ -302,36 +312,23 @@ def scrape_kujibikido(max_items: int = 20) -> list[dict]:
         })
         if len(items) >= max_items:
             break
+    # Enrich og:image from each LP page
+    for item in items:
+        img = get_official_image(item["url"])
+        if img:
+            item["image_url"] = img
+        time.sleep(0.35)
     return items
 
 
 def scrape_sanrio() -> list[dict]:
-    """Scrape サンリオ当りくじ items from kujimap/others (sanrio_ prefix)."""
+    """Scrape サンリオ当りくじ items from kujimap/others (sanrio_ prefix).
+    KujiMap 上的サンリオ列表其實是品牌 2012~現在的完整歷史檔案（並非僅近期上架），
+    舊版只列標題、從不 enrich，所以全數變成「未定」。改走 enrich 後每個項目會有
+    真實日期，會像 みんなのくじ 一樣分別落入各自的歷史月份分類，不再是一整片未定。"""
     print("\n[サンリオ当りくじ] listing")
-    soup = get(f"{BASE}/others")
-    if not soup:
-        return []
-    items = []
-    seen: set[str] = set()
-    for a in soup.find_all("a", href=True):
-        href = a["href"]
-        if not re.search(r"/others/sanrio", href):
-            continue
-        title = a.get_text(strip=True)
-        if not title or len(title) < 4:
-            continue
-        if href.startswith("/"):
-            href = BASE + href
-        uid = href.split("/")[-1]
-        if uid in seen:
-            continue
-        seen.add(uid)
-        items.append({
-            "id": uid, "title": title, "brand": "サンリオ当りくじ",
-            "url": href, "month_key": None, "ip_tags": tag_ip(title),
-            "date": None, "price": None, "official_url": None, "image_url": None,
-        })
-    return items
+    items = _scrape_kujimap_listing("others", r"/others/sanrio", "サンリオ当りくじ")
+    return _enrich_all(items, "サンリオ当りくじ")
 
 
 def scrape_goodsmile() -> list[dict]:
@@ -401,6 +398,10 @@ def enrich_dates(items: list[dict]) -> list[dict]:
         item["price"] = detail.get("price")
         item["official_url"] = detail.get("official_url")
         item["image_url"] = detail.get("image_url")
+        if not item["image_url"] and item.get("official_url"):
+            item["image_url"] = get_official_image(item["official_url"])
+            if item["image_url"]:
+                time.sleep(0.3)
         time.sleep(0.4)
     return items
 
@@ -471,6 +472,10 @@ def main() -> None:
         if not item["official_url"]:
             item["official_url"] = detail.get("official_url")
         item["image_url"] = detail.get("image_url")
+        if not item["image_url"] and item.get("official_url"):
+            item["image_url"] = get_official_image(item["official_url"])
+            if item["image_url"]:
+                time.sleep(0.3)
         time.sleep(0.3)
     all_items += minkuji_new
 

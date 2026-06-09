@@ -565,24 +565,24 @@ function itemHTML(item, highlight = false) {
   const panelId = `ep-${uid}`;
 
   const subLine = zh
-    ? `<a class="kuji-jp-link" href="${url}" target="_blank" rel="noopener">${escHtml(item.title)} ↗</a>`
+    ? `<a class="kuji-jp-link" href="${url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escHtml(item.title)} ↗</a>`
     : "";
 
   return `
     <div class="kuji-wrap">
-      <div class="kuji-item${highlight ? " today-release" : ""}">
+      <div class="kuji-item${highlight ? " today-release" : ""}" onclick="toggleExpand('${panelId}',this.querySelector('.kuji-expand-btn'))">
         <span class="kuji-date">${dayLabel}</span>
         <span class="kuji-title-wrap">
-          <a class="kuji-title-main" href="${url}" target="_blank" rel="noopener">${escHtml(displayTitle)}</a>
+          <span class="kuji-title-main">${escHtml(displayTitle)}</span>
           ${subLine ? `<span class="kuji-title-sub">${subLine}</span>` : ""}
         </span>
         <span class="kuji-brand">${escHtml(item.brand)}</span>
-        <button class="kuji-expand-btn" onclick="toggleExpand('${panelId}',this)" title="展開">▾</button>
+        <button class="kuji-expand-btn" title="展開">▾</button>
       </div>
       <div class="kuji-expand-panel hidden" id="${panelId}">
         ${hasImage
-          ? `<img src="${escHtml(item.image_url)}" alt="${escHtml(displayTitle)}" loading="lazy">`
-          : `<a class="kuji-view-btn" href="${url}" target="_blank" rel="noopener">→ 點此查看官網</a>`}
+          ? `<a href="${url}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><img src="${escHtml(item.image_url)}" alt="${escHtml(displayTitle)}" loading="lazy"></a>`
+          : `<a class="kuji-view-btn" href="${url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">→ 點此查看官網</a>`}
       </div>
     </div>`;
 }

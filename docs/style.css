@@ -178,7 +178,8 @@ header {
   border-radius: var(--radius); border: 1px solid var(--border);
   backdrop-filter: var(--blur);
   transition: all 0.25s;
-  cursor: default;
+  cursor: pointer;
+  user-select: none;
 }
 .kuji-item:hover {
   background: var(--surface-h);
