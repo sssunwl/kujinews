@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T11:52:59.088954+09:00",
+  "generated_at": "2026-06-11T11:59:35.669195+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6848,30 +6848,6 @@
           "image_url": null
         },
         {
-          "id": "shamanking3",
-          "title": "販売終了【再販】SHAMAN KING ふんばりくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/shamanking3/",
-          "month_key": "2026-06",
-          "ip_tags": [],
-          "date": "2026-06-09",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/shamanking3/",
-          "image_url": "https://kujibikido.com/lp/shamanking3/img/og.png"
-        },
-        {
-          "id": "date-a-live-k-bd",
-          "title": "賞品公開アニメ『デート・ア・ライブ』時崎狂三 お誕生日2026 オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/date-a-live-k-bd/",
-          "month_key": "2026-06",
-          "ip_tags": [],
-          "date": "2026-06-10",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/date-a-live-k-bd/",
-          "image_url": "https://kujibikido.com/lp/date-a-live-k-bd/img/og.png"
-        },
-        {
           "id": "bluearchive",
           "title": "賞品公開ブルーアーカイブ オンラインくじ",
           "brand": "くじ引き堂",
@@ -7302,6 +7278,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/keroro2",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10684/fe5f8973-34a9-4d91-ade8-4f2ce35a0a12.webp"
+        },
+        {
+          "id": "date-a-live-k-bd",
+          "title": "アニメ『デート・ア・ライブ』時崎狂三 お誕生日2026 オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/date-a-live-k-bd/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-07",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/date-a-live-k-bd/",
+          "image_url": "https://kujibikido.com/lp/date-a-live-k-bd/img/og.png"
         },
         {
           "id": "no-6",
@@ -8420,6 +8408,18 @@
           "price": null,
           "official_url": "https://segaplaza.jp/lp/sakamotodays-sb_kuji/",
           "image_url": null
+        },
+        {
+          "id": "silentwitch_2",
+          "title": "企画決定【再販】『サイレント・ウィッチ 沈黙の魔女の隠しごと』オンラインくじ乞うご期待!!",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/silentwitch_2/",
+          "month_key": null,
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/silentwitch_2/",
+          "image_url": "https://kujibikido.com/lp/silentwitch_2/img/og.png"
         }
       ]
     }
