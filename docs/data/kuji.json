@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T11:58:16.639770+09:00",
+  "generated_at": "2026-06-13T11:52:05.147699+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6860,6 +6860,18 @@
           "image_url": null
         },
         {
+          "id": "urban-myth-dissolution-center-fabulous-online",
+          "title": "都市伝説解体センター Fabulousくじ【全国解体大巡廻 Ver】オンライン",
+          "brand": "グッスマくじ",
+          "url": "https://kuji.goodsmile.com/products/urban-myth-dissolution-center-fabulous-online/",
+          "month_key": "2026-06",
+          "ip_tags": [],
+          "date": "2026-06-12",
+          "price": null,
+          "official_url": "https://kuji.goodsmile.com/products/urban-myth-dissolution-center-fabulous-online/",
+          "image_url": null
+        },
+        {
           "id": "1bankuji_10680",
           "title": "一番くじ サッカー日本代表ver. ～最高の景色を2026～",
           "brand": "一番くじ",
@@ -7450,6 +7462,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/godzilla9",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10690/6f789874-5254-43f4-bc1a-b75af4f84630.webp"
+        },
+        {
+          "id": "zero-tsukaima_20th",
+          "title": "企画決定TVアニメ「ゼロの使い魔」20th Anniversary オンラインくじ第一弾",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/zero-tsukaima_20th/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-28",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/zero-tsukaima_20th/",
+          "image_url": "https://kujibikido.com/lp/zero-tsukaima_20th/img/og.png"
         },
         {
           "id": "1bankuji_10703",
@@ -8410,18 +8434,6 @@
           "price": null,
           "official_url": "https://segaplaza.jp/lp/sakamotodays-sb_kuji/",
           "image_url": null
-        },
-        {
-          "id": "silentwitch_2",
-          "title": "企画決定【再販】『サイレント・ウィッチ 沈黙の魔女の隠しごと』オンラインくじ乞うご期待!!",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/silentwitch_2/",
-          "month_key": null,
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/silentwitch_2/",
-          "image_url": "https://kujibikido.com/lp/silentwitch_2/img/og.png"
         }
       ]
     }
