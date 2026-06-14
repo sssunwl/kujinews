@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T11:52:05.147699+09:00",
+  "generated_at": "2026-06-14T12:08:08.691899+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7112,6 +7112,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/naruto10",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10659/89050eae-63cf-431f-918c-c9a10134e18e.webp"
+        },
+        {
+          "id": "anymy_23",
+          "title": "エニマイくじ 教育番組",
+          "brand": "エニマイくじ",
+          "url": "https://kujimap.com/others/anymy_23",
+          "month_key": "2026-06",
+          "ip_tags": [],
+          "date": "2026-06-26",
+          "price": null,
+          "official_url": null,
+          "image_url": null
         },
         {
           "id": "1bankuji_10675",
