@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T12:08:08.691899+09:00",
+  "generated_at": "2026-06-15T12:01:00.442154+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7554,6 +7554,18 @@
       "label": "2026年8月",
       "items": [
         {
+          "id": "1bankuji_10720",
+          "title": "一番くじ 進撃の巨人 ～選択と結果～",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10720",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-06-15",
+          "price": null,
+          "official_url": "https://1kuji.com/products/shingeki15",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10720/8980b568-120f-4eaa-a09e-5e2ed3b10541.webp"
+        },
+        {
           "id": "1bankuji_10694",
           "title": "一番くじ 日曜劇場「VIVANT」",
           "brand": "一番くじ",
@@ -7748,18 +7760,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/hxh11",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
-        },
-        {
-          "id": "1bankuji_10720",
-          "title": "一番くじ 進撃の巨人 ～選択と結果～",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10720",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://1kuji.com/products/shingeki15",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10720/8980b568-120f-4eaa-a09e-5e2ed3b10541.webp"
         }
       ]
     },
