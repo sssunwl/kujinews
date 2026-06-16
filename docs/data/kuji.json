@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T12:01:00.442154+09:00",
+  "generated_at": "2026-06-16T12:11:43.691408+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6922,54 +6922,6 @@
           "image_url": "https://file.charahiroba.com//img/trans/contents/17903_p_grthu3.jpg"
         },
         {
-          "id": "butaliver_2",
-          "title": "賞品公開電撃文庫『豚のレバーは加熱しろ』ジェスBirthdayくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/butaliver_2/",
-          "month_key": "2026-06",
-          "ip_tags": [],
-          "date": "2026-06-16",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/butaliver_2/",
-          "image_url": "https://kujibikido.com/lp/butaliver_2/img/og.png"
-        },
-        {
-          "id": "kuranika2",
-          "title": "賞品公開TVアニメ「クラスで２番目に可愛い女の子と友だちになった」オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/kuranika2/",
-          "month_key": "2026-06",
-          "ip_tags": [],
-          "date": "2026-06-16",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/kuranika2/",
-          "image_url": "https://kujibikido.com/lp/kuranika2/img/og.png"
-        },
-        {
-          "id": "you-zitsu4",
-          "title": "賞品公開ようこそ実力至上主義の教室へ オンラインくじ テーマパークver.",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/you-zitsu4/",
-          "month_key": "2026-06",
-          "ip_tags": [],
-          "date": "2026-06-16",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/you-zitsu4/",
-          "image_url": "https://kujibikido.com/lp/you-zitsu4/img/og.png"
-        },
-        {
-          "id": "awajima",
-          "title": "賞品公開TVアニメ「淡島百景」オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/awajima/",
-          "month_key": "2026-06",
-          "ip_tags": [],
-          "date": "2026-06-18",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/awajima/",
-          "image_url": "https://kujibikido.com/lp/awajima/img/og.png"
-        },
-        {
           "id": "ninjaslayer",
           "title": "ニンジャスレイヤー オンラインくじ",
           "brand": "くじ引き堂",
@@ -7042,6 +6994,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10686/4903db67-c518-42fa-886f-7f8df1254671.webp"
         },
         {
+          "id": "nakamura-kun",
+          "title": "賞品公開TVアニメーション「ガンバレ！中村くん！！」オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/nakamura-kun/",
+          "month_key": "2026-06",
+          "ip_tags": [],
+          "date": "2026-06-23",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/nakamura-kun/",
+          "image_url": "https://kujibikido.com/lp/nakamura-kun/img/og.png"
+        },
+        {
           "id": "sega_sonic-puyopuyo_kuji",
           "title": "セガ ラッキーくじ「ソニック＆ぷよぷよ」35周年",
           "brand": "セガラッキーくじ",
@@ -7052,6 +7016,30 @@
           "price": null,
           "official_url": "https://segaplaza.jp/lp/sonic-puyopuyo_kuji/",
           "image_url": null
+        },
+        {
+          "id": "shamanking4",
+          "title": "賞品公開【再販】SHAMAN KING ふんばりくじ 再び",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/shamanking4/",
+          "month_key": "2026-06",
+          "ip_tags": [],
+          "date": "2026-06-23",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/shamanking4/",
+          "image_url": "https://kujibikido.com/lp/shamanking4/img/og.png"
+        },
+        {
+          "id": "sidem_cw2",
+          "title": "賞品公開『アイドルマスター SideM』Cybernetics Wars 2 ～希望を繋ぐ解放者～ オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/sidem_cw2/",
+          "month_key": "2026-06",
+          "ip_tags": [],
+          "date": "2026-06-23",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/sidem_cw2/",
+          "image_url": "https://kujibikido.com/lp/sidem_cw2/img/og.png"
         },
         {
           "id": "sidem_cwz",
@@ -7392,6 +7380,30 @@
           "image_url": null
         },
         {
+          "id": "kuranika2",
+          "title": "TVアニメ「クラスで２番目に可愛い女の子と友だちになった」オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/kuranika2/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-14",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/kuranika2/",
+          "image_url": "https://kujibikido.com/lp/kuranika2/img/og.png"
+        },
+        {
+          "id": "you-zitsu4",
+          "title": "ようこそ実力至上主義の教室へ オンラインくじ テーマパークver.",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/you-zitsu4/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-14",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/you-zitsu4/",
+          "image_url": "https://kujibikido.com/lp/you-zitsu4/img/og.png"
+        },
+        {
           "id": "bungo_penguins",
           "title": "文豪ストレイドッグス ミニフィギュアくじ ～着ぐるみシリーズ ペンギンズ～",
           "brand": "くじ引き堂",
@@ -7476,18 +7488,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10690/6f789874-5254-43f4-bc1a-b75af4f84630.webp"
         },
         {
-          "id": "zero-tsukaima_20th",
-          "title": "企画決定TVアニメ「ゼロの使い魔」20th Anniversary オンラインくじ第一弾",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/zero-tsukaima_20th/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-28",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/zero-tsukaima_20th/",
-          "image_url": "https://kujibikido.com/lp/zero-tsukaima_20th/img/og.png"
-        },
-        {
           "id": "1bankuji_10703",
           "title": "一番くじ 鬼滅の刃 ～上弦の弐～",
           "brand": "一番くじ",
@@ -7558,6 +7558,18 @@
           "title": "一番くじ 進撃の巨人 ～選択と結果～",
           "brand": "一番くじ",
           "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10720",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-06-15",
+          "price": null,
+          "official_url": "https://1kuji.com/products/shingeki15",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10720/8980b568-120f-4eaa-a09e-5e2ed3b10541.webp"
+        },
+        {
+          "id": "comment-page-1#comment-5851",
+          "title": "一番くじ 進撃の巨人 ～選択と結果～",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10720/comment-page-1#comment-5851",
           "month_key": "2026-08",
           "ip_tags": [],
           "date": "2026-06-15",
@@ -7760,6 +7772,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/hxh11",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
+        },
+        {
+          "id": "comment-page-1#comment-5852",
+          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5852",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-29",
+          "price": null,
+          "official_url": "https://1kuji.com/products/hxh11",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
         }
       ]
     },
@@ -7772,18 +7796,6 @@
           "title": "一番くじ 幽☆遊☆白書 魔界の扉編",
           "brand": "一番くじ",
           "url": "https://kujimap.com/1bankuji/1bankuji_202609/1bankuji_10728",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-05-14",
-          "price": null,
-          "official_url": "https://1kuji.com/products/yuhaku4",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10728/ed6d6913-db34-4a8a-8546-2ccb19438184.webp"
-        },
-        {
-          "id": "comment-page-1#comment-5846",
-          "title": "一番くじ 幽☆遊☆白書 魔界の扉編",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202609/1bankuji_10728/comment-page-1#comment-5846",
           "month_key": "2026-09",
           "ip_tags": [],
           "date": "2026-05-14",
@@ -8020,6 +8032,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/gundam_ucs2",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10691/e18da818-dc0a-442c-901e-5b04d405092a.webp"
+        },
+        {
+          "id": "1bankuji_10787",
+          "title": "一番くじ アニメ カードキャプターさくら クリアカード編～Blessed collection～",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202611/1bankuji_10787",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://1kuji.com/products/sakura15",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10787/cca99264-dff7-4f3b-8101-d0978ef06e7f.webp"
         }
       ]
     },
@@ -8086,6 +8110,18 @@
           "price": null,
           "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=141",
           "image_url": "https://file.charahiroba.com//img/trans/contents/14888_p_grthu3.jpg"
+        },
+        {
+          "id": "min_156",
+          "title": "フリューくじ 「初音ミク ミクめくJKライフ〜かわいいフード巡り〜」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_156",
+          "month_key": null,
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=156",
+          "image_url": "https://file.charahiroba.com//img/trans/contents/18915_p_grthu3.jpg"
         },
         {
           "id": "min_89",
