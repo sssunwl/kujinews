@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T12:11:43.691408+09:00",
+  "generated_at": "2026-06-17T12:09:22.955082+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7018,18 +7018,6 @@
           "image_url": null
         },
         {
-          "id": "shamanking4",
-          "title": "賞品公開【再販】SHAMAN KING ふんばりくじ 再び",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/shamanking4/",
-          "month_key": "2026-06",
-          "ip_tags": [],
-          "date": "2026-06-23",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/shamanking4/",
-          "image_url": "https://kujibikido.com/lp/shamanking4/img/og.png"
-        },
-        {
           "id": "sidem_cw2",
           "title": "賞品公開『アイドルマスター SideM』Cybernetics Wars 2 ～希望を繋ぐ解放者～ オンラインくじ",
           "brand": "くじ引き堂",
@@ -7378,6 +7366,18 @@
           "price": null,
           "official_url": "https://kuji.kotobukiya.co.jp/lp/dreamclub/",
           "image_url": null
+        },
+        {
+          "id": "butaliver_2",
+          "title": "電撃文庫『豚のレバーは加熱しろ』ジェスBirthdayくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/butaliver_2/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-14",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/butaliver_2/",
+          "image_url": "https://kujibikido.com/lp/butaliver_2/img/og.png"
         },
         {
           "id": "kuranika2",
@@ -7909,7 +7909,7 @@
           "date": null,
           "price": null,
           "official_url": "https://1kuji.com/products/myhero47",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10705/e0872b1d-461c-411e-bffa-1e40a5206b61.png"
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10705/8352ac07-4433-42f3-8bfa-26da2c92f163.png"
         }
       ]
     },
