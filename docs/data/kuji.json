@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T12:09:22.955082+09:00",
+  "generated_at": "2026-06-18T12:06:20.822793+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6922,18 +6922,6 @@
           "image_url": "https://file.charahiroba.com//img/trans/contents/17903_p_grthu3.jpg"
         },
         {
-          "id": "ninjaslayer",
-          "title": "ニンジャスレイヤー オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/ninjaslayer/",
-          "month_key": "2026-06",
-          "ip_tags": [],
-          "date": "2026-06-18",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/ninjaslayer/",
-          "image_url": "https://kujibikido.com/lp/ninjaslayer/img/og.png"
-        },
-        {
           "id": "1bankuji_10642",
           "title": "一番くじ 学園アイドルマスター Part5",
           "brand": "一番くじ",
@@ -6992,18 +6980,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/hokuto-no-ken",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10686/4903db67-c518-42fa-886f-7f8df1254671.webp"
-        },
-        {
-          "id": "nakamura-kun",
-          "title": "賞品公開TVアニメーション「ガンバレ！中村くん！！」オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/nakamura-kun/",
-          "month_key": "2026-06",
-          "ip_tags": [],
-          "date": "2026-06-23",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/nakamura-kun/",
-          "image_url": "https://kujibikido.com/lp/nakamura-kun/img/og.png"
         },
         {
           "id": "sega_sonic-puyopuyo_kuji",
@@ -7076,6 +7052,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/rurinohouseki/",
           "image_url": "https://kujibikido.com/lp/rurinohouseki/img/og.png"
+        },
+        {
+          "id": "watanare_2",
+          "title": "賞品公開【再販】「わたしが恋人になれるわけないじゃん、ムリムリ!（※ムリじゃなかった!?）」くじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/watanare_2/",
+          "month_key": "2026-06",
+          "ip_tags": [],
+          "date": "2026-06-25",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/watanare_2/",
+          "image_url": "https://kujibikido.com/lp/watanare_2/img/og.png"
         },
         {
           "id": "1bankuji_10659",
@@ -7256,6 +7244,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10684/fe5f8973-34a9-4d91-ade8-4f2ce35a0a12.webp"
         },
         {
+          "id": "1bankuji_10689",
+          "title": "一番くじ 鬮破滅録カイジ くじを引くのが 気持ちのいい人生ってもんだろっ・・・！",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202607/1bankuji_10689",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-07",
+          "price": null,
+          "official_url": "https://1kuji.com/products/kaiji2",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10689/79da4b6b-0c9f-49a7-8d7c-fbf02dc12dee.gif"
+        },
+        {
           "id": "date-a-live-k-bd",
           "title": "アニメ『デート・ア・ライブ』時崎狂三 お誕生日2026 オンラインくじ",
           "brand": "くじ引き堂",
@@ -7414,6 +7414,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/bungo_penguins/",
           "image_url": "https://kujibikido.com/lp/bungo_penguins/img/og.png"
+        },
+        {
+          "id": "awajima",
+          "title": "TVアニメ「淡島百景」オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/awajima/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-16",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/awajima/",
+          "image_url": "https://kujibikido.com/lp/awajima/img/og.png"
         },
         {
           "id": "1bankuji_10688",
@@ -7750,18 +7762,6 @@
           "image_url": null
         },
         {
-          "id": "comment-page-1#comment-5848",
-          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5848",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-29",
-          "price": null,
-          "official_url": "https://1kuji.com/products/hxh11",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
-        },
-        {
           "id": "comment-page-1#comment-5849",
           "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
           "brand": "一番くじ",
@@ -7778,6 +7778,18 @@
           "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
           "brand": "一番くじ",
           "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5852",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-29",
+          "price": null,
+          "official_url": "https://1kuji.com/products/hxh11",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
+        },
+        {
+          "id": "comment-page-1#comment-5854",
+          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5854",
           "month_key": "2026-08",
           "ip_tags": [],
           "date": "2026-08-29",
@@ -7802,6 +7814,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/yuhaku4",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10728/ed6d6913-db34-4a8a-8546-2ccb19438184.webp"
+        },
+        {
+          "id": "1bankuji_10705",
+          "title": "一番くじ 僕のヒーローアカデミア -最高のヒーローになるまでの物語-",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202609/1bankuji_10705",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-12",
+          "price": null,
+          "official_url": "https://1kuji.com/products/myhero47",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10705/8352ac07-4433-42f3-8bfa-26da2c92f163.png"
         },
         {
           "id": "1bankuji_10718",
@@ -7898,18 +7922,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/theghostintheshell",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10736/855bd2e6-0e35-466f-ab5b-cc7da0979501.webp"
-        },
-        {
-          "id": "1bankuji_10705",
-          "title": "一番くじ 僕のヒーローアカデミア -最高のヒーローになるまでの物語-",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202609/1bankuji_10705",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://1kuji.com/products/myhero47",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10705/8352ac07-4433-42f3-8bfa-26da2c92f163.png"
         }
       ]
     },
