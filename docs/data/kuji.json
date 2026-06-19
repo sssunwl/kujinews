@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T12:06:20.822793+09:00",
+  "generated_at": "2026-06-19T12:22:48.538064+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7342,20 +7342,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10693/3205e8fc-383b-4b5d-91f1-b8e192f19592.webp"
         },
         {
-          "id": "comment-page-1#comment-5850",
-          "title": "一番くじ ドラゴンボール スペクタクルバトル",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202607/1bankuji_10693/comment-page-1#comment-5850",
-          "month_key": "2026-07",
-          "ip_tags": [
-            "ドラゴンボール"
-          ],
-          "date": "2026-07-11",
-          "price": null,
-          "official_url": "https://1kuji.com/products/db_sb",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10693/3205e8fc-383b-4b5d-91f1-b8e192f19592.webp"
-        },
-        {
           "id": "dreamclub",
           "title": "コトブキヤくじ 『ドリームクラブ』シリーズ ～Pure☆summer～",
           "brand": "コトブキヤくじ",
@@ -7438,6 +7424,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/overlord",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10688/3fb670cc-1903-4785-9181-ccdffbfad12b.webp"
+        },
+        {
+          "id": "silenthill_f_bkb",
+          "title": "SILENT HILL f × ぶくぶ マーカーチャーム",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/silenthill_f_bkb/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-17",
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/silenthill_f_bkb/",
+          "image_url": null
         },
         {
           "id": "1bankuji_10699",
@@ -7762,18 +7760,6 @@
           "image_url": null
         },
         {
-          "id": "comment-page-1#comment-5849",
-          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5849",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-29",
-          "price": null,
-          "official_url": "https://1kuji.com/products/hxh11",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
-        },
-        {
           "id": "comment-page-1#comment-5852",
           "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
           "brand": "一番くじ",
@@ -7790,6 +7776,30 @@
           "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
           "brand": "一番くじ",
           "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5854",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-29",
+          "price": null,
+          "official_url": "https://1kuji.com/products/hxh11",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
+        },
+        {
+          "id": "comment-page-1#comment-5855",
+          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5855",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-29",
+          "price": null,
+          "official_url": "https://1kuji.com/products/hxh11",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
+        },
+        {
+          "id": "comment-page-1#comment-5856",
+          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5856",
           "month_key": "2026-08",
           "ip_tags": [],
           "date": "2026-08-29",
