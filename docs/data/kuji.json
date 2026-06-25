@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T11:50:38.526273+09:00",
+  "generated_at": "2026-06-25T11:50:11.371122+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7054,6 +7054,18 @@
           "image_url": null
         },
         {
+          "id": "hanamaeharu",
+          "title": "コトブキヤくじ 花前ハル",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/hanamaeharu/",
+          "month_key": "2026-06",
+          "ip_tags": [],
+          "date": "2026-06-26",
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/hanamaeharu/",
+          "image_url": null
+        },
+        {
           "id": "1bankuji_10675",
           "title": "一番くじ ホワイトタイガーとブラックタイガー ～みんなでパーティ～",
           "brand": "一番くじ",
@@ -7426,6 +7438,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10699/2f9d1afc-2afa-4f16-a914-25a4c70f44c6.webp"
         },
         {
+          "id": "min_153",
+          "title": "フリューくじ 「COJI-COJI 〜遊んで食べて寝てちゃダメ？〜」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_153",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-18",
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=153",
+          "image_url": "https://file.charahiroba.com//img/trans/contents/18422_p_grthu3.jpg"
+        },
+        {
           "id": "nakamura-kun",
           "title": "TVアニメーション「ガンバレ！中村くん！！」オンラインくじ",
           "brand": "くじ引き堂",
@@ -7460,6 +7484,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/bluearchive/",
           "image_url": "https://kujibikido.com/lp/bluearchive/img/og.png"
+        },
+        {
+          "id": "1bankuji_10702",
+          "title": "一番くじ ウルトラマン 60th Anniversary",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202607/1bankuji_10702",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-24",
+          "price": null,
+          "official_url": "https://1kuji.com/products/ultra23",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10702/25ed435e-1161-473c-97ef-72df674071fd.png"
         },
         {
           "id": "1bankuji_10673",
@@ -7544,18 +7580,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/disney_toy7",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10700/f628067f-990c-4152-828e-fdc0dada87a8.webp"
-        },
-        {
-          "id": "1bankuji_10702",
-          "title": "一番くじ ウルトラマン 60th Anniversary",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202607/1bankuji_10702",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://1kuji.com/products/ultra23",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10702/25ed435e-1161-473c-97ef-72df674071fd.png"
         }
       ]
     },
@@ -7662,6 +7686,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10716/23129cf9-9736-49ec-bb2a-646475f150a8.webp"
         },
         {
+          "id": "1bankuji_10672",
+          "title": "一番くじ KINGDOM HEARTS -25th Anniversary-",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10672",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-15",
+          "price": null,
+          "official_url": "https://1kuji.com/products/disney_kh5",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10672/fbe757e6-cad1-4539-b6f3-78b00117f773.webp"
+        },
+        {
           "id": "1bankuji_10719",
           "title": "一番くじ ハイキュー!! -烏野の未来-",
           "brand": "一番くじ",
@@ -7744,8 +7780,8 @@
           "ip_tags": [],
           "date": "2026-08-29",
           "price": null,
-          "official_url": "https://1kuji.com/products/#",
-          "image_url": null
+          "official_url": "https://1kuji.com/products/pk_masters",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10698/9a71847a-e1fc-4429-ace7-cd1ba6684169.gif"
         },
         {
           "id": "comment-page-1#comment-5857",
@@ -7907,7 +7943,7 @@
           "date": "2026-09-26",
           "price": null,
           "official_url": "https://1kuji.com/products/jujutsu19/",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10730/21a423a9-2efc-40d6-98be-6a8d578c73d3.webp"
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10730/162a4cae-1c6b-43d9-95af-d81ca464b379.webp"
         },
         {
           "id": "1bankuji_10736",
