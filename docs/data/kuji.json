@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T11:50:11.371122+09:00",
+  "generated_at": "2026-06-26T11:51:20.882720+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6994,42 +6994,6 @@
           "image_url": null
         },
         {
-          "id": "fli",
-          "title": "『ファンタジーライフｉ グルグルの竜と時をぬすむ少女』1周年記念オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/fli/",
-          "month_key": "2026-06",
-          "ip_tags": [],
-          "date": "2026-06-25",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/fli/",
-          "image_url": "https://kujibikido.com/lp/fli/img/og.png"
-        },
-        {
-          "id": "kusunokitei",
-          "title": "電撃の新文芸『神の庭付き楠木邸』オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/kusunokitei/",
-          "month_key": "2026-06",
-          "ip_tags": [],
-          "date": "2026-06-25",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/kusunokitei/",
-          "image_url": "https://kujibikido.com/lp/kusunokitei/img/og.png"
-        },
-        {
-          "id": "rurinohouseki",
-          "title": "「瑠璃の宝石」オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/rurinohouseki/",
-          "month_key": "2026-06",
-          "ip_tags": [],
-          "date": "2026-06-25",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/rurinohouseki/",
-          "image_url": "https://kujibikido.com/lp/rurinohouseki/img/og.png"
-        },
-        {
           "id": "1bankuji_10659",
           "title": "一番くじ NARUTO-ナルト- 疾風伝 風影奪還編",
           "brand": "一番くじ",
@@ -7051,18 +7015,6 @@
           "date": "2026-06-26",
           "price": null,
           "official_url": null,
-          "image_url": null
-        },
-        {
-          "id": "hanamaeharu",
-          "title": "コトブキヤくじ 花前ハル",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/hanamaeharu/",
-          "month_key": "2026-06",
-          "ip_tags": [],
-          "date": "2026-06-26",
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/hanamaeharu/",
           "image_url": null
         },
         {
@@ -7128,6 +7080,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10677/3a3be28d-f676-437e-ab77-68137eb028c1.webp"
         },
         {
+          "id": "FFBE",
+          "title": "FFBE幻影戦争 グランドフィナーレオンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/FFBE/",
+          "month_key": "2026-06",
+          "ip_tags": [],
+          "date": "2026-06-30",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/FFBE/",
+          "image_url": "https://kujibikido.com/lp/FFBE/img/og.png"
+        },
+        {
           "id": "nipponsangoku",
           "title": "コトブキヤくじ TVアニメ『日本三國』",
           "brand": "コトブキヤくじ",
@@ -7168,6 +7132,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/korinojoheki/",
           "image_url": "https://kujibikido.com/lp/korinojoheki/img/og.png"
+        },
+        {
+          "id": "needygirl-anime",
+          "title": "賞品公開TVアニメ「NEEDY GIRL OVERDOSE」オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/needygirl-anime/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-02",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/needygirl-anime/",
+          "image_url": "https://kujibikido.com/lp/needygirl-anime/img/og.png"
         },
         {
           "id": "umdc_bkb",
@@ -7534,6 +7510,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10690/6f789874-5254-43f4-bc1a-b75af4f84630.webp"
         },
         {
+          "id": "hanamaeharu",
+          "title": "コトブキヤくじ 花前ハル",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/hanamaeharu/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-26",
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/hanamaeharu/",
+          "image_url": null
+        },
+        {
           "id": "1bankuji_10703",
           "title": "一番くじ 鬼滅の刃 ～上弦の弐～",
           "brand": "一番くじ",
@@ -7544,6 +7532,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/kimetsu30",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10703/b7af5fe9-565b-4cfa-9a4f-ece18eba2fd2.webp"
+        },
+        {
+          "id": "watanare_2",
+          "title": "【再販】「わたしが恋人になれるわけないじゃん、ムリムリ!（※ムリじゃなかった!?）」くじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/watanare_2/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-30",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/watanare_2/",
+          "image_url": "https://kujibikido.com/lp/watanare_2/img/og.png"
         },
         {
           "id": "1bankuji_10692",
@@ -8036,6 +8036,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10760/297cb29d-7678-4f2a-9f86-28bdf55d3a2b.webp"
         },
         {
+          "id": "1bankuji_10777",
+          "title": "一番くじ NARUTO-ナルト- 疾風伝 飛段・角都編",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202610/1bankuji_10777",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-26",
+          "price": null,
+          "official_url": "https://1kuji.com/products/naruto11",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10777/449ab156-d0f6-402e-a85c-a12c9fff8ae5.webp"
+        },
+        {
           "id": "1bankuji_10770",
           "title": "一番くじ ONE PIECE -空に奏でる”島の歌声”（ラブ・ソング）-",
           "brand": "一番くじ",
@@ -8097,7 +8109,7 @@
           "date": null,
           "price": null,
           "official_url": "https://1kuji.com/products/miabyss",
-          "image_url": null
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10748/e828c780-c04c-49e2-bcbd-404ba51925eb.webp"
         }
       ]
     },
