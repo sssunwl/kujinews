@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T11:51:20.882720+09:00",
+  "generated_at": "2026-06-27T11:33:50.645072+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -8074,6 +8074,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10756/7e1e0530-0310-4381-961b-6930189ba124.webp"
         },
         {
+          "id": "1bankuji_miabyss",
+          "title": "一番くじ メイドインアビス",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202610/1bankuji_miabyss",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-31",
+          "price": null,
+          "official_url": "https://1kuji.com/products/miabyss",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10748/e828c780-c04c-49e2-bcbd-404ba51925eb.webp"
+        },
+        {
           "id": "1bankuji_10691",
           "title": "一番くじ 機動戦士ガンダム UNIVERSAL CENTURY SAGA2",
           "brand": "一番くじ",
@@ -8098,18 +8110,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/db_z8",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10727/400fefae-ab68-40b8-abd5-98acbc301603.webp"
-        },
-        {
-          "id": "1bankuji_miabyss",
-          "title": "一番くじ メイドインアビス",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202610/1bankuji_miabyss",
-          "month_key": "2026-10",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://1kuji.com/products/miabyss",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10748/e828c780-c04c-49e2-bcbd-404ba51925eb.webp"
         }
       ]
     },
