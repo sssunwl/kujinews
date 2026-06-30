@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T12:00:02.361195+09:00",
+  "generated_at": "2026-06-30T11:48:24.606290+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7170,6 +7170,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/onep103",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10709/e138f97f-2add-4fc5-b677-743e57b34b32.webp"
+        },
+        {
+          "id": "rakshaana",
+          "title": "コトブキヤくじ ラクシャーナ",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/rakshaana/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-03",
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/rakshaana/",
+          "image_url": null
         },
         {
           "id": "1bankuji_10684",
