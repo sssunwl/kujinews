@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T11:58:11.774139+09:00",
+  "generated_at": "2026-07-02T11:46:52.712475+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7384,6 +7384,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10706/7a22920e-7687-4607-9c91-586de2c33e28.webp"
         },
         {
+          "id": "sega_jujutsukaisen_sp",
+          "title": "セガ ラッキーくじ アニメ『呪術廻戦』5周年 SPECIAL DAY！",
+          "brand": "セガラッキーくじ",
+          "url": "https://kujimap.com/segaluck/sega_jujutsukaisen_sp",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-31",
+          "price": null,
+          "official_url": "https://segaplaza.jp/lp/jujutsukaisen_5th_kuji/",
+          "image_url": null
+        },
+        {
           "id": "1bankuji_10700",
           "title": "一番くじ 〈トイ・ストーリー5〉",
           "brand": "一番くじ",
@@ -7406,6 +7418,18 @@
           "title": "一番くじ 進撃の巨人 ～選択と結果～",
           "brand": "一番くじ",
           "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10720",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-06-15",
+          "price": null,
+          "official_url": "https://1kuji.com/products/shingeki15",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10720/8980b568-120f-4eaa-a09e-5e2ed3b10541.webp"
+        },
+        {
+          "id": "comment-page-1#comment-5862",
+          "title": "一番くじ 進撃の巨人 ～選択と結果～",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10720/comment-page-1#comment-5862",
           "month_key": "2026-08",
           "ip_tags": [],
           "date": "2026-06-15",
@@ -7608,18 +7632,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/pk_masters",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10698/9a71847a-e1fc-4429-ace7-cd1ba6684169.gif"
-        },
-        {
-          "id": "comment-page-1#comment-5857",
-          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5857",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-29",
-          "price": null,
-          "official_url": "https://1kuji.com/products/hxh11",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
         },
         {
           "id": "comment-page-1#comment-5859",
@@ -8373,18 +8385,6 @@
           "date": null,
           "price": null,
           "official_url": "https://segaplaza.jp/lp/haikyu_kuji_2/",
-          "image_url": null
-        },
-        {
-          "id": "sega_jujutsukaisen_sp",
-          "title": "セガ ラッキーくじ 「呪術廻戦 SPECIAL DAY!」",
-          "brand": "セガラッキーくじ",
-          "url": "https://kujimap.com/segaluck/sega_jujutsukaisen_sp",
-          "month_key": null,
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://segaplaza.jp/lp/jujutsukaisen_5th_kuji/",
           "image_url": null
         },
         {
