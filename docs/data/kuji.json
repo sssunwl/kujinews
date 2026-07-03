@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T11:46:52.712475+09:00",
+  "generated_at": "2026-07-03T11:19:33.039929+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6660,18 +6660,6 @@
           "image_url": null
         },
         {
-          "id": "idolypride_flowerdress",
-          "title": "コトブキヤくじ IDOLY PRIDE -Flower Dress-",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/idolypride_flowerdress/",
-          "month_key": "2026-05",
-          "ip_tags": [],
-          "date": "2026-05-11",
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/idolypride_flowerdress/",
-          "image_url": null
-        },
-        {
           "id": "baymax3-0",
           "title": "Happyくじ『ベイマックス』vol.3.0",
           "brand": "Happyくじ",
@@ -6900,30 +6888,6 @@
       "label": "2026年7月",
       "items": [
         {
-          "id": "gekkakoku",
-          "title": "「月華国奇医伝」オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/gekkakoku/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-02",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/gekkakoku/",
-          "image_url": "https://kujibikido.com/lp/gekkakoku/img/og.png"
-        },
-        {
-          "id": "korinojoheki",
-          "title": "TVアニメ「氷の城壁」オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/korinojoheki/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-02",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/korinojoheki/",
-          "image_url": "https://kujibikido.com/lp/korinojoheki/img/og.png"
-        },
-        {
           "id": "umdc_bkb",
           "title": "都市伝説解体センター×ぶくぶ マーカーチャーム",
           "brand": "コトブキヤくじ",
@@ -6948,18 +6912,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/onep103",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10709/e138f97f-2add-4fc5-b677-743e57b34b32.webp"
-        },
-        {
-          "id": "rakshaana",
-          "title": "コトブキヤくじ ラクシャーナ",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/rakshaana/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-03",
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/rakshaana/",
-          "image_url": null
         },
         {
           "id": "1bankuji_10684",
@@ -7276,6 +7228,18 @@
           "image_url": "https://kujibikido.com/lp/bluearchive/img/og.png"
         },
         {
+          "id": "hanakimi",
+          "title": "TVアニメ「花ざかりの君たちへ」オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/hanakimi/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-23",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/hanakimi/",
+          "image_url": "https://kujibikido.com/lp/hanakimi/img/og.png"
+        },
+        {
           "id": "1bankuji_10702",
           "title": "一番くじ ウルトラマン 60th Anniversary",
           "brand": "一番くじ",
@@ -7346,6 +7310,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/kimetsu30",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10703/b7af5fe9-565b-4cfa-9a4f-ece18eba2fd2.webp"
+        },
+        {
+          "id": "needygirl-anime",
+          "title": "TVアニメ「NEEDY GIRL OVERDOSE」オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/needygirl-anime/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-30",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/needygirl-anime/",
+          "image_url": "https://kujibikido.com/lp/needygirl-anime/img/og.png"
         },
         {
           "id": "watanare_2",
@@ -7426,18 +7402,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10720/8980b568-120f-4eaa-a09e-5e2ed3b10541.webp"
         },
         {
-          "id": "comment-page-1#comment-5862",
-          "title": "一番くじ 進撃の巨人 ～選択と結果～",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10720/comment-page-1#comment-5862",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-06-15",
-          "price": null,
-          "official_url": "https://1kuji.com/products/shingeki15",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10720/8980b568-120f-4eaa-a09e-5e2ed3b10541.webp"
-        },
-        {
           "id": "1bankuji_10694",
           "title": "一番くじ 日曜劇場「VIVANT」",
           "brand": "一番くじ",
@@ -7460,6 +7424,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/minions11",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10714/572678b2-591d-451e-b3fd-70c55d861995.webp"
+        },
+        {
+          "id": "rakshaana",
+          "title": "コトブキヤくじ ラクシャーナ",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/rakshaana/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-02",
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/rakshaana/",
+          "image_url": null
         },
         {
           "id": "nmeneko",
@@ -7632,6 +7608,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/pk_masters",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10698/9a71847a-e1fc-4429-ace7-cd1ba6684169.gif"
+        },
+        {
+          "id": "comment-page-1#comment-5857",
+          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5857",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-29",
+          "price": null,
+          "official_url": "https://1kuji.com/products/hxh11",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
         },
         {
           "id": "comment-page-1#comment-5859",
@@ -7955,6 +7943,32 @@
       "key": "2026-11",
       "label": "2026年11月",
       "items": [
+        {
+          "id": "1bankuji_10799",
+          "title": "一番くじ にゃんこ大戦争 ～みんなでペリペリするにゃ～（再販売）",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202611/1bankuji_10799",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": "2026-11-20",
+          "price": null,
+          "official_url": "https://1kuji.com/products/battlecats2-2",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10799/1f928574-16bf-4af4-a8fe-a16cf16a21ec.webp"
+        },
+        {
+          "id": "1bankuji_10771",
+          "title": "一番くじ ジョジョの奇妙な冒険 The Gathering of RIVALS",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202611/1bankuji_10771",
+          "month_key": "2026-11",
+          "ip_tags": [
+            "ジョジョ"
+          ],
+          "date": "2026-11-21",
+          "price": null,
+          "official_url": "https://1kuji.com/products/jojo_26",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10771/45e9d075-428f-45a8-bc7a-6a553a40caa0.webp"
+        },
         {
           "id": "1bankuji_10768",
           "title": "一番くじ 『ペルソナ』シリーズ30th ANNIVERSARY",
