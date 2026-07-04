@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T11:19:33.039929+09:00",
+  "generated_at": "2026-07-04T11:20:06.051466+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7982,6 +7982,20 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10768/f8d0271e-b224-482b-a65c-422ba694921c.webp"
         },
         {
+          "id": "1bankuji_1079100",
+          "title": "一番くじ ドラゴンボール Fantastic Adventure 3",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202611/1bankuji_1079100",
+          "month_key": "2026-11",
+          "ip_tags": [
+            "ドラゴンボール"
+          ],
+          "date": "2026-11-28",
+          "price": null,
+          "official_url": "https://1kuji.com/products/db_fa3",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10791/997762ae-ba90-4c45-8e4e-48ab856e4f09.webp"
+        },
+        {
           "id": "1bankuji_10766",
           "title": "一番くじ 機動戦士ガンダム UNIVERSAL CENTURY SAGA INTERLUDE",
           "brand": "一番くじ",
@@ -7992,6 +8006,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/gundam_ucs2",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10691/e18da818-dc0a-442c-901e-5b04d405092a.webp"
+        },
+        {
+          "id": "1bankuji_10786",
+          "title": "一番くじ ストリートファイター ～俺より強い奴に会いに行く～",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202611/1bankuji_10786",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://1kuji.com/products/streetfighter3",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10786/710c538f-1ff0-4a03-8387-31940c093a5a.webp"
         },
         {
           "id": "1bankuji_10787",
