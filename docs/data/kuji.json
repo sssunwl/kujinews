@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T11:24:21.518584+09:00",
+  "generated_at": "2026-07-06T11:27:03.885220+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7309,7 +7309,7 @@
           "date": "2026-07-30",
           "price": null,
           "official_url": "https://1kuji.com/products/kimetsu30",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10703/b7af5fe9-565b-4cfa-9a4f-ece18eba2fd2.webp"
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10703/bcff45e9-dba8-4c98-83e4-443bbcc36c65.webp"
         },
         {
           "id": "needygirl-anime",
@@ -7394,6 +7394,18 @@
           "title": "一番くじ 進撃の巨人 ～選択と結果～",
           "brand": "一番くじ",
           "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10720",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-06-15",
+          "price": null,
+          "official_url": "https://1kuji.com/products/shingeki15",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10720/8980b568-120f-4eaa-a09e-5e2ed3b10541.webp"
+        },
+        {
+          "id": "comment-page-1#comment-5863",
+          "title": "一番くじ 進撃の巨人 ～選択と結果～",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10720/comment-page-1#comment-5863",
           "month_key": "2026-08",
           "ip_tags": [],
           "date": "2026-06-15",
@@ -7608,18 +7620,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/pk_masters",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10698/9a71847a-e1fc-4429-ace7-cd1ba6684169.gif"
-        },
-        {
-          "id": "comment-page-1#comment-5857",
-          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5857",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-29",
-          "price": null,
-          "official_url": "https://1kuji.com/products/hxh11",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
         },
         {
           "id": "comment-page-1#comment-5859",
