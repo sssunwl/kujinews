@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T11:27:03.885220+09:00",
+  "generated_at": "2026-07-07T11:29:28.815534+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7790,6 +7790,18 @@
       "label": "2026年10月",
       "items": [
         {
+          "id": "1bankuji_10691",
+          "title": "一番くじ 機動戦士ガンダム UNIVERSAL CENTURY SAGA2",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202610/1bankuji_10691",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-03",
+          "price": null,
+          "official_url": "https://1kuji.com/products/gundam_ucs2",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10691/e18da818-dc0a-442c-901e-5b04d405092a.webp"
+        },
+        {
           "id": "1bankuji_10763",
           "title": "一番くじ FAIRY TAIL 20th ANNIVERSARY",
           "brand": "一番くじ",
@@ -7924,18 +7936,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/miabyss",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10748/e828c780-c04c-49e2-bcbd-404ba51925eb.webp"
-        },
-        {
-          "id": "1bankuji_10691",
-          "title": "一番くじ 機動戦士ガンダム UNIVERSAL CENTURY SAGA2",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202610/1bankuji_10691",
-          "month_key": "2026-10",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://1kuji.com/products/gundam_ucs2",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10691/e18da818-dc0a-442c-901e-5b04d405092a.webp"
         }
       ]
     },
@@ -7943,6 +7943,30 @@
       "key": "2026-11",
       "label": "2026年11月",
       "items": [
+        {
+          "id": "1bankuji_10787",
+          "title": "一番くじ アニメ カードキャプターさくら クリアカード編～Blessed collection～",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202611/1bankuji_10787",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": "2026-11-06",
+          "price": null,
+          "official_url": "https://1kuji.com/products/sakura15",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10787/cca99264-dff7-4f3b-8101-d0978ef06e7f.webp"
+        },
+        {
+          "id": "1bankuji_10794",
+          "title": "一番くじ To LOVEる-とらぶる-ダークネス",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202611/1bankuji_10794",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": "2026-11-18",
+          "price": null,
+          "official_url": "https://1kuji.com/products/toloveru_d",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10794/fb8e6988-3133-43a6-93c0-43af8c0065ab.webp"
+        },
         {
           "id": "1bankuji_10799",
           "title": "一番くじ にゃんこ大戦争 ～みんなでペリペリするにゃ～（再販売）",
@@ -8018,18 +8042,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/streetfighter3",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10786/710c538f-1ff0-4a03-8387-31940c093a5a.webp"
-        },
-        {
-          "id": "1bankuji_10787",
-          "title": "一番くじ アニメ カードキャプターさくら クリアカード編～Blessed collection～",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202611/1bankuji_10787",
-          "month_key": "2026-11",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://1kuji.com/products/sakura15",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10787/cca99264-dff7-4f3b-8101-d0978ef06e7f.webp"
         }
       ]
     },
