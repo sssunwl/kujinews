@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T11:29:28.815534+09:00",
+  "generated_at": "2026-07-08T11:10:01.157532+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6938,54 +6938,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10689/79da4b6b-0c9f-49a7-8d7c-fbf02dc12dee.gif"
         },
         {
-          "id": "date-a-live-k-bd",
-          "title": "アニメ『デート・ア・ライブ』時崎狂三 お誕生日2026 オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/date-a-live-k-bd/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-07",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/date-a-live-k-bd/",
-          "image_url": "https://kujibikido.com/lp/date-a-live-k-bd/img/og.png"
-        },
-        {
-          "id": "no-6",
-          "title": "TVアニメ『NO.6』オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/no-6/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-07",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/no-6/",
-          "image_url": "https://kujibikido.com/lp/no-6/img/og.png"
-        },
-        {
-          "id": "silentwitch_anime2",
-          "title": "TVアニメ『サイレント・ウィッチ 沈黙の魔女の隠しごと』オンラインくじ vol.2",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/silentwitch_anime2/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-07",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/silentwitch_anime2/",
-          "image_url": "https://kujibikido.com/lp/silentwitch_anime2/img/og.png"
-        },
-        {
-          "id": "spicy_wolf_20th",
-          "title": "『狼と香辛料』原作20周年記念オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/spicy_wolf_20th/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-07",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/spicy_wolf_20th/",
-          "image_url": "https://kujibikido.com/lp/spicy_wolf_20th/img/og.png"
-        },
-        {
           "id": "mahouka_yotsuba",
           "title": "劇場版「魔法科高校の劣等生 四葉継承編」オンラインくじ",
           "brand": "くじ引き堂",
@@ -7216,6 +7168,30 @@
           "image_url": "https://kujibikido.com/lp/sidem_cw2/img/og.png"
         },
         {
+          "id": "sidem_cw_2",
+          "title": "【再販】『アイドルマスター SideM』Cybernetics Wars～機械仕掛けの反逆者～ オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/sidem_cw_2/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-21",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/sidem_cw_2/",
+          "image_url": "https://kujibikido.com/lp/sidem_cw_2/img/og.png"
+        },
+        {
+          "id": "sidem_cwz_2",
+          "title": "【再販】『アイドルマスター SideM』Cybernetics Wars ZERO ～願いを宿す機械の子～ オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/sidem_cwz_2/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-21",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/sidem_cwz_2/",
+          "image_url": "https://kujibikido.com/lp/sidem_cwz_2/img/og.png"
+        },
+        {
           "id": "bluearchive",
           "title": "ブルーアーカイブ オンラインくじ",
           "brand": "くじ引き堂",
@@ -7250,6 +7226,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/ultra23",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10702/25ed435e-1161-473c-97ef-72df674071fd.png"
+        },
+        {
+          "id": "honpo_tougenanki",
+          "title": "タイトーくじ　TVアニメ「桃源暗鬼」",
+          "brand": "タイトーくじ",
+          "url": "https://kujimap.com/honpo/honpo_tougenanki",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-24",
+          "price": null,
+          "official_url": "https://www.taito.co.jp/taitokuji/item/0000011745",
+          "image_url": null
         },
         {
           "id": "1bankuji_10673",
@@ -7298,6 +7286,30 @@
           "price": null,
           "official_url": "https://kuji.kotobukiya.co.jp/lp/hanamaeharu/",
           "image_url": null
+        },
+        {
+          "id": "odekakekozame_baby",
+          "title": "おでかけ子ザメくじ ベビー子ザメちゃんのいたずら",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/odekakekozame_baby/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-28",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/odekakekozame_baby/",
+          "image_url": "https://kujibikido.com/lp/odekakekozame_baby/img/og.png"
+        },
+        {
+          "id": "yuyushiki",
+          "title": "TVアニメ「ゆゆ式」 オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/yuyushiki/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-28",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/yuyushiki/",
+          "image_url": "https://kujibikido.com/lp/yuyushiki/img/og.png"
         },
         {
           "id": "1bankuji_10703",
@@ -7462,6 +7474,18 @@
           "image_url": "https://kujibikido.com/lp/nmeneko/img/og.png"
         },
         {
+          "id": "1bankuji_10764",
+          "title": "一番くじちょこっと 超かぐや姫！",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10764",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-06",
+          "price": null,
+          "official_url": "https://1kuji.com/products/cho-kaguyahime",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10764/e9c331e9-efe3-4bf0-827a-564b242dc0b3.webp"
+        },
+        {
           "id": "1bankuji_10710",
           "title": "一番くじ ワンピース -エルバフ編- GIANT BASH!! Vol.2",
           "brand": "一番くじ",
@@ -7497,7 +7521,7 @@
           "date": "2026-08-08",
           "price": null,
           "official_url": "https://1kuji.com/products/nikke8",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10721/06338d96-ca69-4fcc-948f-bdf1f4c78bcd.webp"
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10721/228b9cea-f92d-4a1a-8dae-7d8203c2c0bb.webp"
         },
         {
           "id": "1bankuji_10713",
