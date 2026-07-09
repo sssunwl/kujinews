@@ -1,6 +1,16 @@
 {
   "ワンピース": [
     {
+      "title": "7月10日(金)放送のTV番組『アニメダマ』でTVアニメ『ONE PIECE』を特集",
+      "title_zh": "電視動畫《ONE PIECE》將於 7 月 10 日星期五播出的電視節目《Animedama》中播出。",
+      "url": "https://one-piece.com/news/80701/index.html"
+    },
+    {
+      "title": "Chibiぬいシリーズに「ニャンピースニャーン！」が新登場",
+      "title_zh": "「喵片喵！」現已在《Chibi Nui》系列中推出",
+      "url": "https://one-piece.com/news/80744/index.html"
+    },
+    {
       "title": "バンダイ・ガシャポンオンラインで「ワンピの実 第二十七海戦」を先行予約受付中",
       "title_zh": "萬代扭蛋Online《海賊王水果：決戰第27海》現已接受預訂",
       "url": "https://one-piece.com/news/80726/index.html"
@@ -17,7 +27,7 @@
     },
     {
       "title": "タピオカより『CHOPPER’s』の「カップケーキたぴぬい」が登場",
-      "title_zh": "",
+      "title_zh": "「CHOPPER’s」的「Chopcake Tapinui」現已在 Tapioca 發售",
       "url": "https://one-piece.com/news/80696/index.html"
     },
     {
@@ -57,26 +67,26 @@
     },
     {
       "title": "大海賊時代没入型パンチングゲーム『ONE PIECE ドーンストライク』 が7月より順次稼働開始",
-      "title_zh": "海賊時代沉浸式拳擊遊戲《ONE PIECE Dawn Strike》將於7月上線",
+      "title_zh": "海賊時代沉浸式拳擊遊戲《ONE PIECE Dawn Strike》將於 7 月開始運營",
       "url": "https://one-piece.com/news/80640/index.html"
     },
     {
       "title": "シャンクスの愛刀「グリフォン」モチーフの日本刀ペーパーナイフが本日より先行販売",
       "title_zh": "以香克斯的愛刀「格里芬」為主題的日本裁紙刀從今天開始發售。",
       "url": "https://one-piece.com/news/80634/index.html"
-    },
-    {
-      "title": "「麦わらストア 名古屋店」が名古屋PARCOに常設店として9月4日(金)オープン決定",
-      "title_zh": "「Mugiwara Store 名古屋店」將於 9 月 4 日（星期五）作為常設店在名古屋 PARCO 開業",
-      "url": "https://one-piece.com/news/80639/index.html"
-    },
-    {
-      "title": "出張店「ONE PIECE 麦わらストア in OIOI」が全国のマルイで8月1日(土)より順次開催",
-      "title_zh": "8月1日（週六）起，全國丸井店將開設分店「ONE PIECE Mugiwara Store in OIOI」。",
-      "url": "https://one-piece.com/news/80635/index.html"
     }
   ],
   "ドラゴンボール": [
+    {
+      "title": "[鳥山明ほぼ全仕事] 1日おきに更新24時間限定公開！　2026/07/09鳥山明ほぼ全仕事COLUMNS2026.07.09",
+      "title_zh": "【鳥山明幾乎全部作品】隔日更新，24小時開放！　2026/07/09 鳥山明 幾乎所有作品 COLUMNS2026.07.09",
+      "url": "https://dragon-ball-official.com/news/01_4299.html"
+    },
+    {
+      "title": "「ドラゴンボール ゲキシン スクアドラ」シーズン6が開幕！あの\"破壊神\"が新ヒーローとして参戦！ドラゴンボール ゲキシン スクアドラBNEGAME2026.07.08",
+      "title_zh": "《七龍珠哥新小隊》第六季開播！ 「破壞神」以新英雄身分加入戰爭！七龍珠哥新小隊 BNEGAME2026.07.08",
+      "url": "https://dragon-ball-official.com/news/01_4297.html"
+    },
     {
       "title": "「ドラゴンボール ゼノバース2」最後のDLC「FUTURE SAGA Chapter4」が配信開始！ゼノバース2BNEGAME2026.07.08",
       "title_zh": "《七龍珠 Xenoverse 2》最終 DLC「FUTURE SAGA 第 4 章」現已推出！異界2BNEGAME2026.07.08",
@@ -108,14 +118,14 @@
       "url": "https://dragon-ball-official.com/news/01_4303.html"
     },
     {
-      "title": "最強ジャンプ8月号大好評発売中!!「ドラゴンボール」のマンガや最新情報が満載!!最強ジャンプドラゴンボールSDDBSCGドラゴンボールスーパーダイバーズBOOKS2026.07.03",
-      "title_zh": "最強跳躍8月號現已發售！ ！充滿《七龍珠》漫畫和最新情報！ ！最強跳躍 七龍珠 SDDBSCCG 七龍珠超潛水員 BOOKS2026.07.03",
-      "url": "https://dragon-ball-official.com/news/01_4283.html"
-    },
-    {
       "title": "【フュージョンワールド情報】最強ジャンプ9月号ふろくカード「ベジータ」のスキルを公開！バンダイDBSCGCARD2026.07.03",
       "title_zh": "【融合世界情報】最強跳躍9月號福祿卡「貝吉塔」技能公開！萬代DBSCGCARD2026.07.03",
       "url": "https://dragon-ball-official.com/news/01_4285.html"
+    },
+    {
+      "title": "最強ジャンプ8月号大好評発売中!!「ドラゴンボール」のマンガや最新情報が満載!!最強ジャンプドラゴンボールSDDBSCGドラゴンボールスーパーダイバーズBOOKS2026.07.03",
+      "title_zh": "最強跳躍8月號現已發售！ ！充滿《七龍珠》漫畫和最新情報！ ！最強跳躍 七龍珠 SDDBSCCG 七龍珠超潛水員 BOOKS2026.07.03",
+      "url": "https://dragon-ball-official.com/news/01_4283.html"
     },
     {
       "title": "「一番くじ ドラゴンボール スペクタクルバトル」が7月11日(土)より順次発売予定!!BANDAI SPIRITS一番くじGOODS2026.07.02",
@@ -126,16 +136,6 @@
       "title": "フィギュアーツZEROシリーズの新ライン「STARTune」（スターチューン）より「孫悟空」が登場！ドラゴンボールZ孫悟空TAMASHII NATIONSフィギュアーツZEROFIGURE2026.06.30",
       "title_zh": "Figuarts ZERO 系列的新系列「STARTune」現已推出「孫悟空」！七龍珠Z 兒子悟空 TAMASHII NATIONS Figuarts ZEROFIGURE2026.06.30",
       "url": "https://dragon-ball-official.com/news/01_4290.html"
-    },
-    {
-      "title": "ウィークリー☆キャラクター紹介！第262回目はTVアニメ『ドラゴンボールGT』の「アリジゴクモドキ」！ウィークリー☆キャラクター紹介！COLUMNS2026.06.30",
-      "title_zh": "每週☆人物介紹！第262話是TV動畫《七龍珠GT》中的「Arijokumodoki」！每週☆人物介紹！專欄2026.06.30",
-      "url": "https://dragon-ball-official.com/news/01_4267.html"
-    },
-    {
-      "title": "「ドラゴンボール めじるしアクセサリー4」が発売決定！2026年8月よりガシャポン®自販機シリーズから順次登場予定!!バンダイガシャポン雑貨FIGURE2026.06.30",
-      "title_zh": "《七龍珠目印飾品4》即將發售！預定自2026年8月起從扭蛋®自動販賣機系列依序發售!!萬代扭蛋雜貨Figure2026.06.30",
-      "url": "https://dragon-ball-official.com/news/01_4282.html"
     }
   ],
   "REBORN!": [
@@ -156,7 +156,7 @@
     },
     {
       "title": "「AnimeJapan 2026」TVアニメ『家庭教師ヒットマンREBORN!』 ステージ、配信情報！",
-      "title_zh": "「AnimeJapan 2026」電視動畫「家庭教師殺手 REBORN!」舞台及發行資訊！",
+      "title_zh": "",
       "url": "https://khreborn-anime.jp/news/73/"
     },
     {
@@ -192,79 +192,79 @@
   ],
   "ちいかわ": [
     {
+      "title": "『映画ちいかわ』IMAX版の同時公開が決定！ ドアップのMAXビジュアルも解禁（ぴあ） - Yahoo!ニュース",
+      "title_zh": "《電影千川》IMAX版同步上映！ Doup 的 MAX 視覺效果也發布了 (Pia) - 雅虎！訊息",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSQ1hiSUtOVVpNQ0pTTHhmeDhpaWRqaUhHMlFIcGZ2ZF9pOV9VcTN0NWVaam1DMHpCMTREYlNWR3prMzRaazJfNUhNdlhfUHpSWUszOFF3Z20zdmRYT2trYS1IbWpFdHBzZ01SZHlCVTh0OGR5ZGs4SENudkl2bkE?oc=5"
+    },
+    {
+      "title": "映画『ちいかわ 人魚の島のひみつ』コラボカフェが7月10日から渋谷・心斎橋・名古屋PARCOで順次開催（cinemacafe.net） - Yahoo!ニュース",
+      "title_zh": "電影《千井川人魚島的秘密》合作咖啡館將於 7 月 10 日起在澀谷、心齋橋、名古屋 PARCO 舉辦 (cinemacafe.net) - Yahoo!消息",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5TmJEM2UtTmo1WFZYWkQ2VnkwNFhOQ19VTHRFa2pvT2RHa01RTVM4cWY5VFY2bFQtOHlBcUYyYVI1dkdKMG5zY0QtQnVrZ3dDeGxMMEM4UFM2NkNXa2gtMGd5bWNRR3d2amNlRGU1dDZJQWNuTmZaaU5PWm5TbEk?oc=5"
+    },
+    {
+      "title": "『ちいかわぽけっと』が「青森ねぶた祭」をはじめとした3大夏祭りに参加決定！浴衣姿のちいかわたちデザイン限定グッズ販売、ノベルティ配布も実施 - ｄメニューニュース",
+      "title_zh": "《Chiikawa Pocket》將參加「青森睡魔祭」等三大夏季祭典！販售千川設計的浴衣限定商品並發放新奇商品 - d Menu News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSVpjVk5PQ2lqUkdWWDNDeUNxRXNFbEFoQllmUnE3TWlQdUhvVGtUeklzdlc5R3RRTW16MlY2RkZwNTI0YWhOMndnRjhsZU55RmlLVzJqYjFvVGFramEzdmtidzB4NUNoTmN0S3N4VjNkX2x3Q1VvaTJiNzdLNnhVcFdn0gGHAUFVX3lxTE1RYm5nY0EwU2k2M2pNbkgwZHI3SXlRNDE1d3hEOE40YlNfc0t6dVpzU3hQOVB4T1dxeXNaMzREcTVqRUhELTUzZlVLT01TcmVub3lDajFyUFUyUVJpYlNzLUpRWGN3Z1hBOVlCVU9kSGxzaS1XUjBpX3ptUnZtRFdlY3VPaVUydw?oc=5"
+    },
+    {
+      "title": "「ちいかわ」初のスマホアプリ『ちいかわぽけっと』「ちいぽけ夏まつり2026」として、「青森ねぶた祭」「仙台七夕まつり」「阿波おどり」に登場！！ - PR TIMES",
+      "title_zh": "「Chiikawa」的首款智慧型手機應用程式「Chiikawa Pocket」將作為「Chiipoke Summer Festival 2026」出現在「青森睡魔祭」、「仙台七夕祭」和「阿波羅舞」！ ！ - 公關時報",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5vSGIzTEM3OGM2MDFiVHBkeUk2S3FNRDVZUlF3eUNJWFVXWTVUUm5ybkw0YkFFQS0yLVBQMmhhUWpRa01KczdYVldtYWFlWTBLazYxS3R0b0RHZWlkNVNGZlVpR1pnM1lTMUE?oc=5"
+    },
+    {
+      "title": "徳島市の阿波踊りに「ちいかわ」が来るって･･･コト!? ウラ！ヤハ！プルヤッ！ - 徳島新聞デジタル",
+      "title_zh": "「Chiikawa」將參加德島市的阿波舞節…！ ？烏拉！呀哈！拉你啊！ - 德島新聞數碼",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9hYkdLNHBXdTVfM1pYMjdwU1pfYklzMll5cEVOX3RVUjRDQ3NseFpOd2kxLTlBWF9udk9ObkhTMU5NOV9XV3RDLTVXMzRjXy1Mc1RLbkJn?oc=5"
+    },
+    {
+      "title": "「おしゃべりちいかわ」に“パジャマつきセット”が登場！上下に振ると「イヤッ」など、アクションに応じて喋るボイス付きぬいぐるみ - インサイド",
+      "title_zh": "「Chatai Chikawa」推出「睡衣套裝」！毛絨動物，其聲音會根據您的動作而說話，例如“不！”當您上下搖動它時 - 內部",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8yWUJSSFRTMURFdVZLZGxCMVpOY3JOMDN4b1RERlJ2M29YZ20xUEVjLXZ3dVNwWnpXaGdPRmpKeDNrM2c1R2tManhIckZDdlk5LVM1bDMzNThLYTlkSm1xSWxJSGJOczY5MHc?oc=5"
+    },
+    {
       "title": "ちいかわ 7月7日(火)放送分 第358話 あくむ(10)｜アニメ／ヒーロー｜見逃し無料配信はTVer！人気の動画見放題 - TVer",
       "title_zh": "千川廣播7月7日星期二第358集阿庫姆（10）｜動畫/英雄｜在TVer上免費觀看！無限觀看熱門影片 - TVer",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE02djBNZHF6Zm9qdWRfd1lrNjI1d2IxS25ZS1ZVVEs0ZkFGS2pWbU1wRWNnOUhfaW00Yk1TQzdsYW54bVZCSzlfNDlENA?oc=5"
     },
     {
-      "title": "ちいかわ×全国PARCOの夏キャンペーン開催 限定コラボカフェや豪華特典を配布（リアルサウンド） - Yahoo!ニュース",
-      "title_zh": "Chikawa x National PARCO 夏季活動舉行，限量合作咖啡館和豪華福利分發（Real Sound） - 雅虎！訊息",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzYnNzY2RqR3k0eFJzQ3lkaGxFNGJFUDhlcVRKSTFIemxacDNIcGRFa2REcmJ1R2JybW5ZNkFpbDYyT09XNG5mZ05ZLVY4cWlyMV90eERXYzJzNmkyeHpmaGZnb0ppOUFhemFOOXVJbUlDOTg4QUVLTDk5akFFZGc?oc=5"
+      "title": "「ちいかわ、さがしてます。『映画ちいかわ』東京メトロ脱出ゲーム」7月24日より開催！ - GAME Watch",
+      "title_zh": "「我在尋找千川。『千川劇場版』東京地鐵逃脫遊戲」將於7月24日起舉辦！ - 遊戲手錶",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBwcEFfcWFRTmo4T2JkTVlLQnRiTHhjc1J5YWF4XzVUMDF1NTd0b1RsMEtocjhKTXY2QWpVd2x2ZGJPRXQxSXJYSkJDVVJXVXA2dTJ5YWs5eUh5UFplVjFNcUcxSXFFUQ?oc=5"
     },
     {
-      "title": "7月8日(水)の「ちいかわ占い」 - めざましmedia",
-      "title_zh": "7月8日星期三「千井川算命」 - Mezamashi media",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fTVlZNVAyQ091VHJ1RnpvOTdNSlEtR1NLVFpyT1JGdXM5WkVfTHAtc09OT2RDMThneEJuZmcxX3dpaTlyTXNJNExrS0c1R0NfbUxj?oc=5"
+      "title": "「ちいかわ、さがしてます。 『映画ちいかわ』東京メトロ脱出ゲーム」開催！「ESCAPE.ID」にて謎解きキットの取り扱いが決定 - PR TIMES",
+      "title_zh": "「千井川，我在找它。『劇場版千井川』東京地鐵逃脫遊戲」正在舉辦！ 「ESCAPE.ID」將攜帶解謎套件 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9obGt0clRUMTNibHY3eEpCcUNWeVN0dk02cXBZcTY5UkdXdXl1STM3ckd0UGtUdUNpaHpxbDQ5YldTTTF6Nld3cjJBSk9adUUzWVpvRTNGbHc4NkdRSzNLbWtweC0tWnpnNkE?oc=5"
     },
     {
-      "title": "実はシビアな『ちいかわ』の世界観…アニメ派の人は意外と知らない「生々しい設定」も（ふたまん＋） - Yahoo!ニュース",
-      "title_zh": "《千井川》的世界觀其實相當嚴厲…還有一個動漫迷們驚奇地沒有意識到的「生動設定」（兩人+）－雅虎！訊息",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YOW02MFZ1aHFBVTVTdWl4Y0dwdWsyTlR3N3FDc3Fvc1l6MnVvcmk0NHNjQi1mcWtzMzBsSHZoUEJoVGlOc01SYU1ONkc4S1hobUNKZjRnWUwtV1Rra2V1ZW1FNVNjeWJqR3A3R1l6RkNEYWJIZDNYb2xodGdTX2s?oc=5"
+      "title": "「ちいかわ、さがしてます。」映画「ちいかわ」東京メトロ脱出ゲームが開催決定！いなくなったちいかわ、ハチワレ、うさぎを探す謎解きキットが7月10日より発売（インサイド） - Yahoo!ニュース",
+      "title_zh": "「千川，我來找你。」電影《Chiikawa》東京地鐵逃脫遊戲即將舉辦！尋找失蹤海洋生物、八件和兔子的解謎套件將於 7 月 10 日（內部）開始發售 - 雅虎！訊息",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DckNCNEc1bW9WajZXclNvNXR0Q2V0U2VtZ3NFSlFrTldlQ1VDeDZaakFta1A3NVEwQzlGMVlzV1M0ZFhmem5fZ0h5c1hUT0xRTHJYcDVtcDIzMldWV1lRX3FYSXQzVHI5bjRfSkhTNDdpcTBaZklROTlVWUJ6T1k?oc=5"
     },
     {
-      "title": "スマホに付けると「ちいかわ」たちが“ぽわっと” 光る！星の被りものをしたハチワレなど、アクセサリーピン全3種 - インサイド",
-      "title_zh": "當您將其連接到智慧型手機時，「Chiikawa」就會「亮起」！所有 3 種類型的配件別針，包括帶有星形頭飾的甲蟲 - 內部",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1HUDRzelU1bmd4UnN4WFRRSnF0Tm40a0RyMnVKSWc5ZGFFTWFOaTVqMUZtSWl5MG1vdXJqNnptcDZxSXVMUElYbE54LTROanZfbUJRZVQ1Zjl3cHMxcXRoN0ctbDJfYkZKamc?oc=5"
+      "title": "【シリーズ累計20万部突破！】大人気「ちいかわ漢字ドリル」シリーズから小学４・５・６年生向けが新登場！ - PR TIMES",
+      "title_zh": "【系列累計銷售量突破20萬本！ ] 流行的「Chiikawa Kanji Drill」系列中適合四年級、五年級和六年級小學生的新版本！ - 公關時報",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iTWY0RTNuMHc5UVFFdUxEejhQamNhNzJQcWhXNzU2ZG9rYXJTU05GckNVZlZxejlpdHBKZkk0RHdNanNyeVAtaGV2c2ZpVXRINUpPckVWaUw0Z2VKcTVSSWRoNGhHQ19oT0E?oc=5"
     },
     {
-      "title": "『ちいかわ漢字ドリル』高学年向けが新発売！ 夏休みの家庭学習にぴったりな理由とは - 講談社コクリコ",
-      "title_zh": "「Chiikawa Kanji Drill」現已推出高年級！為什麼暑假期間在家學習最適合 - 講談社 Coquelico",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvNDlNRWdvNDFldkFtZW1mbURyTzhrLVM5ZWtEU3M2QWxjeDhPYVl4U0VLaWt0Y0d6bzVLMTRRcW1wLVNsdF9qU3RRZnFWbmVsWGVuelJDQ0lyT3J3dmc?oc=5"
+      "title": "『映画ちいかわ』で鍵握るセイレーン新グッズ登場へ！ “だらけフィギュア”＆“特大ぬいぐるみ”を受注販売 - クランクイン！",
+      "title_zh": "掌握電影Chiikawa鑰匙的Siren的新商品現已上市！ 「Dare 玩偶」和「超大毛絨動物」可供訂購 - 啟動！",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9jRk5WTjFVWUltTGJmc1NjUnlpTXVIelFHMGY0VXdCUERKNFBZWHdXT0lZdVdJRHRlcEVNS1RSZDhlT25xYXNpcTdVSVFYWnlJMDdldzdBZw?oc=5"
     },
     {
-      "title": "画像・写真 | 今夏、全国のPARCOがちいかわで染まる スペシャルノベルティのプレゼント＆フォトブースが登場 8枚目 - オリコンニュース",
-      "title_zh": "圖片/照片 |今年夏天，PARCO全國8th photo將推出特別新奇禮物和用Chikawa染色的照相亭 - Oricon新聞",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CRnRuOHBMa2JpVzkyVG1hM2FXaDBzR3RnVTJIak5JRUFMeGlGN1Nsa0VKYWJ3MVZKWGhtWjBET2Z0QWk5OU9zM2pMLWJUZ1AzSUt1cnpQeWdMQQ?oc=5"
+      "title": "「ちいかわ」セイレーンの約40cm特大ぬい＆フィギュア7月10日～順次受注開始！（GAME Watch） - Yahoo!ニュース",
+      "title_zh": "「千伊川」Siren 約40cm超大縫製＆手辦將於7月10日起開始接受訂購！ （遊戲觀看）- 雅虎！訊息",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxM1E1cThxc284bjFNa2IwMEs3OFlrLWY4WGZrUmNDb3dTZUxUeVhFaExsN2VrckZ5N3g3MDlHRHZ5bjVkNURwWmIzSHp2Ukx5WG5DLXpSdVZTMmdyQjJFVVFYRFA4cU4yMlJ0eHVPRFhOenVPcE8yQWZWU0cwUlU?oc=5"
     },
     {
-      "title": "「ちいかわ」うさぎがタピオカに!? 麻雀セットもグッズに♪ 台湾限定エリアも注目☆ 大型展覧会が台北に上陸【〜9月27日】 - ｄメニューニュース",
-      "title_zh": "「千井川」兔子變成了木薯粉！ ？麻將套裝也有商品♪台灣限定區也請留意☆大型展覽登陸台北【至9月27日】 - d Menu News",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdVladVdiUTNSb192cmx1czBjdTVZcFRWcGx1eTJ1WmtGbUplc2RCYmJ6RFQ2WUpXc0NLcVE0LXpUX3FVckJZLWtBWVBKdEYyU0E3NUlMZEhnNlp2NXpPbWNXWUc0LTR3Uk1NN0dPa29ybDctLXFyNGFTZUU1cTczSW9DVzI4UTJFQ3ZGTld0VThVYTd6Y2tHWHVhazM0M2RqYUJ3RDFoT2hHU2RxZzZVWm1SX1lBcmZVSDgtUHFKSFdwUlBzdDAxQ0txaWluR2FlaU9KWHN1aVFEQTcxRVpB0gGPAUFVX3lxTE5mZFhwT002YWxrNWI3ODRDOEhaNkh4S2F4Sy14SVRrMUN4dFBKMWtlamlKS3p5QmdMU2UwMnNfS1hwZ3VBOGVDYlZhTlpYRl9UcFozM0MwVUlPNHViVlZ6SDNPVlZjZU9XMmFNaFBPTV9ndHBZNFZDdEdmNUZCTVpRZUhtREhDMTVuQzhuV29R?oc=5"
+      "title": "7月24日（金）全国ロードショー『映画ちいかわ 人魚の島のひみつ』より「セイレーンだらけフィギュア」＆「セイレーンぬいぐるみL」ちいかわ公式WEB SHOP「ちいかわマーケット」で受注予約受付 - PR TIMES",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXdkhJRWJYVmI2aTAybnpFdEt2eUJwU1FpU0otMG1wMEYwa2hDQU9jMjAxaTg5TmlLSzF3cmowVXhYNmlsTjBPdmt0YzZlMmpvT1AxeDNJdWFxLVhFRDh1YUtSVEVteDRuM3c?oc=5"
     },
     {
-      "title": "「ちいかわ」うさぎがタピオカに!? 麻雀セットもグッズに♪ 台湾限定エリアも注目☆ 大型展覧会が台北に上陸【～9月27日】 - Yahoo!ニュース",
-      "title_zh": "「千井川」兔子變成了木薯粉！ ？麻將套裝也有商品♪台灣限定區也請留意☆大型展覽登陸台北【至9月27日】 - 雅虎！訊息",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcjNFTUR6UDFxZ3JJanJBdjVDNDktNmdHcGQ1S3dvckdUMVdBUzY2R2o4cjhqYTVDM1pCdlBrdVd6UDFSODBuWDZjRGlmeGt6Ry1NYWNUQm1hU0F5MUNZaVJpZnBkTl9nWkh2eHgtRXRLMmNrVTFKaXV6ZTZTeWtndkxVQlVsdTlOWU1hT0pR?oc=5"
-    },
-    {
-      "title": "「ちいかわ」うさぎがタピオカに!? 麻雀セットもグッズに♪ 台湾限定エリアも注目☆ 大型展覧会が台北に上陸【～9月27日】 - 千葉テレビ放送",
-      "title_zh": "「千井川」兔子變成了木薯粉！ ？麻將套裝也有商品♪台灣限定地區也請留意☆大型展覽登陸台北【至9月27日】 - 千葉電視台",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5fMElsT1BsYThyUDQ0MUE0WmZ1SGhJb3NEMERlSW93ajdBdG9WWHE4azNsd1NlTnAzMm5YOWtXUHJJSGs1Y0dJVXN2S25uNUhIRnJ1U1loS0RpUUdZclBB?oc=5"
-    },
-    {
-      "title": "バンダイ「ちいかわ チョコボックス ボックスフィギュアコレクション」発売。ちいかわ/ハチワレ/うさぎなど全9種 - グルメ Watch",
-      "title_zh": "萬代「Chikawa Chocobox Box 手辦系列」發售。千川/八燒/兔子等9種 - 美食手錶",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wb2VYY2trZzJ0QnhMd3FwbkROVnczRGhYTWFUXy10UjhpbHN0NkpjUzQ3V2I0ZHZUdVJ0bVhGRU5hZmRUU3R4SUNGTG1GcUpBNVdPOGpPem5YUHRJYUJWMVZGX3pTaEtCTXc?oc=5"
-    },
-    {
-      "title": "【ちいかわ】ハチワレの「こんなになっちゃった あはは」がショッキングすぎる…！ アニメ『ちいかわ』第358話「あくむ⑩」はうさぎの残像が見える回避にも注目 - PASH! PLUS",
-      "title_zh": "【千伊川】八割的「啊哈哈，結果如何」太震撼了…！動畫《Chiikawa》第358集《Akumu⑩》也著重躲避可以看到兔子殘影的地方－PASH！加",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBGUEJkNHlQRXNjWlFxWlFhdE9VYjl4MFZFYXlqRWpXUWc5VEVKMDNLcVJQZW5IdjcxREU3cmtWYTdWOGRNbUdTcFRDOUFsQQ?oc=5"
-    },
-    {
-      "title": "【ちいかわ】大人気のちいかわチョコボックスを1日遅れでコンビニでゲット！うさぎ狙いで開封レポします！（jsc） - エキスパート - Yahoo!ニュース",
-      "title_zh": "[千川]晚一天在便利商店購買人氣千川巧克力盒！我來報道拆箱，瞄準兔子！ (jsc) - 專家 - 雅虎！訊息",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOVEzaHRDWVBLYXhSQzAyMmstVHY4bC1XZVNVQThJM1JubFpRcGxCcTlQQmVZcl9sTENKc2t1YWZsTEZrdWlCNF9DRGVKZVFKYmdvblVBOEtGaU1Ba1dlcGx4cWZLUnBhZXR0X0lFeS1EdjJBQXdCV21kRHRZM1VxTUQ2a1RFUXdz?oc=5"
-    },
-    {
-      "title": "パナソニック エナジー、人気作品「ちいかわ」初の映画化を記念し、劇中アイテムを再現した乾電池を限定発売 - Panasonic Newsroom Global",
-      "title_zh": "松下能源公司推出限量版再現劇中物品的乾電池，慶祝人氣作品《Chiikawa》的首部電影改編 - Panasonic Newsroom Global",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XRE1qc05jbVhqNmNsdmRGbnczVFlpc0E0TVRPV2Q3RU4ycVlnTHZMUGlPN0xpQVk3TTY2dkdmc2c1Sk9rWjBqakZmM3dVcDlGNWJyMk5R?oc=5"
-    },
-    {
-      "title": "パルコ、「ちいかわ」と組んだキャンペーン 夏の集客策に - 日本経済新聞",
-      "title_zh": "Parco與「Chikawa」活動合作，在夏季吸引顧客 - 日本經濟新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zcVVoczRPa0lhRmNLMjkyV0RIeFVPV1A5UlgxTnJnZnQ2NlQzdzB1RnVUUHhLd0ZnYmdLSl9sUjVFOEtUcjQtZmd0aHkwbFRMWkljYUhjOVoyZWlQN3NHNXlvblY3S3FiNDJpYg?oc=5"
+      "title": "映画『ちいかわ』キーアイテムは「びんよよ」？　らしさ全開のグッズ展開を解説 - Real Sound｜リアルサウンド",
+      "title_zh": "「Binyoyo」是電影「Chiikawa」中的關鍵項目嗎？說明完全獨特的商品的開發 - Real Sound｜Real Sound",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WdjEwVVJFTlVOSE5pS2FrNG0yX2QxQy0wbFZPMmJFYUJBVkFhQXFnd1ZvczM1SHhWbTdHbTFaR0pGdk8yRVoxNVI3VG9GMnZRREVPejRTVVZpWURHSGJXQ9IBZkFVX3lxTE15UXd2OXFlVzl6SnBZRV93cndITldxc1RkTTEtYlMwTFZoODl4VVozeUNKQ1VVeUhDckloLUtuZzNJRHY0QnhPQ1FHM1RaOUhQamlhLVFXTXV4bzRJWmZoeDJGVW0wQQ?oc=5"
     }
   ],
   "ジョジョ": [
@@ -275,7 +275,7 @@
     },
     {
       "title": "アニメ『ジョジョの奇妙な冒険 戦闘潮流』新商品発売決定！",
-      "title_zh": "動畫《JOJO的奇妙冒險戰潮》新品即將發售！",
+      "title_zh": "動畫《JOJO的奇妙冒險戰勢》新品即將發售！",
       "url": "https://jojo-portal.com/news/goods/597/"
     },
     {
@@ -310,7 +310,7 @@
     },
     {
       "title": "荒木飛呂彦の初連載作『魔少年ビーティー』のその後を西尾維新×出水ぽすかの超豪華タッグが描き出す！",
-      "title_zh": "西尾維新和出水Posuka的超華麗雙打描繪了荒木飛呂彥首部連載作品《魔法少年貝蒂》的餘波！",
+      "title_zh": "西尾維信與出水Posuka的超豪華合作，描繪了荒木飛呂彥首部連載作品《魔法少年貝蒂》的餘波！",
       "url": "https://jojo-portal.com/news/comics/591/"
     },
     {
