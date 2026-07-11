@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T11:17:57.132664+09:00",
+  "generated_at": "2026-07-11T11:05:09.924899+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6020,18 +6020,6 @@
           "image_url": null
         },
         {
-          "id": "haikyu",
-          "title": "Happyくじ「ハイキュー!!」",
-          "brand": "Happyくじ",
-          "url": "https://www.h-kuji.com/goods/haikyu/",
-          "month_key": "2025-11",
-          "ip_tags": [],
-          "date": "2025-11-14",
-          "price": null,
-          "official_url": "https://www.h-kuji.com/goods/haikyu/",
-          "image_url": "https://www.h-kuji.com/wp-content/uploads/2025/10/475e271bce4d55f31b194c276aa26296.jpg"
-        },
-        {
           "id": "honpo_moomin",
           "title": "タイトーくじ 「ムーミン Anniversary Year」",
           "brand": "タイトーくじ",
@@ -7414,6 +7402,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10714/572678b2-591d-451e-b3fd-70c55d861995.webp"
         },
         {
+          "id": "zootopia10th",
+          "title": "Happyくじ『ズートピア』10thアニバーサリー",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/zootopia10th/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-01",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/zootopia10th/",
+          "image_url": "https://www.h-kuji.com/wp-content/uploads/2026/06/Zoo10th_Bnr_N-01.jpg"
+        },
+        {
           "id": "rakshaana",
           "title": "コトブキヤくじ ラクシャーナ",
           "brand": "コトブキヤくじ",
@@ -7496,6 +7496,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/obeyme-3/",
           "image_url": "https://kujibikido.com/lp/obeyme-3/img/og.png"
+        },
+        {
+          "id": "1bankuji_10708",
+          "title": "一番くじ ナルミヤキャラクターズ ～あの頃のときめきメモリーズ～",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10708",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-08",
+          "price": null,
+          "official_url": "https://1kuji.com/products/narumiya2",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10708/68de5f7b-7321-438b-86a3-4c0f41b2a30e.webp"
         },
         {
           "id": "1bankuji_10710",
