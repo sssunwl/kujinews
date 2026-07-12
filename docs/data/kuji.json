@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T11:05:09.924899+09:00",
+  "generated_at": "2026-07-12T11:13:00.112807+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6952,6 +6952,20 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10693/3205e8fc-383b-4b5d-91f1-b8e192f19592.webp"
         },
         {
+          "id": "comment-page-1#comment-5865",
+          "title": "一番くじ ドラゴンボール スペクタクルバトル",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202607/1bankuji_10693/comment-page-1#comment-5865",
+          "month_key": "2026-07",
+          "ip_tags": [
+            "ドラゴンボール"
+          ],
+          "date": "2026-07-11",
+          "price": null,
+          "official_url": "https://1kuji.com/products/db_sb",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10693/3205e8fc-383b-4b5d-91f1-b8e192f19592.webp"
+        },
+        {
           "id": "dreamclub",
           "title": "コトブキヤくじ 『ドリームクラブ』シリーズ ～Pure☆summer～",
           "brand": "コトブキヤくじ",
@@ -7178,6 +7192,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/ultra23",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10702/25ed435e-1161-473c-97ef-72df674071fd.png"
+        },
+        {
+          "id": "anymy_25",
+          "title": "エニマイくじ 刀剣乱舞ONLINE×んまほっぺシリーズ",
+          "brand": "エニマイくじ",
+          "url": "https://kujimap.com/others/anymy_25",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-24",
+          "price": null,
+          "official_url": null,
+          "image_url": null
         },
         {
           "id": "honpo_tougenanki",
@@ -7668,18 +7694,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/pk_masters",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10698/9a71847a-e1fc-4429-ace7-cd1ba6684169.gif"
-        },
-        {
-          "id": "comment-page-1#comment-5859",
-          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5859",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-29",
-          "price": null,
-          "official_url": "https://1kuji.com/products/hxh11",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
         },
         {
           "id": "comment-page-1#comment-5860",
