@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T11:13:00.112807+09:00",
+  "generated_at": "2026-07-13T11:10:29.883119+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6670,18 +6670,6 @@
           "price": null,
           "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=146",
           "image_url": "https://file.charahiroba.com//img/trans/contents/16606_p_grthu3.jpg"
-        },
-        {
-          "id": "xenoglossia",
-          "title": "コトブキヤくじ アイドルマスター XENOGLOSSIA",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/xenoglossia/",
-          "month_key": "2026-05",
-          "ip_tags": [],
-          "date": "2026-05-17",
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/xenoglossia/",
-          "image_url": null
         },
         {
           "id": "swmandg",
