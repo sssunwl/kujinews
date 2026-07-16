@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T10:43:28.279878+09:00",
+  "generated_at": "2026-07-16T11:03:50.537520+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6966,18 +6966,6 @@
           "image_url": null
         },
         {
-          "id": "bungo_penguins",
-          "title": "文豪ストレイドッグス ミニフィギュアくじ ～着ぐるみシリーズ ペンギンズ～",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/bungo_penguins/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-15",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/bungo_penguins/",
-          "image_url": "https://kujibikido.com/lp/bungo_penguins/img/og.png"
-        },
-        {
           "id": "awajima",
           "title": "TVアニメ「淡島百景」オンラインくじ",
           "brand": "くじ引き堂",
@@ -7338,10 +7326,10 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10706/7a22920e-7687-4607-9c91-586de2c33e28.webp"
         },
         {
-          "id": "comment-page-1#comment-5864",
+          "id": "comment-page-1#comment-5870",
           "title": "一番くじ 春秋戦国大戦キングダム The Animation 知と武の両輪",
           "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202607/1bankuji_10706/comment-page-1#comment-5864",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202607/1bankuji_10706/comment-page-1#comment-5870",
           "month_key": "2026-07",
           "ip_tags": [],
           "date": "2026-07-31",
@@ -7550,6 +7538,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10721/228b9cea-f92d-4a1a-8dae-7d8203c2c0bb.webp"
         },
         {
+          "id": "hamubou",
+          "title": "ハム坊 オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/hamubou/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-12",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/hamubou/",
+          "image_url": "https://kujibikido.com/lp/hamubou/img/og.png"
+        },
+        {
           "id": "1bankuji_10713",
           "title": "一番くじ 東方Project",
           "brand": "一番くじ",
@@ -7596,6 +7596,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/haikyu32",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10719/bcce94ef-ffa0-485c-84fa-c958b66d161e.webp"
+        },
+        {
+          "id": "you-zitsu",
+          "title": "コトブキヤくじ TVアニメ『ようこそ実力至上主義の教室へ』",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/you-zitsu/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-16",
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/you-zitsu/",
+          "image_url": null
         },
         {
           "id": "silentwitch_2",
