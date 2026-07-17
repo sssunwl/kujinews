@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T11:03:50.537520+09:00",
+  "generated_at": "2026-07-17T11:08:49.972158+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6966,18 +6966,6 @@
           "image_url": null
         },
         {
-          "id": "awajima",
-          "title": "TVアニメ「淡島百景」オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/awajima/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-16",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/awajima/",
-          "image_url": "https://kujibikido.com/lp/awajima/img/og.png"
-        },
-        {
           "id": "1bankuji_10688",
           "title": "一番くじ オーバーロード",
           "brand": "一番くじ",
@@ -7038,18 +7026,6 @@
           "image_url": "https://file.charahiroba.com//img/trans/contents/18422_p_grthu3.jpg"
         },
         {
-          "id": "kakuriyo",
-          "title": "賞品公開『かくりよの宿飯 あやかしお宿に嫁入りします。』オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/kakuriyo/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-21",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/kakuriyo/",
-          "image_url": "https://kujibikido.com/lp/kakuriyo/img/og.png"
-        },
-        {
           "id": "nakamura-kun",
           "title": "TVアニメーション「ガンバレ！中村くん！！」オンラインくじ",
           "brand": "くじ引き堂",
@@ -7072,18 +7048,6 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/romisora/",
           "image_url": "https://kujibikido.com/lp/romisora/img/og.png"
-        },
-        {
-          "id": "shadow-garden_4",
-          "title": "賞品公開陰の実力者になりたくて！オンラインくじ 第2弾",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/shadow-garden_4/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-21",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/shadow-garden_4/",
-          "image_url": "https://kujibikido.com/lp/shadow-garden_4/img/og.png"
         },
         {
           "id": "sidem_cw2",
@@ -7548,6 +7512,42 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/hamubou/",
           "image_url": "https://kujibikido.com/lp/hamubou/img/og.png"
+        },
+        {
+          "id": "date-a-live-15th",
+          "title": "『デート・ア・ライブ』15周年記念オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/date-a-live-15th/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-13",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/date-a-live-15th/",
+          "image_url": "https://kujibikido.com/lp/date-a-live-15th/img/og.png"
+        },
+        {
+          "id": "gamera",
+          "title": "『ガメラ』オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/gamera/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-13",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/gamera/",
+          "image_url": "https://kujibikido.com/lp/gamera/img/og.png"
+        },
+        {
+          "id": "prisma-illyamovie-hb2026",
+          "title": "劇場版「Fate/kaleid liner プリズマ☆イリヤ Licht 名前の無い少女」Happy Birthday 2026くじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/prisma-illyamovie-hb2026/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-13",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/prisma-illyamovie-hb2026/",
+          "image_url": "https://kujibikido.com/lp/prisma-illyamovie-hb2026/img/og.png"
         },
         {
           "id": "1bankuji_10713",

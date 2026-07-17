@@ -1,6 +1,16 @@
 {
   "ワンピース": [
     {
+      "title": "中国出張店「ONE PIECE 麦わらストア in 武漢」が8月2日(日)より武漢X118にて開催",
+      "title_zh": "中國分店「ONE PIECE麥原武漢店」將於8月2日（週日）起在武漢X118開業",
+      "url": "https://one-piece.com/news/80906/index.html"
+    },
+    {
+      "title": "フィギュアページに「モンキー・D・ルフィ」「サンジ」ほかのアイテムを追加！",
+      "title_zh": "人物專頁追加了「蒙奇·D·路飛」、「山治」等商品！",
+      "url": "https://one-piece.com/news/80883/index.html"
+    },
+    {
       "title": "「ONE PIECE DAY’26」にてきただにひろし＆大槻マキCD先行発売＆握手会が決定",
       "title_zh": "「ONE PIECE DAY’26」將舉辦北谷浩＆大月真希的先行CD發售及握手會",
       "url": "https://one-piece.com/news/81027/index.html"
@@ -64,19 +74,19 @@
       "title": "ラウンドワン×『ONE PIECE』コラボキャンペーン ノベルティ配布条件のお知らせ",
       "title_zh": "Round One x 《ONE PIECE》合作活動新奇分發條件通知",
       "url": "https://one-piece.com/news/80977/index.html"
-    },
-    {
-      "title": "ONE PIECEカードゲーム6色スタートデッキ【ST-31】～【ST-36】が7月11日(土)発売",
-      "title_zh": "海賊王卡牌遊戲 6 色起始牌組 [ST-31] ~ [ST-36] 將於 7 月 11 日星期六發售",
-      "url": "https://one-piece.com/news/80780/index.html"
-    },
-    {
-      "title": "チーム戦イベント「ONE PIECEカードゲーム 3on3 LIMITED BATTLE」が開催決定",
-      "title_zh": "團戰活動「海賊王卡牌遊戲3on3 LIMITED BATTLE」即將舉行",
-      "url": "https://one-piece.com/news/80761/index.html"
     }
   ],
   "ドラゴンボール": [
+    {
+      "title": "「ドラゴンボール ゼノバース３」USロードツアーが好評開催中！ドラゴンボール ゼノバース３BNEGAME2026.07.17",
+      "title_zh": "《七龍珠Xenoverse 3》美國公路巡演正在進行中！七龍珠超宇宙3BNEGAME2026.07.17",
+      "url": "https://dragon-ball-official.com/news/01_4336.html"
+    },
+    {
+      "title": "[鳥山明ほぼ全仕事] 1日おきに更新24時間限定公開！　2026/07/17鳥山明ほぼ全仕事COLUMNS2026.07.17",
+      "title_zh": "【鳥山明幾乎全部作品】隔日更新，24小時開放！　2026/07/17 鳥山明 幾乎所有作品 COLUMNS2026.07.17",
+      "url": "https://dragon-ball-official.com/news/01_4335.html"
+    },
     {
       "title": "「ドラゴンボールスーパーダイバーズ 11弾 超越の一撃」が稼働開始！バンダイドラゴンボールスーパーダイバーズCARD2026.07.16",
       "title_zh": "《七龍珠超潛行者 第11次超凡一擊》現已上線！萬代 七龍珠超潛水員 CARD2026.07.16",
@@ -126,16 +136,6 @@
       "title": "【フュージョンワールド情報】大型イベント「CHAMPIONSHIP 26-27 WAVE2 エリア予選 3on3 東京大会」の応募が受付中！バンダイDBSCGCARD2026.07.10",
       "title_zh": "【Fusion World資訊】大型賽事「CHAMPIONSHIP 26-27 WAVE2地區預選3on3東京錦標賽」現已接受報名！萬代DBSCGCARD2026.07.10",
       "url": "https://dragon-ball-official.com/news/01_4316.html"
-    },
-    {
-      "title": "「ドラゴンボール ゲキシン スクアドラ」シーズン6が開幕！あの\"破壊神\"が新ヒーローとして参戦！ドラゴンボール ゲキシン スクアドラBNEGAME2026.07.08",
-      "title_zh": "《七龍珠哥新小隊》第六季開播！ 「破壞神」以新英雄身分加入戰爭！七龍珠哥新小隊 BNEGAME2026.07.08",
-      "url": "https://dragon-ball-official.com/news/01_4297.html"
-    },
-    {
-      "title": "『ほっこりいやされ』シリーズからカリンが登場！ドラゴンボール超カリンバンプレストBANDAI SPIRITSアミューズメント景品GOODS2026.07.08",
-      "title_zh": "花琳從「Hokkori治癒」系列登場！七龍珠超 花蓮 Banpresto BANDAI SPIRITS 娛樂獎品GOODS2026.07.08",
-      "url": "https://dragon-ball-official.com/news/01_4304.html"
     }
   ],
   "REBORN!": [
@@ -192,79 +192,79 @@
   ],
   "ちいかわ": [
     {
-      "title": "【きょうから】『映画ちいかわ』とCoCo壱番屋のコラボ詳細発表　限定メニュー＆シール・フィギュアプレゼントも - ｄメニューニュース",
-      "title_zh": "【今日起】《Movie Chiikawa》與CoCo一番屋的合作詳情公佈。也提供限量菜單、貼紙和人物禮物 - dmenu 新聞",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPX0JNeTZ5eWdQcVp0R201UkFLeE9JNXFDX0xwbERpM1dsSGFGdy1YWllfT1ZRM05fZHNEWkNNSGdCa2hrUDZWaWxaSW9pSDRfS0tjRUpyOXFlZFJkODFYMGd0Tkc5WjVWY1ZJYWI3eUlmQkVHZUt4RGFiSFJuV00wY3diTXNHTlY4UlhmOFBVRFR0UFduYzVKejFsNk4tRE1ocmxzdXB3VVNFeGEwRFExeXBoQm9XODd6ZGtIYjJ0VDI2dDRlNU4xRkRyN0l6eWZadUJ2X2R30gGGAUFVX3lxTE9FOGpvdVp2WUVVZ25hZllCSWVMb2xWeUFtSWdVYUNITDkwV1lzblFFb3U4bUlQdGhzVWwzaW1QU2dQVFh6TkhKUEM2Q0liUkFxQkpnUlNiRjlEeHdJcEt5NktYX3p4UXZOTVl1akp6TzdmdEhxLXNUUVVLVFdjX01DMXN5XzNn?oc=5"
+      "title": "ユニクロ、「ちいかわ」Tシャツ本日発売。夏映画に登場するセイレーンなど全8種 - トラベル Watch",
+      "title_zh": "優衣庫今天推出「Chikawa」T 卹。夏季電影中出現的 8 種警笛 - 旅遊觀察",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oTlVJM0pUMDhMaElNREpUZTVZOEFRQW82dV93QUVqbXQtd1lOTDB2MUJjVGsxdnZBVHp2RDlkNUhCUU1lai1iZzA1VldjT3JpenNBT2xfTnplOGc0dzlxc2R5ZVJIdjBY?oc=5"
     },
     {
-      "title": "夏感じる「ちいかわ」新作くじ ラスト賞は流しそうめん機、風鈴やレトロなコップも - ナタリー",
-      "title_zh": "Chiikawa 的新夏季主題彩票最終獎品包括流水素麵機、風鈴和復古杯子 - Natalie",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5hZGN1QVlDcUxOVXo5cTVIekVrVEZPM2VJWWpkTWM0ZGJFUUY4MU1PVEhZd2c2cnZ5TUtYZy1kckRUaGFTbjRMTEdnZlU?oc=5"
+      "title": "『映画ちいかわ』×ユニクロ「UT」コラボ明日発売！ 第1弾は日焼け姿がキュートな“Tシャツ”など登場 - クランクイン！",
+      "title_zh": "《電影千川》×優衣庫《UT》聯名款將於明日發售！第一部分包括帶有曬黑臉的可愛“T 卹”——Crank In！",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9CTTFvQ21MS0dScThWelJrUV9SVWM1RWZEbEtHM1dyOEJRa2xyWlJMMElTWnBqdERYbk9faFp4YkFYQXQ2b1djQzdhS2J3MHhLNl9fdjJQOHVnVXNmemtpcWZ3?oc=5"
     },
     {
-      "title": "セブン×「映画ちいかわ」コラボグッズを撮り下ろし！ 「エニマイくじ」ジオラマやポーチなど - GAME Watch",
-      "title_zh": "新拍攝的七×「Movie Chikawa」合作商品！ 「任意彩券」立體模型、郵袋等 - 遊戲觀察",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1PMWh1TTZGMEFBejFXdkNPMElqLU4tSnhSNVpkcGVoaTY4cmVCRkxNYl9tT2VmVWV2eUtraHhESzk4LVdRZVlqdUJpVURQalBUMjAxc28yLUNzR0hlN1F5Mi1MT2t0UQ?oc=5"
+      "title": "はしゃぐちいかわたちがデザイン『映画ちいかわ 人魚の島のひみつ』UTコレクション7月17日より発売開始 - cinemacafe.net",
+      "title_zh": "《劇場版千井川：人魚島的秘密》UT系列將於7月17日起發售，川佐羽口設計 -cinemacafe.net",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MVm1BX1R6TzZLQ01aWGV0bUNmSlJjNDNnMmYxUHVUZTFVMEpnMmhGTGZGQ2JMVVV1YUpqYkk0QlJkV1lDV0hBUjZKWmZiRjQ0TlVINnRWT2tDanItZEJ0OE94U1BRNVpX?oc=5"
     },
     {
-      "title": "ちいかわのコップや豆皿も登場 「エニマイくじ」がセブン・イレブン、イトーヨーカドーで7月25日より発売 1枚目の写真・画像 - cinemacafe.net",
-      "title_zh": "還有千川杯和小盤子可供選擇。 《Enimai Kuji》將於 7 月 25 日起在 7-11 和伊藤洋華堂出售。第一張照片/圖片 -cinemacafe.net",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9RWFlnVjVKSkV3YnVJWVBQODV2cVdHY1lVVEMwRGtja1hYRXZGZjc5VGFwdERpMkR2VzlMclJKcDZ0SWhzYmhHNWl4UDZLVlRER0RUeGFQZW5IcUFiTmlhS1pjZ19oQjRPajdsY2ZlM0Q1ay1JYWpF?oc=5"
+      "title": "「ちいかわ破産だわ」【パルコ】7/17より「ちいかわ、パルコ、夏。」が開催。オリジナルポーチのプレゼントも - 朝日新聞",
+      "title_zh": "「千川破產」[Parco]「千川，Parco，夏天」將於7月17日起舉辦。您還可以收到原創小袋子作為禮物 - 朝日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE92UmptbnBlelJRZ0xBSlduMUdMUHliMEI3ck5MV0FNWElDUzd3a1E3WWg3LVdjVUxWNE1pQlJCSksxaEkyNzIxelZhbWxtOTlFYTMxOVJYUDFBcHVjVkxrZXhKQQ?oc=5"
     },
     {
-      "title": "アニメちいかわのイラストがいっぱい！ かわいい学習カードで勉強できる『ちいかわ おぼえるカード 小学1・2年生』が発売 - PR TIMES",
-      "title_zh": "動畫Chikawa的大量插圖！可以用可愛的學習卡學習的「小學一、二年級的千井川記憶卡」現已上市 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4bWFibndhdVZlOHlUN3dDQkEwTjZvV3d1RzRZLXJZcVFXY0VEZ2wzSkswTHVkdjF1OWhkd2NUa1FwVGw4a2JrR1piM1VyNlFVb09vRDZYclloUDNVNlhEdktNQlFMQk1Vcnc?oc=5"
+      "title": "第361話 いなりもち／冷凍うどん - TVer",
+      "title_zh": "第 361 集 稻荷持/冷凍烏龍麵 - TVer",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBVTnFQQ1BWbk5FSmNzMnV5anRnYUcxQ1k1ZHh3ZFRWYWdCTUlqZU1UMy04VURCVERXdnZlNGJHdmx2azV3ZFc1bWRDTQ?oc=5"
     },
     {
-      "title": "「merry jenny(メリージェニー)」から人気キャラクター「ちいかわ」初のスぺシャルコレクションが7月15日(水)よりWebでの先行販売開始 | MARK STYLER株式会社のプレスリリース - PR TIMES",
-      "title_zh": "《merry jenny》人氣角色「千井川」首個特別合輯將於7月15日（週三）起線上發售 | MARK STYLER Co., Ltd. 新聞稿 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJdGlfSGFiRm5PaDhfZENuZ1pzVTNacVBrRzdETDVsREpEdll0NklUekJLcjItb3ZkeGQ2aFNpel9ZX2JvakpKbnJyMEZXSGxXbjlmcGNUaVdSeVRFbjladmdrSjBFZDJJT2c?oc=5"
+      "title": "「ちいかわ」アパレルから雑貨まで、新商品が本日7月17日11時より発売！あのころのカメラや「ラーメン豚」グッズなどラインナップ（インサイド） - Yahoo!ニュース",
+      "title_zh": "從「Chiikawa」服裝到雜貨的新產品將於今天7月17日上午11點開始銷售！陣容包括當時的相機和“Ramen Buta”商品（內部） - 雅虎！訊息",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqTExDSjhJT3o2dGIzVTlKWFdnQVE5UEk0SkcwSnloSmZZMWU0eVY5ZjVERDMyVjljQWNLOUhVRDVKLTMwbV8tM19tSkpKQ241QlFKQlJBSFVKMGRqMGc3V0M0cDdYN0ZSS0hGTmlCODBldHRxX2pUeHh2czk0SjQ?oc=5"
     },
     {
-      "title": "merry jenny×ちいかわ　愛らしい顔をたっぷりと詰め込んだ“ぬいぐるみトート”登場 - ｄメニューニュース",
-      "title_zh": "merry jenny x Chiikawa 推出充滿可愛面孔的「填充手提袋」 - dmenu news",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONXZRYWVLTGhfVU1QTk9aMzlnR2syNVRoSmZxYWhwWTRVSnI0TlRGSDl5TW5IMVhaMVAyTGI3Q3A0U0RDTnZBYUdTM0hLcWtrUFc4MnhLOVNtTDJfWjgwV0FUb19DRHdST2E4X1p2dkJrYWFWalNZQlExU2RSQ2FiRtIBhgFBVV95cUxNS2Z2TklFQ2xFdTRnTHZYci1mUWpybzg2Qm9QT0xDZEZQVV9aZ2lHWkxIMWRKQjIwV3p1UWhZbWhNRDdJZzZtLVR5QnJESUxsekltT0M4MFN2RmRTZlRwVjFWemxjVmU1SXBYdTJrOUtwSEEyckw2WkdXQzZfd0JkM2xfa3kyQQ?oc=5"
+      "title": "『映画ちいかわ 人魚の島のひみつ』入場者特典に関してのお知らせ - １０９シネマズ",
+      "title_zh": "關於《劇場版《千井川：人魚島的秘密》觀眾優惠的公告 - 109 Cinemas",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9WbmZmMWhubEo2UFNYVi0xLXpuUmV0V1hNWTZ0V2VjOUJ1enN2QXRGOVZMVC1pNm9TNkRsTXpCQ1ZGNVZBWVY3cWVIUmZTUQ?oc=5"
     },
     {
-      "title": "画像・写真 | merry jenny×ちいかわ 愛らしい顔をたっぷりと詰め込んだ“ぬいぐるみトート”登場 4枚目 - オリコンニュース",
-      "title_zh": "圖片/照片 | merry jenny×chiikawa「毛絨玩具手提包」充滿可愛表情第4張照片 - Oricon 新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1CUGZ2WEJ3NlRwdzR4dWdTNHpXdmtsdzRfMDgzZ0M2WU5HbTZzLWRqbHBNVnJpN1h3UmdseDdGYzdNbHVaUVljWlJ0NG5MLTZhc3lXdFpZN1I1TkNjNFZlLS1Xb3E?oc=5"
+      "title": "セブンイレブン『映画ちいかわ』コラボフェア開催 作中登場の食べ物をイメージした商品全10品新発売【一覧】 - オリコンニュース",
+      "title_zh": "7-11「Chiikawa the Movie」合作展即將推出 10 款以電影中出現的食物為靈感的新產品發布 [列表] - Oricon 新聞",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1NVkJXZjFvOWVRdnQ3NlBJWlhiNGN2dl9MTG9DSDJEb2hTb2s2akxMdkZzeXFuQ2l0SjZXOFhsVkxZWnk3SXhMN2RENmc2bGIwWVJKcURn?oc=5"
     },
     {
-      "title": "シャンブルで「ちいかわ」グッズが発売！コップやピッチャーなど暑い夏にぴったりのラインナップ 1枚目の写真・画像 - インサイド",
-      "title_zh": "「Chiikawa」週邊商品正在Chambre發售！適合炎熱夏季的陣容，包括杯子和水壺 第一張照片/圖片 - 內部",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ld01lcDJnekluUzgyVjFuSHpLb3JhNUhIVlQ3WnJjY21tQzJmMENzODhxWEpvQU8ycjUtX0Vlb1ZFN2NkWVR0T1FLNXlKNmI5YTVuNVJYWFdZMGVUVk41U2ZHX2IyUk9tbDQ4cVlkdUdIZkZjTG9rbFRB?oc=5"
+      "title": "「映画ちいかわ」×ココイチ コラボセット注文でスプーン置けるフィギュアもらえる - ナタリー",
+      "title_zh": "如果訂購“Movie Chikawa”x Kokoichi 合作套裝，您將獲得可以拿著湯匙的人物 - Natalie",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5pMTRaS3hlVGNBOFBzTGJZdnAzWWs1dVJlZlJZLU0tY09yVWlkOEhlSk0yRGJ1QXl0RUNCRGsxZHBkT2x0cEV2bHBPeVc?oc=5"
     },
     {
-      "title": "「映画ちいかわ 人魚の島のひみつ」公開記念！「ちいかわベーカリー」限定パンが登場、オリジナルコースター配布も（インサイド） - Yahoo!ニュース",
-      "title_zh": "紀念《劇場版千井川：人魚島的秘密》上映！ 「Chikawa Bakery」限定麵包現已上市，原始杯墊也正在分發（內部） - 雅虎！訊息",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yTGJKY1o1eG55Z2JYNld2ZkFtSjRtdm54M3JwbU8yQUdweEx5SzhaX0pQYnoyaFNvS0lZRmhkSlNnVFZkRk9GVnVzeDVjWDNpNmZVYk9Gc0o5TzVqOGdVSVF2Ukd6LVl4Uk1tTkFRVTB3UU9Ucm5IcGRnQ2pBeUE?oc=5"
+      "title": "ココイチで「映画ちいかわ」コラボが開催！“オリジナル島カレー”の提供や、ハチワレたち8人のスプーン置きフィギュアをプレゼント - Yahoo!ニュース",
+      "title_zh": "「Movie Chikawa」合作正在Cocoichi舉辦！提供“原創島咖哩”並贈送八件八件湯匙架 - 雅虎！訊息",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yM2VOdU9rX0o5aVg3TnBMcUs1Z1d1Y2EzSFlRbXg2a2lQM3ZiaGRNVTU3cjJmQ2RLRTNGS0ZsUW1XZ1FScDdjcG5waTNCV3kxTjdYeVc3R2VWbmRVUW5XRkNoa2dxWWlTRkExX3BYWlQtTUlMbTN1NFpMRmFXY3c?oc=5"
     },
     {
-      "title": "「映画ちいかわ 人魚の島のひみつ」公開記念！東京・大阪の「ちいかわベーカリー」に作中に登場するキャラクターをイメージしたパンが登場！ | 株式会社エルティーアールのプレスリリース - PR TIMES",
-      "title_zh": "紀念《劇場版千井川：人魚島的秘密》上映！東京和大阪的千川麵包店現在推出了以故事中出現的角色為靈感的麵包！ | LTI Co., Ltd. 新聞稿 - PR TIMES",
+      "title": "『ちいかわ』の「赤魚の煮付」がセブンイレブンで発売決定。『映画ちいかわ 人魚の島のひみつ』とのコラボフェアが開催へ - 電ファミニコゲーマー",
+      "title_zh": "「Chiikawa」的《燉紅魚》將於7-11發售。與《電影千川：人魚島的秘密》合作展即將舉辦 - Den Famicom Gamer",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02VEtURmtTUXdGUXBjWlJCQmNSMUdYaUh0UGtmbjgxSlB5WDFqOWMzRFBubVJxN21WYVE5VWN4RVhQS1Z2cm9SU2hnbHhXVC1sVzVvRUZSc1l1Zw?oc=5"
+    },
+    {
+      "title": "“ちいかわ好き”志田未来、スイカ手にしたちいかわたちを抱え笑顔「未来ちゃんも ちいかわも カワイイ～」 - 産経ニュース",
+      "title_zh": "「千井川戀人」志田未來手裡拿著西瓜笑道「未來醬和千井川也很可愛~」 - 產經新聞",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQb0NYV3IwQXVzaURlQmJhNWllRTlJMjIwSGtibHBfODdZaDdrZ1Z4YU5JaGhsSkM3MHFFMmlMdGIzVkhLNDZSOHBIWDRmTy02UTBMNjFCUUdaZXJWekpUMGRwcFQxdnktOHNqUFVCMEtMc3RPVGhMSHFfeEVMZFo3WTJ6SXJxMkFzdGJ0UGdBcE82S052czVLV1E4dw?oc=5"
+    },
+    {
+      "title": "「映画ちいかわ 人魚の島のひみつ」公開記念！東京・大阪の「ちいかわベーカリー」に作中に登場するキャラクターをイメージしたパンが登場！ - PR TIMES",
+      "title_zh": "紀念《劇場版千井川：人魚島的秘密》上映！東京和大阪的千川麵包店現在推出了以故事中出現的角色為靈感的麵包！ - 公關時報",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05ZEs0aGx2ZVNjMlhla2dQRWlWZ3JtVDkzUEJNRVVzVEJLa0ZnMXVfWnZxWVFhTld5Z3RKUDJwa1BzOHU4NzBZNkFxZ0YyeFRJbU1tXzBlamFBVkY0M1ZkZzNqRzZYRUpjWXc?oc=5"
     },
     {
-      "title": "『映画ちいかわ』登場キャラをイメージしたパン登場！ 7．24から「ちいかわベーカリー」で発売 - クランクイン！",
-      "title_zh": "隆重推出以電影《千井川》中登場人物為靈感的麵包！ 7.24 起在「Chiikawa Bakery」發售 - 啟動！",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SVXhpdjVJX0JWVkpuUDVSa28tb3IyTTRXczVOWHhKSjlpdV9LQWN2eEpucTJWZTBkV2x6a005bk93UWhIeHpOU0w5MGY5cHhaeVFVYW9TZw?oc=5"
+      "title": "「かわいすぎて写真会が始まりそう」と反響、ちいかわベーカリーに「映画ちいかわ」限定コラボパンが登場（ABEMA TIMES） - Yahoo!ニュース",
+      "title_zh": "Chiikawa Bakery 推出了電影《Chiikawa》的限量版合作麵包，人們都說太可愛了，要開始拍照了（ABEMA TIMES） - 雅虎！訊息",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPWEZ2cEFUZ3NaMkZ6QkZyLUxseFpfdDNVMHFrQjB6SW94bE5GTDg3dFN5Sm41a1oybDhpMUNrWVBRcENqdF82bExPcDZTS3lGLS1VTHN5b0xsajN5Um1tNmhlcV8wNXN2N3g3MU5NNWROdUV3NndkWnVjUTNMRVU?oc=5"
     },
     {
-      "title": "「公式なのが恐ろしい」ちいかわがキュウリを持って葉にくるまれる姿に「食べられちゃう？」とSNS騒然 - ABEMA TIMES",
-      "title_zh": "「這是官方的，太可怕了」千川裹著樹葉拿著黃瓜的景像在社交媒體上引起了轟動，人們問「我會被吃掉嗎？」 - ABEMA TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9DM3cyaDBtejZJcy1EVXJiOW1adFRNdFpZd01veFU4cEVkTVM2ZHlJeEt1WVJlQmJVUDg3VnAtaVJtcmFHbWVXZjdHcUxzR0JPNFhuZg?oc=5"
-    },
-    {
-      "title": "ちいかわの可愛い生態が丸わかり！ 「ちいかわ」初のキャラクターずかん「アニメちいかわ ひみつずかん」が本日発売！ キャラクターの性格、仕事などをたっぷり紹介 - アニメ！アニメ！",
-      "title_zh": "可以了解千川的可愛生態！ 《千伊川》第一部角色百科全書《動畫千伊川秘密百科全書》今日發售！介紹角色的性格、作品等－動漫！日本卡通！",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Ec2xoUXJiVWJsYVdRbmt1RjlGR29QU1VjeHVyWUdEamRITzFMWHBpbjh5LTByVGx0NmVRWDBUZjhIOVppc0laZWw4NmlyLVNiME9vRUtRbXlTTllRTzFNeXF3?oc=5"
-    },
-    {
-      "title": "セブンイレブン『映画ちいかわ』コラボフェア開催 作中登場の食べ物をイメージした商品全10品新発売【一覧】 - 東奥日報社",
-      "title_zh": "7-11「Chiikawa the Movie」合作博覽會將舉行。 10款以電影中出現的食物為靈感的新產品即將發布 [名單] - Tooku Nipposha",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxV2x4OGF1VTAwU0IycjBKYXlNclRUbkZvdUZ6eDIzZHY0RU92OW9HdzVZQUpfT2p6SklNNk1MTFAxV093NWktdlNrRHh3SmVtb2p0R0l0ZnI?oc=5"
+      "title": "ちいかわが花かんむりを被ったパンに！ セイレーンは激辛パン!? 「映画ちいかわ」公開記念 「ちいかわベーカリー」にキャラモチーフのパンが登場 - ｄメニューニュース",
+      "title_zh": "Chikawa是一種覆蓋著花冠的麵包！ Siren是超辣麵包！ ？為紀念電影《千井川》上映，「千井川麵包店」推出角色圖案麵包 - d Menu 新聞",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOHFkaTBDbDNNVmZETEVablU5bU5VcThmU2oyMUhvMy0tc2xyRGF3MEdHVWZieFNlTmRROUhDTDdXT2ZMREJSaHExdm01WlFYbUdoQUo3TFpHeHRJRjg4Q3ZqbzNDQXhvTTRmUk9hRVgwZDdESUQ4aWxialJEWjFHbGdrSVB3ajlpT2fSAY8BQVVfeXFMUHVZcTVaVElWMWNwWVBPdHJIUkxlSXdHUDBhUGpkNXE5YXZTN3d5eEQ1RFVRVWJUSlhlOHk5SzNWRG9oVzdtT2ZQMWo3SDRrOVBnY1pQRmQ1M2hrUnRVQ3BpNm5QdmZyUlJ1R2F3c2ZLNEc0VHJHVWNob3hyZlYwRmhxOGFzMm9pSjZoRVdGYms?oc=5"
     }
   ],
   "ジョジョ": [
