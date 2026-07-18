@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T11:08:49.972158+09:00",
+  "generated_at": "2026-07-18T10:49:14.276665+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6160,18 +6160,6 @@
           "image_url": null
         },
         {
-          "id": "zootopia2",
-          "title": "Happyくじ『ズートピア2』",
-          "brand": "Happyくじ",
-          "url": "https://www.h-kuji.com/goods/zootopia2/",
-          "month_key": "2025-12",
-          "ip_tags": [],
-          "date": "2025-12-19",
-          "price": null,
-          "official_url": "https://www.h-kuji.com/goods/zootopia2/",
-          "image_url": "https://www.h-kuji.com/wp-content/uploads/2025/11/Happykuji_zootopia2_banner_1104_01-1.jpg"
-        },
-        {
           "id": "honpo_horse_equinox",
           "title": "タイトーくじ  「HORSE HEROES」",
           "brand": "タイトーくじ",
@@ -6940,20 +6928,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10693/3205e8fc-383b-4b5d-91f1-b8e192f19592.webp"
         },
         {
-          "id": "comment-page-1#comment-5865",
-          "title": "一番くじ ドラゴンボール スペクタクルバトル",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202607/1bankuji_10693/comment-page-1#comment-5865",
-          "month_key": "2026-07",
-          "ip_tags": [
-            "ドラゴンボール"
-          ],
-          "date": "2026-07-11",
-          "price": null,
-          "official_url": "https://1kuji.com/products/db_sb",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10693/3205e8fc-383b-4b5d-91f1-b8e192f19592.webp"
-        },
-        {
           "id": "dreamclub",
           "title": "コトブキヤくじ 『ドリームクラブ』シリーズ ～Pure☆summer～",
           "brand": "コトブキヤくじ",
@@ -7182,6 +7156,20 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10690/6f789874-5254-43f4-bc1a-b75af4f84630.webp"
         },
         {
+          "id": "anymy_26",
+          "title": "エニマイくじ ちいかわ ～ちいかわと夏の思い出～",
+          "brand": "エニマイくじ",
+          "url": "https://kujimap.com/others/anymy_26",
+          "month_key": "2026-07",
+          "ip_tags": [
+            "ちいかわ"
+          ],
+          "date": "2026-07-25",
+          "price": null,
+          "official_url": null,
+          "image_url": null
+        },
+        {
           "id": "hanamaeharu",
           "title": "コトブキヤくじ 花前ハル",
           "brand": "コトブキヤくじ",
@@ -7282,18 +7270,6 @@
           "title": "一番くじ 春秋戦国大戦キングダム The Animation 知と武の両輪",
           "brand": "一番くじ",
           "url": "https://kujimap.com/1bankuji/1bankuji_202607/1bankuji_10706",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-31",
-          "price": null,
-          "official_url": "https://1kuji.com/products/kingdom6",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10706/7a22920e-7687-4607-9c91-586de2c33e28.webp"
-        },
-        {
-          "id": "comment-page-1#comment-5870",
-          "title": "一番くじ 春秋戦国大戦キングダム The Animation 知と武の両輪",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202607/1bankuji_10706/comment-page-1#comment-5870",
           "month_key": "2026-07",
           "ip_tags": [],
           "date": "2026-07-31",
@@ -7452,6 +7428,18 @@
           "image_url": "https://kujibikido.com/lp/obeyme-3/img/og.png"
         },
         {
+          "id": "spiderman-bnd",
+          "title": "Happyくじ / MARVEL『スパイダーマン：ブランド・ニュー・デイ』",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/spiderman-bnd/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-07",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/spiderman-bnd/",
+          "image_url": "https://www.h-kuji.com/wp-content/uploads/2026/07/SMBND_Bnr_N-02-1.jpg"
+        },
+        {
           "id": "1bankuji_10708",
           "title": "一番くじ ナルミヤキャラクターズ ～あの頃のときめきメモリーズ～",
           "brand": "一番くじ",
@@ -7571,7 +7559,7 @@
           "date": "2026-08-14",
           "price": null,
           "official_url": "https://1kuji.com/products/natsume48",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10716/23129cf9-9736-49ec-bb2a-646475f150a8.webp"
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10716/06450a39-5332-4fce-b1fd-0d248606cbfc.png"
         },
         {
           "id": "1bankuji_10672",
@@ -7694,6 +7682,66 @@
           "price": null,
           "official_url": "https://1kuji.com/products/pk_masters",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10698/9a71847a-e1fc-4429-ace7-cd1ba6684169.gif"
+        },
+        {
+          "id": "comment-page-1#comment-5871",
+          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5871",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-29",
+          "price": null,
+          "official_url": "https://1kuji.com/products/hxh11",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
+        },
+        {
+          "id": "comment-page-1#comment-5872",
+          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5872",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-29",
+          "price": null,
+          "official_url": "https://1kuji.com/products/hxh11",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
+        },
+        {
+          "id": "comment-page-1#comment-5873",
+          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5873",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-29",
+          "price": null,
+          "official_url": "https://1kuji.com/products/hxh11",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
+        },
+        {
+          "id": "comment-page-1#comment-5874",
+          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5874",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-29",
+          "price": null,
+          "official_url": "https://1kuji.com/products/hxh11",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
+        },
+        {
+          "id": "comment-page-1#comment-5875",
+          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5875",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-29",
+          "price": null,
+          "official_url": "https://1kuji.com/products/hxh11",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
         }
       ]
     },
@@ -7820,6 +7868,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/theghostintheshell",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10736/855bd2e6-0e35-466f-ab5b-cc7da0979501.webp"
+        },
+        {
+          "id": "1bankuji_10746",
+          "title": "一番くじ 〈トイ・ストーリー〉～Playtime pals forever（遊び仲間は永遠に）～",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202609/1bankuji_10746",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-30",
+          "price": null,
+          "official_url": "https://1kuji.com/products/disney_toy8",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10746/da60244d-bf44-4cd6-9b9c-680890de4d4e.webp"
         }
       ]
     },
@@ -7982,18 +8042,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10788/c2f8ee0d-8933-40b8-9034-f0597e793ccd.webp"
         },
         {
-          "id": "comment-page-1#comment-5867",
-          "title": "一番くじ HUNTER×HUNTER CHMERA ANT ②（再販売）",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202611/1bankuji_10788/comment-page-1#comment-5867",
-          "month_key": "2026-11",
-          "ip_tags": [],
-          "date": "2026-07-13",
-          "price": null,
-          "official_url": "https://1kuji.com/products/hxh8_2",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10788/c2f8ee0d-8933-40b8-9034-f0597e793ccd.webp"
-        },
-        {
           "id": "1bankuji_10787",
           "title": "一番くじ アニメ カードキャプターさくら クリアカード編～Blessed collection～",
           "brand": "一番くじ",
@@ -8004,6 +8052,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/sakura15",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10787/cca99264-dff7-4f3b-8101-d0978ef06e7f.webp"
+        },
+        {
+          "id": "1bankuji_10789",
+          "title": "一番くじ ゴジラ 怪獣乱舞-ゼロの鼓動-",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202611/1bankuji_10789",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": "2026-11-13",
+          "price": null,
+          "official_url": null,
+          "image_url": null
         },
         {
           "id": "bankuji_10785",
@@ -8056,6 +8116,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/jojo_26",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10771/45e9d075-428f-45a8-bc7a-6a553a40caa0.webp"
+        },
+        {
+          "id": "1bankuji_10759",
+          "title": "一番くじ 仮面ライダーマイス＆仮面ライダーゼッツ",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202611/1bankuji_10759",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": "2026-11-27",
+          "price": null,
+          "official_url": "https://1kuji.com/products/rider_zeztz",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10759/5229be58-1ef9-4b94-8eb4-b16fea215d0c.png"
         },
         {
           "id": "1bankuji_10768",
@@ -8124,6 +8196,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/5Hanayome22",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10734/da439ebb-45fa-427c-b952-e0d781a6f1b6.webp"
+        },
+        {
+          "id": "1bankuji_10790",
+          "title": "一番くじ ヱヴァンゲリヲン新劇場版：破",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202612/1bankuji_10790",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://1kuji.com/products/eva20",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10790/6f0768b4-f8a2-475e-a6b1-1b8bad7b77c9.webp"
         }
       ]
     },
