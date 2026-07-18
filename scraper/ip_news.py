@@ -115,9 +115,11 @@ def _fetch_dragonball(cutoff_ts: float) -> list[dict]:
         return []
 
 
-def _fetch_chiikawa(max_items: int = 15) -> list[dict]:
+def _fetch_google_news(query: str, source: str, prefix: str, max_items: int = 15) -> list[dict]:
+    """通用:Google News RSS 搜尋(日本地區)。"""
     try:
-        rss_url = "https://news.google.com/rss/search?q=ちいかわ&hl=ja&gl=JP&ceid=JP:ja"
+        import urllib.parse
+        rss_url = f"https://news.google.com/rss/search?q={urllib.parse.quote(query)}&hl=ja&gl=JP&ceid=JP:ja"
         feed = feedparser.parse(rss_url)
         items = []
         seen: set[str] = set()
@@ -126,17 +128,21 @@ def _fetch_chiikawa(max_items: int = 15) -> list[dict]:
             url = entry.get("link", "")
             if not title or len(title) < 5:
                 continue
-            uid = f"chii_{hash(url) & 0xffffffff}"
+            uid = f"{prefix}_{hash(url) & 0xffffffff}"
             if uid in seen:
                 continue
             seen.add(uid)
-            items.append({"uid": uid, "title": title, "url": url, "source": "ちいかわ"})
+            items.append({"uid": uid, "title": title, "url": url, "source": source})
             if len(items) >= max_items:
                 break
         return items
     except Exception as e:
-        print(f"[news] Chiikawa error: {e}")
+        print(f"[news] {source} error: {e}")
         return []
+
+
+def _fetch_chiikawa(max_items: int = 15) -> list[dict]:
+    return _fetch_google_news("ちいかわ", "ちいかわ", "chii", max_items)
 
 
 def _fetch_jojo(max_items: int = 15) -> list[dict]:
@@ -175,6 +181,11 @@ def fetch_all_news(lookback_hours: int = 9) -> list[dict]:
     news += _fetch_reborn()
     news += _fetch_chiikawa()
     news += _fetch_jojo()
+    # Google News RSS 系列來源
+    news += _fetch_google_news("一番くじ OR バンダイスピリッツ", "バンダイ", "bandai")
+    news += _fetch_google_news("週刊少年ジャンプ OR ジャンプショップ", "ジャンプ", "jump")
+    news += _fetch_google_news("ポケモンカード 発売 OR 予約", "ポケカ", "pkmc")
+    news += _fetch_google_news("ワンピースカード 発売 OR 予約", "ワンピカード", "opc")
     return news
 
 

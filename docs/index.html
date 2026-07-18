@@ -13,7 +13,7 @@
   <meta name="twitter:image" content="https://sssunwl.github.io/kujinews/og-image.png">
   <meta name="description" content="日本一番賞・みんなのくじ等各大くじ品牌最新資訊整合平台。">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="stylesheet" href="style.css?v=20260607">
+  <link rel="stylesheet" href="style.css?v=20260718">
 </head>
 <body>
   <header>
@@ -24,6 +24,7 @@
     <nav class="main-nav">
       <button class="nav-btn active" data-view="today">本日</button>
       <button class="nav-btn" data-view="calendar">年曆</button>
+      <button class="nav-btn" data-view="tcg">卡牌</button>
       <button class="nav-btn" data-view="ip">IP</button>
       <button class="nav-btn" data-view="brands">くじ館</button>
     </nav>
@@ -49,12 +50,27 @@
     </main>
   </div>
 
+  <!-- TCG View -->
+  <div id="view-tcg" class="view hidden">
+    <div class="sticky-bar">
+      <div class="ip-tabs" id="tcg-tabs">
+        <button class="tab-btn active" data-game="pokemon">Pokémon 卡</button>
+        <button class="tab-btn" data-game="onepiece">ONE PIECE 卡</button>
+      </div>
+    </div>
+    <main id="tcg-content" class="content">
+      <div class="loading">載入中...</div>
+    </main>
+  </div>
+
   <!-- IP View -->
   <div id="view-ip" class="view hidden">
     <div class="sticky-bar">
       <div class="ip-tabs" id="ip-tabs">
         <button class="tab-btn active" data-ip="バンダイ">萬代</button>
+        <button class="tab-btn" data-ip="ジャンプ">Jump</button>
         <button class="tab-btn" data-ip="ワンピース">航海王</button>
+        <button class="tab-btn" data-ip="ポケモン">寶可夢</button>
         <button class="tab-btn" data-ip="ドラゴンボール">七龍珠</button>
         <button class="tab-btn" data-ip="REBORN!">REBORN!</button>
         <button class="tab-btn" data-ip="ちいかわ">吉伊卡哇</button>
@@ -74,6 +90,6 @@
   <footer class="site-footer">
     © 2026 KujiUniverse · 非官方資訊整合平台 · 本站與各品牌官方無關
   </footer>
-  <script src="app.js?v=20260607"></script>
+  <script src="app.js?v=20260718"></script>
 </body>
 </html>

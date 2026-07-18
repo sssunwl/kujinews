@@ -31,6 +31,8 @@ IP_KEYWORDS = {
     "REBORN!":     ["リボーン", "REBORN", "家庭教師ヒットマン"],
     "ちいかわ":     ["ちいかわ", "Chiikawa"],
     "ジョジョ":     ["ジョジョ", "JOJO", "JoJo"],
+    "ポケモン":     ["ポケモン", "ポケットモンスター", "Pokemon", "POKEMON", "ポケカ"],
+    "ジャンプ":     ["ジャンプ", "JUMP FESTA", "ジャンフェス"],
 }
 
 
@@ -520,6 +522,16 @@ def main() -> None:
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=2))
     print(f"\nSaved {len(all_items)} items to {OUT}")
+
+    # TCG 発売情報 (ポケカ + ワンピカード)
+    print("\n[TCG] 抓取中...")
+    try:
+        import sys as _sys
+        _sys.path.insert(0, str(Path(__file__).parent))
+        from tcg import build_tcg
+        build_tcg()
+    except Exception as e:
+        print(f"[TCG] error: {e}")
 
     # Save IP news for web (with translation)
     print("\n[IP新聞] 抓取並翻譯中...")

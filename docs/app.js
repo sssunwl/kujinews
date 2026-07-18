@@ -1,5 +1,6 @@
 const DATA_URL = "./data/kuji.json";
 const NEWS_URL = "./data/ip_news.json";
+const TCG_URL  = "./data/tcg.json";
 
 // ── Japanese → Chinese keyword map ───────────────────
 const JP_ZH = [
@@ -128,17 +129,46 @@ const BRANDS = [
 ];
 
 const IP_MAP = {
-  "バンダイ":      { zh:"萬代",    official:"https://p-bandai.jp/press/",             twitter:"https://x.com/BANDAI_SPIRITS" },
+  "バンダイ":      { zh:"萬代",    official:"https://1kuji.com/",                      twitter:"https://x.com/ichibanKUJI",
+                    newsKey:"バンダイ", note:"一番くじ皆為 BANDAI SPIRITS 出品,此頁列出全部一番くじ近期品項。" },
+  "ジャンプ":      { zh:"Jump",    official:"https://www.shonenjump.com/j/",           twitter:"https://x.com/jump_henshubu",
+                    newsKey:"ジャンプ", note:"週刊少年ジャンプ相關情報 — 注意特定期數不時附贈 ONE PIECE 卡/遊戲王卡等特典。" },
   "ワンピース":    { zh:"航海王",  official:"https://one-piece.com/news/index.html",   twitter:"https://x.com/OPspoiler" },
+  "ポケモン":      { zh:"寶可夢",  official:"https://www.pokemon-card.com/products/",  twitter:"https://x.com/pokemon_cojp",
+                    newsKey:"ポケカ" },
   "ドラゴンボール": { zh:"七龍珠",  official:"https://dragon-ball-official.com/news/",  twitter:"https://x.com/DB_official_jp" },
   "REBORN!":     { zh:"REBORN!", official:"https://khreborn-anime.jp/",              twitter:"https://x.com/khreborn_anime" },
   "ちいかわ":     { zh:"吉伊卡哇", official:"https://chiikawa-online.jp/",            twitter:"https://x.com/anime_chiikawa" },
   "ジョジョ":     { zh:"JOJO",    official:"https://jojo-portal.com/news/",           twitter:"https://x.com/araki_jojo" },
 };
 
+// 舊資料 ip_tags 還沒含新 IP 時的前端備援關鍵字
+const IP_TITLE_KEYWORDS = {
+  "ポケモン": ["ポケモン","ポケットモンスター","Pokemon","POKEMON","ポケカ"],
+  "ジャンプ": ["ジャンプ","JUMP FESTA","ジャンフェス"],
+};
+
+// くじ購買通路提示(展開面板用)
+const BRAND_BUY = {
+  "一番くじ":       { note:"便利商店(Lawson/全家)、書店、動漫店販售;部分品項可官網線上抽", online:"https://online.1kuji.com/", online_label:"一番くじONLINE" },
+  "みんなのくじ":    { note:"全家/Lawson 門市販售;官網可線上抽", online:"https://charahiroba.com/minkuji/", online_label:"線上抽" },
+  "Happyくじ":     { note:"7-11、イトーヨーカドー等通路販售", online:"https://www.h-kuji.com/", online_label:"官網" },
+  "グッスマくじ":    { note:"官網線上抽為主", online:"https://kuji.goodsmile.com/", online_label:"線上抽" },
+  "コトブキヤくじ":  { note:"官網線上抽為主", online:"https://kuji.kotobukiya.co.jp/", online_label:"線上抽" },
+  "セガラッキーくじ": { note:"GiGO 等遊戲中心、量販店販售", online:"https://segaplaza.jp/lp/lottery/", online_label:"官網" },
+  "タイトーくじ":    { note:"全家便利店、タイトー店舖販售", online:"https://www.taito.co.jp/taitokuji", online_label:"官網" },
+  "エニマイくじ":    { note:"官網線上抽", online:"https://anymykuji.com/", online_label:"線上抽" },
+  "くじ引き堂":     { note:"官網線上抽", online:"https://kujibikido.com/", online_label:"線上抽" },
+  "サンリオ当りくじ": { note:"便利商店、三麗鷗門市販售" },
+  "ポケカ":        { note:"寶可夢中心、量販店、卡牌專門店販售", online:"https://www.pokemoncenter-online.com/", online_label:"寶可夢中心Online" },
+  "ワンピカード":    { note:"TCG 取扱店、動漫店販售;限定品走 P-Bandai", online:"https://p-bandai.jp/", online_label:"Premium Bandai" },
+};
+
 let kujiData = null;
 let newsData = null;
+let tcgData  = null;
 let currentIP = "バンダイ";
+let currentGame = "pokemon";
 let calState = { year: 0, month: 0, selectedDate: null };
 
 // ── Init ──────────────────────────────────────────────
@@ -147,10 +177,11 @@ async function init() {
   const now = new Date();
   calState.year = now.getFullYear();
   calState.month = now.getMonth() + 1;
-  await Promise.all([loadData(), loadNews()]);
+  await Promise.all([loadData(), loadNews(), loadTcg()]);
   setupNav();
   renderToday();
   setupIPTabs();
+  setupTCGTabs();
   renderBrands();
 }
 
@@ -191,6 +222,26 @@ async function loadNews() {
   catch { newsData = {}; }
 }
 
+async function loadTcg() {
+  try { tcgData = await (await fetch(TCG_URL)).json(); }
+  catch { tcgData = { pokemon: [], onepiece: [] }; }
+}
+
+// TCG 商品轉成 kuji item 形狀,融入年曆/本日/IP 視圖
+function tcgItems() {
+  const conv = (arr, brand, tags) => (arr || []).map(p => ({
+    id: p.id, title: p.title, brand,
+    url: p.url, official_url: p.buy_url || p.url,
+    month_key: p.month_key, date: p.date,
+    image_url: p.image_url, ip_tags: tags,
+    _tcg: true, _category: p.category, _price: p.price, _date_raw: p.date_raw,
+  }));
+  return [
+    ...conv(tcgData?.pokemon, "ポケカ", ["ポケモン"]),
+    ...conv(tcgData?.onepiece, "ワンピカード", ["ワンピース"]),
+  ];
+}
+
 // ── Navigation ───────────────────────────────────────
 function goHome() {
   document.querySelectorAll(".nav-btn").forEach(b => b.classList.remove("active"));
@@ -209,6 +260,7 @@ function setupNav() {
       document.getElementById(`view-${view}`).classList.remove("hidden");
       if (view === "calendar") renderCalendar();
       if (view === "ip") renderIP(currentIP);
+      if (view === "tcg") renderTCG(currentGame);
     });
   });
 }
@@ -333,6 +385,8 @@ const BRAND_DOT = {
   "タイトーくじ":    "taito",
   "エニマイくじ":    "anymy",
   "くじ引き堂":     "bikido",
+  "ポケカ":        "pkm",
+  "ワンピカード":    "opc",
 };
 function brandDot(brand) {
   return BRAND_DOT[brand] || "other";
@@ -433,6 +487,8 @@ function renderCalGrid(container) {
       <span><div class="cal-dot taito"></div>タイトーくじ</span>
       <span><div class="cal-dot anymy"></div>エニマイくじ</span>
       <span><div class="cal-dot bikido"></div>くじ引き堂</span>
+      <span><div class="cal-dot pkm"></div>ポケカ</span>
+      <span><div class="cal-dot opc"></div>ワンピカード</span>
       <span><div class="cal-dot other"></div>その他</span>
     </div>
   `;
@@ -461,9 +517,9 @@ function selectCalDay(dk) {
 
 // ── IP View ───────────────────────────────────────────
 function setupIPTabs() {
-  document.querySelectorAll(".tab-btn").forEach(btn => {
+  document.querySelectorAll("#ip-tabs .tab-btn").forEach(btn => {
     btn.addEventListener("click", () => {
-      document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+      document.querySelectorAll("#ip-tabs .tab-btn").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
       currentIP = btn.dataset.ip;
       renderIP(currentIP);
@@ -475,10 +531,21 @@ function renderIP(ip) {
   const content = document.getElementById("ip-content");
   const info = IP_MAP[ip] || {};
   const allItems = getAllItems();
-  const ipKuji = allItems.filter(i => i.ip_tags?.includes(ip));
-  const ipNews = (newsData[ip] || []).slice(0, 15);
+  const todayKey = fmtDate(new Date());
+  let ipKuji;
+  if (ip === "バンダイ") {
+    // 萬代 = BANDAI SPIRITS 全部一番くじ:顯示未來檔期+近期未定
+    ipKuji = allItems.filter(i => i.brand === "一番くじ" && (!i.date || i.date >= todayKey));
+  } else {
+    const kw = IP_TITLE_KEYWORDS[ip] || [];
+    ipKuji = allItems.filter(i =>
+      i.ip_tags?.includes(ip) || kw.some(k => (i.title || "").includes(k)));
+  }
+  const newsKey = info.newsKey || ip;
+  const ipNews = (newsData[newsKey] || []).slice(0, 15);
 
-  let html = section("🎲 相關くじ", ipKuji.length ? ipKuji.map(i => itemHTML(i)).join("") : empty("暫無相關くじ"));
+  let html = info.note ? `<div class="ip-note">${escHtml(info.note)}</div>` : "";
+  html += section("🎲 相關くじ・商品", ipKuji.length ? ipKuji.slice(0, 40).map(i => itemHTML(i)).join("") : empty("暫無相關くじ"));
 
   if (ipNews.length) {
     html += section("📰 最新消息",
@@ -510,6 +577,112 @@ function renderIP(ip) {
       ${info.twitter ? `<a class="news-source-link" style="background:#111" href="${info.twitter}" target="_blank" rel="noopener">𝕏 官方帳號 ↗</a>` : ""}
     </div>
   `;
+  content.innerHTML = html;
+}
+
+// ── TCG View ──────────────────────────────────────────
+const TCG_INFO = {
+  pokemon: {
+    label: "Pokémon 卡", jp: "ポケモンカードゲーム", newsKey: "ポケカ",
+    links: [
+      { label:"官方商品頁", url:"https://www.pokemon-card.com/products/" },
+      { label:"寶可夢中心 Online(預購/抽選)", url:"https://www.pokemoncenter-online.com/" },
+      { label:"Amazon.co.jp 搜尋", url:"https://www.amazon.co.jp/s?k=ポケモンカード" },
+      { label:"楽天ブックス", url:"https://books.rakuten.co.jp/search?g=009&sitem=ポケモンカード" },
+    ],
+    buyNote: "日本購買通路:寶可夢中心(門市/Online 抽選)、量販店(ヨドバシ/ビックカメラ)、便利商店、卡牌專門店。熱門彈數多為抽選制,留意寶可夢中心 Online 的抽選申込期間。",
+  },
+  onepiece: {
+    label: "ONE PIECE 卡", jp: "ONE PIECEカードゲーム", newsKey: "ワンピカード",
+    links: [
+      { label:"官方商品頁", url:"https://www.onepiece-cardgame.com/products/" },
+      { label:"Premium Bandai(限定/預購)", url:"https://p-bandai.jp/chara/c0187/" },
+      { label:"Amazon.co.jp 搜尋", url:"https://www.amazon.co.jp/s?k=ワンピースカードゲーム" },
+      { label:"楽天ブックス", url:"https://books.rakuten.co.jp/search?g=009&sitem=ワンピースカード" },
+    ],
+    buyNote: "日本購買通路:TCG 取扱店、動漫店(アニメイト等)、量販店、便利商店;會場限定品在 JUMP FESTA/ONE PIECE DAY 等活動販售,官網限定走 Premium Bandai。",
+  },
+};
+
+function setupTCGTabs() {
+  document.querySelectorAll("#tcg-tabs .tab-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll("#tcg-tabs .tab-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      currentGame = btn.dataset.game;
+      renderTCG(currentGame);
+    });
+  });
+}
+
+function tcgCardHTML(p) {
+  const dateLabel = p.date
+    ? `${parseInt(p.date.split("-")[1])}月${parseInt(p.date.split("-")[2])}日`
+    : (p.date_raw || (p.month_key ? `${parseInt(p.month_key.split("-")[1])}月` : "未定"));
+  const zh = zhHint(p.title);
+  const links = [
+    `<a class="brand-link" href="${escHtml(p.url)}" target="_blank" rel="noopener">商品頁 ↗</a>`,
+    p.buy_url ? `<a class="brand-link" href="${escHtml(p.buy_url)}" target="_blank" rel="noopener">預購/購買 ↗</a>` : "",
+    `<a class="brand-link" href="https://jp.mercari.com/search?keyword=${encodeURIComponent(p.title.slice(0,40))}" target="_blank" rel="noopener">Mercari行情 ↗</a>`,
+  ].filter(Boolean).join("");
+  return `
+    <div class="tcg-card">
+      ${p.image_url ? `<a href="${escHtml(p.url)}" target="_blank" rel="noopener"><img class="tcg-thumb" src="${escHtml(p.image_url)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></a>` : ""}
+      <div class="tcg-body">
+        <div class="tcg-meta">
+          <span class="kuji-date">${escHtml(dateLabel)}</span>
+          <span class="kuji-brand">${escHtml(p.category || "")}</span>
+          ${p.price ? `<span class="tcg-price">${escHtml(p.price)}</span>` : ""}
+        </div>
+        <div class="kuji-title-main">${escHtml(zh || p.title)}</div>
+        ${zh ? `<div class="kuji-title-sub">${escHtml(p.title)}</div>` : ""}
+        <div class="tcg-links">${links}</div>
+      </div>
+    </div>`;
+}
+
+function renderTCG(game) {
+  const content = document.getElementById("tcg-content");
+  const info = TCG_INFO[game];
+  const items = (tcgData?.[game] || []).slice();
+  const todayKey = fmtDate(new Date());
+  const thisMonth = todayKey.slice(0, 7);
+
+  const upcoming = items
+    .filter(p => (p.date && p.date >= todayKey) || (!p.date && p.month_key && p.month_key >= thisMonth))
+    .sort((a, b) => (a.date || (a.month_key + "-99")) < (b.date || (b.month_key + "-99")) ? -1 : 1);
+  const released = items
+    .filter(p => p.date && p.date < todayKey)
+    .sort((a, b) => a.date < b.date ? 1 : -1)
+    .slice(0, 12);
+  const tbd = items.filter(p => !p.date && !p.month_key);
+
+  const updStr = tcgData?.generated_at ? new Date(tcgData.generated_at).toLocaleString("zh-TW") : "—";
+  const news = (newsData[info.newsKey] || []).slice(0, 10);
+
+  let html = `
+    <div class="today-header">
+      <div class="today-date">${escHtml(info.label)} 発売カレンダー</div>
+      <div class="today-sub">${escHtml(info.jp)} · 資料最後更新:${updStr}</div>
+    </div>
+    <div class="ip-note">${escHtml(info.buyNote)}</div>
+  `;
+  html += section("🔜 即將發售・預購中", upcoming.length ? upcoming.map(tcgCardHTML).join("") : empty("暫無已公開的新商品"));
+  if (tbd.length) html += section("📦 発売日未定", tbd.map(tcgCardHTML).join(""));
+  html += section("🛒 購買・預購入口", `<div class="section-wrap" style="display:flex;gap:8px;flex-wrap:wrap;margin:0">
+    ${info.links.map(l => `<a class="news-source-link" style="margin-top:0" href="${escHtml(l.url)}" target="_blank" rel="noopener">${escHtml(l.label)} ↗</a>`).join("")}
+  </div>`);
+  html += section("📰 最新消息", news.length ? news.map(n => {
+    const nzh = n.title_zh || zhHint(n.title) || "";
+    const mainTitle = (nzh && nzh !== n.title) ? nzh : n.title;
+    const jpSub = (nzh && nzh !== n.title) ? n.title : "";
+    return `<a class="news-item" href="${escHtml(n.url)}" target="_blank" rel="noopener">
+      <span class="news-dot"></span>
+      <span><div class="news-title-zh">${escHtml(mainTitle)}</div>
+      ${jpSub ? `<div class="news-title-jp">${escHtml(jpSub)}</div>` : ""}</span>
+    </a>`;
+  }).join("") : empty("暫無新聞"));
+  if (released.length) html += section("📅 近期已發售", released.map(tcgCardHTML).join(""));
   content.innerHTML = html;
 }
 
@@ -551,7 +724,7 @@ function renderBrands() {
 
 // ── Shared helpers ─────────────────────────────────────
 function getAllItems() {
-  return (kujiData.months || []).flatMap(m => m.items || []);
+  return [...(kujiData.months || []).flatMap(m => m.items || []), ...tcgItems()];
 }
 
 function itemHTML(item, highlight = false) {
@@ -581,9 +754,28 @@ function itemHTML(item, highlight = false) {
       </div>
       <div class="kuji-expand-panel hidden" id="${panelId}">
         ${hasImage
-          ? `<a href="${url}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><img src="${escHtml(item.image_url)}" alt="${escHtml(displayTitle)}" loading="lazy"></a>`
+          ? `<a href="${url}" target="_blank" rel="noopener" onclick="event.stopPropagation()"><img src="${escHtml(item.image_url)}" alt="${escHtml(displayTitle)}" loading="lazy" referrerpolicy="no-referrer"></a>`
           : `<a class="kuji-view-btn" href="${url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">→ 點此查看官網</a>`}
+        ${expandExtras(item, url)}
       </div>
+    </div>`;
+}
+
+// 展開面板:購買通路提示 + 官網/線上抽 + 二手行情搜尋
+function expandExtras(item, url) {
+  const buy = BRAND_BUY[item.brand];
+  const q = encodeURIComponent((item.title || "").replace(/\s+/g, " ").slice(0, 40));
+  const links = [
+    `<a class="brand-link" href="${url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">官網/詳情 ↗</a>`,
+    buy?.online ? `<a class="brand-link" href="${escHtml(buy.online)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escHtml(buy.online_label || "線上抽")} ↗</a>` : "",
+    `<a class="brand-link" href="https://jp.mercari.com/search?keyword=${q}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Mercari行情 ↗</a>`,
+    `<a class="brand-link" href="https://auctions.yahoo.co.jp/search/search?p=${q}" target="_blank" rel="noopener" onclick="event.stopPropagation()">ヤフオク行情 ↗</a>`,
+  ].filter(Boolean).join("");
+  return `
+    <div class="expand-extras" onclick="event.stopPropagation()">
+      ${buy?.note ? `<div class="expand-buy-note">🛒 ${escHtml(buy.note)}</div>` : ""}
+      ${item._price ? `<div class="expand-buy-note">💴 ${escHtml(item._price)}${item._date_raw ? ` · 発売:${escHtml(item._date_raw)}` : ""}</div>` : ""}
+      <div class="expand-links">${links}</div>
     </div>`;
 }
 
