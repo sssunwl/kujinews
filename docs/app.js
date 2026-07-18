@@ -169,7 +169,7 @@ let newsData = null;
 let tcgData  = null;
 let currentIP = "バンダイ";
 let currentGame = "pokemon";
-let calState = { year: 0, month: 0, selectedDate: null };
+let calState = { year: 0, month: 0, selectedDate: null, filter: "all" };
 
 // ── Init ──────────────────────────────────────────────
 async function init() {
@@ -182,7 +182,26 @@ async function init() {
   renderToday();
   setupIPTabs();
   setupTCGTabs();
+  setupCalFilter();
   renderBrands();
+}
+
+function setupCalFilter() {
+  document.querySelectorAll("#cal-filter .filter-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll("#cal-filter .filter-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      calState.filter = btn.dataset.filter;
+      renderCalGrid(document.getElementById("calendar-content"));
+    });
+  });
+}
+
+function calFilteredItems() {
+  const all = getAllItems();
+  if (calState.filter === "kuji") return all.filter(i => !i._tcg);
+  if (calState.filter === "tcg")  return all.filter(i => i._tcg);
+  return all;
 }
 
 function initStars() {
@@ -357,7 +376,7 @@ function jumpToCalMonth(key) {
   if (key === "unknown") {
     // Show all undated items
     const content = document.getElementById("calendar-content");
-    const allItems = getAllItems();
+    const allItems = calFilteredItems();
     const undated = allItems.filter(i => !i.date);
     content.innerHTML = `
       <div class="cal-detail">
@@ -392,9 +411,23 @@ function brandDot(brand) {
   return BRAND_DOT[brand] || "other";
 }
 
+const LEGEND_KUJI = [
+  ["ichiban","一番くじ"],["minna","みんなのくじ"],["happy","Happyくじ"],
+  ["gsm","グッスマくじ"],["koto","コトブキヤくじ"],["sega","セガラッキーくじ"],
+  ["taito","タイトーくじ"],["anymy","エニマイくじ"],["bikido","くじ引き堂"],
+];
+const LEGEND_TCG = [["pkm","ポケカ"],["opc","ワンピカード"]];
+
+function calLegendHTML() {
+  const entries = calState.filter === "tcg" ? LEGEND_TCG
+    : calState.filter === "kuji" ? [...LEGEND_KUJI, ["other","その他"]]
+    : [...LEGEND_KUJI, ...LEGEND_TCG, ["other","その他"]];
+  return entries.map(([cls, label]) => `<span><div class="cal-dot ${cls}"></div>${label}</span>`).join("");
+}
+
 function renderCalGrid(container) {
   const { year, month, selectedDate } = calState;
-  const allItems = getAllItems();
+  const allItems = calFilteredItems();
   const todayKey = fmtDate(new Date());
   const monthKey = `${year}-${String(month).padStart(2,"0")}`;
 
@@ -447,14 +480,28 @@ function renderCalGrid(container) {
 
   const [, , dd] = (selectedDate || "").split("-");
   const listLabel = selectedDate
-    ? `${month}月${parseInt(dd)}日 の くじ`
+    ? `${month}月${parseInt(dd)}日`
     : `${year}年${month}月 全部（${monthDatedItems.length}件）`;
+
+  // くじ / 卡牌 分區顯示
+  const kujiPart = displayItems.filter(i => !i._tcg);
+  const tcgPart  = displayItems.filter(i => i._tcg);
+  const emptyRow = msg => `<div class="empty" style="padding:12px 0">${msg}</div>`;
+  let bodyHTML = "";
+  if (calState.filter === "all") {
+    bodyHTML += `<div class="cal-sub-label">🎲 くじ（${kujiPart.length}件）</div>`;
+    bodyHTML += kujiPart.length ? kujiPart.map(i => itemHTML(i)).join("") : emptyRow("暫無くじ");
+    bodyHTML += `<div class="cal-sub-label">🃏 卡牌（${tcgPart.length}件）</div>`;
+    bodyHTML += tcgPart.length ? tcgPart.map(i => itemHTML(i)).join("") : emptyRow("暫無卡牌商品");
+  } else {
+    bodyHTML += displayItems.length
+      ? displayItems.map(i => itemHTML(i)).join("")
+      : emptyRow(calState.filter === "tcg" ? "暫無卡牌商品" : "暫無くじ");
+  }
 
   let listHTML = `
     <div class="cal-detail-title">${listLabel}</div>
-    ${displayItems.length
-      ? displayItems.map(i => itemHTML(i)).join("")
-      : `<div class="empty" style="padding:12px 0">暫無くじ</div>`}
+    ${bodyHTML}
   `;
 
   // Show undated items — collapsible, default collapsed, always visible
@@ -477,20 +524,7 @@ function renderCalGrid(container) {
       <button class="cal-nav-btn" onclick="changeCalMonth(1)">›</button>
     </div>
     ${gridHTML}
-    <div class="cal-legend">
-      <span><div class="cal-dot ichiban"></div>一番くじ</span>
-      <span><div class="cal-dot minna"></div>みんなのくじ</span>
-      <span><div class="cal-dot happy"></div>Happyくじ</span>
-      <span><div class="cal-dot gsm"></div>グッスマくじ</span>
-      <span><div class="cal-dot koto"></div>コトブキヤくじ</span>
-      <span><div class="cal-dot sega"></div>セガラッキーくじ</span>
-      <span><div class="cal-dot taito"></div>タイトーくじ</span>
-      <span><div class="cal-dot anymy"></div>エニマイくじ</span>
-      <span><div class="cal-dot bikido"></div>くじ引き堂</span>
-      <span><div class="cal-dot pkm"></div>ポケカ</span>
-      <span><div class="cal-dot opc"></div>ワンピカード</span>
-      <span><div class="cal-dot other"></div>その他</span>
-    </div>
+    <div class="cal-legend">${calLegendHTML()}</div>
   `;
 
   container.innerHTML = `
