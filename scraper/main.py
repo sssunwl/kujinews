@@ -219,7 +219,21 @@ def main() -> None:
     ]
 
     message = "\n\n".join(msg_parts)
-    notify.send(message)
+    errors = []
+    try:
+        notify.send(message)
+        print("Telegram sent")
+    except Exception as e:
+        errors.append(f"telegram: {e}")
+    try:
+        notify.send_discord(notify.html_to_discord(message))
+        print("Discord sent")
+    except Exception as e:
+        errors.append(f"discord: {e}")
+    if len(errors) == 2:
+        raise RuntimeError("; ".join(errors))
+    for err in errors:
+        print(f"[warn] {err}")
     print(f"Sent: {len(upcoming)} upcoming, {len(new_announcements)} new kuji, {len(new_news_uids)} new news")
 
     # 更新 seen.json（kuji + news 都去重）

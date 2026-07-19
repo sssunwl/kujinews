@@ -24,10 +24,11 @@ jobs:
       - name: Build calendar data (kuji.json + ip_news.json)
         run: python scraper/build_data.py
 
-      - name: Send daily TG report
+      - name: Send daily report (Telegram + Discord)
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python scraper/main.py
 
       - name: Commit updated files
