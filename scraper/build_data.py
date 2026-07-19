@@ -157,10 +157,27 @@ def scrape_month(year: int, month: int, brand_label: str, brand_slug: str) -> li
 
 def _make_item(uid: str, title: str, url: str, brand: str,
                date: Optional[str] = None, official_url: Optional[str] = None,
-               image_url: Optional[str] = None) -> dict:
+               image_url: Optional[str] = None, end_date: Optional[str] = None) -> dict:
+    month = date[:7] if date else (end_date[:7] if end_date else None)
     return {"id": uid, "title": title, "brand": brand, "url": url,
-            "month_key": date[:7] if date else None, "ip_tags": tag_ip(title),
-            "date": date, "price": None, "official_url": official_url, "image_url": image_url}
+            "month_key": month, "ip_tags": tag_ip(title),
+            "date": date, "price": None, "official_url": official_url,
+            "image_url": image_url, "end_date": end_date}
+
+
+_PERIOD_DATE = re.compile(r"(20\d\d)年\s*(\d{1,2})月\s*(\d{1,2})日")
+
+
+def _parse_period(text: str) -> tuple[Optional[str], Optional[str]]:
+    """從「販売期間 2026年7月17日(金)12:00～2026年8月23日(日)23:59」抽出 (開始, 結束)。"""
+    dates = [f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}"
+             for m in _PERIOD_DATE.finditer(text)]
+    if len(dates) >= 2:
+        return dates[0], dates[1]
+    if len(dates) == 1:
+        # 只有一個日期時,「まで」語境視為結束日
+        return (None, dates[0]) if "まで" in text else (dates[0], None)
+    return None, None
 
 
 def scrape_happykuji() -> list[dict]:
@@ -323,6 +340,152 @@ def scrape_kujibikido(max_items: int = 20) -> list[dict]:
     return items
 
 
+def scrape_capkuji(max_items: int = 20) -> list[dict]:
+    """カプくじオンライン(capcom-capkujionline.com)。與くじ引き堂同一套引擎:
+    首頁 /lp/ 連結,文字帶「販売中!! ... 2026.8.28(金)まで」→ まで日期是結束日。"""
+    print("\n[カプくじ] listing")
+    base = "https://capcom-capkujionline.com"
+    soup = get(f"{base}/")
+    if not soup:
+        return []
+    items = []
+    seen: set[str] = set()
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        if "/lp/" not in href:
+            continue
+        text = a.get_text(strip=True)
+        if not text or len(text) < 8 or "販売終了" in text:
+            continue
+        m = re.search(r"(20\d\d)\.(\d+)\.(\d+)", text)
+        end_date = f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}" if m else None
+        title = re.sub(r"販売中!+\s*|20\d\d\.\d+\.\d+（?\(?.\)?）?\s*まで.*$", "", text).strip()
+        title = re.sub(r"\s+", " ", title).strip()
+        if not title or len(title) < 4:
+            continue
+        if href.startswith(".."):
+            href = base + "/" + href.lstrip("./")
+        elif href.startswith("/"):
+            href = base + href
+        uid = "capkuji_" + href.rstrip("/").split("/")[-1]
+        if uid in seen:
+            continue
+        seen.add(uid)
+        item = _make_item(uid, title, href, "カプくじ", None, href, end_date=end_date)
+        # og:image from LP page
+        detail = get(href)
+        if detail:
+            og = detail.find("meta", property="og:image")
+            if og and og.get("content"):
+                item["image_url"] = og["content"]
+        items.append(item)
+        time.sleep(0.3)
+        if len(items) >= max_items:
+            break
+    return items
+
+
+def scrape_kujimate(max_items: int = 20) -> list[dict]:
+    """くじメイト(Animate 線上抽)。kujimate.com 網域已死,現在是
+    animate-onlineshop.jp 的 corner 頁;詳情頁有「販売期間 X～Y」。"""
+    print("\n[くじメイト] listing")
+    base = "https://www.animate-onlineshop.jp"
+    soup = get(f"{base}/corner/corner.php?corner_id=3992")
+    if not soup:
+        return []
+    items = []
+    seen: set[str] = set()
+    for li in soup.select("#related_products li"):
+        a = li.select_one("h3 a[href*='/pd/']")
+        if not a:
+            continue
+        title = a.get_text(strip=True)
+        title = re.sub(r"^【くじメイト】", "", title).strip()
+        if not title or len(title) < 4:
+            continue
+        href = a["href"]
+        if href.startswith("/"):
+            href = base + href
+        m = re.search(r"/pd/(\d+)/?", href)
+        uid = f"kujimate_{m.group(1)}" if m else "kujimate_" + href.split("/")[-2]
+        if uid in seen:
+            continue
+        seen.add(uid)
+        img = li.select_one(".item_list_thumb img")
+        image_url = img.get("src") if img else None
+        items.append(_make_item(uid, title, href, "くじメイト", None, href, image_url))
+        if len(items) >= max_items:
+            break
+    # 詳情頁抽 販売期間(開始+結束)
+    print(f"  enriching {len(items)} くじメイト items...")
+    for item in items:
+        detail = get(item["url"])
+        if detail:
+            node = detail.find(string=re.compile("販売期間"))
+            ctx = ""
+            if node and node.parent:
+                ctx = node.parent.parent.get_text(" ", strip=True) if node.parent.parent else str(node)
+            if not ctx:
+                ctx = detail.get_text(" ", strip=True)[:3000]
+            start, end = _parse_period(ctx)
+            item["date"], item["end_date"] = start, end
+            item["month_key"] = start[:7] if start else (end[:7] if end else None)
+        time.sleep(0.4)
+    return items
+
+
+def scrape_dmm_scratch(max_items: int = 25) -> list[dict]:
+    """DMMスクラッチ(scratch.dmm.com,舊 DMMくじ 線上版後繼)。
+    首頁卡片 /kuji/<slug>/,詳情頁有「販売期間:X〜Y」。"""
+    print("\n[DMMスクラッチ] listing")
+    base = "https://scratch.dmm.com"
+    soup = get(f"{base}/")
+    if not soup:
+        return []
+    items = []
+    seen: set[str] = set()
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        m = re.match(r"https://scratch\.dmm\.com/kuji/([\w-]+)/?$", href)
+        if not m:
+            continue
+        block_text = a.get_text(" ", strip=True)
+        if "販売終了" in block_text:
+            continue
+        img = a.find("img")
+        title = (img.get("alt", "").strip() if img else "") or block_text
+        title = re.sub(r"\s*(販売予定|販売中|NEW)\s*", " ", title).strip()
+        title = re.sub(r"\s*20\d\d年\d{1,2}月\d{1,2}日.*$", "", title).strip()
+        if not title or len(title) < 4 or "お試し" in title:
+            continue
+        uid = f"dmmscr_{m.group(1)}"
+        if uid in seen:
+            continue
+        seen.add(uid)
+        image_url = None
+        if img:
+            src = img.get("src", "")
+            if "/s3/kuji/" in src:
+                image_url = src.split("?")[0] + "?w=586"
+        items.append(_make_item(uid, title, href, "DMMスクラッチ", None, href, image_url))
+        if len(items) >= max_items:
+            break
+    print(f"  enriching {len(items)} DMMスクラッチ items...")
+    for item in items:
+        detail = get(item["url"])
+        if detail:
+            node = detail.find(string=re.compile("販売期間"))
+            ctx = ""
+            if node and node.parent:
+                parent = node.parent.parent or node.parent
+                ctx = parent.get_text(" ", strip=True)
+            start, end = _parse_period(ctx)
+            item["date"], item["end_date"] = start, end
+            item["month_key"] = start[:7] if start else (end[:7] if end else None)
+        time.sleep(0.4)
+    return items
+
+
 def scrape_sanrio() -> list[dict]:
     """Scrape サンリオ当りくじ items from kujimap/others (sanrio_ prefix).
     KujiMap 上的サンリオ列表其實是品牌 2012~現在的完整歷史檔案（並非僅近期上架），
@@ -376,9 +539,9 @@ def scrape_kotobukiya() -> list[dict]:
         text = a.get_text(strip=True)
         if not text or len(text) < 6:
             continue
-        # Date format: 2026.6.30(火)まで  OR  2026.7.2(木)まで
+        # Date format: 2026.6.30(火)まで → 這是受付「結束日」不是發售日
         m = re.search(r"(20\d\d)\.(\d+)\.(\d+)", text)
-        date = f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}" if m else None
+        end_date = f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}" if m else None
         title = re.sub(r"20\d\d\.\d+\.\d+.*", "", text).strip()
         title = re.sub(r"\s+", " ", title).strip()
         if not title or len(title) < 4:
@@ -388,7 +551,7 @@ def scrape_kotobukiya() -> list[dict]:
             continue
         seen.add(slug)
         full_url = "https://kuji.kotobukiya.co.jp" + href if href.startswith("/") else href
-        items.append(_make_item(slug, title, full_url, "コトブキヤくじ", date, full_url))
+        items.append(_make_item(slug, title, full_url, "コトブキヤくじ", None, full_url, end_date=end_date))
     return items
 
 
@@ -439,6 +602,9 @@ def main() -> None:
     all_items += scrape_taito()
     all_items += scrape_anymykuji()
     all_items += scrape_kujibikido()
+    all_items += scrape_capkuji()
+    all_items += scrape_kujimate()
+    all_items += scrape_dmm_scratch()
 
     # みんなのくじ — scrape from kujimap, extract charahiroba official link
     print("\n[みんなのくじ] listing")
