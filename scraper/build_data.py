@@ -282,11 +282,36 @@ def scrape_segaluck() -> list[dict]:
     return _enrich_all(items, "セガラッキーくじ")
 
 
+def _taito_image_map() -> dict[str, str]:
+    """taito 官網列表頁的現行商品縮圖(item_id → img)。詳情頁圖是 JS 載入抓不到,
+    但列表頁縮圖是靜態的,可覆蓋現行檔期。"""
+    soup = get("https://www.taito.co.jp/taitokuji")
+    result: dict[str, str] = {}
+    if not soup:
+        return result
+    for a in soup.find_all("a", href=True):
+        m = re.search(r"/taitokuji/item/(\d+)", a["href"])
+        img = a.find("img")
+        if m and img and img.get("src"):
+            src = img["src"]
+            if src.startswith("/"):
+                src = "https://www.taito.co.jp" + src
+            result.setdefault(m.group(1), src)
+    return result
+
+
 def scrape_taito() -> list[dict]:
     """Scrape タイトーくじ from kujimap.com/honpo."""
     print("\n[タイトーくじ] listing")
     items = _scrape_kujimap_listing("honpo", r"/honpo/honpo_", "タイトーくじ")
-    return _enrich_all(items, "タイトーくじ")
+    items = _enrich_all(items, "タイトーくじ")
+    img_map = _taito_image_map()
+    for item in items:
+        if not item.get("image_url") and item.get("official_url"):
+            m = re.search(r"/taitokuji/item/(\d+)", item["official_url"])
+            if m and m.group(1) in img_map:
+                item["image_url"] = img_map[m.group(1)]
+    return items
 
 
 def scrape_anymykuji() -> list[dict]:
@@ -457,6 +482,8 @@ def scrape_dmm_scratch(max_items: int = 25) -> list[dict]:
         img = a.find("img")
         title = (img.get("alt", "").strip() if img else "") or block_text
         title = re.sub(r"\s*(販売予定|販売中|NEW)\s*", " ", title).strip()
+        # alt 缺失時 block_text 會黏上日期字尾(例:「... スクラッチ 2026年07月15日 (水) 12:」)
+        title = re.sub(r"\s*20\d\d年\d{1,2}月\d{1,2}日.*$", "", title).strip()
         title = re.sub(r"\s*20\d\d年\d{1,2}月\d{1,2}日.*$", "", title).strip()
         if not title or len(title) < 4 or "お試し" in title:
             continue
@@ -649,6 +676,13 @@ def main() -> None:
         time.sleep(0.3)
     all_items += minkuji_new
 
+    # 無任何日期線索、但 id/title 帶舊年份的 → 歴史アーカイブ(不佔未定區)
+    for item in all_items:
+        if not item.get("date") and not item.get("month_key") and not item.get("end_date"):
+            m = re.search(r"(20\d\d)", item["id"] + " " + item["title"])
+            if m and int(m.group(1)) < now.year:
+                item["month_key"] = "archive"
+
     # Sort within each month by date, then by id
     all_items.sort(key=lambda x: (x.get("month_key") or "9999", x.get("date") or "9999", x["id"]))
 
@@ -658,25 +692,35 @@ def main() -> None:
         key = item.get("month_key") or "unknown"
         new_map.setdefault(key, []).append(item)
 
-    # Load existing data and preserve past months
+    # Load existing data and preserve past months (+ archive)
     current_key = f"{now.year}-{now.month:02d}"
     existing_past: dict[str, list] = {}
+    old_archive: list = []
     if OUT.exists():
         try:
             old = json.loads(OUT.read_text())
             for m in old.get("months", []):
-                if m["key"] != "unknown" and m["key"] < current_key:
+                if m["key"] == "archive":
+                    old_archive = m["items"]
+                elif m["key"] != "unknown" and m["key"] < current_key:
                     existing_past[m["key"]] = m["items"]
         except Exception:
             pass
 
     # Merge: keep past months, update current/future
     merged_map = {**existing_past, **new_map}
+    # archive 取舊+新聯集(依 id 去重),避免來源列表變動時檔案項目消失
+    if old_archive or merged_map.get("archive"):
+        seen_arc = {i["id"] for i in merged_map.get("archive", [])}
+        merged_map.setdefault("archive", []).extend(
+            i for i in old_archive if i["id"] not in seen_arc)
 
     months_out = []
     for key in sorted(merged_map.keys()):
         if key == "unknown":
             label = "発売月未定"
+        elif key == "archive":
+            label = "歴史アーカイブ"
         else:
             y, m_str = key.split("-")
             label = f"{y}年{int(m_str)}月"

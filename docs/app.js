@@ -379,14 +379,23 @@ function highlightCalSelectors() {
 
 function jumpToCalMonth(key) {
   if (key === "unknown") {
-    // Show all undated items
+    // Show all undated items(歴史アーカイブ另外折疊)
     const content = document.getElementById("calendar-content");
     const allItems = calFilteredItems();
-    const undated = allItems.filter(i => !i.date);
+    // 真未定 = date 與 month_key 都沒有;有歷史 month_key 的會出現在對應月份,不算未定
+    const undated = allItems.filter(i => !i.date && !i.month_key);
+    const archived = allItems.filter(i => i.month_key === "archive");
+    const archiveHTML = archived.length ? `
+      <div class="undated-toggle" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('hidden')">
+        <span>🗃 歴史アーカイブ（${archived.length}件・発売月不明的舊檔期）</span>
+        <span class="undated-arrow">▸</span>
+      </div>
+      <div class="undated-body hidden">${archived.map(i => itemHTML(i)).join("")}</div>` : "";
     content.innerHTML = `
       <div class="cal-detail">
         <div class="cal-detail-title">📦 発売日未定 全部（${undated.length}件）</div>
         ${undated.map(i => itemHTML(i)).join("")}
+        ${archiveHTML}
       </div>`;
     document.querySelectorAll(".month-btn").forEach(b => b.classList.remove("active"));
     document.querySelector('.month-btn[data-key="unknown"]')?.classList.add("active");
