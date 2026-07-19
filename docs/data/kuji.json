@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T10:49:14.276665+09:00",
+  "generated_at": "2026-07-19T11:01:43.721210+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7677,7 +7677,9 @@
           "brand": "一番くじ",
           "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_pokemonmasters7th",
           "month_key": "2026-08",
-          "ip_tags": [],
+          "ip_tags": [
+            "ポケモン"
+          ],
           "date": "2026-08-29",
           "price": null,
           "official_url": "https://1kuji.com/products/pk_masters",
