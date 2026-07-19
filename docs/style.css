@@ -398,6 +398,11 @@ header {
 .brand-left { display: flex; align-items: center; gap: 10px; }
 .brand-logo { width: 32px; height: 32px; border-radius: 6px; flex-shrink: 0; object-fit: contain; background: rgba(255,255,255,0.1); }
 .brand-name { font-size: 15px; font-weight: 700; color: var(--gold); }
+.brand-nodata {
+  font-size: 9px; font-weight: 600; color: var(--muted);
+  border: 1px solid var(--border); border-radius: 8px;
+  padding: 1px 6px; vertical-align: 2px; white-space: nowrap;
+}
 .brand-name-zh { font-size: 12px; color: var(--muted); margin-top: 1px; }
 .brand-links { display: flex; gap: 6px; flex-shrink: 0; flex-wrap: wrap; justify-content: flex-end; max-width: 55%; }
 .brand-link {

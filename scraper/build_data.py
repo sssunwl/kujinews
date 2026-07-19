@@ -19,9 +19,11 @@ OUT_NEWS = Path(__file__).parent.parent / "docs" / "data" / "ip_news.json"
 
 OFFICIAL_DOMAINS = [
     "1kuji.com", "h-kuji.com", "charahiroba.com", "kuji.goodsmile.com",
-    "kuji.kotobukiya.co.jp", "anymykuji.com", "kujimate.com",
-    "kuji.dmm.com", "drawdraw.jp", "kujibikido.com", "kujiluck.com",
-    "taito.co.jp/taitokuji", "segaplaza.jp",
+    "kuji.kotobukiya.co.jp", "anymy.jp", "anymykuji.com",
+    "kujibikido.com", "kujiluck-online.com", "scratch.dmm.com",
+    "animate-onlineshop.jp", "capcom-capkujionline.com",
+    "taito.co.jp/taitokuji", "segaluckykujionline.net", "sega.jp/segaluckykuji",
+    "segaplaza.jp", "kuji.aniplex.co.jp",
 ]
 JST = timezone(timedelta(hours=9))
 

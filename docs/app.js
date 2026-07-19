@@ -71,10 +71,10 @@ const BRANDS = [
     twitter:"@kotobukiya_kuji", twitter_url:"https://x.com/kotobukiya_kuji",
     desc:"壽屋旗下，模型品質較高，偏向收藏玩家，線上抽獎模式完善。",
     tags:["模型系","收藏向","線上抽"] },
-  { name:"エニマイくじ", name_zh:"Anymy 賞", company:"Anymy", domain:"anymykuji.com",
-    url:"https://anymykuji.com/",
-    twitter:"@Anymy_info", twitter_url:"https://x.com/Anymy_info",
-    desc:"新興品牌，近期開始與葬送的芙莉蓮等熱門作品合作，成長中。",
+  { name:"エニマイくじ", name_zh:"Anymy 賞", company:"Anymy", domain:"anymy.jp",
+    url:"https://anymy.jp/kuji",
+    twitter:"@anymyplay", twitter_url:"https://x.com/anymyplay",
+    desc:"新興品牌，近期開始與葬送的芙莉蓮等熱門作品合作，成長中。（舊網域 anymykuji.com 已失效）",
     tags:["葬送的芙莉蓮","新興品牌"] },
   { name:"くじメイト", name_zh:"Kujimate（Animate 旗下）", company:"Animate", domain:"animate-onlineshop.jp",
     url:"https://www.animate-onlineshop.jp/corner/corner.php?corner_id=3992",
@@ -82,7 +82,7 @@ const BRANDS = [
     desc:"Animate 經營，幾乎全線上抽，女性向作品比例高，BL/乙女常見。現於 Animate 通販站內營運。",
     tags:["Animate","女性向","線上抽"] },
   { name:"アニプレックス オンラインくじ", name_zh:"Aniplex 線上抽", company:"Aniplex", domain:"aniplex.co.jp",
-    url:"https://kuji.aniplex.co.jp/",
+    url:"https://kuji.aniplex.co.jp/", nodata:true,
     twitter:"@aniplex_plus", twitter_url:"https://x.com/aniplex_plus",
     desc:"Aniplex 官方線上抽，鬼滅之刃等 Aniplex 系作品限定企劃，不定期開催。",
     tags:["鬼滅之刃","Aniplex","線上抽"] },
@@ -96,8 +96,8 @@ const BRANDS = [
     twitter:"@Taito_Toys", twitter_url:"https://x.com/Taito_Toys",
     desc:"動漫、遊戲作品為主，偶爾推出大型模型獎品，全家便利店為主要通路。",
     tags:["動漫","遊戲","全家便利店"] },
-  { name:"セガラッキーくじ", name_zh:"SEGA 幸運賞", company:"Sega", domain:"sega.co.jp",
-    url:"https://segaplaza.jp/lp/lottery/",
+  { name:"セガラッキーくじ", name_zh:"SEGA 幸運賞", company:"Sega", domain:"sega.jp",
+    url:"https://www.sega.jp/segaluckykuji/", url2:"https://www.segaluckykujionline.net/", url2_label:"線上抽",
     twitter:"@SegaPrize", twitter_url:"https://x.com/SegaPrize",
     desc:"SEGA 旗下，名偵探柯南、藍色監獄、LoveLive 等作品常見，景品偏向 SEGA PRIZE 風格。",
     tags:["名偵探柯南","藍色監獄","LoveLive"] },
@@ -112,12 +112,12 @@ const BRANDS = [
     desc:"線上くじ平台，商品種類廣，定期推出新系列。",
     tags:["線上"] },
   { name:"くじラックオンライン", name_zh:"Kuji Luck", company:"GEE!STORE", domain:"kujiluck-online.com",
-    url:"https://kujiluck-online.com/",
+    url:"https://kujiluck-online.com/", nodata:true,
     twitter:"@kujiluck_online", twitter_url:"https://x.com/kujiluck_online",
     desc:"GEE!STORE 旗下，偏向 2.5 次元、舞台、聲優周邊，女性向為主。",
     tags:["2.5次元","聲優","舞台"] },
   { name:"サンリオ当りくじ", name_zh:"三麗鷗抽獎", company:"Sanrio", domain:"sanrio.co.jp",
-    url:"https://www.sanrio.co.jp/", twitter:"@sanrioatarikuji",
+    url:"https://www.sanrio.co.jp/special/atarikuji/", twitter:"@sanrioatarikuji",
     twitter_url:"https://x.com/sanrioatarikuji",
     desc:"三麗鷗自家授權，Hello Kitty、大耳狗、布丁狗等全線角色，設計風格統一精緻。",
     tags:["Hello Kitty","大耳狗","布丁狗","Cinnamoroll"] },
@@ -155,9 +155,9 @@ const BRAND_BUY = {
   "Happyくじ":     { note:"7-11、イトーヨーカドー等通路販售", online:"https://www.h-kuji.com/", online_label:"官網" },
   "グッスマくじ":    { note:"官網線上抽為主", online:"https://kuji.goodsmile.com/", online_label:"線上抽" },
   "コトブキヤくじ":  { note:"官網線上抽為主", online:"https://kuji.kotobukiya.co.jp/", online_label:"線上抽" },
-  "セガラッキーくじ": { note:"GiGO 等遊戲中心、量販店販售", online:"https://segaplaza.jp/lp/lottery/", online_label:"官網" },
+  "セガラッキーくじ": { note:"GiGO 等遊戲中心、量販店販售;部分品項有線上抽", online:"https://www.segaluckykujionline.net/", online_label:"線上抽" },
   "タイトーくじ":    { note:"全家便利店、タイトー店舖販售", online:"https://www.taito.co.jp/taitokuji", online_label:"官網" },
-  "エニマイくじ":    { note:"官網線上抽", online:"https://anymykuji.com/", online_label:"線上抽" },
+  "エニマイくじ":    { note:"官網線上抽", online:"https://anymy.jp/kuji", online_label:"線上抽" },
   "くじ引き堂":     { note:"官網線上抽", online:"https://kujibikido.com/", online_label:"線上抽" },
   "サンリオ当りくじ": { note:"便利商店、三麗鷗門市販售" },
   "カプくじ":       { note:"Capcom 官方線上抽,遊戲 IP 為主", online:"https://capcom-capkujionline.com/", online_label:"線上抽" },
@@ -750,7 +750,7 @@ function renderBrands() {
           <div class="brand-left">
             ${logoUrl ? `<img class="brand-logo" src="${logoUrl}" alt="" onerror="this.style.display='none'">` : ""}
             <div class="brand-name-wrap">
-              <div class="brand-name">${escHtml(b.name)}</div>
+              <div class="brand-name">${escHtml(b.name)}${b.nodata ? ` <span class="brand-nodata">年曆未收錄</span>` : ""}</div>
               <div class="brand-name-zh">${escHtml(b.name_zh)} · ${escHtml(b.company)}</div>
             </div>
           </div>
