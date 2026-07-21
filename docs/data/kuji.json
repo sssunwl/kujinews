@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T11:26:15.629672+09:00",
+  "generated_at": "2026-07-21T11:03:48.577597+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6724,19 +6724,6 @@
           "price": null,
           "official_url": "https://www.taito.co.jp/taitokuji/item/0000011803",
           "image_url": null
-        },
-        {
-          "id": "SAKAMOTO_DAYS",
-          "title": "コトブキヤくじ TVアニメ「SAKAMOTO DAYS」",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/SAKAMOTO_DAYS/",
-          "month_key": "2026-05",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/SAKAMOTO_DAYS/",
-          "image_url": null,
-          "end_date": "2026-05-24"
         },
         {
           "id": "hundred-line_ura100",
