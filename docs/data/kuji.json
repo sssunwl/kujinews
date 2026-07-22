@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T11:03:48.577597+09:00",
+  "generated_at": "2026-07-22T11:03:28.138799+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7194,66 +7194,6 @@
           "end_date": null
         },
         {
-          "id": "nakamura-kun",
-          "title": "TVアニメーション「ガンバレ！中村くん！！」オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/nakamura-kun/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-21",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/nakamura-kun/",
-          "image_url": "https://kujibikido.com/lp/nakamura-kun/img/og.png"
-        },
-        {
-          "id": "romisora",
-          "title": "ロミオの青い空 オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/romisora/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-21",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/romisora/",
-          "image_url": "https://kujibikido.com/lp/romisora/img/og.png"
-        },
-        {
-          "id": "sidem_cw2",
-          "title": "『アイドルマスター SideM』Cybernetics Wars 2 ～希望を繋ぐ解放者～ オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/sidem_cw2/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-21",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/sidem_cw2/",
-          "image_url": "https://kujibikido.com/lp/sidem_cw2/img/og.png"
-        },
-        {
-          "id": "sidem_cw_2",
-          "title": "【再販】『アイドルマスター SideM』Cybernetics Wars～機械仕掛けの反逆者～ オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/sidem_cw_2/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-21",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/sidem_cw_2/",
-          "image_url": "https://kujibikido.com/lp/sidem_cw_2/img/og.png"
-        },
-        {
-          "id": "sidem_cwz_2",
-          "title": "【再販】『アイドルマスター SideM』Cybernetics Wars ZERO ～願いを宿す機械の子～ オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/sidem_cwz_2/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-21",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/sidem_cwz_2/",
-          "image_url": "https://kujibikido.com/lp/sidem_cwz_2/img/og.png"
-        },
-        {
           "id": "bluearchive",
           "title": "ブルーアーカイブ オンラインくじ",
           "brand": "くじ引き堂",
@@ -7276,6 +7216,32 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/hanakimi/",
           "image_url": "https://kujibikido.com/lp/hanakimi/img/og.png"
+        },
+        {
+          "id": "reborn_mensmag",
+          "title": "賞品公開TVアニメ『家庭教師ヒットマンREBORN!』メンズ雑誌くじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/reborn_mensmag/",
+          "month_key": "2026-07",
+          "ip_tags": [
+            "REBORN!"
+          ],
+          "date": "2026-07-23",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/reborn_mensmag/",
+          "image_url": "https://kujibikido.com/lp/reborn_mensmag/img/og.png"
+        },
+        {
+          "id": "snowballearth",
+          "title": "賞品公開TVアニメ「スノウボールアース」オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/snowballearth/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-23",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/snowballearth/",
+          "image_url": "https://kujibikido.com/lp/snowballearth/img/og.png"
         },
         {
           "id": "1bankuji_10702",
@@ -7412,6 +7378,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/yuyushiki/",
           "image_url": "https://kujibikido.com/lp/yuyushiki/img/og.png"
+        },
+        {
+          "id": "zero-tsukaima_20th",
+          "title": "賞品公開TVアニメ「ゼロの使い魔」20th Anniversary オンラインくじ第一弾",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/zero-tsukaima_20th/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-28",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/zero-tsukaima_20th/",
+          "image_url": "https://kujibikido.com/lp/zero-tsukaima_20th/img/og.png"
         },
         {
           "id": "1bankuji_10703",
@@ -7861,6 +7839,30 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10719/bcce94ef-ffa0-485c-84fa-c958b66d161e.webp"
         },
         {
+          "id": "kakuriyo",
+          "title": "『かくりよの宿飯 あやかしお宿に嫁入りします。』オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/kakuriyo/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-18",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/kakuriyo/",
+          "image_url": "https://kujibikido.com/lp/kakuriyo/img/og.png"
+        },
+        {
+          "id": "shadow-garden_4",
+          "title": "陰の実力者になりたくて！オンラインくじ 第2弾",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/shadow-garden_4/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-18",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/shadow-garden_4/",
+          "image_url": "https://kujibikido.com/lp/shadow-garden_4/img/og.png"
+        },
+        {
           "id": "silentwitch_2",
           "title": "【再販】『サイレント・ウィッチ 沈黙の魔女の隠しごと』オンラインくじ",
           "brand": "くじ引き堂",
@@ -7949,18 +7951,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10698/9a71847a-e1fc-4429-ace7-cd1ba6684169.gif"
         },
         {
-          "id": "comment-page-1#comment-5872",
-          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5872",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-29",
-          "price": null,
-          "official_url": "https://1kuji.com/products/hxh11",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
-        },
-        {
           "id": "comment-page-1#comment-5873",
           "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
           "brand": "一番くじ",
@@ -7989,6 +7979,18 @@
           "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
           "brand": "一番くじ",
           "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5875",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-29",
+          "price": null,
+          "official_url": "https://1kuji.com/products/hxh11",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
+        },
+        {
+          "id": "comment-page-1#comment-5877",
+          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5877",
           "month_key": "2026-08",
           "ip_tags": [],
           "date": "2026-08-29",
