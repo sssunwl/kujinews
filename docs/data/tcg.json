@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T11:21:11.566543+09:00",
+  "generated_at": "2026-07-24T11:13:38.054849+09:00",
   "pokemon": [
     {
       "id": "pkm_https_www_pokemon_card_com_ex_m6_4fafc8",
@@ -256,6 +256,20 @@
       "stores": ""
     },
     {
+      "id": "op_cardcase005",
+      "game": "onepiece",
+      "category": "その他",
+      "title": "ONE PIECEカードゲーム BASE SHOPカードケース vol.1 -ボア・ハンコック-",
+      "date": "2026-09-04",
+      "date_raw": "2026.09.04(金)",
+      "month_key": "2026-09",
+      "price": "2,970円(税込)",
+      "image_url": "images/tcg/op_cardcase005.webp",
+      "url": "https://www.onepiece-cardgame.com/products/cardcase005.html",
+      "buy_url": "",
+      "stores": ""
+    },
+    {
       "id": "op_card_collection_007",
       "game": "onepiece",
       "category": "その他",
@@ -392,20 +406,6 @@
       "price": "550円(税込)",
       "image_url": "images/tcg/op_st31.webp",
       "url": "https://www.onepiece-cardgame.com/products/st31.html",
-      "buy_url": "",
-      "stores": ""
-    },
-    {
-      "id": "op_sleeve040",
-      "game": "onepiece",
-      "category": "その他",
-      "title": "オフィシャルカードスリーブ リミテッドエディションvol.6",
-      "date": "2026-07-11",
-      "date_raw": "2026.07.11(土)",
-      "month_key": "2026-07",
-      "price": "990円(税込)",
-      "image_url": "images/tcg/op_sleeve040.webp",
-      "url": "https://www.onepiece-cardgame.com/products/sleeve040.html",
       "buy_url": "",
       "stores": ""
     }
