@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T11:13:38.054849+09:00",
+  "generated_at": "2026-07-25T11:18:45.722041+09:00",
   "pokemon": [
     {
       "id": "pkm_https_www_pokemon_card_com_ex_m6_4fafc8",
@@ -312,6 +312,20 @@
       "stores": ""
     },
     {
+      "id": "op_sleeve042",
+      "game": "onepiece",
+      "category": "その他",
+      "title": "オフィシャルカードスリーブ 16",
+      "date": "2026-08-22",
+      "date_raw": "2026.08.22(土)",
+      "month_key": "2026-08",
+      "price": "990円(税込)",
+      "image_url": "images/tcg/op_sleeve042.webp",
+      "url": "https://www.onepiece-cardgame.com/products/sleeve042.html",
+      "buy_url": "",
+      "stores": ""
+    },
+    {
       "id": "op_op17",
       "game": "onepiece",
       "category": "ブースターパック",
@@ -392,20 +406,6 @@
       "price": "550円(税込)",
       "image_url": "images/tcg/op_st32.webp",
       "url": "https://www.onepiece-cardgame.com/products/st32.html",
-      "buy_url": "",
-      "stores": ""
-    },
-    {
-      "id": "op_st31",
-      "game": "onepiece",
-      "category": "スタートデッキ",
-      "title": "スタートデッキ 赤 モンキー・D・ルフィ【ST-31】",
-      "date": "2026-07-11",
-      "date_raw": "2026.07.11(土)",
-      "month_key": "2026-07",
-      "price": "550円(税込)",
-      "image_url": "images/tcg/op_st31.webp",
-      "url": "https://www.onepiece-cardgame.com/products/st31.html",
       "buy_url": "",
       "stores": ""
     }

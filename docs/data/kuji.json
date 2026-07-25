@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T11:13:35.387640+09:00",
+  "generated_at": "2026-07-25T11:18:42.400530+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6281,18 +6281,6 @@
           "image_url": "https://file.charahiroba.com//img/trans/contents/16928_p_grthu3.jpg"
         },
         {
-          "id": "min_148",
-          "title": "フリューくじ 刀剣乱舞ONLINE　御伴散歩　～ぽちくじ～",
-          "brand": "みんなのくじ",
-          "url": "https://kujimap.com/minkuji/min_148",
-          "month_key": "2026-01",
-          "ip_tags": [],
-          "date": "2026-01-24",
-          "price": null,
-          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=148",
-          "image_url": "https://file.charahiroba.com//img/trans/contents/16928_p_grthu3.jpg"
-        },
-        {
           "id": "sega_dandadan_gcb_kuji",
           "title": "セガ ラッキーくじ　TVアニメ『ダンダダン』～Good coffee break～",
           "brand": "セガラッキーくじ",
@@ -6990,19 +6978,6 @@
           "end_date": null
         },
         {
-          "id": "kujimate_3505383",
-          "title": "TVアニメ『神様はじめました◎』まるめいつver. くじメイト",
-          "brand": "くじメイト",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E7%A5%9E%E6%A7%98%E3%81%AF%E3%81%98%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F%E2%97%8E%E3%80%8F%E3%81%BE%E3%82%8B%E3%82%81%E3%81%84%E3%81%A4ver.+%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3505383/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-12",
-          "price": null,
-          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E7%A5%9E%E6%A7%98%E3%81%AF%E3%81%98%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F%E2%97%8E%E3%80%8F%E3%81%BE%E3%82%8B%E3%82%81%E3%81%84%E3%81%A4ver.+%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3505383/",
-          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=06091519_6a27b069cfa34.jpg&width=400&height=400&square=1",
-          "end_date": null
-        },
-        {
           "id": "kujimate_3512256",
           "title": "TVアニメ『薫る花は凛と咲く』まるめいつver. くじメイト",
           "brand": "くじメイト",
@@ -7217,6 +7192,19 @@
           "end_date": "2026-08-24"
         },
         {
+          "id": "kujimate_3530896",
+          "title": "映画『超かぐや姫！』超ファンサ！ver. くじメイト",
+          "brand": "くじメイト",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E6%98%A0%E7%94%BB%E3%80%8E%E8%B6%85%E3%81%8B%E3%81%90%E3%82%84%E5%A7%AB%EF%BC%81%E3%80%8F%E8%B6%85%E3%83%95%E3%82%A1%E3%83%B3%E3%82%B5%EF%BC%81ver.+%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3530896/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-24",
+          "price": null,
+          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E6%98%A0%E7%94%BB%E3%80%8E%E8%B6%85%E3%81%8B%E3%81%90%E3%82%84%E5%A7%AB%EF%BC%81%E3%80%8F%E8%B6%85%E3%83%95%E3%82%A1%E3%83%B3%E3%82%B5%EF%BC%81ver.+%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3530896/",
+          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=07211348_6a5efa256fe90.jpg&width=400&height=400&square=1",
+          "end_date": "2026-08-23"
+        },
+        {
           "id": "1bankuji_10673",
           "title": "一番くじ たまごっち ～ぐるぐる発見! Tamagotchi Paradise!～",
           "brand": "一番くじ",
@@ -7352,18 +7340,6 @@
           "image_url": "https://kujibikido.com/lp/piyokomame/img/og.png"
         },
         {
-          "id": "replica",
-          "title": "賞品公開『レプリカだって、恋をする。』オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/replica/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-30",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/replica/",
-          "image_url": "https://kujibikido.com/lp/replica/img/og.png"
-        },
-        {
           "id": "watanare_2",
           "title": "【再販】「わたしが恋人になれるわけないじゃん、ムリムリ!（※ムリじゃなかった!?）」くじ",
           "brand": "くじ引き堂",
@@ -7392,18 +7368,6 @@
           "title": "一番くじ 春秋戦国大戦キングダム The Animation 知と武の両輪",
           "brand": "一番くじ",
           "url": "https://kujimap.com/1bankuji/1bankuji_202607/1bankuji_10706",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-31",
-          "price": null,
-          "official_url": "https://1kuji.com/products/kingdom6",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10706/7a22920e-7687-4607-9c91-586de2c33e28.webp"
-        },
-        {
-          "id": "comment-page-1#comment-5876",
-          "title": "一番くじ 春秋戦国大戦キングダム The Animation 知と武の両輪",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202607/1bankuji_10706/comment-page-1#comment-5876",
           "month_key": "2026-07",
           "ip_tags": [],
           "date": "2026-07-31",
@@ -7516,7 +7480,7 @@
           "date": "2026-08-01",
           "price": null,
           "official_url": "https://1kuji.com/products/vivant",
-          "image_url": null
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10694/c24a1920-a29f-42ee-a9b3-a26d3b3b6ae5.webp"
         },
         {
           "id": "1bankuji_10714",
@@ -7848,6 +7812,18 @@
           "image_url": "https://kujibikido.com/lp/silentwitch_2/img/og.png"
         },
         {
+          "id": "matakoro",
+          "title": "また殺されてしまったのですね、探偵様オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/matakoro/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-20",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/matakoro/",
+          "image_url": "https://kujibikido.com/lp/matakoro/img/og.png"
+        },
+        {
           "id": "reborn_mensmag",
           "title": "TVアニメ『家庭教師ヒットマンREBORN!』メンズ雑誌くじ",
           "brand": "くじ引き堂",
@@ -7973,18 +7949,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/pk_masters",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10698/9a71847a-e1fc-4429-ace7-cd1ba6684169.gif"
-        },
-        {
-          "id": "comment-page-1#comment-5877",
-          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5877",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-29",
-          "price": null,
-          "official_url": "https://1kuji.com/products/hxh11",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
         },
         {
           "id": "comment-page-1#comment-5878",
@@ -8816,6 +8780,18 @@
           "price": null,
           "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=141",
           "image_url": "https://file.charahiroba.com//img/trans/contents/14888_p_grthu3.jpg"
+        },
+        {
+          "id": "min_148",
+          "title": "フリューくじ 刀剣乱舞ONLINE　御伴散歩　～ぽちくじ～",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_148",
+          "month_key": null,
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=148",
+          "image_url": "https://file.charahiroba.com//img/trans/contents/16928_p_grthu3.jpg"
         },
         {
           "id": "min_156",
