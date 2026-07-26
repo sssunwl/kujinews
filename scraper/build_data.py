@@ -60,11 +60,19 @@ def scrape_detail(url: str) -> dict:
     if not soup:
         return {}
     date = None
+    month_hint = None
     for text in soup.find_all(string=re.compile(r"20\d\d年\d+月\d+日")):
         m = re.search(r"(20\d\d)年(\d+)月(\d+)日", text)
         if m:
             date = f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}"
             break
+    if not date:
+        # 詳情頁只寫「2026年11月予定」這種無「日」的粗略日期時,退而求其次抓年月
+        for text in soup.find_all(string=re.compile(r"20\d\d年\d{1,2}月(?!\d)")):
+            m = re.search(r"(20\d\d)年(\d{1,2})月(?!\d)", text)
+            if m:
+                month_hint = f"{m.group(1)}-{int(m.group(2)):02d}"
+                break
     price = None
     for text in soup.find_all(string=re.compile(r"\d{3}円")):
         m = re.search(r"(\d{3,4})円", text)
@@ -85,7 +93,7 @@ def scrape_detail(url: str) -> dict:
         img = og_tag.get("content", "")
         if img and not any(g in img for g in GENERIC_IMGS):
             image_url = img
-    return {"date": date, "price": price, "official_url": official_url, "image_url": image_url}
+    return {"date": date, "month_hint": month_hint, "price": price, "official_url": official_url, "image_url": image_url}
 
 
 _SUPPORTED_IMG_DOMAINS = ["1kuji.com", "h-kuji.com", "charahiroba.com", "kujibikido.com"]
@@ -264,7 +272,8 @@ def _enrich_all(items: list[dict], brand: str) -> list[dict]:
     for item in items:
         detail = scrape_detail(item["url"])
         item["date"] = detail.get("date")
-        item["month_key"] = item["date"][:7] if item.get("date") else _month_hint_from_title(item["title"])
+        item["month_key"] = (item["date"][:7] if item.get("date") else
+                              detail.get("month_hint") or _month_hint_from_title(item["title"]))
         item["official_url"] = detail.get("official_url")
         item["image_url"] = detail.get("image_url")
         if not item["image_url"] and item.get("official_url"):
@@ -665,7 +674,7 @@ def main() -> None:
     for item in minkuji_new:
         detail = scrape_detail(item["url"])
         item["date"] = detail.get("date")
-        item["month_key"] = item["date"][:7] if item.get("date") else None
+        item["month_key"] = item["date"][:7] if item.get("date") else detail.get("month_hint")
         if not item["official_url"]:
             item["official_url"] = detail.get("official_url")
         item["image_url"] = detail.get("image_url")
@@ -676,11 +685,18 @@ def main() -> None:
         time.sleep(0.3)
     all_items += minkuji_new
 
-    # 無任何日期線索、但 id/title 帶舊年份的 → 歴史アーカイブ(不佔未定區)
+    # 舊年份項目 → 歴史アーカイブ(不佔未定區、也不單獨佔一個古老月份分類)
+    # 涵蓋兩種情況：完全無日期線索、靠 id/title 猜年份;或 month_hint 已解出年月但年份已過去
     for item in all_items:
-        if not item.get("date") and not item.get("month_key") and not item.get("end_date"):
+        if item.get("end_date"):
+            continue  # 有效期未到期的線上抽選項目，即使發售年份舊也保留原分類
+        if not item.get("date") and not item.get("month_key"):
             m = re.search(r"(20\d\d)", item["id"] + " " + item["title"])
             if m and int(m.group(1)) < now.year:
+                item["month_key"] = "archive"
+        elif item.get("month_key") and item["month_key"] not in ("archive", "unknown"):
+            year = item["month_key"][:4]
+            if year.isdigit() and int(year) < now.year:
                 item["month_key"] = "archive"
 
     # Sort within each month by date, then by id
