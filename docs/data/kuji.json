@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T11:18:42.400530+09:00",
+  "generated_at": "2026-07-26T11:22:46.810917+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6281,6 +6281,18 @@
           "image_url": "https://file.charahiroba.com//img/trans/contents/16928_p_grthu3.jpg"
         },
         {
+          "id": "min_148",
+          "title": "フリューくじ 刀剣乱舞ONLINE　御伴散歩　～ぽちくじ～",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_148",
+          "month_key": "2026-01",
+          "ip_tags": [],
+          "date": "2026-01-24",
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=148",
+          "image_url": "https://file.charahiroba.com//img/trans/contents/16928_p_grthu3.jpg"
+        },
+        {
           "id": "sega_dandadan_gcb_kuji",
           "title": "セガ ラッキーくじ　TVアニメ『ダンダダン』～Good coffee break～",
           "brand": "セガラッキーくじ",
@@ -8780,18 +8792,6 @@
           "price": null,
           "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=141",
           "image_url": "https://file.charahiroba.com//img/trans/contents/14888_p_grthu3.jpg"
-        },
-        {
-          "id": "min_148",
-          "title": "フリューくじ 刀剣乱舞ONLINE　御伴散歩　～ぽちくじ～",
-          "brand": "みんなのくじ",
-          "url": "https://kujimap.com/minkuji/min_148",
-          "month_key": null,
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=148",
-          "image_url": "https://file.charahiroba.com//img/trans/contents/16928_p_grthu3.jpg"
         },
         {
           "id": "min_156",
