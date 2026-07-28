@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T11:28:47.401444+09:00",
+  "generated_at": "2026-07-28T11:09:47.354600+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7555,18 +7555,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10720/8980b568-120f-4eaa-a09e-5e2ed3b10541.webp"
         },
         {
-          "id": "comment-page-1#comment-5880",
-          "title": "一番くじ 進撃の巨人 ～選択と結果～",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10720/comment-page-1#comment-5880",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-05",
-          "price": null,
-          "official_url": "https://1kuji.com/products/shingeki15",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10720/8980b568-120f-4eaa-a09e-5e2ed3b10541.webp"
-        },
-        {
           "id": "1bankuji_10764",
           "title": "一番くじちょこっと 超かぐや姫！",
           "brand": "一番くじ",
@@ -7962,6 +7950,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/pk_masters",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10698/9a71847a-e1fc-4429-ace7-cd1ba6684169.gif"
+        },
+        {
+          "id": "comment-page-1#comment-5885",
+          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5885",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-29",
+          "price": null,
+          "official_url": "https://1kuji.com/products/hxh11",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
         },
         {
           "id": "capkuji_memoryoflawyer",
