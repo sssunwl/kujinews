@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T10:55:36.745222+09:00",
+  "generated_at": "2026-07-31T11:29:43.432892+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7266,42 +7266,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10703/bcff45e9-dba8-4c98-83e4-443bbcc36c65.webp"
         },
         {
-          "id": "needygirl-anime",
-          "title": "TVアニメ「NEEDY GIRL OVERDOSE」オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/needygirl-anime/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-30",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/needygirl-anime/",
-          "image_url": "https://kujibikido.com/lp/needygirl-anime/img/og.png"
-        },
-        {
-          "id": "piyokomame",
-          "title": "ぴよこ豆ころころもちもちキッチンくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/piyokomame/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-30",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/piyokomame/",
-          "image_url": "https://kujibikido.com/lp/piyokomame/img/og.png"
-        },
-        {
-          "id": "watanare_2",
-          "title": "【再販】「わたしが恋人になれるわけないじゃん、ムリムリ!（※ムリじゃなかった!?）」くじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/watanare_2/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-30",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/watanare_2/",
-          "image_url": "https://kujibikido.com/lp/watanare_2/img/og.png"
-        },
-        {
           "id": "1bankuji_10692",
           "title": "一番くじ mofusand ～ひんやりくつろぎ時間～",
           "brand": "一番くじ",
@@ -7494,18 +7458,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10731/0eab5e0e-5b2c-4b5b-8751-6b57480c22d6.webp"
         },
         {
-          "id": "dr-stone_3",
-          "title": "賞品公開【再販】Dr.STONE オンラインくじ 読書の秋編",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/dr-stone_3/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-04",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/dr-stone_3/",
-          "image_url": "https://kujibikido.com/lp/dr-stone_3/img/og.png"
-        },
-        {
           "id": "nmeneko",
           "title": "「ンめねこ」オンラインくじ",
           "brand": "くじ引き堂",
@@ -7516,18 +7468,6 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/nmeneko/",
           "image_url": "https://kujibikido.com/lp/nmeneko/img/og.png"
-        },
-        {
-          "id": "w-witch-2",
-          "title": "賞品公開ワールドウィッチーズ ～あの子とおやすみ～オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/w-witch-2/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-04",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/w-witch-2/",
-          "image_url": "https://kujibikido.com/lp/w-witch-2/img/og.png"
         },
         {
           "id": "1bankuji_10720",
@@ -7579,6 +7519,18 @@
           "image_url": "https://kujibikido.com/lp/anime-86_bd2026/img/og.png"
         },
         {
+          "id": "anime-mao",
+          "title": "賞品公開『TVアニメMAO』オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/anime-mao/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-06",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/anime-mao/",
+          "image_url": "https://kujibikido.com/lp/anime-mao/img/og.png"
+        },
+        {
           "id": "obeyme-3",
           "title": "Obey Me!オンラインくじ～特別な日に、特別なスーツで～",
           "brand": "くじ引き堂",
@@ -7589,6 +7541,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/obeyme-3/",
           "image_url": "https://kujibikido.com/lp/obeyme-3/img/og.png"
+        },
+        {
+          "id": "youjo-senki2",
+          "title": "賞品公開TVアニメ「幼女戦記Ⅱ」オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/youjo-senki2/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-06",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/youjo-senki2/",
+          "image_url": "https://kujibikido.com/lp/youjo-senki2/img/og.png"
         },
         {
           "id": "spiderman-bnd",
@@ -7914,6 +7878,42 @@
           "image_url": "https://kujibikido.com/lp/zero-tsukaima_20th/img/og.png"
         },
         {
+          "id": "kimishinu-anime",
+          "title": "きみが死ぬまで恋をしたい うさみみメイドくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/kimishinu-anime/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-27",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/kimishinu-anime/",
+          "image_url": "https://kujibikido.com/lp/kimishinu-anime/img/og.png"
+        },
+        {
+          "id": "kotonoha",
+          "title": "「琴葉 茜・葵」オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/kotonoha/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-27",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/kotonoha/",
+          "image_url": "https://kujibikido.com/lp/kotonoha/img/og.png"
+        },
+        {
+          "id": "replica",
+          "title": "『レプリカだって、恋をする。』オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/replica/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-27",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/replica/",
+          "image_url": "https://kujibikido.com/lp/replica/img/og.png"
+        },
+        {
           "id": "1bankuji_10660",
           "title": "一番くじ ヱヴァンゲリヲン新劇場版：序",
           "brand": "一番くじ",
@@ -8025,6 +8025,19 @@
           "official_url": "https://kuji.kotobukiya.co.jp/lp/kotobukiya_plamodel2/",
           "image_url": null,
           "end_date": "2026-08-09"
+        },
+        {
+          "id": "mushokutensei3",
+          "title": "BS11×KOTOBUKIYA コトブキヤくじ TVアニメ「無職転生Ⅲ 〜異世界行ったら本気だす〜」",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/mushokutensei3/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/mushokutensei3/",
+          "image_url": null,
+          "end_date": "2026-08-23"
         },
         {
           "id": "p30th_bkb",
@@ -8918,18 +8931,6 @@
           "month_key": "archive",
           "ip_tags": [],
           "date": "2012-06-16",
-          "price": null,
-          "official_url": null,
-          "image_url": null
-        },
-        {
-          "id": "honpo_12",
-          "title": "タイトーくじ本舗 「電波女と青春男」",
-          "brand": "タイトーくじ",
-          "url": "https://kujimap.com/honpo/honpo_12",
-          "month_key": "archive",
-          "ip_tags": [],
-          "date": "2012-07-14",
           "price": null,
           "official_url": null,
           "image_url": null
@@ -12055,18 +12056,6 @@
           "image_url": null
         },
         {
-          "id": "sanrio_kuromi2023",
-          "title": "サンリオ クロミ当りくじ（2023）",
-          "brand": "サンリオ当りくじ",
-          "url": "https://kujimap.com/others/sanrio_kuromi2023",
-          "month_key": "archive",
-          "ip_tags": [],
-          "date": "2023-03-18",
-          "price": null,
-          "official_url": null,
-          "image_url": null
-        },
-        {
           "id": "min_124",
           "title": "みんなのくじ 「僕とロボコ 」",
           "brand": "みんなのくじ",
@@ -14130,6 +14119,18 @@
           "image_url": null
         },
         {
+          "id": "sanrio_kuromi2023",
+          "title": "サンリオ クロミ当りくじ（2023）",
+          "brand": "サンリオ当りくじ",
+          "url": "https://kujimap.com/others/sanrio_kuromi2023",
+          "month_key": "archive",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": null,
+          "image_url": null
+        },
+        {
           "id": "sanrio_kuromi202309",
           "title": "サンリオ クロミ当りくじ（2023.09）",
           "brand": "サンリオ当りくじ",
@@ -14344,6 +14345,18 @@
           "price": null,
           "official_url": "https://segaplaza.jp/lp/sakamotodays-sb_kuji/",
           "image_url": null
+        },
+        {
+          "id": "honpo_12",
+          "title": "タイトーくじ本舗 「電波女と青春男」",
+          "brand": "タイトーくじ",
+          "url": "https://kujimap.com/honpo/honpo_12",
+          "month_key": "archive",
+          "ip_tags": [],
+          "date": "2012-07-14",
+          "price": null,
+          "official_url": null,
+          "image_url": null
         }
       ]
     },
@@ -14351,6 +14364,18 @@
       "key": "unknown",
       "label": "発売月未定",
       "items": [
+        {
+          "id": "honpo_12",
+          "title": "タイトーくじ本舗 「電波女と青春男」",
+          "brand": "タイトーくじ",
+          "url": "https://kujimap.com/honpo/honpo_12",
+          "month_key": null,
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": null,
+          "image_url": null
+        },
         {
           "id": "honpo_41",
           "title": "タイトーくじ本舗 「クイーンズブレイドリベリオン」",
