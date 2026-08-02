@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T11:24:21.830769+09:00",
+  "generated_at": "2026-08-02T11:20:31.124043+09:00",
   "pokemon": [
     {
       "id": "pkm_https_www_pokemon_card_com_ex_m6_4fafc8",
@@ -26,20 +26,6 @@
       "price": "360円（税込）",
       "image_url": "images/tcg/pkm_ps_www_30th_pokemon_card_com_product_m6a_2b1916.jpg",
       "url": "https://www.30th.pokemon-card.com/product/m6a",
-      "buy_url": "",
-      "stores": ""
-    },
-    {
-      "id": "pkm_https_www_pokemon_card_com_ex_m5_5f15b5",
-      "game": "pokemon",
-      "category": "拡張パック",
-      "title": "拡張パック「アビスアイ」",
-      "date": "2026-05-22",
-      "date_raw": "2026年 5月22日（金）",
-      "month_key": "2026-05",
-      "price": "200円（税込）",
-      "image_url": "images/tcg/pkm_https_www_pokemon_card_com_ex_m5_5f15b5.jpg",
-      "url": "https://www.pokemon-card.com/ex/m5/",
       "buy_url": "",
       "stores": ""
     },
