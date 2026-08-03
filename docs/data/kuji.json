@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T11:20:27.988139+09:00",
+  "generated_at": "2026-08-03T11:15:05.582289+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6913,19 +6913,6 @@
           "end_date": null
         },
         {
-          "id": "kujimate_3533306",
-          "title": "中村カンナのくじメイト～カナ頑張りまっす！あたしとあなたの喫茶店繁盛記～",
-          "brand": "くじメイト",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E4%B8%AD%E6%9D%91%E3%82%AB%E3%83%B3%E3%83%8A%E3%81%AE%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%EF%BD%9E%E3%82%AB%E3%83%8A%E9%A0%91%E5%BC%B5%E3%82%8A%E3%81%BE%E3%81%A3%E3%81%99%EF%BC%81%E3%81%82%E3%81%9F%E3%81%97%E3%81%A8%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%96%AB%E8%8C%B6%E5%BA%97%E7%B9%81%E7%9B%9B%E8%A8%98%EF%BD%9E/pd/3533306/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-13",
-          "price": null,
-          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E4%B8%AD%E6%9D%91%E3%82%AB%E3%83%B3%E3%83%8A%E3%81%AE%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%EF%BD%9E%E3%82%AB%E3%83%8A%E9%A0%91%E5%BC%B5%E3%82%8A%E3%81%BE%E3%81%A3%E3%81%99%EF%BC%81%E3%81%82%E3%81%9F%E3%81%97%E3%81%A8%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%96%AB%E8%8C%B6%E5%BA%97%E7%B9%81%E7%9B%9B%E8%A8%98%EF%BD%9E/pd/3533306/",
-          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=07081142_6a4db921d6d11.jpg&width=400&height=400&square=1",
-          "end_date": "2026-07-26"
-        },
-        {
           "id": "kujimate_3478280",
           "title": "魔法少女ピンクブルー くじメイト",
           "brand": "くじメイト",
@@ -7777,6 +7764,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/hxh11",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
+        },
+        {
+          "id": "1bankuji_splatoon3_3",
+          "title": "一番くじ スプラトゥーン3 第三弾",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_splatoon3_3",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://1kuji.com/products/splatoon-3_03",
+          "image_url": null
         },
         {
           "id": "capkuji_memoryoflawyer",
@@ -14190,6 +14189,19 @@
           "price": null,
           "official_url": null,
           "image_url": null
+        },
+        {
+          "id": "kujimate_3533306",
+          "title": "中村カンナのくじメイト～カナ頑張りまっす！あたしとあなたの喫茶店繁盛記～",
+          "brand": "くじメイト",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E4%B8%AD%E6%9D%91%E3%82%AB%E3%83%B3%E3%83%8A%E3%81%AE%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%EF%BD%9E%E3%82%AB%E3%83%8A%E9%A0%91%E5%BC%B5%E3%82%8A%E3%81%BE%E3%81%A3%E3%81%99%EF%BC%81%E3%81%82%E3%81%9F%E3%81%97%E3%81%A8%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%96%AB%E8%8C%B6%E5%BA%97%E7%B9%81%E7%9B%9B%E8%A8%98%EF%BD%9E/pd/3533306/",
+          "month_key": null,
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E4%B8%AD%E6%9D%91%E3%82%AB%E3%83%B3%E3%83%8A%E3%81%AE%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%EF%BD%9E%E3%82%AB%E3%83%8A%E9%A0%91%E5%BC%B5%E3%82%8A%E3%81%BE%E3%81%A3%E3%81%99%EF%BC%81%E3%81%82%E3%81%9F%E3%81%97%E3%81%A8%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%96%AB%E8%8C%B6%E5%BA%97%E7%B9%81%E7%9B%9B%E8%A8%98%EF%BD%9E/pd/3533306/",
+          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=07081142_6a4db921d6d11.jpg&width=400&height=400&square=1",
+          "end_date": null
         }
       ]
     }
