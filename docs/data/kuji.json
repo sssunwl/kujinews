@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T11:15:05.582289+09:00",
+  "generated_at": "2026-08-04T11:03:15.674090+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6840,19 +6840,6 @@
           "official_url": "https://kuji.kotobukiya.co.jp/lp/nipponsangoku/",
           "image_url": null,
           "end_date": "2026-06-30"
-        },
-        {
-          "id": "shinycolors_scene02",
-          "title": "コトブキヤくじ アイドルマスター シャイニーカラーズ scene02",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/shinycolors_scene02/",
-          "month_key": "2026-06",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/shinycolors_scene02/",
-          "image_url": null,
-          "end_date": "2026-06-07"
         }
       ]
     },
@@ -6911,6 +6898,19 @@
           "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91RK+Music+Fes.2026+%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3505381/",
           "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=06111728_6a2a71b5d7997.jpg&width=400&height=400&square=1",
           "end_date": null
+        },
+        {
+          "id": "kujimate_3533306",
+          "title": "中村カンナのくじメイト～カナ頑張りまっす！あたしとあなたの喫茶店繁盛記～",
+          "brand": "くじメイト",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E4%B8%AD%E6%9D%91%E3%82%AB%E3%83%B3%E3%83%8A%E3%81%AE%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%EF%BD%9E%E3%82%AB%E3%83%8A%E9%A0%91%E5%BC%B5%E3%82%8A%E3%81%BE%E3%81%A3%E3%81%99%EF%BC%81%E3%81%82%E3%81%9F%E3%81%97%E3%81%A8%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%96%AB%E8%8C%B6%E5%BA%97%E7%B9%81%E7%9B%9B%E8%A8%98%EF%BD%9E/pd/3533306/",
+          "month_key": "2026-07",
+          "ip_tags": [],
+          "date": "2026-07-13",
+          "price": null,
+          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E4%B8%AD%E6%9D%91%E3%82%AB%E3%83%B3%E3%83%8A%E3%81%AE%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%EF%BD%9E%E3%82%AB%E3%83%8A%E9%A0%91%E5%BC%B5%E3%82%8A%E3%81%BE%E3%81%A3%E3%81%99%EF%BC%81%E3%81%82%E3%81%9F%E3%81%97%E3%81%A8%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%96%AB%E8%8C%B6%E5%BA%97%E7%B9%81%E7%9B%9B%E8%A8%98%EF%BD%9E/pd/3533306/",
+          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=07081142_6a4db921d6d11.jpg&width=400&height=400&square=1",
+          "end_date": "2026-07-26"
         },
         {
           "id": "kujimate_3478280",
@@ -8210,6 +8210,19 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10748/e828c780-c04c-49e2-bcbd-404ba51925eb.webp"
         },
         {
+          "id": "arcanadea2",
+          "title": "コトブキヤくじ アルカナディア 2nd",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/arcanadea2/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/arcanadea2/",
+          "image_url": null,
+          "end_date": "2026-10-12"
+        },
+        {
           "id": "sega_pingu_pds_kuji",
           "title": "セガ ラッキーくじ　PINGU™　～PINGU’S Donut Shop～",
           "brand": "セガラッキーくじ",
@@ -8354,6 +8367,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10791/997762ae-ba90-4c45-8e4e-48ab856e4f09.webp"
         },
         {
+          "id": "1bankuji_10804",
+          "title": "一番くじ 僕のヒーローアカデミア -彼女たちの物語-",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202611/1bankuji_10804",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": "2026-11-30",
+          "price": null,
+          "official_url": "https://1kuji.com/products/myhero48",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10804/88825605-64f2-4fa7-ab41-5cd2bc79748a.webp"
+        },
+        {
           "id": "1bankuji_10766",
           "title": "一番くじ 機動戦士ガンダム UNIVERSAL CENTURY SAGA INTERLUDE",
           "brand": "一番くじ",
@@ -8466,6 +8491,36 @@
           "price": null,
           "official_url": "https://segaplaza.jp/lp/hasunosora_jwy_kuji/",
           "image_url": null
+        },
+        {
+          "id": "sega_jujutsukaisen_eyeson_kuji",
+          "title": "セガ ラッキーくじ　TVアニメ『呪術廻戦』「死滅回游」EYES ON",
+          "brand": "セガラッキーくじ",
+          "url": "https://kujimap.com/segaluck/sega_jujutsukaisen_eyeson_kuji",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://segaplaza.jp/lp/jujutsukaisen_eyeson_kuji/",
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "key": "2027-01",
+      "label": "2027年1月",
+      "items": [
+        {
+          "id": "1bankuji_10732",
+          "title": "一番くじ アニメ「ぼっち・ざ・ろっく！」VOLUME ５",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202701/1bankuji_10732",
+          "month_key": "2027-01",
+          "ip_tags": [],
+          "date": "2027-01-08",
+          "price": null,
+          "official_url": "https://1kuji.com/products/bocchitherock5",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10732/be1de5a0-ac8a-4e69-be73-85e81567aa4e.webp"
         }
       ]
     },
@@ -14189,19 +14244,6 @@
           "price": null,
           "official_url": null,
           "image_url": null
-        },
-        {
-          "id": "kujimate_3533306",
-          "title": "中村カンナのくじメイト～カナ頑張りまっす！あたしとあなたの喫茶店繁盛記～",
-          "brand": "くじメイト",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E4%B8%AD%E6%9D%91%E3%82%AB%E3%83%B3%E3%83%8A%E3%81%AE%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%EF%BD%9E%E3%82%AB%E3%83%8A%E9%A0%91%E5%BC%B5%E3%82%8A%E3%81%BE%E3%81%A3%E3%81%99%EF%BC%81%E3%81%82%E3%81%9F%E3%81%97%E3%81%A8%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%96%AB%E8%8C%B6%E5%BA%97%E7%B9%81%E7%9B%9B%E8%A8%98%EF%BD%9E/pd/3533306/",
-          "month_key": null,
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E4%B8%AD%E6%9D%91%E3%82%AB%E3%83%B3%E3%83%8A%E3%81%AE%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%EF%BD%9E%E3%82%AB%E3%83%8A%E9%A0%91%E5%BC%B5%E3%82%8A%E3%81%BE%E3%81%A3%E3%81%99%EF%BC%81%E3%81%82%E3%81%9F%E3%81%97%E3%81%A8%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E5%96%AB%E8%8C%B6%E5%BA%97%E7%B9%81%E7%9B%9B%E8%A8%98%EF%BD%9E/pd/3533306/",
-          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=07081142_6a4db921d6d11.jpg&width=400&height=400&square=1",
-          "end_date": null
         }
       ]
     }
