@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T11:03:15.674090+09:00",
+  "generated_at": "2026-08-05T11:15:07.221839+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6827,19 +6827,6 @@
           "price": null,
           "official_url": "https://www.taito.co.jp/taitokuji/item/0000011783",
           "image_url": "https://www.taito.co.jp/Content/images/zone/0/201407/49a8290e-e3f1-46b7-a985-c106cb9c4c97_p_01_ja.jpg"
-        },
-        {
-          "id": "nipponsangoku",
-          "title": "コトブキヤくじ TVアニメ『日本三國』",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/nipponsangoku/",
-          "month_key": "2026-06",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/nipponsangoku/",
-          "image_url": null,
-          "end_date": "2026-06-30"
         }
       ]
     },
@@ -7238,18 +7225,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10731/0eab5e0e-5b2c-4b5b-8751-6b57480c22d6.webp"
         },
         {
-          "id": "nmeneko",
-          "title": "「ンめねこ」オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/nmeneko/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-04",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/nmeneko/",
-          "image_url": "https://kujibikido.com/lp/nmeneko/img/og.png"
-        },
-        {
           "id": "1bankuji_10720",
           "title": "一番くじ 進撃の巨人 ～選択と結果～",
           "brand": "一番くじ",
@@ -7323,18 +7298,6 @@
           "image_url": "https://kujibikido.com/lp/anime-86_bd2026/img/og.png"
         },
         {
-          "id": "anime-mao",
-          "title": "賞品公開『TVアニメMAO』オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/anime-mao/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-06",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/anime-mao/",
-          "image_url": "https://kujibikido.com/lp/anime-mao/img/og.png"
-        },
-        {
           "id": "obeyme-3",
           "title": "Obey Me!オンラインくじ～特別な日に、特別なスーツで～",
           "brand": "くじ引き堂",
@@ -7345,18 +7308,6 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/obeyme-3/",
           "image_url": "https://kujibikido.com/lp/obeyme-3/img/og.png"
-        },
-        {
-          "id": "youjo-senki2",
-          "title": "賞品公開TVアニメ「幼女戦記Ⅱ」オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/youjo-senki2/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-06",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/youjo-senki2/",
-          "image_url": "https://kujibikido.com/lp/youjo-senki2/img/og.png"
         },
         {
           "id": "spiderman-bnd",
@@ -7445,6 +7396,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/hamubou/",
           "image_url": "https://kujibikido.com/lp/hamubou/img/og.png"
+        },
+        {
+          "id": "roshidere5",
+          "title": "賞品公開『時々ボソッとロシア語でデレる隣のアーリャさん』 きらめきサマーくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/roshidere5/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-12",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/roshidere5/",
+          "image_url": "https://kujibikido.com/lp/roshidere5/img/og.png"
         },
         {
           "id": "date-a-live-15th",
@@ -7754,16 +7717,28 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10698/9a71847a-e1fc-4429-ace7-cd1ba6684169.gif"
         },
         {
-          "id": "comment-page-1#comment-5890",
+          "id": "comment-page-1#comment-5897",
           "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
           "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5890",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5897",
           "month_key": "2026-08",
           "ip_tags": [],
           "date": "2026-08-29",
           "price": null,
           "official_url": "https://1kuji.com/products/hxh11",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
+        },
+        {
+          "id": "dr-stone_3",
+          "title": "【再販】Dr.STONE オンラインくじ 読書の秋編",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/dr-stone_3/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-31",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/dr-stone_3/",
+          "image_url": "https://kujibikido.com/lp/dr-stone_3/img/og.png"
         },
         {
           "id": "1bankuji_splatoon3_3",
@@ -7802,19 +7777,6 @@
           "official_url": "https://capcom-capkujionline.com/lp/o-kami/",
           "image_url": "https://capcom-capkujionline.com/lp/o-kami/img/og.png",
           "end_date": "2026-08-07"
-        },
-        {
-          "id": "kotobukiya_plamodel2",
-          "title": "コトブキヤくじ プラモデルセレクション2",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/kotobukiya_plamodel2/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/kotobukiya_plamodel2/",
-          "image_url": null,
-          "end_date": "2026-08-09"
         },
         {
           "id": "mushokutensei3",
@@ -7885,6 +7847,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/yuhaku4",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10728/ed6d6913-db34-4a8a-8546-2ccb19438184.webp"
+        },
+        {
+          "id": "w-witch-2",
+          "title": "ワールドウィッチーズ ～あの子とおやすみ～オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/w-witch-2/",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-01",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/w-witch-2/",
+          "image_url": "https://kujibikido.com/lp/w-witch-2/img/og.png"
         },
         {
           "id": "sega_nbc_kuji",
@@ -14244,6 +14218,19 @@
           "price": null,
           "official_url": null,
           "image_url": null
+        },
+        {
+          "id": "kotobukiya_plamodel2",
+          "title": "コトブキヤくじ プラモデルセレクション2上限数に達し次第終了",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/kotobukiya_plamodel2/",
+          "month_key": null,
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/kotobukiya_plamodel2/",
+          "image_url": null,
+          "end_date": null
         }
       ]
     }
