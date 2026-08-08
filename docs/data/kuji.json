@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T11:23:43.438765+09:00",
+  "generated_at": "2026-08-08T10:25:00.074826+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7482,6 +7482,18 @@
           "image_url": "https://kujibikido.com/lp/silentwitch_2/img/og.png"
         },
         {
+          "id": "1bankuji_10711",
+          "title": "一番くじちょこっと Re:ゼロから始める異世界生活",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10711",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-20",
+          "price": null,
+          "official_url": "https://1kuji.com/products/re-zero17",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10711/a7b99602-f59e-41c8-9db6-001b66e57521.webp"
+        },
+        {
           "id": "matakoro",
           "title": "また殺されてしまったのですね、探偵様オンラインくじ",
           "brand": "くじ引き堂",
@@ -7717,18 +7729,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10698/9a71847a-e1fc-4429-ace7-cd1ba6684169.gif"
         },
         {
-          "id": "comment-page-1#comment-5897",
-          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5897",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-29",
-          "price": null,
-          "official_url": "https://1kuji.com/products/hxh11",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
-        },
-        {
           "id": "comment-page-1#comment-5898",
           "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
           "brand": "一番くじ",
@@ -7814,19 +7814,6 @@
           "end_date": "2026-08-28"
         },
         {
-          "id": "capkuji_o-kami",
-          "title": "大神 20th×とびはち くじ",
-          "brand": "カプくじ",
-          "url": "https://capcom-capkujionline.com/lp/o-kami/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://capcom-capkujionline.com/lp/o-kami/",
-          "image_url": "https://capcom-capkujionline.com/lp/o-kami/img/og.png",
-          "end_date": "2026-08-07"
-        },
-        {
           "id": "mushokutensei3",
           "title": "BS11×KOTOBUKIYA コトブキヤくじ TVアニメ「無職転生Ⅲ 〜異世界行ったら本気だす〜」",
           "brand": "コトブキヤくじ",
@@ -7907,6 +7894,19 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/w-witch-2/",
           "image_url": "https://kujibikido.com/lp/w-witch-2/img/og.png"
+        },
+        {
+          "id": "miku-2026-aquarium",
+          "title": "グッスマくじ 初音ミク 2026 アクアリウム",
+          "brand": "グッスマくじ",
+          "url": "https://kuji.goodsmile.com/products/miku-2026-aquarium/",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-04",
+          "price": null,
+          "official_url": "https://kuji.goodsmile.com/products/miku-2026-aquarium/",
+          "image_url": null,
+          "end_date": null
         },
         {
           "id": "sega_nbc_kuji",
@@ -8492,6 +8492,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10779/919e4289-5aa5-4eb8-b315-c2d1373c15c1.webp"
         },
         {
+          "id": "1bankuji_10800",
+          "title": "一番くじ 学園アイドルマスター Part7",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202612/1bankuji_10800",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": "2026-12-12",
+          "price": null,
+          "official_url": "https://1kuji.com/products/gkmas07",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10800/5c2c7d46-4ab0-4e1a-ab27-cb82bda842de.webp"
+        },
+        {
           "id": "1bankuji_10806",
           "title": "一番くじ 金色のガッシュ！！",
           "brand": "一番くじ",
@@ -8514,6 +8526,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/pk30th_1-2",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10813/51cc88be-6049-42fe-8821-3a6323785cba.webp"
+        },
+        {
+          "id": "1bankuji_10798",
+          "title": "一番くじ 新テニスの王子様 -オレは上に行くよ-",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202612/1bankuji_10798",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": "2026-12-24",
+          "price": null,
+          "official_url": "https://1kuji.com/products/tenipuri4",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10798/db13b8c7-d4fa-4813-9fbc-2677b03f4367.webp"
         },
         {
           "id": "1bankuji_10814",
