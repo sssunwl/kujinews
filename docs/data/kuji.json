@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T10:31:54.361054+09:00",
+  "generated_at": "2026-08-11T10:31:37.721728+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7350,18 +7350,6 @@
           "image_url": "https://kujibikido.com/lp/hamubou/img/og.png"
         },
         {
-          "id": "bungo_anime10th",
-          "title": "賞品公開文豪ストレイドッグス TVアニメ10周年記念くじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/bungo_anime10th/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-13",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/bungo_anime10th/",
-          "image_url": "https://kujibikido.com/lp/bungo_anime10th/img/og.png"
-        },
-        {
           "id": "date-a-live-15th",
           "title": "『デート・ア・ライブ』15周年記念オンラインくじ",
           "brand": "くじ引き堂",
@@ -7729,18 +7717,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10698/9a71847a-e1fc-4429-ace7-cd1ba6684169.gif"
         },
         {
-          "id": "comment-page-1#comment-5898",
-          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5898",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-29",
-          "price": null,
-          "official_url": "https://1kuji.com/products/hxh11",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
-        },
-        {
           "id": "comment-page-1#comment-5899",
           "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
           "brand": "一番くじ",
@@ -7919,6 +7895,18 @@
           "price": null,
           "official_url": "https://segaplaza.jp/lp/nbc_kuji/",
           "image_url": null
+        },
+        {
+          "id": "86_2",
+          "title": "【再販】電撃文庫30周年記念『８６―エイティシックス―』オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/86_2/",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-08",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/86_2/",
+          "image_url": "https://kujibikido.com/lp/86_2/img/og.png"
         },
         {
           "id": "1bankuji_10705",
@@ -8335,7 +8323,7 @@
           "date": "2026-11-18",
           "price": null,
           "official_url": "https://1kuji.com/products/toloveru_d",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10794/fb8e6988-3133-43a6-93c0-43af8c0065ab.webp"
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10794/12ab117c-8902-4f93-baed-75093d22e2c1.webp"
         },
         {
           "id": "1bankuji_10799",
