@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T10:31:37.721728+09:00",
+  "generated_at": "2026-08-12T10:39:29.016069+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7325,6 +7325,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10721/228b9cea-f92d-4a1a-8dae-7d8203c2c0bb.webp"
         },
         {
+          "id": "comment-page-1#comment-5906",
+          "title": "一番くじ 勝利の女神：NIKKE CHAPTER8",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_nikke8/comment-page-1#comment-5906",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-08",
+          "price": null,
+          "official_url": "https://1kuji.com/products/nikke8",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10721/228b9cea-f92d-4a1a-8dae-7d8203c2c0bb.webp"
+        },
+        {
           "id": "kujimate_3521121",
           "title": "ブルータル 殺人警察官の告白 くじメイト",
           "brand": "くじメイト",
@@ -7717,18 +7729,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10698/9a71847a-e1fc-4429-ace7-cd1ba6684169.gif"
         },
         {
-          "id": "comment-page-1#comment-5899",
-          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5899",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-29",
-          "price": null,
-          "official_url": "https://1kuji.com/products/hxh11",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
-        },
-        {
           "id": "comment-page-1#comment-5902",
           "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
           "brand": "一番くじ",
@@ -8078,6 +8078,18 @@
           "official_url": "https://kuji.kotobukiya.co.jp/lp/kizuyome/",
           "image_url": null,
           "end_date": "2026-09-06"
+        },
+        {
+          "id": "min_42800",
+          "title": "フリューくじ　エスターバニー　Cake Dreams",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_42800",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=42800",
+          "image_url": null
         },
         {
           "id": "sega_osarunogeorge_85th_kuji",
@@ -8604,6 +8616,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/bocchitherock5",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10732/be1de5a0-ac8a-4e69-be73-85e81567aa4e.webp"
+        },
+        {
+          "id": "1bankuji_10803",
+          "title": "一番くじ ホロライブ ～Fairy tale Style～",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202701/1bankuji_10803",
+          "month_key": "2027-01",
+          "ip_tags": [],
+          "date": "2027-01-09",
+          "price": null,
+          "official_url": "https://1kuji.com/products/hololive-fs",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10803/3a89922b-e828-4e21-9ba3-c990e85b4c2c.webp"
         }
       ]
     },
