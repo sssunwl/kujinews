@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T10:39:29.016069+09:00",
+  "generated_at": "2026-08-13T10:32:43.869405+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7350,18 +7350,6 @@
           "end_date": null
         },
         {
-          "id": "hamubou",
-          "title": "ハム坊 オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/hamubou/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-12",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/hamubou/",
-          "image_url": "https://kujibikido.com/lp/hamubou/img/og.png"
-        },
-        {
           "id": "date-a-live-15th",
           "title": "『デート・ア・ライブ』15周年記念オンラインくじ",
           "brand": "くじ引き堂",
@@ -7907,6 +7895,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/86_2/",
           "image_url": "https://kujibikido.com/lp/86_2/img/og.png"
+        },
+        {
+          "id": "roshidere5",
+          "title": "『時々ボソッとロシア語でデレる隣のアーリャさん』 きらめきサマーくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/roshidere5/",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-08",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/roshidere5/",
+          "image_url": "https://kujibikido.com/lp/roshidere5/img/og.png"
         },
         {
           "id": "1bankuji_10705",
