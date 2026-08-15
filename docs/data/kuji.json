@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T10:34:50.335511+09:00",
+  "generated_at": "2026-08-15T10:02:40.139747+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6826,7 +6826,7 @@
           "date": "2026-06-27",
           "price": null,
           "official_url": "https://www.taito.co.jp/taitokuji/item/0000011783",
-          "image_url": "https://www.taito.co.jp/Content/images/zone/0/201407/49a8290e-e3f1-46b7-a985-c106cb9c4c97_p_01_ja.jpg"
+          "image_url": null
         }
       ]
     },
@@ -6923,19 +6923,6 @@
           "price": null,
           "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=153",
           "image_url": "https://file.charahiroba.com//img/trans/contents/18422_p_grthu3.jpg"
-        },
-        {
-          "id": "kujimate_3500327",
-          "title": "『しゅごキャラ！』くじメイト～チェックセーラーver.～",
-          "brand": "くじメイト",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E3%80%8E%E3%81%97%E3%82%85%E3%81%94%E3%82%AD%E3%83%A3%E3%83%A9%EF%BC%81%E3%80%8F%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%EF%BD%9E%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%82%BB%E3%83%BC%E3%83%A9%E3%83%BCver.%EF%BD%9E/pd/3500327/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-20",
-          "price": null,
-          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E3%80%8E%E3%81%97%E3%82%85%E3%81%94%E3%82%AD%E3%83%A3%E3%83%A9%EF%BC%81%E3%80%8F%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%EF%BD%9E%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%82%BB%E3%83%BC%E3%83%A9%E3%83%BCver.%EF%BD%9E/pd/3500327/",
-          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=06101456_6a28fc717ef93.jpg&width=400&height=400&square=1",
-          "end_date": null
         },
         {
           "id": "kujimate_3505382",
@@ -7530,6 +7517,19 @@
           "price": null,
           "official_url": "https://1kuji.com/products/gintama22",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10717/872ff32b-2077-47d4-9fdf-742100b11ffb.webp"
+        },
+        {
+          "id": "kujimate_3526981",
+          "title": "絶対BLになる世界VS絶対BLになりたくない男 くじメイト",
+          "brand": "くじメイト",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E7%B5%B6%E5%AF%BEBL%E3%81%AB%E3%81%AA%E3%82%8B%E4%B8%96%E7%95%8CVS%E7%B5%B6%E5%AF%BEBL%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%8F%E3%81%AA%E3%81%84%E7%94%B7+%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3526981/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-21",
+          "price": null,
+          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E7%B5%B6%E5%AF%BEBL%E3%81%AB%E3%81%AA%E3%82%8B%E4%B8%96%E7%95%8CVS%E7%B5%B6%E5%AF%BEBL%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%8F%E3%81%AA%E3%81%84%E7%94%B7+%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3526981/",
+          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=07011721_6a44cdffa67ad.jpg&width=400&height=400&square=1",
+          "end_date": "2026-09-23"
         },
         {
           "id": "1bankuji_dragonball_gt",
