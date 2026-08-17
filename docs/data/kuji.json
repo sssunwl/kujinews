@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T10:13:21.995878+09:00",
+  "generated_at": "2026-08-17T10:08:27.046957+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7103,19 +7103,6 @@
           "official_url": "https://kuji.kotobukiya.co.jp/lp/silenthill_f_bkb/",
           "image_url": null,
           "end_date": "2026-07-17"
-        },
-        {
-          "id": "umdc_bkb",
-          "title": "都市伝説解体センター×ぶくぶ マーカーチャーム",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/umdc_bkb/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/umdc_bkb/",
-          "image_url": null,
-          "end_date": "2026-07-02"
         }
       ]
     },
@@ -7177,6 +7164,18 @@
           "title": "一番くじ 進撃の巨人 ～選択と結果～",
           "brand": "一番くじ",
           "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10720",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-05",
+          "price": null,
+          "official_url": "https://1kuji.com/products/shingeki15",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10720/8980b568-120f-4eaa-a09e-5e2ed3b10541.webp"
+        },
+        {
+          "id": "comment-page-1#comment-5907",
+          "title": "一番くじ 進撃の巨人 ～選択と結果～",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10720/comment-page-1#comment-5907",
           "month_key": "2026-08",
           "ip_tags": [],
           "date": "2026-08-05",
@@ -7546,6 +7545,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10725/c7225f21-0220-4d72-a476-b4bc19ff2e34.webp"
         },
         {
+          "id": "1bankuji_splatoon3_3",
+          "title": "一番くじ スプラトゥーン3 第三弾",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_splatoon3_3",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-22",
+          "price": null,
+          "official_url": "https://1kuji.com/products/splatoon-3_03",
+          "image_url": null
+        },
+        {
           "id": "kujimate_3520340",
           "title": "『終天教団』オンラインくじ",
           "brand": "くじメイト",
@@ -7705,18 +7716,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10698/9a71847a-e1fc-4429-ace7-cd1ba6684169.gif"
         },
         {
-          "id": "comment-page-1#comment-5902",
-          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5902",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-29",
-          "price": null,
-          "official_url": "https://1kuji.com/products/hxh11",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
-        },
-        {
           "id": "comment-page-1#comment-5903",
           "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
           "brand": "一番くじ",
@@ -7739,18 +7738,6 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/dr-stone_3/",
           "image_url": "https://kujibikido.com/lp/dr-stone_3/img/og.png"
-        },
-        {
-          "id": "1bankuji_splatoon3_3",
-          "title": "一番くじ スプラトゥーン3 第三弾",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_splatoon3_3",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://1kuji.com/products/splatoon-3_03",
-          "image_url": null
         },
         {
           "id": "capkuji_memoryoflawyer",
@@ -8376,6 +8363,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10759/5229be58-1ef9-4b94-8eb4-b16fea215d0c.png"
         },
         {
+          "id": "sega_rayearth_kuji",
+          "title": "セガ ラッキーくじ　TVアニメ「魔法騎士レイアース」",
+          "brand": "セガラッキーくじ",
+          "url": "https://kujimap.com/segaluck/sega_rayearth_kuji",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": "2026-11-27",
+          "price": null,
+          "official_url": "https://segaplaza.jp/lp/rayearth_kuji/",
+          "image_url": null
+        },
+        {
           "id": "1bankuji_10768",
           "title": "一番くじ 『ペルソナ』シリーズ30th ANNIVERSARY",
           "brand": "一番くじ",
@@ -8459,18 +8458,6 @@
           "date": null,
           "price": null,
           "official_url": "https://segaplaza.jp/lp/haikyu_kuji_2/",
-          "image_url": null
-        },
-        {
-          "id": "sega_rayearth_kuji",
-          "title": "セガ ラッキーくじ　TVアニメ「魔法騎士レイアース」",
-          "brand": "セガラッキーくじ",
-          "url": "https://kujimap.com/segaluck/sega_rayearth_kuji",
-          "month_key": "2026-11",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://segaplaza.jp/lp/rayearth_kuji/",
           "image_url": null
         }
       ]
