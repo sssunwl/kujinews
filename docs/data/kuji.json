@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T10:08:27.046957+09:00",
+  "generated_at": "2026-08-18T10:08:05.184289+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7554,7 +7554,7 @@
           "date": "2026-08-22",
           "price": null,
           "official_url": "https://1kuji.com/products/splatoon-3_03",
-          "image_url": null
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10737/a4c622f0-62e8-4356-b722-2ab9d1b78589.webp"
         },
         {
           "id": "kujimate_3520340",
@@ -7716,18 +7716,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10698/9a71847a-e1fc-4429-ace7-cd1ba6684169.gif"
         },
         {
-          "id": "comment-page-1#comment-5903",
-          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5903",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-29",
-          "price": null,
-          "official_url": "https://1kuji.com/products/hxh11",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
-        },
-        {
           "id": "dr-stone_3",
           "title": "【再販】Dr.STONE オンラインくじ 読書の秋編",
           "brand": "くじ引き堂",
@@ -7858,6 +7846,18 @@
           "price": null,
           "official_url": "https://segaplaza.jp/lp/nbc_kuji/",
           "image_url": null
+        },
+        {
+          "id": "1bankuji_10701",
+          "title": "一番くじ ホロライブ ～RPG Style～",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202609/1bankuji_10701",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-05",
+          "price": null,
+          "official_url": "https://1kuji.com/products/hololive-rpg",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10701/c047c8d8-32d2-4b7c-a7ad-76a0dc30a494.webp"
         },
         {
           "id": "86_2",
@@ -8479,6 +8479,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10779/919e4289-5aa5-4eb8-b315-c2d1373c15c1.webp"
         },
         {
+          "id": "1bankuji_10790",
+          "title": "一番くじ ヱヴァンゲリヲン新劇場版：破",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202612/1bankuji_10790",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": "2026-12-05",
+          "price": null,
+          "official_url": "https://1kuji.com/products/eva20",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10790/6f0768b4-f8a2-475e-a6b1-1b8bad7b77c9.webp"
+        },
+        {
           "id": "1bankuji_10800",
           "title": "一番くじ 学園アイドルマスター Part7",
           "brand": "一番くじ",
@@ -8549,18 +8561,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/5Hanayome22",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10734/da439ebb-45fa-427c-b952-e0d781a6f1b6.webp"
-        },
-        {
-          "id": "1bankuji_10790",
-          "title": "一番くじ ヱヴァンゲリヲン新劇場版：破",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202612/1bankuji_10790",
-          "month_key": "2026-12",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://1kuji.com/products/eva20",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10790/6f0768b4-f8a2-475e-a6b1-1b8bad7b77c9.webp"
         },
         {
           "id": "sega_hasunosora_jwy_kuji",
