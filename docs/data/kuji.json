@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T10:12:06.395231+09:00",
+  "generated_at": "2026-08-20T10:03:54.157978+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7396,30 +7396,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10711/a7b99602-f59e-41c8-9db6-001b66e57521.webp"
         },
         {
-          "id": "assassinspride2",
-          "title": "賞品公開『アサシンズプライド』ちびきゃらくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/assassinspride2/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-20",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/assassinspride2/",
-          "image_url": "https://kujibikido.com/lp/assassinspride2/img/og.png"
-        },
-        {
-          "id": "hikanatsu_anime_1th",
-          "title": "賞品公開TVアニメ「光が死んだ夏」1周年記念 オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/hikanatsu_anime_1th/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-20",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/hikanatsu_anime_1th/",
-          "image_url": "https://kujibikido.com/lp/hikanatsu_anime_1th/img/og.png"
-        },
-        {
           "id": "matakoro",
           "title": "また殺されてしまったのですね、探偵様オンラインくじ",
           "brand": "くじ引き堂",
@@ -7430,18 +7406,6 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/matakoro/",
           "image_url": "https://kujibikido.com/lp/matakoro/img/og.png"
-        },
-        {
-          "id": "nipponsangoku",
-          "title": "賞品公開TVアニメ『日本三國』オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/nipponsangoku/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-20",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/nipponsangoku/",
-          "image_url": "https://kujibikido.com/lp/nipponsangoku/img/og.png"
         },
         {
           "id": "reborn_mensmag",
@@ -7580,6 +7544,30 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/zero-tsukaima_20th/",
           "image_url": "https://kujibikido.com/lp/zero-tsukaima_20th/img/og.png"
+        },
+        {
+          "id": "dream-fes2024_2",
+          "title": "賞品公開【再販】サイコー超えてる！ドリフェス！Rくじ 2024",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/dream-fes2024_2/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-26",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/dream-fes2024_2/",
+          "image_url": "https://kujibikido.com/lp/dream-fes2024_2/img/og.png"
+        },
+        {
+          "id": "ranma",
+          "title": "賞品公開TVアニメ「らんま1/2」オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/ranma/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-26",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/ranma/",
+          "image_url": "https://kujibikido.com/lp/ranma/img/og.png"
         },
         {
           "id": "anime-mao",
@@ -7780,6 +7768,19 @@
           "end_date": "2026-08-02"
         },
         {
+          "id": "the-idolmaster-summerlivestage",
+          "title": "コトブキヤくじ アイドルマスター Summer Live st@ge",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/the-idolmaster-summerlivestage/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/the-idolmaster-summerlivestage/",
+          "image_url": null,
+          "end_date": "2026-08-21"
+        },
+        {
           "id": "you-zitsu",
           "title": "コトブキヤくじ TVアニメ『ようこそ実力至上主義の教室へ』",
           "brand": "コトブキヤくじ",
@@ -7893,6 +7894,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/houkaistarrail3",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10718/3f6ca38e-9291-45d1-89a4-77c35c9a3b2a.webp"
+        },
+        {
+          "id": "akane-banashi",
+          "title": "TVアニメ『あかね噺』オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/akane-banashi/",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-16",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/akane-banashi/",
+          "image_url": "https://kujibikido.com/lp/akane-banashi/img/og.png"
         },
         {
           "id": "1bankuji_10738",
