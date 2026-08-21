@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T10:03:56.478603+09:00",
+  "generated_at": "2026-08-21T10:10:05.564312+09:00",
   "pokemon": [
     {
       "id": "pkm_https_www_pokemon_card_com_ex_m6_4fafc8",
@@ -84,6 +84,20 @@
       "url": "https://www.30th.pokemon-card.com/product/mf",
       "buy_url": "",
       "stores": ""
+    },
+    {
+      "id": "pkm_カードイラストフィギュアコレクション_みずべのポケモン_a8057b",
+      "game": "pokemon",
+      "category": "その他の商品",
+      "title": "カードイラストフィギュアコレクション みずべのポケモン",
+      "date": "2026-08-27",
+      "date_raw": "2026年 8月27日（木）",
+      "month_key": "2026-08",
+      "price": "1,800円（税込）",
+      "image_url": "images/tcg/pkm_カードイラストフィギュアコレクション_みずべのポケモン_a8057b.jpg",
+      "url": "https://www.pokemon-card.com/products/",
+      "buy_url": "",
+      "stores": "ポケモンセンターオンライン"
     },
     {
       "id": "pkm_ww_30th_pokemon_card_com_product_cardset_43befc",
