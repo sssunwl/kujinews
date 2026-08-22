@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T10:10:03.648015+09:00",
+  "generated_at": "2026-08-22T10:12:00.758404+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7742,19 +7742,6 @@
           "end_date": "2026-08-02"
         },
         {
-          "id": "the-idolmaster-summerlivestage",
-          "title": "コトブキヤくじ アイドルマスター Summer Live st@ge",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/the-idolmaster-summerlivestage/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/the-idolmaster-summerlivestage/",
-          "image_url": null,
-          "end_date": "2026-08-21"
-        },
-        {
           "id": "you-zitsu",
           "title": "コトブキヤくじ TVアニメ『ようこそ実力至上主義の教室へ』",
           "brand": "コトブキヤくじ",
@@ -7844,6 +7831,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/roshidere5/",
           "image_url": "https://kujibikido.com/lp/roshidere5/img/og.png"
+        },
+        {
+          "id": "sega_osarunogeorge_85th_kuji",
+          "title": "セガ ラッキーくじ 「おさるのジョージ 85th ～Happy Heartful Days～」",
+          "brand": "セガラッキーくじ",
+          "url": "https://kujimap.com/segaluck/sega_osarunogeorge_85th_kuji",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-11",
+          "price": null,
+          "official_url": "https://segaplaza.jp/lp/osarunogeorge_85th_kuji/",
+          "image_url": null
         },
         {
           "id": "1bankuji_10705",
@@ -7942,6 +7941,19 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10738/a9d03dca-75b7-4bf6-bd54-ccc832f5dd36.webp"
         },
         {
+          "id": "sanrio-hw2026",
+          "title": "Happyくじ『Sanrio characters PUNKS Party 〜Halloween2026〜』",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/sanrio-hw2026/",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-18",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/sanrio-hw2026/",
+          "image_url": "https://www.h-kuji.com/wp-content/uploads/2026/08/SHW26_ImgCut_S_0819_02.jpg",
+          "end_date": null
+        },
+        {
           "id": "1bankuji_10733",
           "title": "一番くじ 学園アイドルマスター Part6",
           "brand": "一番くじ",
@@ -7977,6 +7989,18 @@
           "official_url": "https://kuji.goodsmile.com/products/miku-2026-aquarium/",
           "image_url": null,
           "end_date": null
+        },
+        {
+          "id": "min_42800",
+          "title": "フリューくじ　エスターバニー　Cake Dreams",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_42800",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-19",
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=42800",
+          "image_url": null
         },
         {
           "id": "bungo_anime10th",
@@ -8114,28 +8138,17 @@
           "end_date": "2026-09-06"
         },
         {
-          "id": "min_42800",
-          "title": "フリューくじ　エスターバニー　Cake Dreams",
-          "brand": "みんなのくじ",
-          "url": "https://kujimap.com/minkuji/min_42800",
+          "id": "the-idolmaster-summerlivestage",
+          "title": "コトブキヤくじ アイドルマスター Summer Live st@ge",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/the-idolmaster-summerlivestage/",
           "month_key": "2026-09",
           "ip_tags": [],
           "date": null,
           "price": null,
-          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=42800",
-          "image_url": null
-        },
-        {
-          "id": "sega_osarunogeorge_85th_kuji",
-          "title": "セガ ラッキーくじ 「おさるのジョージ 85th ～Happy Heartful Days～」",
-          "brand": "セガラッキーくじ",
-          "url": "https://kujimap.com/segaluck/sega_osarunogeorge_85th_kuji",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://segaplaza.jp/lp/osarunogeorge_85th_kuji/",
-          "image_url": null
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/the-idolmaster-summerlivestage/",
+          "image_url": null,
+          "end_date": "2026-09-23"
         }
       ]
     },
@@ -13849,19 +13862,6 @@
           "image_url": null
         },
         {
-          "id": "sanrio-holiday",
-          "title": "Happyくじ『Sanrio characters Holiday Collection』",
-          "brand": "Happyくじ",
-          "url": "https://www.h-kuji.com/goods/sanrio-holiday/",
-          "month_key": "archive",
-          "ip_tags": [],
-          "date": "2025-12-06",
-          "price": null,
-          "official_url": "https://www.h-kuji.com/goods/sanrio-holiday/",
-          "image_url": "https://www.h-kuji.com/wp-content/uploads/2025/10/S_Wntr_Bnnr_1031_01.jpg",
-          "end_date": null
-        },
-        {
           "id": "anymy_17",
           "title": "エニマイくじ ちいかわ ゆきだるまになっちゃった！",
           "brand": "エニマイくじ",
@@ -14367,6 +14367,19 @@
           "price": null,
           "official_url": "https://segaplaza.jp/lp/sakamotodays-sb_kuji/",
           "image_url": null
+        },
+        {
+          "id": "sanrio-holiday",
+          "title": "Happyくじ『Sanrio characters Holiday Collection』",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/sanrio-holiday/",
+          "month_key": "archive",
+          "ip_tags": [],
+          "date": "2025-12-06",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/sanrio-holiday/",
+          "image_url": "https://www.h-kuji.com/wp-content/uploads/2025/10/S_Wntr_Bnnr_1031_01.jpg",
+          "end_date": null
         }
       ]
     },
