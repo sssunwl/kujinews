@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T10:12:00.758404+09:00",
+  "generated_at": "2026-08-23T10:13:15.512864+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7172,18 +7172,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10720/8980b568-120f-4eaa-a09e-5e2ed3b10541.webp"
         },
         {
-          "id": "comment-page-1#comment-5907",
-          "title": "一番くじ 進撃の巨人 ～選択と結果～",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10720/comment-page-1#comment-5907",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-05",
-          "price": null,
-          "official_url": "https://1kuji.com/products/shingeki15",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10720/8980b568-120f-4eaa-a09e-5e2ed3b10541.webp"
-        },
-        {
           "id": "kujimate_3538233",
           "title": "TVアニメ「魔法少女にあこがれて」くじメイト",
           "brand": "くじメイト",
@@ -7433,6 +7421,20 @@
           "price": null,
           "official_url": "https://1kuji.com/products/splatoon-3_03",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10737/a4c622f0-62e8-4356-b722-2ab9d1b78589.webp"
+        },
+        {
+          "id": "comment-page-1#comment-5912",
+          "title": "一番くじ ドラゴンボールGT",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_dragonball_gt/comment-page-1#comment-5912",
+          "month_key": "2026-08",
+          "ip_tags": [
+            "ドラゴンボール"
+          ],
+          "date": "2026-08-22",
+          "price": null,
+          "official_url": "https://1kuji.com/products/db_gt",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10725/c7225f21-0220-4d72-a476-b4bc19ff2e34.webp"
         },
         {
           "id": "kujimate_3520340",
@@ -7809,6 +7811,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10701/c047c8d8-32d2-4b7c-a7ad-76a0dc30a494.webp"
         },
         {
+          "id": "1bankuji_10722",
+          "title": "一番くじ 〈ディズニープリンセス〉Enchanted Glow",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202609/1bankuji_10722",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-05",
+          "price": null,
+          "official_url": "https://1kuji.com/products/disney_ps13",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10722/027c85f9-1d14-4d47-a24c-8f236e04f2bb.webp"
+        },
+        {
           "id": "86_2",
           "title": "【再販】電撃文庫30周年記念『８６―エイティシックス―』オンラインくじ",
           "brand": "くじ引き堂",
@@ -8085,18 +8099,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/disney_toy8",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10746/da60244d-bf44-4cd6-9b9c-680890de4d4e.webp"
-        },
-        {
-          "id": "1bankuji_10722",
-          "title": "一番くじ 〈ディズニープリンセス〉Enchanted Glow",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202609/1bankuji_10722",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://1kuji.com/products/disney_ps13",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10722/027c85f9-1d14-4d47-a24c-8f236e04f2bb.webp"
         },
         {
           "id": "arcanadea2",
