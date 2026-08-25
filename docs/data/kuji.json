@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T10:09:31.531989+09:00",
+  "generated_at": "2026-08-25T10:11:41.019552+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7449,18 +7449,6 @@
           "image_url": "https://kujibikido.com/lp/zero-tsukaima_20th/img/og.png"
         },
         {
-          "id": "ranma",
-          "title": "賞品公開TVアニメ「らんま1/2」オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/ranma/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-26",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/ranma/",
-          "image_url": "https://kujibikido.com/lp/ranma/img/og.png"
-        },
-        {
           "id": "anime-mao",
           "title": "『TVアニメMAO』オンラインくじ",
           "brand": "くじ引き堂",
@@ -7667,6 +7655,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
         },
         {
+          "id": "comment-page-1#comment-5913",
+          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5913",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-29",
+          "price": null,
+          "official_url": "https://1kuji.com/products/hxh11",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
+        },
+        {
           "id": "dr-stone_3",
           "title": "【再販】Dr.STONE オンラインくじ 読書の秋編",
           "brand": "くじ引き堂",
@@ -7677,6 +7677,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/dr-stone_3/",
           "image_url": "https://kujibikido.com/lp/dr-stone_3/img/og.png"
+        },
+        {
+          "id": "jujutsukaisen-4",
+          "title": "賞品公開【再販】「呪術廻戦」くじ～POP＆POP～",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/jujutsukaisen-4/",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-31",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/jujutsukaisen-4/",
+          "image_url": "https://kujibikido.com/lp/jujutsukaisen-4/img/og.png"
         },
         {
           "id": "capkuji_memoryoflawyer",
@@ -8600,6 +8612,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10814/7e2bcae0-b77a-4123-b39e-5d9fb8cfd2a0.webp"
         },
         {
+          "id": "1bankuji_10781",
+          "title": "一番くじ ブルーアーカイブ vol.4",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202612/1bankuji_10781",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": "2026-12-26",
+          "price": null,
+          "official_url": "https://1kuji.com/products/bluearchive4",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10781/e51116f3-1105-4889-ba53-b775b4cb3875.webp"
+        },
+        {
           "id": "1bankuji_10734",
           "title": "一番くじ 五等分の花嫁＊ ~beachside memories~",
           "brand": "一番くじ",
@@ -8664,6 +8688,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/hololive-fs",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10803/3a89922b-e828-4e21-9ba3-c990e85b4c2c.webp"
+        },
+        {
+          "id": "1bankuji_10809",
+          "title": "一番くじ DEATH NOTE 2",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202701/1bankuji_10809",
+          "month_key": "2027-01",
+          "ip_tags": [],
+          "date": "2027-01-16",
+          "price": null,
+          "official_url": "https://1kuji.com/products/deathnote2",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10809/06396ba1-3081-4da3-9971-81615ae7ea0f.webp"
         }
       ]
     },
