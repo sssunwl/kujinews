@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T15:26:46.842804+09:00",
+  "generated_at": "2026-08-28T17:40:37.842602+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7398,18 +7398,6 @@
           "end_date": null
         },
         {
-          "id": "youjo-senki2",
-          "title": "TVアニメ「幼女戦記Ⅱ」オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/youjo-senki2/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-27",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/youjo-senki2/",
-          "image_url": "https://kujibikido.com/lp/youjo-senki2/img/og.png"
-        },
-        {
           "id": "1bankuji_10754",
           "title": "一番くじちょこっと パワーパフ ガールズ",
           "brand": "一番くじ",
@@ -7431,7 +7419,7 @@
           "date": "2026-08-28",
           "price": null,
           "official_url": "https://www.taito.co.jp/taitokuji/item/0000011823",
-          "image_url": "https://www.taito.co.jp/Content/images/zone/0/201407/f68eacf8-ab8d-4ef6-adbb-87a52c07a96a_p_01_ja.jpg"
+          "image_url": "https://www.taito.co.jp/Content/images/zone/0/201407/9a798756-0624-436f-afc1-cc2ed0282226_p_01_ja.jpg"
         },
         {
           "id": "1bankuji_10660",
@@ -7544,32 +7532,6 @@
           "image_url": "https://kujibikido.com/lp/dr-stone_3/img/og.png"
         },
         {
-          "id": "capkuji_memoryoflawyer",
-          "title": "逆転裁判 メモリーオブ弁護士 くじ",
-          "brand": "カプくじ",
-          "url": "https://capcom-capkujionline.com/lp/memoryoflawyer/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://capcom-capkujionline.com/lp/memoryoflawyer/",
-          "image_url": "https://capcom-capkujionline.com/lp/memoryoflawyer/img/og.png",
-          "end_date": "2026-08-28"
-        },
-        {
-          "id": "hanaorisan-anime",
-          "title": "コトブキヤくじ TVアニメ『花織さんは転生しても喧嘩がしたい』",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/hanaorisan-anime/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/hanaorisan-anime/",
-          "image_url": null,
-          "end_date": "2026-08-28"
-        },
-        {
           "id": "mushokutensei3",
           "title": "BS11×KOTOBUKIYA コトブキヤくじ TVアニメ「無職転生Ⅲ 〜異世界行ったら本気だす〜」",
           "brand": "コトブキヤくじ",
@@ -7628,18 +7590,6 @@
       "label": "2026年9月",
       "items": [
         {
-          "id": "1bankuji_10728",
-          "title": "一番くじ 幽☆遊☆白書 魔界の扉編",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202609/1bankuji_10728",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-05-14",
-          "price": null,
-          "official_url": "https://1kuji.com/products/yuhaku4",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10728/ed6d6913-db34-4a8a-8546-2ccb19438184.webp"
-        },
-        {
           "id": "kujimate_3533307",
           "title": "『メイちゃんの執事』 くじメイト",
           "brand": "くじメイト",
@@ -7665,6 +7615,18 @@
           "image_url": "https://kujibikido.com/lp/w-witch-2/img/og.png"
         },
         {
+          "id": "neptune2",
+          "title": "賞品公開超新時空ゲイム ネプテューヌ∞ オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/neptune2/",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-03",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/neptune2/",
+          "image_url": "https://kujibikido.com/lp/neptune2/img/og.png"
+        },
+        {
           "id": "oshinoko_summer",
           "title": "賞品公開【推しの子】ドキドキ☆サマーウェディングくじ",
           "brand": "くじ引き堂",
@@ -7675,18 +7637,6 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/oshinoko_summer/",
           "image_url": "https://kujibikido.com/lp/oshinoko_summer/img/og.png"
-        },
-        {
-          "id": "sl-stage_2",
-          "title": "賞品公開アイドルマスター シンデレラガールズ オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/sl-stage_2/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-03",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/sl-stage_2/",
-          "image_url": "https://kujibikido.com/lp/sl-stage_2/img/og.png"
         },
         {
           "id": "sega_nbc_kuji",
@@ -7735,6 +7685,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/86_2/",
           "image_url": "https://kujibikido.com/lp/86_2/img/og.png"
+        },
+        {
+          "id": "nijigasaki_marinestyle",
+          "title": "賞品公開『ラブライブ！虹ヶ咲学園スクールアイドル同好会』オンラインくじ Ver.LoveLive!Days～Marine Style～",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/nijigasaki_marinestyle/",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-08",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/nijigasaki_marinestyle/",
+          "image_url": "https://kujibikido.com/lp/nijigasaki_marinestyle/img/og.png"
         },
         {
           "id": "roshidere5",
@@ -7903,7 +7865,7 @@
           "date": "2026-09-19",
           "price": null,
           "official_url": "https://1kuji.com/products/gkmas06",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10733/53fbf406-d28a-4488-b1a3-fc21b033d72c.webp"
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10733/bb97c3a4-7941-4f9c-a7f2-83867cf8ee8d.webp"
         },
         {
           "id": "1bankuji_10747",
@@ -8013,6 +7975,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/yukari/",
           "image_url": "https://kujibikido.com/lp/yukari/img/og.png"
+        },
+        {
+          "id": "1bankuji_10728",
+          "title": "一番くじ 幽☆遊☆白書 魔界の扉編",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202609/1bankuji_10728",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-25",
+          "price": null,
+          "official_url": "https://1kuji.com/products/yuhaku4",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10728/ed6d6913-db34-4a8a-8546-2ccb19438184.webp"
         },
         {
           "id": "1bankuki_10739",
@@ -8136,6 +8110,19 @@
           "official_url": "https://capcom-capkujionline.com/lp/ningen_life/",
           "image_url": "https://capcom-capkujionline.com/lp/ningen_life/img/og.png",
           "end_date": "2026-09-18"
+        },
+        {
+          "id": "hanaorisan-anime",
+          "title": "コトブキヤくじ TVアニメ『花織さんは転生しても喧嘩がしたい』",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/hanaorisan-anime/",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/hanaorisan-anime/",
+          "image_url": null,
+          "end_date": "2026-09-27"
         },
         {
           "id": "kizuyome",
@@ -13053,6 +13040,18 @@
           "end_date": null
         },
         {
+          "id": "sega_conanmc2_kuji",
+          "title": "セガラッキーくじ 「名探偵コナン メモリアルカット FILE.2」",
+          "brand": "セガラッキーくじ",
+          "url": "https://kujimap.com/segaluck/sega_conanmc2_kuji",
+          "month_key": "archive",
+          "ip_tags": [],
+          "date": "2024-12-06",
+          "price": null,
+          "official_url": "https://segaplaza.jp/lp/conanmc2_kuji/",
+          "image_url": null
+        },
+        {
           "id": "sega_jujutsukaisen-sb_kuji_re",
           "title": "セガラッキーくじ「呪術廻戦　SPLASH×BATTLE Re:」",
           "brand": "セガラッキーくじ",
@@ -14393,18 +14392,6 @@
           "image_url": null
         },
         {
-          "id": "sega_conanmc2_kuji",
-          "title": "セガラッキーくじ 「名探偵コナン メモリアルカット FILE.2」",
-          "brand": "セガラッキーくじ",
-          "url": "https://kujimap.com/segaluck/sega_conanmc2_kuji",
-          "month_key": "archive",
-          "ip_tags": [],
-          "date": "2024-12-06",
-          "price": null,
-          "official_url": "https://segaplaza.jp/lp/conanmc2_kuji/",
-          "image_url": null
-        },
-        {
           "id": "tomandjerry5",
           "title": "Happyくじ『TOM and JERRY FUNNY ART!』5",
           "brand": "Happyくじ",
@@ -14460,18 +14447,6 @@
           "official_url": "https://kuji.kotobukiya.co.jp/lp/kotobukiya_plamodel2/",
           "image_url": null,
           "end_date": null
-        },
-        {
-          "id": "sega_conanmc2_kuji",
-          "title": "セガラッキーくじ 「名探偵コナン メモリアルカット FILE.2」",
-          "brand": "セガラッキーくじ",
-          "url": "https://kujimap.com/segaluck/sega_conanmc2_kuji",
-          "month_key": null,
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": null,
-          "image_url": null
         },
         {
           "id": "spv-bb-2026",
