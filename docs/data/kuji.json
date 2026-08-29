@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T17:40:37.842602+09:00",
+  "generated_at": "2026-08-29T14:21:22.985513+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7856,6 +7856,18 @@
           "end_date": null
         },
         {
+          "id": "1bankuji_10704",
+          "title": "一番くじ IVE FROM STARSHIP ENTERTAINMENT WITH AMUSE Vol.2",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202609/1bankuji_10704",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-19",
+          "price": null,
+          "official_url": "https://1kuji.com/products/ive2",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10704/b0d48209-14dd-4fc9-a5ae-40321ce5ea02.webp"
+        },
+        {
           "id": "1bankuji_10733",
           "title": "一番くじ 学園アイドルマスター Part6",
           "brand": "一番くじ",
@@ -8711,6 +8723,24 @@
           "price": null,
           "official_url": "https://1kuji.com/products/deathnote2",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10809/06396ba1-3081-4da3-9971-81615ae7ea0f.webp"
+        }
+      ]
+    },
+    {
+      "key": "2027-02",
+      "label": "2027年2月",
+      "items": [
+        {
+          "id": "sega_bluearchive_bc_kuji",
+          "title": "セガ ラッキーくじ　ブルーアーカイブ -BUNNY CHASER-",
+          "brand": "セガラッキーくじ",
+          "url": "https://kujimap.com/segaluck/sega_bluearchive_bc_kuji",
+          "month_key": "2027-02",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://segaplaza.jp/lp/bluearchive_bc_kuji/",
+          "image_url": null
         }
       ]
     },
