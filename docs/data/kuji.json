@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T14:21:22.985513+09:00",
+  "generated_at": "2026-08-30T11:49:30.356892+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7371,20 +7371,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10737/a4c622f0-62e8-4356-b722-2ab9d1b78589.webp"
         },
         {
-          "id": "comment-page-1#comment-5912",
-          "title": "一番くじ ドラゴンボールGT",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_dragonball_gt/comment-page-1#comment-5912",
-          "month_key": "2026-08",
-          "ip_tags": [
-            "ドラゴンボール"
-          ],
-          "date": "2026-08-22",
-          "price": null,
-          "official_url": "https://1kuji.com/products/db_gt",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10725/c7225f21-0220-4d72-a476-b4bc19ff2e34.webp"
-        },
-        {
           "id": "kujimate_3520340",
           "title": "『終天教団』オンラインくじ",
           "brand": "くじメイト",
@@ -7472,10 +7458,10 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10698/9a71847a-e1fc-4429-ace7-cd1ba6684169.gif"
         },
         {
-          "id": "comment-page-1#comment-5911",
+          "id": "comment-page-2#comment-5927",
           "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
           "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5911",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-2#comment-5927",
           "month_key": "2026-08",
           "ip_tags": [],
           "date": "2026-08-29",
@@ -7484,10 +7470,10 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
         },
         {
-          "id": "comment-page-1#comment-5918",
+          "id": "comment-page-2#comment-5928",
           "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
           "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5918",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-2#comment-5928",
           "month_key": "2026-08",
           "ip_tags": [],
           "date": "2026-08-29",
@@ -7496,10 +7482,10 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
         },
         {
-          "id": "comment-page-1#comment-5919",
+          "id": "comment-page-2#comment-5929",
           "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
           "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5919",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-2#comment-5929",
           "month_key": "2026-08",
           "ip_tags": [],
           "date": "2026-08-29",
@@ -7508,10 +7494,22 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
         },
         {
-          "id": "comment-page-1#comment-5920",
+          "id": "comment-page-2#comment-5930",
           "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
           "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-1#comment-5920",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-2#comment-5930",
+          "month_key": "2026-08",
+          "ip_tags": [],
+          "date": "2026-08-29",
+          "price": null,
+          "official_url": "https://1kuji.com/products/hxh11",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10712/37f25fe3-82ea-4d80-b8dc-16dfb5c260b4.webp"
+        },
+        {
+          "id": "comment-page-2#comment-5931",
+          "title": "一番くじ HUNTER×HUNTER GREED ISLAND ②",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202608/1bankuji_10712/comment-page-2#comment-5931",
           "month_key": "2026-08",
           "ip_tags": [],
           "date": "2026-08-29",
