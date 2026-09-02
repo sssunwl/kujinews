@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T12:14:03.997037+09:00",
+  "generated_at": "2026-09-02T11:31:22.063039+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7259,18 +7259,6 @@
           "end_date": "2026-09-30"
         },
         {
-          "id": "neptune2",
-          "title": "賞品公開超新時空ゲイム ネプテューヌ∞ オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/neptune2/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-03",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/neptune2/",
-          "image_url": "https://kujibikido.com/lp/neptune2/img/og.png"
-        },
-        {
           "id": "sega_nbc_kuji",
           "title": "セガ ラッキーくじ　ティム・バートンのナイトメアー・ビフォア・クリスマス",
           "brand": "セガラッキーくじ",
@@ -7319,18 +7307,6 @@
           "image_url": "https://kujibikido.com/lp/86_2/img/og.png"
         },
         {
-          "id": "nijigasaki_marinestyle",
-          "title": "賞品公開『ラブライブ！虹ヶ咲学園スクールアイドル同好会』オンラインくじ Ver.LoveLive!Days～Marine Style～",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/nijigasaki_marinestyle/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-08",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/nijigasaki_marinestyle/",
-          "image_url": "https://kujibikido.com/lp/nijigasaki_marinestyle/img/og.png"
-        },
-        {
           "id": "roshidere5",
           "title": "『時々ボソッとロシア語でデレる隣のアーリャさん』 きらめきサマーくじ",
           "brand": "くじ引き堂",
@@ -7341,6 +7317,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/roshidere5/",
           "image_url": "https://kujibikido.com/lp/roshidere5/img/og.png"
+        },
+        {
+          "id": "shugochara_2",
+          "title": "賞品公開『しゅごキャラ！』オンラインくじ vol.2",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/shugochara_2/",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-08",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/shugochara_2/",
+          "image_url": "https://kujibikido.com/lp/shugochara_2/img/og.png"
         },
         {
           "id": "degarashi_oji",
@@ -7883,6 +7871,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/fairytail",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10763/033e0bc2-41e6-4387-a6ed-4ab443799d5f.webp"
+        },
+        {
+          "id": "pichipichipitch_2",
+          "title": "『マーメイドメロディー ぴちぴちピッチ』オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/pichipichipitch_2/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-06",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/pichipichipitch_2/",
+          "image_url": "https://kujibikido.com/lp/pichipichipitch_2/img/og.png"
         },
         {
           "id": "1bankuji_10727",
@@ -13730,6 +13730,18 @@
           "image_url": null
         },
         {
+          "id": "min_141",
+          "title": "フリューくじ 「刀剣乱舞ONLINE 御伴散歩」",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_141",
+          "month_key": "archive",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=141",
+          "image_url": null
+        },
+        {
           "id": "min_89",
           "title": "みんなのくじ 「一発くじ スナックワールド」",
           "brand": "みんなのくじ",
@@ -14145,18 +14157,6 @@
           "official_url": "https://kuji.kotobukiya.co.jp/lp/kotobukiya_plamodel2/",
           "image_url": null,
           "end_date": null
-        },
-        {
-          "id": "min_141",
-          "title": "フリューくじ 「刀剣乱舞ONLINE 御伴散歩」",
-          "brand": "みんなのくじ",
-          "url": "https://kujimap.com/minkuji/min_141",
-          "month_key": null,
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=141",
-          "image_url": null
         },
         {
           "id": "spv-bb-2026",
