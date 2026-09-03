@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T11:31:22.063039+09:00",
+  "generated_at": "2026-09-03T11:38:11.309269+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -8339,6 +8339,20 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10734/da439ebb-45fa-427c-b952-e0d781a6f1b6.webp"
         },
         {
+          "id": "anymy_31",
+          "title": "エニマイくじ ちいかわ",
+          "brand": "エニマイくじ",
+          "url": "https://kujimap.com/others/anymy_31",
+          "month_key": "2026-12",
+          "ip_tags": [
+            "ちいかわ"
+          ],
+          "date": null,
+          "price": null,
+          "official_url": "https://anymy.jp/kuji/projects/31",
+          "image_url": null
+        },
+        {
           "id": "sega_hasunosora_jwy_kuji",
           "title": "セガラッキーくじ ラブライブ! 蓮ノ空女学院スクールアイドルクラブ ～Journey with You～",
           "brand": "セガラッキーくじ",
@@ -8403,6 +8417,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/deathnote2",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10809/06396ba1-3081-4da3-9971-81615ae7ea0f.webp"
+        },
+        {
+          "id": "1bankuji_10818",
+          "title": "一番くじ 東京喰種",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202701/1bankuji_10818",
+          "month_key": "2027-01",
+          "ip_tags": [],
+          "date": "2027-01-30",
+          "price": null,
+          "official_url": "https://1kuji.com/products/tokyoghoul8",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10818/2b95e43a-017c-46f6-9154-ef500ecde242.gif"
         }
       ]
     },
