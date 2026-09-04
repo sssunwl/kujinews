@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T11:38:11.309269+09:00",
+  "generated_at": "2026-09-04T11:30:05.250980+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6311,19 +6311,6 @@
       "label": "2026年2月",
       "items": [
         {
-          "id": "swewoks",
-          "title": "Happyくじ / STAR WARS™『EWOKS』",
-          "brand": "Happyくじ",
-          "url": "https://www.h-kuji.com/goods/swewoks/",
-          "month_key": "2026-02",
-          "ip_tags": [],
-          "date": "2026-02-06",
-          "price": null,
-          "official_url": "https://www.h-kuji.com/goods/swewoks/",
-          "image_url": "https://www.h-kuji.com/wp-content/uploads/2025/12/sw_ewoks_hp_banner_251203_ol.jpg",
-          "end_date": null
-        },
-        {
           "id": "sega_pjsekai_kuji_vol7",
           "title": "セガ ラッキーくじ「プロジェクトセカイ カラフルステージ！ feat. 初音ミク　Vol.7」",
           "brand": "セガラッキーくじ",
@@ -6989,19 +6976,6 @@
           "image_url": null
         },
         {
-          "id": "kujimate_3500328",
-          "title": "TVアニメ『地縛少年花子くん２』くじメイト",
-          "brand": "くじメイト",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E5%9C%B0%E7%B8%9B%E5%B0%91%E5%B9%B4%E8%8A%B1%E5%AD%90%E3%81%8F%E3%82%93%EF%BC%92%E3%80%8F%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3500328/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-26",
-          "price": null,
-          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E5%9C%B0%E7%B8%9B%E5%B0%91%E5%B9%B4%E8%8A%B1%E5%AD%90%E3%81%8F%E3%82%93%EF%BC%92%E3%80%8F%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3500328/",
-          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=06121735_6a2bc4be97be2.jpg&width=400&height=400&square=1",
-          "end_date": null
-        },
-        {
           "id": "kujimate_3526045",
           "title": "ハイキュー!!　ぬいくじ2",
           "brand": "くじメイト",
@@ -7259,6 +7233,19 @@
           "end_date": "2026-09-30"
         },
         {
+          "id": "kujimate_3553536",
+          "title": "TVアニメ『進撃の巨人』狼男ver. オンラインくじ",
+          "brand": "くじメイト",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%E3%80%8F%E7%8B%BC%E7%94%B7ver.+%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%8F%E3%81%98/pd/3553536/",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-03",
+          "price": null,
+          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E9%80%B2%E6%92%83%E3%81%AE%E5%B7%A8%E4%BA%BA%E3%80%8F%E7%8B%BC%E7%94%B7ver.+%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%8F%E3%81%98/pd/3553536/",
+          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=07281434_6a683f49aaac0.jpg&width=400&height=400&square=1",
+          "end_date": "2026-10-04"
+        },
+        {
           "id": "sega_nbc_kuji",
           "title": "セガ ラッキーくじ　ティム・バートンのナイトメアー・ビフォア・クリスマス",
           "brand": "セガラッキーくじ",
@@ -7293,54 +7280,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/disney_ps13",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10722/027c85f9-1d14-4d47-a24c-8f236e04f2bb.webp"
-        },
-        {
-          "id": "86_2",
-          "title": "【再販】電撃文庫30周年記念『８６―エイティシックス―』オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/86_2/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-08",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/86_2/",
-          "image_url": "https://kujibikido.com/lp/86_2/img/og.png"
-        },
-        {
-          "id": "roshidere5",
-          "title": "『時々ボソッとロシア語でデレる隣のアーリャさん』 きらめきサマーくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/roshidere5/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-08",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/roshidere5/",
-          "image_url": "https://kujibikido.com/lp/roshidere5/img/og.png"
-        },
-        {
-          "id": "shugochara_2",
-          "title": "賞品公開『しゅごキャラ！』オンラインくじ vol.2",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/shugochara_2/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-08",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/shugochara_2/",
-          "image_url": "https://kujibikido.com/lp/shugochara_2/img/og.png"
-        },
-        {
-          "id": "degarashi_oji",
-          "title": "賞品公開『最強出涸らし皇子の暗躍帝位争い』オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/degarashi_oji/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-10",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/degarashi_oji/",
-          "image_url": "https://kujibikido.com/lp/degarashi_oji/img/og.png"
         },
         {
           "id": "sega_osarunogeorge_85th_kuji",
@@ -7657,6 +7596,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10739/f69b408a-30e3-4264-822b-21a66675e85e.webp"
         },
         {
+          "id": "honpo_hajimemashitematsuodesu",
+          "title": "タイトーくじ 「はじめまして松尾です」",
+          "brand": "タイトーくじ",
+          "url": "https://kujimap.com/honpo/honpo_hajimemashitematsuodesu",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-25",
+          "price": null,
+          "official_url": "https://www.taito.co.jp/taitokuji/item/0000011845",
+          "image_url": "https://www.taito.co.jp/Content/images/zone/0/201407/d11a2b55-d278-4021-9648-3f4821b1ba52_p_01_ja.jpg"
+        },
+        {
           "id": "1bankuji_10729",
           "title": "一番くじ プリキュア ~Endless Grace~",
           "brand": "一番くじ",
@@ -7691,6 +7642,19 @@
           "price": null,
           "official_url": "https://1kuji.com/products/theghostintheshell",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10736/855bd2e6-0e35-466f-ab5b-cc7da0979501.webp"
+        },
+        {
+          "id": "disney-idol",
+          "title": "Happyくじ『Disney IDOL ON STAGE』",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/disney-idol/",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-26",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/disney-idol/",
+          "image_url": "https://www.h-kuji.com/wp-content/uploads/2026/08/D_IDOL_Bnnr_0820_01.jpg",
+          "end_date": null
         },
         {
           "id": "min_43800",
@@ -7837,6 +7801,54 @@
       "label": "2026年10月",
       "items": [
         {
+          "id": "kaiju-no8",
+          "title": "怪獣８号 オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/kaiju-no8/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-01",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/kaiju-no8/",
+          "image_url": "https://kujibikido.com/lp/kaiju-no8/img/og.png"
+        },
+        {
+          "id": "neptune2",
+          "title": "超新時空ゲイム ネプテューヌ∞ オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/neptune2/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-01",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/neptune2/",
+          "image_url": "https://kujibikido.com/lp/neptune2/img/og.png"
+        },
+        {
+          "id": "oshinoko_summer",
+          "title": "【推しの子】ドキドキ☆サマーウェディングくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/oshinoko_summer/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-01",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/oshinoko_summer/",
+          "image_url": "https://kujibikido.com/lp/oshinoko_summer/img/og.png"
+        },
+        {
+          "id": "sl-stage_2",
+          "title": "アイドルマスター シンデレラガールズ オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/sl-stage_2/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-01",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/sl-stage_2/",
+          "image_url": "https://kujibikido.com/lp/sl-stage_2/img/og.png"
+        },
+        {
           "id": "slayers",
           "title": "『スレイヤーズ』巫女シリーズ オンラインくじ",
           "brand": "くじ引き堂",
@@ -7847,6 +7859,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/slayers/",
           "image_url": "https://kujibikido.com/lp/slayers/img/og.png"
+        },
+        {
+          "id": "1bankuji_10812",
+          "title": "一番くじちょこっと 転生したらスライムだった件",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202610/1bankuji_10812",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-02",
+          "price": null,
+          "official_url": "https://1kuji.com/products/slime23",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10812/bcea4d66-a425-4278-9c33-6366f664b588.webp"
         },
         {
           "id": "1bankuji_10691",
@@ -8039,6 +8063,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10788/c2f8ee0d-8933-40b8-9034-f0597e793ccd.webp"
         },
         {
+          "id": "1bankuji_10766",
+          "title": "一番くじ 機動戦士ガンダム UNIVERSAL CENTURY SAGA INTERLUDE",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202611/1bankuji_10766",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": "2026-11-05",
+          "price": null,
+          "official_url": "https://1kuji.com/products/gundam_ucs2",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10691/e18da818-dc0a-442c-901e-5b04d405092a.webp"
+        },
+        {
           "id": "1bankuji_10787",
           "title": "一番くじ アニメ カードキャプターさくら クリアカード編～Blessed collection～",
           "brand": "一番くじ",
@@ -8175,18 +8211,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/myhero48",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10804/88825605-64f2-4fa7-ab41-5cd2bc79748a.webp"
-        },
-        {
-          "id": "1bankuji_10766",
-          "title": "一番くじ 機動戦士ガンダム UNIVERSAL CENTURY SAGA INTERLUDE",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202611/1bankuji_10766",
-          "month_key": "2026-11",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://1kuji.com/products/gundam_ucs2",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10691/e18da818-dc0a-442c-901e-5b04d405092a.webp"
         },
         {
           "id": "1bankuji_10786",
@@ -8407,6 +8431,20 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10803/3a89922b-e828-4e21-9ba3-c990e85b4c2c.webp"
         },
         {
+          "id": "1bankuji_10827",
+          "title": "一番くじ ワンピース IMPACT LOG",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202701/1bankuji_10827",
+          "month_key": "2027-01",
+          "ip_tags": [
+            "ワンピース"
+          ],
+          "date": "2027-01-09",
+          "price": null,
+          "official_url": "https://1kuji.com/products/onep106",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10827/bd05f42f-381d-4c73-8d73-e7c61bded625.webp"
+        },
+        {
           "id": "1bankuji_10809",
           "title": "一番くじ DEATH NOTE 2",
           "brand": "一番くじ",
@@ -8417,6 +8455,20 @@
           "price": null,
           "official_url": "https://1kuji.com/products/deathnote2",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10809/06396ba1-3081-4da3-9971-81615ae7ea0f.webp"
+        },
+        {
+          "id": "1bankuji_10823",
+          "title": "一番くじ ドラゴンボール ASSEMBLE COLLECTION ～孫悟空少年期編～（再販売）",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202701/1bankuji_10823",
+          "month_key": "2027-01",
+          "ip_tags": [
+            "ドラゴンボール"
+          ],
+          "date": "2027-01-16",
+          "price": null,
+          "official_url": "https://1kuji.com/products/db_ac-2",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10823/789eb8c5-165a-42a6-9d00-6ee94445eb82.webp"
         },
         {
           "id": "1bankuji_10818",
