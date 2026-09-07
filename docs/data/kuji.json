@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T11:24:59.437990+09:00",
+  "generated_at": "2026-09-07T11:31:09.407172+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7012,19 +7012,6 @@
           "price": null,
           "official_url": "https://segaplaza.jp/lp/jujutsukaisen_5th_kuji/",
           "image_url": null
-        },
-        {
-          "id": "hanamaeharu",
-          "title": "コトブキヤくじ 花前ハル",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/hanamaeharu/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/hanamaeharu/",
-          "image_url": null,
-          "end_date": "2026-07-26"
         }
       ]
     },
@@ -7742,19 +7729,6 @@
           "image_url": "https://kujibikido.com/lp/ranma/img/og.png"
         },
         {
-          "id": "arcanadea2",
-          "title": "コトブキヤくじ アルカナディア 2nd",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/arcanadea2/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/arcanadea2/",
-          "image_url": null,
-          "end_date": "2026-09-07"
-        },
-        {
           "id": "capkuji_ningen_life",
           "title": "ningen_life くじ",
           "brand": "カプくじ",
@@ -8043,6 +8017,19 @@
           "price": null,
           "official_url": "https://1kuji.com/products/miabyss",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10748/e828c780-c04c-49e2-bcbd-404ba51925eb.webp"
+        },
+        {
+          "id": "arcanadea2",
+          "title": "コトブキヤくじ アルカナディア 2nd",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/arcanadea2/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/arcanadea2/",
+          "image_url": null,
+          "end_date": "2026-10-12"
         },
         {
           "id": "sega_pingu_pds_kuji",
@@ -8493,6 +8480,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/tokyoghoul8",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10818/2b95e43a-017c-46f6-9154-ef500ecde242.gif"
+        },
+        {
+          "id": "1bankuji_10832",
+          "title": "一番くじ 勝利の女神：NIKKE CHAPTER9",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202701/1bankuji_10832",
+          "month_key": "2027-01",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://1kuji.com/products/nikke9",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10832/3d763c01-5e9d-40d1-a7c0-b7f90c533bad.webp"
         }
       ]
     },
@@ -9258,18 +9257,6 @@
           "month_key": "archive",
           "ip_tags": [],
           "date": "2013-07-13",
-          "price": null,
-          "official_url": null,
-          "image_url": null
-        },
-        {
-          "id": "sanrio_kml",
-          "title": "サンリオ ハローキティ＆マイメロディ＆リトルツインスターズ当りくじ",
-          "brand": "サンリオ当りくじ",
-          "url": "https://kujimap.com/others/sanrio_kml",
-          "month_key": "archive",
-          "ip_tags": [],
-          "date": "2013-07-20",
           "price": null,
           "official_url": null,
           "image_url": null
@@ -14192,6 +14179,18 @@
           "image_url": null
         },
         {
+          "id": "sanrio_kml",
+          "title": "サンリオ ハローキティ＆マイメロディ＆リトルツインスターズ当りくじ",
+          "brand": "サンリオ当りくじ",
+          "url": "https://kujimap.com/others/sanrio_kml",
+          "month_key": "archive",
+          "ip_tags": [],
+          "date": "2013-07-20",
+          "price": null,
+          "official_url": null,
+          "image_url": null
+        },
+        {
           "id": "tomandjerry5",
           "title": "Happyくじ『TOM and JERRY FUNNY ART!』5",
           "brand": "Happyくじ",
@@ -14247,6 +14246,18 @@
           "official_url": "https://kuji.kotobukiya.co.jp/lp/kotobukiya_plamodel2/",
           "image_url": null,
           "end_date": null
+        },
+        {
+          "id": "sanrio_kml",
+          "title": "サンリオ ハローキティ＆マイメロディ＆リトルツインスターズ当りくじ",
+          "brand": "サンリオ当りくじ",
+          "url": "https://kujimap.com/others/sanrio_kml",
+          "month_key": null,
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": null,
+          "image_url": null
         },
         {
           "id": "spv-bb-2026",
