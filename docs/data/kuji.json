@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T11:40:39.489946+09:00",
+  "generated_at": "2026-09-09T11:38:33.189441+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7341,18 +7341,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10765/6c476c51-c444-4f42-bd57-9456da65cb1e.webp"
         },
         {
-          "id": "akane-banashi",
-          "title": "TVアニメ『あかね噺』オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/akane-banashi/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-16",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/akane-banashi/",
-          "image_url": "https://kujibikido.com/lp/akane-banashi/img/og.png"
-        },
-        {
           "id": "assassinspride2",
           "title": "『アサシンズプライド』ちびきゃらくじ",
           "brand": "くじ引き堂",
@@ -7497,18 +7485,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/kimishinu",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10741/00947fbf-e2c4-4a92-8ab1-d6d8af9c58c7.webp"
-        },
-        {
-          "id": "bungo_anime10th",
-          "title": "文豪ストレイドッグス TVアニメ10周年記念くじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/bungo_anime10th/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-24",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/bungo_anime10th/",
-          "image_url": "https://kujibikido.com/lp/bungo_anime10th/img/og.png"
         },
         {
           "id": "dream-fes2024_2",
@@ -7705,6 +7681,18 @@
           "image_url": "https://kujibikido.com/lp/liargame/img/og.png"
         },
         {
+          "id": "shugochara_2",
+          "title": "『しゅごキャラ！』オンラインくじ vol.2",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/shugochara_2/",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-29",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/shugochara_2/",
+          "image_url": "https://kujibikido.com/lp/shugochara_2/img/og.png"
+        },
+        {
           "id": "1bankuji_10746",
           "title": "一番くじ 〈トイ・ストーリー〉～Playtime pals forever（遊び仲間は永遠に）～",
           "brand": "一番くじ",
@@ -7895,6 +7883,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10763/033e0bc2-41e6-4387-a6ed-4ab443799d5f.webp"
         },
         {
+          "id": "nijigasaki_marinestyle",
+          "title": "『ラブライブ！虹ヶ咲学園スクールアイドル同好会』オンラインくじ Ver.LoveLive!Days～Marine Style～",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/nijigasaki_marinestyle/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-06",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/nijigasaki_marinestyle/",
+          "image_url": "https://kujibikido.com/lp/nijigasaki_marinestyle/img/og.png"
+        },
+        {
           "id": "pichipichipitch_2",
           "title": "『マーメイドメロディー ぴちぴちピッチ』オンラインくじ",
           "brand": "くじ引き堂",
@@ -7905,6 +7905,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/pichipichipitch_2/",
           "image_url": "https://kujibikido.com/lp/pichipichipitch_2/img/og.png"
+        },
+        {
+          "id": "1bankuji_10751",
+          "title": "一番くじ 〈くまのプーさん〉100th Anniversary",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202610/1bankuji_10751",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-10",
+          "price": null,
+          "official_url": "https://1kuji.com/products/disney_pooh7",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10751/d2b38822-85f0-4dfb-a84e-9103a9607536.webp"
         },
         {
           "id": "1bankuji_10727",
@@ -12130,6 +12142,18 @@
           "image_url": null
         },
         {
+          "id": "honpo_miffy_lottery3",
+          "title": "タイトーくじ 「ミッフィー　ミッフィーとすてきなキャンプ」",
+          "brand": "タイトーくじ",
+          "url": "https://kujimap.com/honpo/honpo_miffy_lottery3",
+          "month_key": "archive",
+          "ip_tags": [],
+          "date": "2023-09-16",
+          "price": null,
+          "official_url": "https://www.taito.co.jp/taitokuji/item/0000001268",
+          "image_url": null
+        },
+        {
           "id": "sanrio_snoopy202309",
           "title": "サンリオ　9月スヌーピー当りくじ",
           "brand": "サンリオ当りくじ",
@@ -13383,6 +13407,18 @@
           "image_url": null
         },
         {
+          "id": "honpo_pekotea",
+          "title": "タイトーくじ PEKO×TEA TIME",
+          "brand": "タイトーくじ",
+          "url": "https://kujimap.com/honpo/honpo_pekotea",
+          "month_key": "archive",
+          "ip_tags": [],
+          "date": "2025-07-04",
+          "price": null,
+          "official_url": "https://www.taito.co.jp/taitokuji/item/0000001565",
+          "image_url": null
+        },
+        {
           "id": "honpo_0000001587",
           "title": "タイトーくじ Coca-Cola®",
           "brand": "タイトーくじ",
@@ -14203,30 +14239,6 @@
           "image_url": null
         },
         {
-          "id": "honpo_miffy_lottery3",
-          "title": "タイトーくじ 「ミッフィー　ミッフィーとすてきなキャンプ」",
-          "brand": "タイトーくじ",
-          "url": "https://kujimap.com/honpo/honpo_miffy_lottery3",
-          "month_key": "archive",
-          "ip_tags": [],
-          "date": "2023-09-16",
-          "price": null,
-          "official_url": "https://www.taito.co.jp/taitokuji/item/0000001268",
-          "image_url": null
-        },
-        {
-          "id": "honpo_pekotea",
-          "title": "タイトーくじ PEKO×TEA TIME",
-          "brand": "タイトーくじ",
-          "url": "https://kujimap.com/honpo/honpo_pekotea",
-          "month_key": "archive",
-          "ip_tags": [],
-          "date": "2025-07-04",
-          "price": null,
-          "official_url": "https://www.taito.co.jp/taitokuji/item/0000001565",
-          "image_url": null
-        },
-        {
           "id": "tomandjerry5",
           "title": "Happyくじ『TOM and JERRY FUNNY ART!』5",
           "brand": "Happyくじ",
@@ -14263,30 +14275,6 @@
           "title": "タイトーくじ本舗 「クイーンズブレイドリベリオン」",
           "brand": "タイトーくじ",
           "url": "https://kujimap.com/honpo/honpo_41",
-          "month_key": null,
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": null,
-          "image_url": null
-        },
-        {
-          "id": "honpo_miffy_lottery3",
-          "title": "タイトーくじ 「ミッフィー　ミッフィーとすてきなキャンプ」",
-          "brand": "タイトーくじ",
-          "url": "https://kujimap.com/honpo/honpo_miffy_lottery3",
-          "month_key": null,
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": null,
-          "image_url": null
-        },
-        {
-          "id": "honpo_pekotea",
-          "title": "タイトーくじ PEKO×TEA TIME",
-          "brand": "タイトーくじ",
-          "url": "https://kujimap.com/honpo/honpo_pekotea",
           "month_key": null,
           "ip_tags": [],
           "date": null,
