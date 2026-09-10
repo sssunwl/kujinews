@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T11:38:33.189441+09:00",
+  "generated_at": "2026-09-10T11:39:08.657325+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7766,6 +7766,19 @@
           "official_url": "https://kuji.kotobukiya.co.jp/lp/kizuyome/",
           "image_url": null,
           "end_date": "2026-09-06"
+        },
+        {
+          "id": "otomekaiju",
+          "title": "BS11×KOTOBUKIYA コトブキヤくじ TVアニメ「乙女怪獣キャラメリゼ」",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/otomekaiju/",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/otomekaiju/",
+          "image_url": null,
+          "end_date": "2026-09-11"
         },
         {
           "id": "the-idolmaster-summerlivestage",
