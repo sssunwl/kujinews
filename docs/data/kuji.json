@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T11:39:08.657325+09:00",
+  "generated_at": "2026-09-11T11:33:08.929869+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6347,19 +6347,6 @@
           "image_url": null
         },
         {
-          "id": "d-cat",
-          "title": "Happyくじ 『Disney にゃん・にゃん・にゃん』",
-          "brand": "Happyくじ",
-          "url": "https://www.h-kuji.com/goods/d-cat/",
-          "month_key": "2026-02",
-          "ip_tags": [],
-          "date": "2026-02-20",
-          "price": null,
-          "official_url": "https://www.h-kuji.com/goods/d-cat/",
-          "image_url": "https://www.h-kuji.com/wp-content/uploads/2026/01/Disney_Nyan_gallery_0117_01.jpg",
-          "end_date": null
-        },
-        {
           "id": "honpo_miku_rody",
           "title": "タイトーくじ 「初音ミク×RODY」",
           "brand": "タイトーくじ",
@@ -7353,42 +7340,6 @@
           "image_url": "https://kujibikido.com/lp/assassinspride2/img/og.png"
         },
         {
-          "id": "hikanatsu_anime_1th",
-          "title": "TVアニメ「光が死んだ夏」1周年記念 オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/hikanatsu_anime_1th/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-17",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/hikanatsu_anime_1th/",
-          "image_url": "https://kujibikido.com/lp/hikanatsu_anime_1th/img/og.png"
-        },
-        {
-          "id": "nipponsangoku",
-          "title": "TVアニメ『日本三國』オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/nipponsangoku/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-17",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/nipponsangoku/",
-          "image_url": "https://kujibikido.com/lp/nipponsangoku/img/og.png"
-        },
-        {
-          "id": "shiboyugi_anime_sb",
-          "title": "死亡遊戯で飯を食う。 オンラインくじ -SCRAP BUILDING-",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/shiboyugi_anime_sb/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-17",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/shiboyugi_anime_sb/",
-          "image_url": "https://kujibikido.com/lp/shiboyugi_anime_sb/img/og.png"
-        },
-        {
           "id": "1bankuji_10738",
           "title": "一番くじ 劇場版『チェンソーマン レゼ篇』第2弾",
           "brand": "一番くじ",
@@ -7768,19 +7719,6 @@
           "end_date": "2026-09-06"
         },
         {
-          "id": "otomekaiju",
-          "title": "BS11×KOTOBUKIYA コトブキヤくじ TVアニメ「乙女怪獣キャラメリゼ」",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/otomekaiju/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/otomekaiju/",
-          "image_url": null,
-          "end_date": "2026-09-11"
-        },
-        {
           "id": "the-idolmaster-summerlivestage",
           "title": "コトブキヤくじ アイドルマスター Summer Live st@ge",
           "brand": "コトブキヤくじ",
@@ -7799,6 +7737,18 @@
       "key": "2026-10",
       "label": "2026年10月",
       "items": [
+        {
+          "id": "ganadi",
+          "title": "「ガナディ」オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/ganadi/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-01",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/ganadi/",
+          "image_url": "https://kujibikido.com/lp/ganadi/img/og.png"
+        },
         {
           "id": "kaiju-no8",
           "title": "怪獣８号 オンラインくじ",
@@ -7836,6 +7786,18 @@
           "image_url": "https://kujibikido.com/lp/oshinoko_summer/img/og.png"
         },
         {
+          "id": "prilover",
+          "title": "TVアニメ『プリンセスラバー！』オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/prilover/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-01",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/prilover/",
+          "image_url": "https://kujibikido.com/lp/prilover/img/og.png"
+        },
+        {
           "id": "sl-stage_2",
           "title": "アイドルマスター シンデレラガールズ オンラインくじ",
           "brand": "くじ引き堂",
@@ -7870,6 +7832,19 @@
           "price": null,
           "official_url": "https://1kuji.com/products/slime23",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10812/bcea4d66-a425-4278-9c33-6366f664b588.webp"
+        },
+        {
+          "id": "disney-halloween2026",
+          "title": "Happyくじ『Disney ハ口ウィン 2026』",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/disney-halloween2026/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-02",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/disney-halloween2026/",
+          "image_url": "https://www.h-kuji.com/wp-content/uploads/2026/08/6b51fd85e8b8ac1e70b77e384223bc22.jpg",
+          "end_date": null
         },
         {
           "id": "1bankuji_10691",
@@ -7918,6 +7893,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/pichipichipitch_2/",
           "image_url": "https://kujibikido.com/lp/pichipichipitch_2/img/og.png"
+        },
+        {
+          "id": "degarashi_oji",
+          "title": "『最強出涸らし皇子の暗躍帝位争い』オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/degarashi_oji/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-08",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/degarashi_oji/",
+          "image_url": "https://kujibikido.com/lp/degarashi_oji/img/og.png"
         },
         {
           "id": "1bankuji_10751",
@@ -8065,6 +8052,19 @@
           "date": null,
           "price": null,
           "official_url": "https://kuji.kotobukiya.co.jp/lp/arcanadea2/",
+          "image_url": null,
+          "end_date": "2026-10-12"
+        },
+        {
+          "id": "otomekaiju",
+          "title": "BS11×KOTOBUKIYA コトブキヤくじ TVアニメ「乙女怪獣キャラメリゼ」",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/otomekaiju/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/otomekaiju/",
           "image_url": null,
           "end_date": "2026-10-12"
         },
