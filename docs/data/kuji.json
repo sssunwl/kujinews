@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T11:33:08.929869+09:00",
+  "generated_at": "2026-09-12T11:29:36.428174+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6796,19 +6796,6 @@
       "label": "2026年7月",
       "items": [
         {
-          "id": "kujimate_3513829",
-          "title": "『理想的恋愛の条件』くじメイト",
-          "brand": "くじメイト",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E3%80%8E%E7%90%86%E6%83%B3%E7%9A%84%E6%81%8B%E6%84%9B%E3%81%AE%E6%9D%A1%E4%BB%B6%E3%80%8F%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3513829/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-03",
-          "price": null,
-          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E3%80%8E%E7%90%86%E6%83%B3%E7%9A%84%E6%81%8B%E6%84%9B%E3%81%AE%E6%9D%A1%E4%BB%B6%E3%80%8F%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3513829/",
-          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=06181450_6a33872fd8812.jpg&width=400&height=400&square=1",
-          "end_date": "2026-08-02"
-        },
-        {
           "id": "kujimate_3513828",
           "title": "TVアニメ「妖怪学校の先生はじめました！」くじメイト《仮面舞踏会ver.》",
           "brand": "くじメイト",
@@ -7253,6 +7240,19 @@
           "price": null,
           "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E5%A4%A9%E9%87%8E%E8%81%A1%E7%BE%8E%E3%81%AE%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%EF%BD%9E%E8%95%A9%E3%81%91%E3%83%9C%E3%82%A4%E3%82%B9%E3%81%A7%E7%94%98%E3%82%84%E3%81%8B%E3%81%99%E9%9A%A3%E3%81%AE%E3%81%8A%E5%A7%89%E3%81%95%E3%82%93%E7%B7%A8%EF%BD%9E/pd/3571247/",
           "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=09011043_6a962da9bbcee.jpg&width=400&height=400&square=1",
+          "end_date": "2026-10-04"
+        },
+        {
+          "id": "kujimate_3572296",
+          "title": "TVアニメ『桃源暗鬼』くじメイト",
+          "brand": "くじメイト",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E6%A1%83%E6%BA%90%E6%9A%97%E9%AC%BC%E3%80%8F%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3572296/",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-11",
+          "price": null,
+          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E6%A1%83%E6%BA%90%E6%9A%97%E9%AC%BC%E3%80%8F%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3572296/",
+          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=09011212_6a96428bddc36.jpg&width=400&height=400&square=1",
           "end_date": "2026-10-04"
         },
         {
