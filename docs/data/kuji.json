@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T11:57:24.296641+09:00",
+  "generated_at": "2026-09-16T11:47:44.592058+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7304,18 +7304,6 @@
           "image_url": null
         },
         {
-          "id": "deathnote2",
-          "title": "漫画『DEATH NOTE』オンラインくじ vol.2",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/deathnote2/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-15",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/deathnote2/",
-          "image_url": "https://kujibikido.com/lp/deathnote2/img/og.png"
-        },
-        {
           "id": "1bankuji_10765",
           "title": "一番くじちょこっと サンエックスユニバース",
           "brand": "一番くじ",
@@ -7326,18 +7314,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/san-x",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10765/6c476c51-c444-4f42-bd57-9456da65cb1e.webp"
-        },
-        {
-          "id": "assassinspride2",
-          "title": "『アサシンズプライド』ちびきゃらくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/assassinspride2/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-17",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/assassinspride2/",
-          "image_url": "https://kujibikido.com/lp/assassinspride2/img/og.png"
         },
         {
           "id": "1bankuji_10738",
@@ -7871,6 +7847,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10763/033e0bc2-41e6-4387-a6ed-4ab443799d5f.webp"
         },
         {
+          "id": "mushokutensei3_cheer",
+          "title": "「無職転生Ⅲ ～異世界行ったら本気だす～」チアガール オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/mushokutensei3_cheer/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-06",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/mushokutensei3_cheer/",
+          "image_url": "https://kujibikido.com/lp/mushokutensei3_cheer/img/og.png"
+        },
+        {
           "id": "nijigasaki_marinestyle",
           "title": "『ラブライブ！虹ヶ咲学園スクールアイドル同好会』オンラインくじ Ver.LoveLive!Days～Marine Style～",
           "brand": "くじ引き堂",
@@ -7917,6 +7905,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/disney_pooh7",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10751/d2b38822-85f0-4dfb-a84e-9103a9607536.webp"
+        },
+        {
+          "id": "girls-und-panzer-finale_3",
+          "title": "ガールズ＆パンツァー 最終章 Newtype オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/girls-und-panzer-finale_3/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-13",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/girls-und-panzer-finale_3/",
+          "image_url": "https://kujibikido.com/lp/girls-und-panzer-finale_3/img/og.png"
         },
         {
           "id": "1bankuji_10727",
@@ -8360,7 +8360,7 @@
           "date": "2026-12-12",
           "price": null,
           "official_url": "https://1kuji.com/products/konjiki-no-gash",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10806/3ae13f69-a182-47be-8027-8079d4f7de82.webp"
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10806/aaa73cda-4b66-41a0-8789-6f768514d291.webp"
         },
         {
           "id": "1bankuji_10813",
