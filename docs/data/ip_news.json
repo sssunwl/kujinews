@@ -1,6 +1,11 @@
 {
   "ワンピース": [
     {
+      "title": "「S.H.Figuarts サカズキ(赤犬) -マリンフォード頂上決戦-」が9月18日(金)より予約開始",
+      "title_zh": "",
+      "url": "https://one-piece.com/news/82205/index.html"
+    },
+    {
       "title": "『ONE PIECE 海のごちそうレストラン』新規映像＆東京ゲームショー2026最新情報を公開",
       "title_zh": "",
       "url": "https://one-piece.com/news/82221/index.html"
@@ -69,14 +74,19 @@
       "title": "麦わらストアでエルバフ編オープニングの「ONE PIECE ANIMATION WORKS」グッズが新登場",
       "title_zh": "",
       "url": "https://one-piece.com/news/82104/index.html"
-    },
-    {
-      "title": "麦わらストアに麦たまの一味シリーズのロキ、ドリー、ブロギーが新登場",
-      "title_zh": "",
-      "url": "https://one-piece.com/news/82098/index.html"
     }
   ],
   "ドラゴンボール": [
+    {
+      "title": "「ドラゴンボールスーパーダイバーズ 12弾 本能の一撃」が稼働開始！CARD2026.09.17",
+      "title_zh": "",
+      "url": "https://dragon-ball-official.com/news/01_4438.html"
+    },
+    {
+      "title": "[鳥山明ほぼ全仕事] 1日おきに更新24時間限定公開！　2026/09/17COLUMNS2026.09.17",
+      "title_zh": "",
+      "url": "https://dragon-ball-official.com/news/01_4445.html"
+    },
     {
       "title": "ウィークリー☆キャラクター紹介！第273回目はピッコロ大魔王編の「桃白白」！COLUMNS2026.09.15",
       "title_zh": "",
@@ -118,24 +128,14 @@
       "url": "https://dragon-ball-official.com/news/01_4395.html"
     },
     {
-      "title": "「サックスバー」から「ドラゴンボール」スーツケース＆バッグコレクションが発売決定!!GOODS2026.09.08",
-      "title_zh": "",
-      "url": "https://dragon-ball-official.com/news/01_4423.html"
-    },
-    {
       "title": "ウィークリー☆キャラクター紹介！第272回目はサイヤ人編の「餃子」！COLUMNS2026.09.08",
       "title_zh": "",
       "url": "https://dragon-ball-official.com/news/01_4424.html"
     },
     {
-      "title": "【9月7日（月）】「Weekly Dragonball News」配信！COLUMNS2026.09.07",
+      "title": "「サックスバー」から「ドラゴンボール」スーツケース＆バッグコレクションが発売決定!!GOODS2026.09.08",
       "title_zh": "",
-      "url": "https://dragon-ball-official.com/news/01_4434.html"
-    },
-    {
-      "title": "GAME＆GOODSページが登場！アップデートのお知らせINFORMATION2026.09.07",
-      "title_zh": "",
-      "url": "https://dragon-ball-official.com/news/01_4432.html"
+      "url": "https://dragon-ball-official.com/news/01_4423.html"
     }
   ],
   "REBORN!": [
@@ -192,9 +192,14 @@
   ],
   "ちいかわ": [
     {
-      "title": "ちいかわグッズ騒動 JR東海回答 - Yahoo!ニュース",
+      "title": "「ちいかわ」争奪戦が映すキャラクター消費の転換点、企業に問われる「熱狂のガバナンス」と新たな責任 - JBpress",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ueGM4ZlF3ZmlvRmxmVTYwaWp0Yk1malNjMktzbFRDRE5kd2VtdFE2MGN2akRkcUhFTWlBREFybkV2ZnVOd1pmcUJ2dDFURzY2?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fYnNsdXdKc1gzQnhwZDUyVVRpdDZIZHhQa3M1NWpNMzJvdEFjRXNZTm51aXJRZmFpUU5nLS1yTmxFYUlvc25pdnJhT2dSaXBwMnRGZzln?oc=5"
+    },
+    {
+      "title": "JR東海、ちいかわコラボグッズ大量転売疑惑に回答「社員・関係者の転売は考えにくい」調査の詳細明かす（ピンズバNEWS） - Yahoo!ニュース",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ncHdXVXU5clhORy1odzRuYWhFcDJjVkVrMXc1dl9NYzl3RW9waUxucFFkd0gwSG1SaTNMd1pQdnJUSllERmJEbTJzenVCQkdVZjNjaVR5aTZ6Skcya3lpTmhuUzJpUUVfY3ZMQ3gwVzhIR0NtNUlJTzZZcnpseEk?oc=5"
     },
     {
       "title": "メルカリには「明らかにおかしい出品」も……くら寿司「ちいかわコラボ」から学ぶべき人気IPコラボの“リスク” - ITmedia",
@@ -202,39 +207,54 @@
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBlVnFfVG04aHhFazBHcFBVUzFfcFBNeklqYXFjMkNHZkJXWXhJRDU0bldLYWdKNG5XMHB0aFVBQm9QdWRwLXBNN3NuNFVMN3FaVldsMW5ub0cwUEJYbllTUGk2dG1LdkVZX29xMUcyMDBqZw?oc=5"
     },
     {
-      "title": "「ちいかわコラボ中止」思い切った判断の裏側。鈴木おさむが語る、くら寿司が“売上より信用”を取った重大な意味 - ｄメニューニュース",
+      "title": "『ちいかわ』くりまんじゅうだらけのオンラインくじが登場！片手にビールを持った超BIGぬいぐるみから「ハーッ…」な表情のフェイスクッションなど全11種のアイテムをラインナップ！ - 電撃ホビーウェブ",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMUp1M2ozeV8wQTR0dmFRWXVVZ1ZrQVdQSmV1WUNlOHZDSU5TU0M1RDVDTllPdDZaMjYzbFBrWExwd3V6NHlNbmVlYnhyVE1rNnY5enJZYnNMNEdXOEdMVkQzRDd2TTNhSlgzejZ3czZMTnU5RFdDZmUydmVFNXpZQkdjMlhXVkpSbEQ1X2Z6MTZaelU2VTRpSm9TRjZpdWhRczdfWENsSUpLbU8wRUxHR1RjbVRydDhKZjBPcFF4SVo3d3NKYzB4TFhKUG12TjNQMGROOXBn0gGGAUFVX3lxTE1qUlpidDlIUXgyNTNLUmVqeXRra2E3TEpqUlBaUEdIZWp4TGhZR2JBdFYwVTByN3h6UWVXcWRROEVDdzhWZ24zS0xPYWpudS1vMGxqdEl2Zy1PTjFGR2Y5N2J5eGlMWmtST19OUWN0Rkk3U05ENzA4M3BGU0V3LUJkdkVhNEZB?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAtR050d2hWSW8wLXBwS1Q5QXptcFRrdTlLX0ZNUWlFOWFxbzFSYkZuc0ZmcEhLQ3hreFVJOElzSE1TTXZxS0tyem1UUU51UG42?oc=5"
     },
     {
-      "title": "『ちいかわ』新たな特典の中身ページ公開でネット衝撃「ヤベェぞ…」「絶対ほしい」 - 福井新聞社",
+      "title": "【ちいかわ】くりまんじゅうだらけなオンラインくじが9月24日（木）の11時より発売！（アニメージュプラス） - Yahoo!ニュース",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8zNmE0eWtXdDdNOUhkcHl3VnBITUo1aE1iVVgzcEF4bXo5cVZvR29VbVRpaXVDbmZfYThIRl85c290Q2dKSmZqWERpU28xQWVSLTl5UElPSnJvSmliZEE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjd1RBQS16eUc2U3NBb01xRzVjZGFXWUF4QkxzZmtEZVVCRG1vbldpdm82LV9HWUs3MWdqR2o2QThGRC0xRTFQUUgtbXFoREF5T21KSzkyVWpuVVdwOUtQR0Q0T3d6ZnNWYks5dEVSZ05nUTdtWVY3WGVKMU0yRkk?oc=5"
     },
     {
-      "title": "『ちいかわ』から、くりまんじゅうだらけのオンラインくじが登場！「ちいかわ くりまんじゅうだらけくじ」2026年9月24日(木)11時より販売開始 - PR TIMES",
+      "title": "くりまんじゅうだらけのオンラインくじが登場！「ちいかわ くりまんじゅうだらけくじ」発売 9月24日から - 朝日新聞",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE94TXV0cWM1aVBCa0tMQWxEVkxLamZEb2t3eHd4UUpTMWJ0VE9KTkxxVFFudEQ5UjJMQ0ZjVWpZdGJKb19mT3dHZU5IWjVxcXhMOHV1WmFXaHNzQm9XTEZ6YnhuVlZlT2Zranc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9mWGZfSDl3bG10WUtDY0xGbFBTaHRIZXhXVlZ5UXlDYTdhc0laWkhrRjdwRll3djhaN05WZ2RDVmdsSWx5TXlWWnBRMnhjMWJVdk9McWludzZha0Ns?oc=5"
     },
     {
-      "title": "『ちいかわ』、『めざましテレビ』で新企画スタートへ　フジ、映画興収146.6億円突破に感謝「熱量が本当にすごい」 - ｄメニューニュース",
+      "title": "『ちいかわ』新たな特典にネットざわつく「ナガノ先生のファンで良かった」「ズルい」 - オリコンニュース",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9aX19jTl82NjVVZ2duXzYxemlNU3ZHRjg0RlZpT2d4dmI4a1EyVHJtWG5sV09kVHdCZVhydVlybmtnb09PejM0R2UwU3d5RG8xQlVsYmQ3azl0d0ZxYjFGREY0dmZYZnFDNm41T2NQcDk3SmJWcTgxSE0wZFFtUdIBgwFBVV95cUxNb2o1MVJRSjd3amxwWmY5b3Z6Q2xiZnFTbm1pYW9qOWt5Q00yTWNCeGRrVkx4TktmcmxIUy1TLUJfT0tIMm1QcVRKTi1iOUJOUmotTG52Zl9xNFVYWFkxeE1ESkYwNWpEU3kwWHp1QjhxSUd4VS1TYnUtWDlPbllvLXNmUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XNEczeVBEemtHbllxaWVwQjgxUUlXV3g5NUFyS2RJa3pCWnZYaGFDMmFxUG01Snh3RkkyNVYzZDhJYkRjYy03RnIxOHVqM1g4TktWYlprNHdzUQ?oc=5"
     },
     {
-      "title": "ファミマ限定「ちいかわ わっふれ～む3」を食べてみた！ハチワレやうさぎのイラストをプリントしたワッフルとシール - グルメ Watch",
+      "title": "『ちいかわ』新たな特典の中身ページ公開でネット衝撃「ヤベェぞ…」「絶対ほしい」（オリコン） - Yahoo!ニュース",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXNV9yV3VKNEQ3SmFpWGhVSWpIQTFHcnRiSk92YmtDdUc0ZFJYdGdiSTRabDY0VnIyODQwYmloUHptdGgwOEtmUG5ScUhtdVYyZV9QRHUxOEkyR2p2cERCVEJVZUdtSG42YlE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Na182d2hnbEFDNmFxb1AtNHhxUENieGpvRGV3OEQtWUIzRDVHT0VJV1lLbmJtR2pxYUhZZXI1QlpaQTRlQkVsMmFqNUtUMDhJS21qQ2V0SW9GY1p5dENsVDZFNmRwRTVQS01SMmlDaWNFczhaV2FVdlNYZkdNbkU?oc=5"
     },
     {
-      "title": "【本日発売】ファミマ限定「ちいかわ わっふれーむ」早くも品切れ続出！？「11時半頃に行ったらもう無かった」「恐るべしちいかわ人気…」SNS嘆きの声（LASISA） - Yahoo!ニュース",
+      "title": "77歳・糸井重里『ちいかわ』躍動感あるイラスト描く ネット衝撃「上手くなりましたね」 - オリコンニュース",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBseFlZbWFKTzFLUEdBQ04wRmR1d2JfWVlXcllBTV9hUUpVZ3R1RTFfQmFMcTRQeXVsSFNySURkNjA3OTRqSm4xazJaNVRDYW0yZE9HRXBDZFVqd3lBSEFIQmk3ZGZ0QVVwU0dabm53cFBEQndrbC1qTlVfemFHcXc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE02ZWtST2p4aG9uRWpoQWpWMWxaUUZQcXV1RkNxMXZRTkFQRmVETmdwNWVrUGN1TFc1NnpleGRnOGt2RjRqTzg3bW1JU1BJaVk?oc=5"
     },
     {
-      "title": "ファミマ限定「ちいかわ わっふれ～む３」が発売！ワッフルの表面にイラストをプリント、おまけシールはオリジナルデザイン全8種 - インサイド",
+      "title": "「ちいかわ」× CITEN、9月15日発売！ルームウェアやバッグなど全6型が登場 1枚目の写真・画像 - cinemacafe.net",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3T2pmS2lSbVVSenFWeUlUQ1lxVUhOTk93ZzhpekxONWI1d09JbnFaSE1GOHp0QXdUQXg5V056RVBkUnNCQllEeThqTTh4Q2gySlFvbEdhYUtfQmd2SW5PamsxQ3J3d3VsWXc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9yU3VLdDVLdzRaSkVERkZVSmZ3N2NqWGRteFFTcThLQWFUQUcySm1JU2NUUEtjN3RaZ05WTVJFVlg1bGV2dWtnRk1rcDhVVnpQTGlSbWNfZ3BKaFlCNjJfTlVOUll4Yk5qaFZGbndPSXdoXzJLbkhn?oc=5"
+    },
+    {
+      "title": "「ちいかわ」ハチワレの「パスタライ助」がグッズに！ IDケースやTシャツ、マルチケースなどがラインナップ（インサイド） - Yahoo!ニュース",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MUkdtWHpPVFdDQ3kwQWhhTE9PbDdtWU5LaFkxS3NxcWtrMXNMbVVZZ0xiVFM3ZllXamthRm5UcWwtYWk1Rl8ydXFkTlVtMUFTZ0dlc2M3OTFVa3UzTW9GNFp5Um40UkJGeUFlWVFodTg2NG9NV3NsLTFJSGU1ckE?oc=5"
+    },
+    {
+      "title": "「ちいかわ」×ユナイテッドアローズ「CITEN」のスペシャルコレクションが登場　ルームウェアやバッグなど全6型を展開 - リアルサウンド",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VV3dDbEZEcGlZc2ItMHlhdjRvV2sxcXJlOE13NHR6TWZLSnJwT2VhNTVURURPekxmRzZneVBodXJxdUU0T0w5NTU5MzdZdzZ0ei1pTzdjVl9EUTdBODRtWdIBZkFVX3lxTE0zeTNGUlpmdE1FT2tsdHFfMU92ZFdmMmgxTDZlZUs1X29sUTc1b0g2R09PZ1k2ZUZVd1JDSDhJcDgteE5HR2VqaTJKZWxzSVdPNDZDWHdkSjJQR0xoZnpaaUEtR1k5Zw?oc=5"
+    },
+    {
+      "title": "70歳父が映画『ちいかわ』へ→当日……娘「まてまてまて」 “驚きの姿に”「最高かよ」「見る前からどっぷりw」（ねとらぼ） - Yahoo!ニュース",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9za1BfOHFkT0hoXzc2dVlWT3MzSEctZU9VWFE4eHN3NENQUXRiMnBRVGthenZ6ZmhianNyOE16aDdzQVpqTzBXSkZOWnRjZkVkWlp4a2ZsemM3aG54eE1sTDRPTmRHSGpGbHJXMURia19DcVEzZFZkSWtXYXVud0U?oc=5"
     },
     {
       "title": "ちいかわ 9月15日(火)放送分 第378話 パラレルワールド(4)｜アニメ／ヒーロー｜見逃し無料配信はTVer！人気の動画見放題 - TVer",
@@ -242,29 +262,9 @@
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE12OVlGZDNfdDZ1NmF5ckt0amcxRzctclJ2NExZN3A1Y0xuMVhMOXNxZ3FKRlpvbVhzaXdidEtQdEkxN0g5YnRIc19Rcw?oc=5"
     },
     {
-      "title": "上海、ちいかわ展に長蛇の列 - 朝日新聞",
+      "title": "スペシャル付録は「ちいかわアクリルスタンプ」！ 大人気キャラクターが勢ぞろいのムック『キャラぱふぇ』最新号が発売！ - PR TIMES",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Bdi1QX1hEbE4weVRhdWVhcU1uMVBKNlcwRktlYUFKU2hyTExFeld0R1cxQU5zMEpXbm9sSm9DVGVRSjRMV1lPamNkem54TE5Wa0wwamo0ajF3R1l5?oc=5"
-    },
-    {
-      "title": "【ちいかわ×CITEN】限定コラボアイテムが新登場！ 大人かわいい神ラインナップをチェックしよう - ぴあエンタメ情報",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLQmM3MDhqVkhqWWtfcm82U3R4UFZ3YVdQdjFJVzBUQXVWQ095dkJVeXhoeDRsbVRQdzdSYjhlaFZ1X1hWVkw2UFJkcHdTM01SaXMtRHozY0Z1Y0k3VGVj?oc=5"
-    },
-    {
-      "title": "「ちいかわ」× CITEN、9月15日発売！ルームウェアやバッグなど全6型が登場（cinemacafe.net） - Yahoo!ニュース",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQcVVfSDBaazFKc29kR0FxVU1Hb2drTmxXTVZCRUR2bUNEbDFTaF9MTTNtSEtabjlxb3hkVmd6WHlxVVJDbmhKSGFfdEU4cVoyemdfem10dUdzNVJaMjJNZDVPZUxUOGFQQ2hNVFNMNG52cHZpTGVYSkUteVFnR2M?oc=5"
-    },
-    {
-      "title": "「ちいかわ×CITEN」スペシャルコレクション 6アイテムがきょう15日から順次販売【アイテム全カット】 - オリコンニュース",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9VYjJTaDZLbHpDaktxUzNtMFA5ZXBtRnNaT1RIcnNyUnVISXNQM0VWVl83RGxBZWZva3NEeU9rTFE1YkRidVJlOVRLa2tMemVXTlpXOVJOY25zclhxTFRFY0pkSEY?oc=5"
-    },
-    {
-      "title": "｢ちいかわ｣たちと写真撮影を楽しもう 9月22日にイオンモール徳島でイベント 景品がもらえる｢ARラリー｣も - 徳島新聞デジタル",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zY0loLTlwR0p6azFMNzRqUW92S0YwQlVUamlaeFhmQXBZTmU4R1RMWXBhME1vaUVPOVotUWI5VE0ySm81SlhzcjljUURRZXF2MkZ3bmp3?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TNUQxaW9hbThhTFF3WWRoQy1EdTZla1AxeW1KYldWYUd2Y0laVlFWZWswZ1F4RExGWEFPYUJCVWw4cEJaeXFpNnRMaEFubFlMY21TM3ZscWxKaUZVYTlxa1ZQTWZvR1FHclE?oc=5"
     }
   ],
   "ジョジョ": [
@@ -326,79 +326,79 @@
   ],
   "バンダイ": [
     {
-      "title": "目玉はキュレネたちのぬいぐるみ！『崩壊：スターレイル』一番くじ第3弾がオンライン販売、美麗ビジュアルのアクリルボードなど用意（インサイド） - Yahoo!ニュース",
+      "title": "「原神」の一番くじが発売決定！「一番くじ 原神 vol.1」商品化決定（HOBBY Watch） - Yahoo!ニュース",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LdGFjVTduMkFhS1I3elpXaHU0d3RmLUlzZzZnQkhiUTRBMHNlSU1OcElUN2o4NXQzZktETWxVckFMdG1yQlR0Q3Ewc3Z4dDExSFJYTGFYWUh2Qk1rR1BRREhVdnNvQzBzeGtOYlQ5TjdHa19tSEQ3bjJwdU5pNG8?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9FVWotU204NFhnOEVwT0Zib0VhNUtLNzRNRkhEQTB2YkVVbF8xaWM5WEU5TjdZd3lSQ25yQmRoX040clpVOGNROUUyVFpFZldab0NNS1ZZdTY2aVJnSzMxaTcwTTAtS28zS1NDV3lidDZTOGFjRTVtRmFuc3ZOUms?oc=5"
     },
     {
-      "title": "ヒロアカ冒頭の名場面を再現！ 「一番くじ 僕のヒーローアカデミア -最高のヒーローになるまでの物語-」本日17時よりオンライン販売開始 - hobby Watch",
+      "title": "「一番くじ〈リメンバー・ミー〉Colorful Memories」が10月31日（土）発売予定!!映画のワンシーンを再現したフィギュアや世界観を投影するフィギュア付きライトをラインナップ！ - 電撃ホビーウェブ",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FYlJVc1k0MnpxZ0QyZTRob0daNGNDX0V0b05pU1I2Snl1R214VmtLMzdJZnNWaU4tWEkxM1hBWU1yN1hnaWJOR0pWN0xXYVdObTdELVJLbktBMTBWQlI1cE1XdW83UDQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5TMXU1TDhKaW8yeU5zVU94Z0RNS1JqQ3NvSFVsbVFLdEJHVzNDS2FJSlNjcEdoVk10eHNTRENKUkdyWWVoMnFhX3ROckpxNHpK?oc=5"
     },
     {
-      "title": "「原神」の一番くじが発売決定！「一番くじ 原神 vol.1」商品化決定 - hobby Watch",
+      "title": "「ベルセルク」新作一番くじが公式ショップで発売延期―ゾッドや夢の獣、ガッツに持たせられる「ドラゴンころし」フィギュアなどをラインナップ - Excite エキサイト",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JR2tZbnQ1QXVDdmpOWXlOSFhwRGM5RHhxcFZQel9XYS0wZGFELUZveXhIcDlWR1hLWHZRWExHV3phOW10ajQ0Nl9Dd0tqakRMem1udjlkVlNDU2g3RDZPcGtrY3dSRVE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sSjFfZENNb3hzUzhKQzVGYmY0TzJsS25OamN1Zm13WkRkZTUzWWdRcWc2Nm5qOXY0TnE5R1NSUGRaUzNGVVVHTWl4NXR5ZTJkbHhEMXhvX1dkZ2c0MnlsSg?oc=5"
     },
     {
-      "title": "バンダイスピリッツ＞西日本エリア初のプラモデル生産工場 大阪府堺市に新設（MANTANWEB） - Yahoo!ニュース",
+      "title": "「リメンバー・ミー」新作一番くじの全ラインナップ公開！A賞は死者の国を背景に、ミゲルとヘクターが語り合うシーンフィギュア - Yahoo!ニュース",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0yS1hqVVJqMXdZTndsYXFzWEh4LVRyQ1diTzJuazdacTlLWlNGZnIyT1JqLWE4bzVLLWdjV0pTVFNLdDNwMjFLRDlQckstakhlM3g0dXNEVENJZVUyenl5RG9RdmthaXhsX3RER2xST2E2ampFa3JCYm4wR3E0NGc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fWmNPRzg2UTNWejdyWWRnUzRxdTF6YjBJRVc0ckVEN1dCQmJ5bmVTOU9pZ3V0dV9RNWh5U0tPTE9nRWRQcW9TcTlUd1ZOSXZ3NldoSzVHOXRwbkhhd0JOc3RzOE8ybEN2ZWRQVDdkcURwSVJHeFpXX3R0SXBqQ28?oc=5"
     },
     {
-      "title": "「サンエックスユニバース」一番くじちょこっとラインナップをチェック！「リラックマ」や「たれぱんだ」のポーチ、ぷくぷくシールコレクションなど用意 - インサイド",
+      "title": "大津祭くじ取り式 1番くじは「月宮殿山」 10月11日に曳山巡行（朝日新聞） - Yahoo!ニュース",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZRE5wME94eG9FUGs1WWtfTmVDa3pSbHNuRHlzaEJrclhRdEZycEs3TjVqbElGTUl4RGZIem9lVmsyTmk4S09nSU95TVpsblBTX2dETHMwQnYzRFFEVjR1YVA2RHNVYWtSTnc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zQkZmVEM5SWFNYjFudHNOV1dVWUNsOW5pT2Yxb3U1bFhoZXlKRHl2eGtCaEhENlFmZzJOWXdPTnNtTjhrb2V1OU9HLUdNVjN6ZU45c2VVajVkV3FDb09iRWdMUWljbGtqMmZHeEtPOVNXaUYxVWxNYmMyT3hlVGc?oc=5"
     },
     {
-      "title": "「一番くじ ワンピース IMPACT LOG」が発売決定！「モンキー・D・ルフィVSチャルロス聖」「ペローナVSウソップ」などインパクト抜群なフィギュアが多数ラインナップ！ - 電撃ホビーウェブ",
+      "title": "大津祭くじ取り式 1番くじは「月宮殿山」 10月11日に曳山巡行 [滋賀県] - 朝日新聞",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9iNGNWQWxtdGVjdUwwNFliSmxKa2JaUGFtbkp4MlJsOTlaUG1jM0x3N01vemwzRXB0MFk4RmItMUI2X1YyMGM3QUlneUxvcXV2?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObjhydUFsRTlCd3ZtS01OWFdQMmljc1Y2OEhIY0Q5eGZfR0RET1pwRUtEMF9IUEVNSmFoVm1DaUJPYkhrcEJkLVB5b21Oc2R5OWZRbllWMWZUUXBOTURpdENJcnlQRDNYQXBiTnNJeVNMUlZGX0FXaE40QWJDeUtIY1NlQ2hldw?oc=5"
     },
     {
-      "title": "“言葉は無粋！ 押し通れ！”「ベルセルク」 複製原画、ガッツ＆ゾッドの超絶フィギュア、ヘッドマグネットなど豪華ラインナップ☆ 【一番くじ】 - アニメ！アニメ！",
+      "title": "滋賀：月宮殿山１番くじ ：地域ニュース - 読売新聞",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9aLUlaeUFLakhkYTFTV1hHb2g3Zk9RemJGOTI3SnRkZkFmdjNjbU5zbjVuT1hyRlF2VFlCdjg5STdhYk9sOVBxVEJxaEpSSzlXSDBiMGtjMnFBbkVnSVk2Y0JB?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56Q3Q1ZXllalg1OUE3OHJ2RFV2UjZJakRvcnpNMjhmRFBzQmpIVkI5N1pyZnVVU3NCUEtuZFNTQnVGQmROR3lraWxyNkJ6QkZka1hMRE00cEJvdU5ub29nRVBIM0MyZ0x4NG11dy1WMmk?oc=5"
     },
     {
-      "title": "一番くじ『ヒロアカ』が本日（9/12）発売。デクのヒーローが始まった瞬間、オールマイトとの出会いシーンがフィギュアに - ファミ通",
+      "title": "ラストワン賞は“親子かめはめ波”！「ドラゴンボール」新作一番くじが発売決定ー目玉の超サイヤ人ゴッド孫悟空、破壊神ビルスなどフィギュアが先行公開 - インサイド",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE85TGRaeDhYOFZpWUNLcExmbm5hb3VQT3NfcVVaNlRkMHdtcXk1NVh0NUNyamxrSWdoQkt3Skw5RDZhdFcycGF3T2Z2QlM2aFlKR2ZZY2V5QQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LNnZEVl9XUXNMWVRsN3BqOUp1VVNNbkhlY3cxcXlTM3VyS1NndTBBVExXQnpucHBJYnRieldldEZ3VWVTaUtHRF9FSEhGbnpnQWpjSUhMUzlkbTNWdk51ek5sTG1IMkpYclE?oc=5"
     },
     {
-      "title": "『原神』一番くじが発売決定。刻晴、綾人、放浪者、ヴァレサのぬいぐみが登場か？ - 電撃オンライン",
+      "title": "『リメンバー・ミー』一番くじ発売！ ミゲル＆ヘクターのシーンフィギュアが登場 2枚目の写真・画像 - cinemacafe.net",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1WMjl3T0hPVVR2dmdBQ0hGZ2xyMGpDUkVLbVEwSFgxRUpfN2NzVG95dm1WSkZCdXprWTFpSkktUktUaW4xcWN3RmtYNG1uSmp2MFByQVlWS042UQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA0ZXJpd3dQcGx0NmFPbFl5TzVSbW9QcG9EemxXd1BtOEthaG5ManlMbnd5UzY5d0VkQkxpUTlIc1JuSW0xNThodEhTOHI1VVh6MG13SXdzNU1MclE2RUFINWM2NlNwQTZQMU90Zm9rbkV1amQxVTl3?oc=5"
     },
     {
-      "title": "「機動戦士ガンダム」、一番くじに立つ！目玉は「RX-78-2」胸像、ユニークな“表情チャーム”も見逃せない - インサイド",
+      "title": "BANDAI SPIRITSが堺区築港八幡町にプラモデル工場 11月稼働、西日本初 - サカイタイムズ",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5nWVRPNC11WmVITWoyOGJfR0VxdjdtU3U0c1poS0huT3N6dGh1UUFWZWVDVVU5V3lrWHQ5WnZxRWtDdWZhRjRuSjgxTWtGVndYWE5nR2V5SGhCSUg4cXJyYVRaa2oxQ0NlRHc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBUTkpxT2RqbkJQLTA5UDNBR2hNaEtqa01senBISXZTNmJWVFJOZHdnRWFPbUZCTF90TldlNjlyVDVWRHo4TU5CU3VJbw?oc=5"
     },
     {
-      "title": "BANDAI SPIRITSの「オリジン・オブ・バルキリー」は 腿に回転軸、ファイター形態の脚を固定、45年の時を超え改良を加えられ復活！【TOKYOおもちゃショー】 - hobby Watch",
+      "title": "大津祭－ユネスコ無形文化遺産：月宮殿山が一番くじ 曳山巡行順番決定 「残り福」に笑顔 ／滋賀 - 毎日新聞",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CWDhIZWdnN0Vqc25wMjRlcDIxRnppWVVhbFlDdTNBWW5uNk12NWJIck9RZkI5TUpkRUx4YjBydS13UVM4ZmtmNWJqcnFIbC1TTVVKalJOcW54aVFnMXZjazJ6SmZsblk?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9uZzNZNXVJcHBrYVpON0ttc2xHNzh1dUdTN0FCYzVWc1ZzNDJkSjJVSGxsbjdjQ2p4TDl3czlaM1NNZEdjRkJyU2phMnRLNU0yWVF2WUY2bjZwQ3l3OWtOX3l1ZVFOVVd2?oc=5"
     },
     {
-      "title": "「一番くじ アニメ『呪術廻戦』5周年FINAL！」の全ラインナップが公開！虎杖悠仁、乙骨憂太、五条悟のフィギュアやアクリルボードなどの描きおろしグッズがラインナップ！ - 電撃ホビーウェブ",
+      "title": "「チェンソーマン レゼ篇」一番くじ第2弾がアツい！白シャツにガーベラを持った「レゼ」フィギュアなど、注目アイテム多数 - Infoseek",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBDMlQ0dFU2ZG85OV9XRmlhLUtuRjVFbkVHbU9kLXg0TVpHQXJ1OGpLdjJOLTRrcHhzZjg2ejU4Wmp4Z2dLWHpqaHNha1lobzVZ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE81MHlSZHBBNHM2QWZmaGFNcWlnOFRhaDlXZFpDMk5xRkhHU3g5Mm8yeEZSZ3dFbXQ0NWZkTWhHd1h2OUxJOWttWGc1S280TnZPMU1kZ2hjY1VUN1A5Zmk0?oc=5"
     },
     {
-      "title": "新作一番くじ「機動戦士ガンダム」F賞はビグ・ザムやジオング、ゾックまでもが“アクスタ”にー圧巻の全22種、しかも選べる - インサイド",
+      "title": "ガンダムのプラモ手掛けるバンダイスピリッツ、大阪に「ホビーセンター」新設 11月稼働 - 産経ニュース",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54M0NFakRqS0VDbDBUVXNVSU9FUmFDNXE2LTVLMW5sSXRKOXpKR1U0b1VrT2lFLTJlSlZudDA1RkNfeHQxNnVLanVMV254eXgybk9NVXpLa0dBSGsxcWNBdkYxdEtqMEJGTWc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtZHR5engtX0NrSTBOTkFHcExmaXVoQXhpQmdtbTBuOWVaTmY5cUU3UWZNMEpibXFndjRfMVZhMXdDdnMybFlJMlh2Z3FWcmV5UkJBOXFKRFpqNDRCc2dNUGNMcG9MaDlyUWp4VTNxVGtkbzV6QXc?oc=5"
     },
     {
-      "title": "「トイ・ストーリー」新作一番くじにゾクゾク…！シドに捕まったウッディとバズ、魔改造おもちゃたちのフィギュアがズラリ - インサイド",
+      "title": "大津祭くじ取り式 ユネスコ登録後初の１番くじは「月宮殿山」（BBCびわ湖放送） - Yahoo!ニュース",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5EQzJWWTlVN0dQaVBkaV9mOHFBQVRRcDBtWGNWcFgyb3lJRHNScG5MS0ZSN0JVZ3NSYzdBdC1NdkcyZ2p3Z1I3VFJ5bVl4amplSE1IcWJ1VzdBVEFHbVFhNFMyWmdrdEtBRHc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LbUxWUk0tcG0zUFU1NU1OeUNQdW1ZaTd3eDEzSEhhT3FOR0pMSGcwZzJrUU9XTkV2c1poZ0gxU0t0R0ZmV29kcDhsM3hKdFZmR0VrVHRHS2RBM1U0dGV0b0tJdTI2SktIbEFjY19oZjB3V2tmcnktZE9ySGJ2NFk?oc=5"
     },
     {
-      "title": "「モンスターズ・インク」新作一番くじが10月17日発売！A賞は、サリーやマイクたちがドアにぶら下がった姿で立体化 - インサイド",
+      "title": "「ベルセルク」新作一番くじが公式ショップで発売延期―ゾッドや夢の獣、ガッツに持たせられる「ドラゴンころし」フィギュアなどをラインナップ - インサイド",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZGtoY2lhZm9feTVienFqR253THdnZ0tTN3kzbmpuTVBLTlF4RGFKcHJHZF8xeElPYzFhS1ROdUMtMTQwMGRFOWF4dTUzLWt5WkpuR1FOeXlzZDdyZFRlbnJ1eXd1ODNpZlUzS2UxcHhCNTRaVTBWUm5BbFVLdy1uZ0RHQVA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WdHpqZjVxVV9LbUhNOHk0V0NxZV9CcGxDZExGUEEwOHNlTlBoYl9NeGZacVVOVmQ5MDMtdVVYUlJnRWJ4bGYzZjNka1l5czM1NU1Jc2J6YVhYYnoyekIxNWF4SVRVMjZwN2c?oc=5"
     }
   ],
   "ジャンプ": [
@@ -408,7 +408,7 @@
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0wRF9nLThqdm9wQmFMQjQyTnQwZXBna016VjJCb3R2VEZNV01iMXE3ZHNMWUoxQ2p0QlZwbkZTMm82ejdIQ2lEeTFpUHBmazJnMkM0TTlpcTQ?oc=5"
     },
     {
-      "title": "香取慎吾主演！週刊少年ジャンプ作品実写映画『高校生家族』青春大爆走な場面写真11点が一挙公開 - thefirsttimes.jp",
+      "title": "香取慎吾主演！週刊少年ジャンプ作品実写映画『高校生家族』青春大爆走な場面写真11点が一挙公開 - THE FIRST TIMES",
       "title_zh": "",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1JU1p2WWRNZGZBb2NWbHpuNnNfeG9IM0hqVklCeHpDTURWZW54WE1BdEhMUE9ZN2xtZnR1X2ZxR3FVcVVvVnFmM01WcUUyS3B0dl9kYnNjUmE?oc=5"
     },
@@ -418,11 +418,6 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBtWVY0MngtSDlMazVQRzlUUFY0d1RaVHRoVVFwRGU1WmQwdjRwWERQVVQwT0VkRGJhM1h0R3ZWOER4OHctY3FFYXlDYUp6d3RTekpGY3NtTHY2UQ?oc=5"
     },
     {
-      "title": "【あす0時から】『週刊少年ジャンプ』熊本・千葉からのアクセスで無料で読める“応援企画”実施「神か??」「こういうのホント素敵」 - 山陽新聞",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBQMWZWcjZ6SWhSS1RIcUJBcVFxRjJKNVBpbmNYTVpxMmxKQXZJX0FyTnlhY0Y0UlRyQlc2RV9ZZ2ZmUzVXWXpuRkthNHp0a3lqZzRjZ3pQWnQzZHl0VkNEYW9Sbm9uRlRpS0JweUI1UQ?oc=5"
-    },
-    {
       "title": "「恋人じゃないからこそ憧れる！」『週刊少年ジャンプ』作品で心に残った「最強の男女コンビ」悟空＆ブルマ、幽助＆ぼたんも - ふねぽ",
       "title_zh": "",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTRkJ6b1lnQzB3SHVnYXd2R0piZ0ktOGlDV1dXYkpfOTlxQzFhUGZYa0pmRkI3UlhKYkFpeS05WmJoTTJQdlZDeEw0aW10QUM3MldZT0tsQ2Uwdw?oc=5"
@@ -430,12 +425,17 @@
     {
       "title": "古紙回収ボックスに大量の『週刊少年ジャンプ』、Xで話題に 転売ヤーの「損切り」では？との声も - 玩具人 TOY PEOPLE",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1wTV9ZdHh5bExJRHQwNTVSYXBpallhdzZvMFlkZHhtU2tpTXVxem5Tb3luWWkyYkFhUVFJRFBGWUdlMHFwSG9yWkF3OUlGdUs0?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XdUF6bEhqTFpGaTVybkJRRnJsRGNvdUh5bGZ3TUNjel9IUjBrWXRJa2hOeDRjd1pMVnNoNVBfOGZUVkd6RWw5ck5NbnJsUjZk?oc=5"
     },
     {
-      "title": "宮崎周平先生描き下ろしシーンも満載！週刊少年ジャンプ『『僕とロボコ』宮崎周平×『BABY, GOOD TIMES』ALI』 - Dtimes",
+      "title": "宮崎周平先生描き下ろしシーンも満載！週刊少年ジャンプ『『僕とロボコ』宮崎周平×『BABY, GOOD TIMES』ALI』 - dtimes.jp",
       "title_zh": "",
       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1OdzJlbDNaUG1CNjJrZVpuUVItVm1nWGllVTk1bWtzUWp3cno2eHRESUF6UnBsQUw3N1VJR3llZ09mZWFTN1E?oc=5"
+    },
+    {
+      "title": "三省堂神保町本店に「THE ジャンプショップ 神保町」がオープン - 集英社 ― SHUEISHA ―",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9mYlpPZktsYTdLbUtQb3paaUs4M05xN2xiem5vQVNBSjVNMVczNk55OGJ1dkhRTnlIUTVxTzlUcURjZDB0VGpZRGpYN3l5TFBjMFE?oc=5"
     },
     {
       "title": "人気作家が味わったまさかの苦難…惜しくも短期終了した「週刊少年ジャンプ」珠玉の名作（ふたまん＋） - Yahoo!ニュース",
@@ -443,14 +443,24 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42NFNWQW1DajYzLUxlNllqYmVHZmd6Q3lFQzIwaXYwU194ci10TlhRajMzVWw5VDR6b3V3RzFYa2hWQlF0dWxBWmhkY0xVd3NZUFhEU1Y1R2s2SHFiZHpOczRXalV1ZzZyNGk1NlJlazhHeWRrVExSZWxaczFfbVE?oc=5"
     },
     {
+      "title": "かつて６５０万部を誇った「週刊少年ジャンプ」、発行部数が初の１００万部割れ…国内の紙雑誌で「１００万部超」ゼロに - 読売新聞",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9zcFlfUUZNanUyMUpYaDJVY3FpMzlvazFaNE1uRnhvVF9YTXVnZzQ4cUN0Y3VEbXZseGZsSU9HbWRlenY4aU5jZnBULWVUZHRXMFVJQjRzeV9OLUswZVpJZ083X08?oc=5"
+    },
+    {
       "title": "メディア情報更新（週刊少年ジャンプ 39号） | 中島健人 | ソニーミュージックオフィシャルサイト - ソニーミュージックオフィシャルサイト",
       "title_zh": "",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1mZVdGOFVkY2x3aWRVZ0hsdE9NZnU5WFNvREFoX3RpZjBBYmtNVDl1YU8zOFNSaXpaVU1rYjhtMUY1bFZ4OUpxdW9WakFSblA0NUJrOWMyanF1U3N1MjRSUkdaa2lFZmQyR192Wg?oc=5"
     },
     {
-      "title": "丸井今井函館店に27日までジャンプショップ アニメキャラのグッズ並ぶ - 北海道新聞デジタル",
+      "title": "香取慎吾主演！週刊少年ジャンプ作品実写映画『高校生家族』青春大爆走な場面写真11点が一挙公開 - 画像一覧（2/11） - THE FIRST TIMES",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS0hlakVBOTJnb003dFVvbjFqNHBDUV9pdEtjcnJNWHltMWdheklZOUQwejVnTXJnTnlaRnhXRTVQazJJQ0gxRTFjZnFodEN1RlNFeUJvSTJWUmJmZ21pS3AwQVdtWjdlZmx2NExHbmUyX3FCc1UtdzA3akdZLWh2R1JuanVXQzk0?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZDc1ck1ZR24zRm5IWVNlTWI4QWZyYkRHVzR2d3FWXzJMNDFyeWxXQ3FoY2E4bkN0MEN2cjFXNVk3amNsbm56MXc5MWZuMElDM3JQNEhNRWE2bGZqZFMyQnAzck5wSzdiT3dvWTBUejkxSGl3RXUzM08tUGZlYVVxcw?oc=5"
+    },
+    {
+      "title": "集英社公認オフィシャルライセンスショップ「JUMP SHOP」がアメリカ・ロサンゼルスへ期間限定で再び出店! 「SHONEN JUMP SHOP」2026年7月1日(水)オープン! | ベネリック株式会社のプレスリリース - PR TIMES",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BOW5BNWs2WlByS1FpVlZNc1l6T2tWSFdaSVRfamNqYlh4SGQ1VDBIRjZVZTlsb1RoNGJzQ19aNHRSQmM2QV9DTldrQktnak11QnJ6Q2ZwYl9pSWYxNTVRTzZaUXZhRUx3UVE?oc=5"
     },
     {
       "title": "『週刊少年ジャンプ』作品での強敵撃破がもたらした“重すぎる代償” 『ヒロアカ』『BLEACH』でも「失ったものが大きすぎる…」 - ふねぽ",
@@ -458,61 +468,26 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rZkYwQzR2bEVIYlo3YXkxNmtOV1pQSTNmcE5adlpyREF3VXo0cDJMWE9GTl9kbl9iRHlyZ2NNRWJWcFJjTTMtYWRYVTJ2ZUg2WHA3LUY1OF9ydw?oc=5"
     },
     {
-      "title": "かつて６５０万部を誇った「週刊少年ジャンプ」、発行部数が初の１００万部割れ…国内の紙雑誌で「１００万部超」ゼロに - 読売新聞",
+      "title": "丸井今井函館店に27日までジャンプショップ アニメキャラのグッズ並ぶ - 北海道新聞デジタル",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9zcFlfUUZNanUyMUpYaDJVY3FpMzlvazFaNE1uRnhvVF9YTXVnZzQ4cUN0Y3VEbXZseGZsSU9HbWRlenY4aU5jZnBULWVUZHRXMFVJQjRzeV9OLUswZVpJZ083X08?oc=5"
-    },
-    {
-      "title": "「週刊少年ジャンプ」公式YouTubeチャンネルとのコラボが実現 「JUMP MV」がカラオケに初登場！ 9月1日よりDAMに配信 - PR TIMES",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xdkxCWnlzVDZ0Y0FmLWgtMjB0a0hqUDhZNDlmZzJkdVFNc1hiWnB5M3dpdXQ0aUJKTlcweVdiaV9QbGFMMmZDVHJPMW03WXFsbm5DZ1RHNXNJbmt3UlQxTmJaT3NuYnRfQnc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObVhfeVJBakdEREJYSHZlOFlNRzFiaEk4UVpaZWNQQUVOMThwbEJobFMyaXhYNG03YkZ0SS1QelVhWjhVdEhjRWVSQXJiMDVqd2RuSVpEYmpjSFVYMXY0STZ1X3pORnUzblhmbkJTSG1WcDVzanRZY2lSSkhfUlNtbzIzSlRKdVVsaUVqRDY2Zw?oc=5"
     },
     {
       "title": "『週刊少年ジャンプ』初の100万部割れより深刻…紙は売れず､電子でも稼げない中小･零細出版社の行く末 - Yahoo!ニュース",
       "title_zh": "",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeGxWZHFzakw0T3ZXbTFlMHl3eVFwQXo4SVhkUXQ0bFpKN3NLNmhlT1o2bDZ4NktpRmY2Mm1POUVqbWFSYkpYRUpMYjdGd0JPeFVZeGU5Rlg3TUJOZmNsS2E1bEpPREFDQ2ZOUFRqZkZrNjlfMHJuYkJrNndYQWg0d3JjMzhoNVNTOFBhR1JB?oc=5"
-    },
-    {
-      "title": "「週刊少年ジャンプ」は全盛期653万部からついに100万部割れ…紙の部数激減で新人漫画家が育たなくなるのはなぜか？ - article.auone.jp",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9XbF9kZlg0ZndNdksxVkpZblFqc1RELW15MzZaNGhuNG80MEVpakZLSUVNbURqZVlaWEJaT2ZueS1qNExQVXZNMlBMU1N6TmRhclJqRk9SOHVNV2dVb013cFVlandhY01iTjJjcFQ2bFhpRzVEQUtrVA?oc=5"
     }
   ],
   "ポケカ": [
     {
-      "title": "【ポケカ30周年】発売日9/16は78.8%が店頭へ！ネット狙いはゼロ！トレゲトが554票を調査 - PR TIMES",
+      "title": "【ポケカ】2026年の新弾発売スケジュールまとめ | スニーカーダンク - SNKRDUNK",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82ZmtGTFVScVFUdjJNdWFtNy1RczRDaHhFR1F0UTZ4SUh6emVLSlotMURkS3lYZ1oxeDBqLTQ1RVlSekZ0OUpJMVB1MFI4VHBGb1ZWM3BDMm5Sem1SS040VkFQVkxwUmg2dXc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1TMlp3bURLTXJiZ0dDYUhJeHJKQXpWbFlCc0RVZ2lHeFV0QlI5MUctNmtmSW5zeDJBOVZzT09ydzNCeFlnTVdId01hWHY?oc=5"
     },
     {
-      "title": "【ポケカ】御三家セットとは？買取・相場予想/予約抽選情報まとめ【30th CELEBRATION カードセット】 - snkrdunk.com",
+      "title": "日本人ほとんどおらん》30周年記念ポケカ、発売日に“外国人行列”の謎「海外転売」が止まらぬ背景（週刊女性PRIME - Yahoo!ニュース",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBhY28xVVJlcVRwa0E4WEN4SHJPamUwTkJBZ0pyTmgtZDBsa2FTX05hcUxheVZBeEEwcHV2OEo4RFFsNVczMzlGSGdaY3E?oc=5"
-    },
-    {
-      "title": "【ポケカ】30th CELEBRATION BOX封入率解説【30周年】 - pokeca-pocket.dbfw-days.com",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5FVE90azFwcGhBT1VFV0ZMWnRhak51WGtmdl94SGRkWG5OQld3YkdOM0c2MHRWZV9TcXZoM1NiUXBIWlAyc0xmOGkwUE9UMU9UM0U0QUtGUVIxRGpMaHZUSXRuYXJZNnllYXV3QUh2bUtuUmdHM0Z3NldPQ18?oc=5"
-    },
-    {
-      "title": "【ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」販売のご案内】｜ローソン公式サイト - LAWSON",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE56d3I0eU5KMzM1QUpSX28wY2xYSTZhck1sZlUtRDdRUkpremZYM2RHR3lRV3RpUkdMMXI1dF9qQnJ1ckl0dE5oTGVRVjhsZGdyR2xxN05oWkppelVSZWNoLXJwZnVfSEZRNzI1QVJHT0kzZG90N0hvQ2pfZw?oc=5"
-    },
-    {
-      "title": "メルカリが『ポケカ』30周年記念商品を出品禁止へ―違反者には削除対応や、アカウントの利用制限など厳格に対処（インサイド） - Yahoo!ニュース",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0TXhKRUpBQ2FtYjAtR1Ftd00yRWhLellOWWZiNjA0ZkRvSFpYRzBxa2UtLUhyUGJrN0JtV0F2eURIeFJZb0xJZlFHV0puYXBiM0hWZTJybnItOWdFWXU4VElnSnVhY1hob05iMkV4cTlnQ2RwSjgtYkFoZWVSNms?oc=5"
-    },
-    {
-      "title": "メルカリ、『ポケモンカードゲーム』30周年記念パックを「一定期間出品禁止」に。発売前日に“即転売”シャットアウト表明 - AUTOMATON",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zMEF5T0JwYmI1WDJ6OWZlLWh6NGZhSi1GSFlXTjZSRkZqUmRNZG1oZ1l1dXppd2FfWFhuSTdhTFl6Zy11NExPZmFuajBzUllmVERFQlVmUkI0ek1tZnlsbWttc2pWR2FvNVNDTA?oc=5"
-    },
-    {
-      "title": "メルカリ、ポケカ最新パックの出品禁止に - ITmedia",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvNXhnV1NrMUx2TFkza0hMY2NCdGhKaE1pRFk0eHRzQUxmTjZaN1FQOTBZUzBCRGlxUHpidkRHdmVKOVl2Zll0VUotMnF6a0pFUlJpb3I5ZEJtdGNySVNaeDhRNktlRFNQZ2c?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBILUR5U2lFc0Z4V3lOd3p6dTJJYmVucXpOUmRHQUFWSmxsLTNTQmNSSGJtMXFTU0ZrTE9EUEdmcktCZHAtVVFrS1dnV2lVNFNJTnRKazJXWVVfWWplQURuWnNRcGhKTzlHS3VuSm5TQm9xVHFhNTBxOGZuNE5Od0k?oc=5"
     },
     {
       "title": "【ポケカ30周年】抽選の当選率は店舗で5.4倍の差！発売日までに693件が結果発表！トレゲトが2,318票を集計 - PR TIMES",
@@ -520,29 +495,14 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5ejNUdGRVOGdYY3BCR0U5LXJvVUJINkh6Vzd0VmkwczNLdTBkcEtxSElGOHlXU1puRXNzaGVGLURzMzYwRHEtQmw0YklRSWY2UnNhM1BNX1BmVWhOYXJNRnNwNmdfdHJ1U1E?oc=5"
     },
     {
-      "title": "『ポケモンカードゲーム』30周年記念拡張パックの発売を記念して限定 “ミュウツー”プロモカードが配布決定 - Hypebeast",
+      "title": "【ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」販売のご案内】｜ローソン公式サイト - LAWSON",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTFRaTW04ZzEzbHItakhLdTNQOEc2VUNpN2V3bWFqS0NUekVQcEV0bERlcWw1SWY1dlprTmNrZmpkdWhkWmh5MWhPQW1QbmpjU1dKWElIZDN0THZNbzZZRmtwSmYyY1lTU1VlVmNtdjdXckxmeDFpMHVibVNGTXEzcWxwTW9NRzJ6R3l0Zld1TFQxZw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE56d3I0eU5KMzM1QUpSX28wY2xYSTZhck1sZlUtRDdRUkpremZYM2RHR3lRV3RpUkdMMXI1dF9qQnJ1ckl0dE5oTGVRVjhsZGdyR2xxN05oWkppelVSZWNoLXJwZnVfSEZRNzI1QVJHT0kzZG90N0hvQ2pfZw?oc=5"
     },
     {
-      "title": "【速報】ポケカ30周年ボックス発売開始！買取価格は発売初日で最高2.2万円！トレゲトが情報を公開 - ニコニコニュース",
+      "title": "《30周年記念ポケモンカード》パック発売日に「高校生以下限定」「子どもの帰宅後に販売」の異例対応で見えた店舗側の“苦悩” - 週刊女性PRIME",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9XMmpYZ3RLVjlDd0NKSF93eWM0ejJBaU9PcGVqanh1ZDNNN3RYYUhuYmFzeUQ4VmRHLVItbnRuZjRtNGlNcEdiUWFSTU9XUG5BV3NDRElNSWVRWGxsTzBWNjdvejA0dUVV?oc=5"
-    },
-    {
-      "title": "【月コロ10月号特報】こんなかわいいステッカー見逃せない！ 『ポケモンカードゲーム MEGA』30th CELEBRATION ジャンボステッカー「ピカチュウ」が登場!! - corocoro-news.jp",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBuWE40ckVSWlhoQUJvc05XOHRJV1VtS2tNSGtHVTlsME5vNExKYm5HNHh1eVpzTC1oMzNHZE9hOFFVODNURXFCUzE2T3FPQQ?oc=5"
-    },
-    {
-      "title": "【ポケカ】30th CELEBRATION(30th セレブレーション)の収録カードリスト一覧/最新情報【2026年9月16日発売】 - snkrdunk.com",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5Ld056SEM5RFAyZDRma05md0thb1RtUklPbk1qUGNFQnR4QWw0ZWp3Yk1QUTlFTWhmVGNqb3VuNmxpWkpuQWRTNTlyU2c?oc=5"
-    },
-    {
-      "title": "メルカリ、ポケモンカード30周年関連の新商品の出品禁止 16日から一定期間で実施（オリコン） - Yahoo!ニュース",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBULWJqWXYtamVvZEViZ3pEbTVlVkNmcFAyd0F2OUJuQUZSOElzMTJUSTJpcV9TblBSM19fTkVLV21Xa0JuNDFISGVhNUVKWUo2OGMzWUFGTkJmY1RueGNQMWNBel9nOVh5VzZUV3FBZ1pNZEttcGFWR2VEQ1FUMmc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1BY0tLVGVSY1ZIdFloR1Nzd3I2ZkVpaVZIMktDTXRuMHZlNE0wN3pNOEZXdGxVQnFMbkpOdk51bDVEa245SkV1LXpzaWVQbFI2N3V3SVA4eEJ3ZlVp?oc=5"
     },
     {
       "title": "【ポケカ】30th セレブレーション/買取価格ランキング＆相場推移【M6a】 - pokeca-pocket.dbfw-days.com",
@@ -550,26 +510,66 @@
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GTVk0NGl2bXdobVRzc0E2c050Q1JaYmJDN0loTlZLb3J6a01UMlF0VUtja3d2dDlXdlFHYlJZZG1meUJwU1c2N2RSZ0VBaEl2a2lpN1pBR2NpbVVTa09zN2NzOGk0aGM1?oc=5"
     },
     {
-      "title": "【発売日当日販売】30th CELEBRATION(30th セレブレーション)取扱店舗/コンビニ 販売店舗・購入方法まとめ【ポケカ】 - snkrdunk.com",
+      "title": "「30周年ポケカ」に早朝から行列“転売対策”を強化（2026年9月16日掲載）｜日テレNEWS NNN - 日テレNEWS NNN",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE85a1BCS0ZKc05oSy1wM1dGcHU0NDBIdzNrOFllNzBQZ0lnSmQteVpxZXNEdW1faGlQRElsVTM1ZXdUb2lpTDdIYy00S3g?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uZEE2SThsM2RRNWFEZ3YxYTNFSVUwN2VLams1UC05RzVBU3ZhSk1TMGZjc1Rvb05NSjBQVlhnTVZsY0hGSWRfZGY0dFNubTRLT01CN3VpLS1QZW96QTNjMktaZEt0TXpSZ1FtT1NwSm5JSmNhM1FuaGw0YUY?oc=5"
+    },
+    {
+      "title": "【ポケカ30周年】発売日にコンビニをまわった人の33.6%が「1軒も無かった」！一番あったのはローソンで41.1%！トレカプロが調査 - PR TIMES",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xY2szNDNubDJNMHE3TWdyNnJNaU9YVE8yVHVfb2Rmc2VKNzNSeEhLcUhWb2xCV3BZQ1VNdUhrdzJfLXhobWlGOEk0UWREM3NHYVJzSGlSdDUyS1RSNUlJUUJoSzVtay1iM3c?oc=5"
+    },
+    {
+      "title": "『ポケモンカードゲーム』30周年記念拡張パックの発売を記念して限定 “ミュウツー”プロモカードが配布決定 - hypebeast.com",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTFRaTW04ZzEzbHItakhLdTNQOEc2VUNpN2V3bWFqS0NUekVQcEV0bERlcWw1SWY1dlprTmNrZmpkdWhkWmh5MWhPQW1QbmpjU1dKWElIZDN0THZNbzZZRmtwSmYyY1lTU1VlVmNtdjdXckxmeDFpMHVibVNGTXEzcWxwTW9NRzJ6R3l0Zld1TFQxZw?oc=5"
+    },
+    {
+      "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【9/16更新】 - SNKRDUNK",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1SWnFNcTVjUjg5WmlqZ29zcTVDZWNVa2dRTzZJRlh0NFFjN0U2RWFkVi1WV2pGSFIwV2ZqUkFzUE95Y19udnViaW1kNV8?oc=5"
+    },
+    {
+      "title": "ポケカ30周年商品がメルカリで販売禁止。シングルカードはOK、線引きの理由は？（LIMO） - Yahoo!ニュース",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQSzBnb3dzNm9OQUJCRmpWZUo5SUI2ckdiTklnX2FVV3J0Nk9uMHBTU1BxZzJMNmRRVExId2xXUzZTaFU3MHF2Qk85X05UQk5JRHJDMWJheUJqZWdHUk1ZUFJ3X01DbUFrQ3RiRFpFdnNvNldqaXU1Y1c0VGowX1k?oc=5"
+    },
+    {
+      "title": "30周年記念ポケモンカード》発売日に「日本人ほとんどおらん」“外国人大行列”の謎『海外転売』が止まらぬ背景（2ページ目 - 週刊女性PRIME",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0yc0JtNEJUMFdUUGxUN3BCcW1abnR6UFVXTFFVdEwyOEc4QXN2RzUzOUQwd2lJTUFfaUNTcXNGXzBEc1ZVeFBfRkxleGl5TUhFbURwWlpSSWM?oc=5"
+    },
+    {
+      "title": "【速報】ポケカ30周年ボックス発売開始！買取価格は発売初日で最高2.2万円！トレゲトが情報を公開 - PR TIMES",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16SkZWWW0wRlBlSlB0OFlhWjA1b09mc2FieEdZb3Z0bUhoX09zMGl1WEVTc0tvd2lJcm02bks2YnNPaTJiMWRwQU80Rk1Mb1A1cTNGRDBEa0x2c2NQYjRHYUhHU1J0UFpMUHc?oc=5"
+    },
+    {
+      "title": "30周年ポケカ、即転売で100万円超えの落札 異常事態に「ミュウだしてアルファード買いたい」の声も（ENCOUNT） - Yahoo!ニュース",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9GU09HT1JiNGhXcEpjRlA4YVFGMTF3aEREcTAyZTEzdnV1TzZFX3VqV1RRZmVaSjhoUGg3bUJfTHlLN2prSnRIbTUwNDBBaDNHcllqOGZqQ0JlSmx0cFhJeGVwNVhMTVkzV0RWa00zLWNJbFBlemxaZ1BkQmtFRFE?oc=5"
+    },
+    {
+      "title": "【ポケカ】30th CELEBRATION(30th セレブレーション)の収録カードリスト一覧【2026年9月16日発売】 - SNKRDUNK",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5Ld056SEM5RFAyZDRma05md0thb1RtUklPbk1qUGNFQnR4QWw0ZWp3Yk1QUTlFTWhmVGNqb3VuNmxpWkpuQWRTNTlyU2c?oc=5"
     }
   ],
   "ワンピカード": [
     {
-      "title": "お値段にも納得の高級ガシャポン！『ワンピース カードゲーム』イラストをそのまま立体化した「ルフィ（ギア5）」からバージョン違い全3種（インサイド） - Yahoo!ニュース",
+      "title": "『ワンピース カードゲーム』“ONE PIECE DAY'26”記念商品がプレバンで2次予約！特別な「ルフィ」と「ドン！！カード」の2枚セット - インサイド",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13SVFCaHBsTnNKemxuNlZzNFNEZEdWTXhGSWRlbGxXTkFpbVktUFY2c1pRc2w5QkRFRG5GZ2M2OFVPWFlJOXF5TW9manppQmJHNnNTVE13RURYdnQtVlZkVkFvMGNqUjNWenZDZ3djUExLLVlBNlA1cGE0Z21fUVU?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBqV2dUemhGYzViZXZtcmUwR01BOE5rTGpsWUNoVWFTSXJJRnlRNnY4MDJ4VUdBZHJFVUhXaTBlWFR6cFR5dFR5MzByakU4a3lUUS16MGl4RHctanh1WlR1bHpMYWs5YUU3eHc?oc=5"
     },
     {
-      "title": "ファミマ、ワンピカード新商品「神の支配【OP-18】」をファミマオンラインで抽選販売。2026年9月15日～9月21日まで抽選申し込み受け付け。当選時の受け取りは11月28日から - コンビニ チェッカー",
+      "title": "「ONE PIECEカードゲーム」ONE PIECE DAY'26開催を記念したカードコレクションの2027年2月発送分がプレバンで9月17日12時より予約開始！ - 電撃ホビーウェブ",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBMQ2xKTFFjbjI1LXE0c3FJSE5PN1pJZVUtSUlFRzNSS18wVEljWnI3ZTFjOVZlWmJ1dFU2VkNTc2lTWEVLZm85VGxCQzFISjFvNzNfUmxHX3RCVHA5aWc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ic1VMQjJRd2NnM2RLWkZPQ0x4Y0p5VmxvRXpTeW9zUWgwUzVld1U3NGs5ZTA4bk5hbXZ1c2x0c2VfRGowME5vSTEzZzBySXcx?oc=5"
     },
     {
-      "title": "Amazonが「ONE PIECEカードゲーム ブースターパック 神の支配」の24パック入りBOXの招待販売を実施！エクストラブースター「ONE PIECE Heroines Edition vol.2」なども！ - 電撃ホビーウェブ",
+      "title": "『ワンピース カードゲーム』“ONE PIECE DAY’26”記念商品がプレバンで2次予約！特別な「ルフィ」と「ドン！！カード」の2枚セット - Yahoo!ニュース",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBVZ3hLOUpqU05iX09aTnpxVGRrZ2dRbnNleHZuWkp6TllNZ0wyM1VVOERmeGE0dXlFczcwRzFadUh1V2pqMjlnWENtVzlSNzNa?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN1M4UF9TRVc4MzNhSnhPSUxMN1ZMY3NOa2pyZkFEWU5uTjVrRU9ZQUhCdFlXb1Y2SGY4MXM3endId2dVTTg1NHNqXzJFYlZySmtZaVhDeHQ4SkQ5b2N0YldCdS00ZXZvUTRpWUZ1aklCUXRIRFZkWG5zN3NBUlNWNjRpZmpac1gya05JamxR?oc=5"
     },
     {
       "title": "【ONE PIECEカードゲーム 最新情報】明日8月22日(土)にブースターパック 世界最強の戦士【OP-17】が新発売！ - ONE PIECE.com",
@@ -577,34 +577,19 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHMGR3ZHY5MUZ3Yl9IQWE4TEF4S0JzWkczcGV6aTlqM1pxc2xYT1BGTUVfT0xuekp1M1VIaG9jVkJjTVJUYTZySjlhemZ1cXZQMnhBS1Vn?oc=5"
     },
     {
-      "title": "【予約情報】カードラボ池袋店予約受付中商品（9/15更新） / 池袋店の店舗ブログ - c-labo.jp",
+      "title": "ファミマ、ワンピカード新商品「神の支配【OP-18】」をファミマオンラインで抽選販売。2026年9月15日～9月21日まで抽選申し込み受け付け。当選時の受け取りは11月28日から - コンビニ チェッカー",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1PRFFFaHlOb1hOOGUwN0h6UzRuVFl5QXZFZ2k1QVMwbVRJZWFCRG5Gb1JyN2dBSXVWel9odW4tTFk1U19yOWVRZEV0SzAxdG8wVVRMTm5sSWRselNrWGc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBMQ2xKTFFjbjI1LXE0c3FJSE5PN1pJZVUtSUlFRzNSS18wVEljWnI3ZTFjOVZlWmJ1dFU2VkNTc2lTWEVLZm85VGxCQzFISjFvNzNfUmxHX3RCVHA5aWc?oc=5"
     },
     {
-      "title": "【ワンピカード】世界最強の戦士がAmazonで抽選販売中。ヒロインズエディションvol.2、神の島の冒険、蒼海の七傑も - ファミ通",
+      "title": "お値段にも納得の高級ガシャポン！『ワンピース カードゲーム』イラストをそのまま立体化した「ルフィ（ギア5）」からバージョン違い全3種（インサイド） - Yahoo!ニュース",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5LUTFHQU9aNkllS2hkYkNWV3h5ODA0QzhlQlB4dlRHLUhsejBKalNBNTJKUWhZT1haV0ZPTnI4Q3hCQjc5Ml81NXFFVENuTDdKanI2RDZnaw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13SVFCaHBsTnNKemxuNlZzNFNEZEdWTXhGSWRlbGxXTkFpbVktUFY2c1pRc2w5QkRFRG5GZ2M2OFVPWFlJOXF5TW9manppQmJHNnNTVE13RURYdnQtVlZkVkFvMGNqUjNWenZDZ3djUExLLVlBNlA1cGE0Z21fUVU?oc=5"
     },
     {
-      "title": "【2026.08.06】※応募は終了しました抽選販売「ONE PIECEカードゲーム ブースターパック 世界最強の戦士」 - ホビーステーション",
+      "title": "Amazonが「ONE PIECEカードゲーム ブースターパック 神の支配」の24パック入りBOXの招待販売を実施！エクストラブースター「ONE PIECE Heroines Edition vol.2」なども！ - 電撃ホビーウェブ",
       "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5SSWo3bDBXTzdZdmxiYUZLdzNBMFdkTUxObjFFQ2xtdklXY2oyM1FfenlWc0VWSGhaaW1GZE5HSDVTVjBL?oc=5"
-    },
-    {
-      "title": "【2026年最新版】ワンピースカードオリパおすすめランキングTOP8！コミパラが狙える優良サイトを比較 - 東京23FC",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1oSFdCV2JWbUFGSmxjM0FIeXBCcEVZdGdlb3pnX09RQWRaVWw3MmtnRjNPYTB3SkxhUjRnTmxfRF9DVGdzQmM2eXh4MGc1YkF4dkV2SVNiOUw4dnFB?oc=5"
-    },
-    {
-      "title": "【ワンピースカード】世界最強の戦士の予約・抽選情報まとめ【8/21更新】 - snkrdunk.com",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBVcXJtXzNBLUZrZ2pZR3ZUblhLV2NHQ2MtMXlmbnZHV011Z0c5N0QyTGVLSFcwTlNlVlRjUXhGeFNHWW1WZVBoaHRCMDY?oc=5"
-    },
-    {
-      "title": "『ワンピース カードゲーム』NIKEコラボセットが、ジャンプの応募者全員サービスで提供！対象は“デジタル版の定期購読者” - インサイド",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAtc3pzU1JheUNrOVFZWlMxb1BzY3FQOEtEYVdHRVJUTFlYRlZnR3RnQWdPQ3UzQldzUXFLN2hPSGItWFk4VzZJMW1WaDI3V2c4YVBDSUdRYkVaU2JETDV2WVNBZUdfZ1ZDUUE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBVZ3hLOUpqU05iX09aTnpxVGRrZ2dRbnNleHZuWkp6TllNZ0wyM1VVOERmeGE0dXlFczcwRzFadUh1V2pqMjlnWENtVzlSNzNa?oc=5"
     },
     {
       "title": "【ONE PIECEカードゲーム 最新情報】ブースターパック 世界最強の戦士【OP-17】発売記念イベントが開催決定！ - ONE PIECE.com",
@@ -612,14 +597,14 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5UcHA1bVNHUmpfa1JFUnBJM2lmY3RZNVNzQ1o2UEZtLVpZTmNpdU1JbjEwU0xjZWsyMGwxYTFsX2xDaFJXZmlLOG13U0lKcWZHTnFZTDBB?oc=5"
     },
     {
-      "title": "【ONE PIECEカードゲーム 最新情報】「ONE PIECE DAY’26」にて特報を解禁!! - ONE PIECE.com",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rR3FmVjR4Njh1VGhiRWpWOEtLaUZ4Z3Y0cjJITy1nejluSGJDRDN2REFGSWZyYXZmWVpPeENhSVBpMTc4M3V1TlJNcDdDNWU0bzQ2aWNn?oc=5"
-    },
-    {
       "title": "【ONE PIECEカードゲーム 最新情報】明日7月11日(土)に6色スタートデッキ【ST-31】～【ST-36】が新発売！ - ONE PIECE.com",
       "title_zh": "",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxTkNDeGNJeDFROVpxTHhDeG1jT19mc3hqSXRmdldkMVU5QU5LMDdpTjEzWFB3WU4wdFZSVUNTSVpHc3J3ZExzUVVfV0huU0hGa0RaNUp3?oc=5"
+    },
+    {
+      "title": "【ONE PIECEカードゲーム 最新情報】「ONE PIECE DAY’26」にて特報を解禁!! - ONE PIECE.com",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rR3FmVjR4Njh1VGhiRWpWOEtLaUZ4Z3Y0cjJITy1nejluSGJDRDN2REFGSWZyYXZmWVpPeENhSVBpMTc4M3V1TlJNcDdDNWU0bzQ2aWNn?oc=5"
     },
     {
       "title": "【ONE PIECEカードゲーム 最新情報】「BANDAI CARD GAMES ネクストプラン発表会2026.06」にて最新情報解禁！ - ONE PIECE.com",
@@ -630,6 +615,21 @@
       "title": "【ONE PIECEカードゲーム 最新情報】チーム戦イベント「3on3 LIMITED BATTLE」が開催決定！ - ONE PIECE.com",
       "title_zh": "",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pODNkM3JPVllEY3hsLWVST3ZiRWw2a2RvTDI1bkEzV0ZEc1UxQ0lOVkdMSHVfejRROHpld0RLV096dFJwLWRBZFlBQTFkUnE5TWN3RXF3?oc=5"
+    },
+    {
+      "title": "「週刊少年ジャンプ」33号の付録に連載29周年記念『ONE PIECEカードゲーム』が登場！電子版「週刊少年ジャンプ」定期購読者限定の「応募者全員サービス」も！ - ONE PIECE.com",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XdjNneGNjTm5va0hSZlVvTXVlbVhtSzU1NHpyYUxiLXIyM3RqNXV1NnpmSFg0VHlrTFZDNU92LUZvemxDZGsyaHI3cWJ2cTRuTnV3X013?oc=5"
+    },
+    {
+      "title": "「LUFFY's(ルフィズ)」より『ONE PIECEカードゲーム』コラボ第2弾の「LUFFY’s ONE PIECEカードゲーム -ドン!!カード-」が登場！ - ONE PIECE.com",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9OOWx5RzQxV0M1WUlGMy1tLUREcVlLMG5ZNlduaXZVbU9XOVJuOG9rUmVLRURJYmxHVnhWNlFYNklnanpnRWoyLXBNSGZWQmg1bXh5dGdB?oc=5"
+    },
+    {
+      "title": "【ONE PIECEカードゲーム 最新情報】ブースターパック 世界最強の戦士【OP-17】のスペシャル情報を公開!! - ONE PIECE.com",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXUFI2VGNOOHBGOVhLX2J2LXlkQWtqelBRVjEtUDhOTnZyQktNUWRiNkgwdDBCZ1FfdUt0c2ctYzhnQ1dGWDJQaWx3WDJmc3VyLVF3aWdB?oc=5"
     }
   ]
 }

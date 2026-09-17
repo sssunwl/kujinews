@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T11:47:44.592058+09:00",
+  "generated_at": "2026-09-17T11:55:24.648782+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7020,19 +7020,6 @@
           "end_date": null
         },
         {
-          "id": "kujimate_3521121",
-          "title": "ブルータル 殺人警察官の告白 くじメイト",
-          "brand": "くじメイト",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E3%83%96%E3%83%AB%E3%83%BC%E3%82%BF%E3%83%AB+%E6%AE%BA%E4%BA%BA%E8%AD%A6%E5%AF%9F%E5%AE%98%E3%81%AE%E5%91%8A%E7%99%BD+%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3521121/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-09",
-          "price": null,
-          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E3%83%96%E3%83%AB%E3%83%BC%E3%82%BF%E3%83%AB+%E6%AE%BA%E4%BA%BA%E8%AD%A6%E5%AF%9F%E5%AE%98%E3%81%AE%E5%91%8A%E7%99%BD+%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3521121/",
-          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=06261102_6a3dddca67224.jpg&width=400&height=400&square=1",
-          "end_date": null
-        },
-        {
           "id": "kujimate_3549761",
           "title": "『藤と海 -再会と愛執-』くじメイト",
           "brand": "くじメイト",
@@ -7326,6 +7313,19 @@
           "price": null,
           "official_url": "https://1kuji.com/products/chainsawman3",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10738/a9d03dca-75b7-4bf6-bd54-ccc832f5dd36.webp"
+        },
+        {
+          "id": "kujimate_3562869",
+          "title": "「愛日と花嫁」オンラインくじ",
+          "brand": "くじメイト",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E3%80%8C%E6%84%9B%E6%97%A5%E3%81%A8%E8%8A%B1%E5%AB%81%E3%80%8D%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%8F%E3%81%98/pd/3562869/",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-18",
+          "price": null,
+          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E3%80%8C%E6%84%9B%E6%97%A5%E3%81%A8%E8%8A%B1%E5%AB%81%E3%80%8D%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%8F%E3%81%98/pd/3562869/",
+          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=09081048_6a9f6956c3e65.jpg&width=400&height=400&square=1",
+          "end_date": "2026-10-18"
         },
         {
           "id": "sanrio-hw2026",
@@ -7695,6 +7695,19 @@
           "end_date": "2026-09-06"
         },
         {
+          "id": "the-idolmaster-million-live04",
+          "title": "コトブキヤくじ アイドルマスター ミリオンライブ！ stage04",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/the-idolmaster-million-live04/",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/the-idolmaster-million-live04/",
+          "image_url": null,
+          "end_date": "2026-09-18"
+        },
+        {
           "id": "the-idolmaster-summerlivestage",
           "title": "コトブキヤくじ アイドルマスター Summer Live st@ge",
           "brand": "コトブキヤくじ",
@@ -8029,6 +8042,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/fate29",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10756/7e1e0530-0310-4381-961b-6930189ba124.webp"
+        },
+        {
+          "id": "1bankuji_10757",
+          "title": "一番くじ 〈リメンバー・ミー〉Colorful Memories",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202610/1bankuji_10757",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-31",
+          "price": null,
+          "official_url": "https://1kuji.com/products/disney_coco",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10757/203ea70b-6b57-409c-a10e-e0521e4e9d28.webp"
         },
         {
           "id": "1bankuji_miabyss",
@@ -8572,6 +8597,20 @@
       "key": "2027-02",
       "label": "2027年2月",
       "items": [
+        {
+          "id": "1bankuji_10837",
+          "title": "一番くじ ドラゴンボール DRAGON OMNIBUS～神と神の闘い～",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202702/1bankuji_10837",
+          "month_key": "2027-02",
+          "ip_tags": [
+            "ドラゴンボール"
+          ],
+          "date": "2027-02-06",
+          "price": null,
+          "official_url": "https://1kuji.com/products/db_do",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10837/97150792-4a4c-4d72-88a7-63953995b12e.png"
+        },
         {
           "id": "sega_bluearchive_bc_kuji",
           "title": "セガ ラッキーくじ　ブルーアーカイブ -BUNNY CHASER-",
