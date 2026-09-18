@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T11:55:24.648782+09:00",
+  "generated_at": "2026-09-18T11:40:10.343865+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6461,19 +6461,6 @@
           "image_url": null
         },
         {
-          "id": "seven-eleven",
-          "title": "Happyくじ『セブン-イレブン』",
-          "brand": "Happyくじ",
-          "url": "https://www.h-kuji.com/goods/seven-eleven/",
-          "month_key": "2026-03",
-          "ip_tags": [],
-          "date": "2026-03-13",
-          "price": null,
-          "official_url": "https://www.h-kuji.com/goods/seven-eleven/",
-          "image_url": "https://www.h-kuji.com/wp-content/uploads/2026/03/7-11_HKuji_Bnnr.jpg",
-          "end_date": null
-        },
-        {
           "id": "min_150",
           "title": "フリューくじ 「忍たま乱太郎 ふんわり桜もちぴこの段」",
           "brand": "みんなのくじ",
@@ -7414,30 +7401,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10741/00947fbf-e2c4-4a92-8ab1-d6d8af9c58c7.webp"
         },
         {
-          "id": "dream-fes2024_2",
-          "title": "【再販】サイコー超えてる！ドリフェス！Rくじ 2024",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/dream-fes2024_2/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-24",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/dream-fes2024_2/",
-          "image_url": "https://kujibikido.com/lp/dream-fes2024_2/img/og.png"
-        },
-        {
-          "id": "isshikisan",
-          "title": "「一式さんは恋を知りたい。」オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/isshikisan/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-24",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/isshikisan/",
-          "image_url": "https://kujibikido.com/lp/isshikisan/img/og.png"
-        },
-        {
           "id": "queensblade",
           "title": "『クイーンズブレイド』20th Anniversary オンラインくじ",
           "brand": "くじ引き堂",
@@ -7644,18 +7607,6 @@
           "image_url": "https://kujibikido.com/lp/jujutsukaisen-4/img/og.png"
         },
         {
-          "id": "ranma",
-          "title": "TVアニメ「らんま1/2」オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/ranma/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-30",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/ranma/",
-          "image_url": "https://kujibikido.com/lp/ranma/img/og.png"
-        },
-        {
           "id": "capkuji_ningen_life",
           "title": "ningen_life くじ",
           "brand": "カプくじ",
@@ -7693,19 +7644,6 @@
           "official_url": "https://kuji.kotobukiya.co.jp/lp/kizuyome/",
           "image_url": null,
           "end_date": "2026-09-06"
-        },
-        {
-          "id": "the-idolmaster-million-live04",
-          "title": "コトブキヤくじ アイドルマスター ミリオンライブ！ stage04",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/the-idolmaster-million-live04/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/the-idolmaster-million-live04/",
-          "image_url": null,
-          "end_date": "2026-09-18"
         },
         {
           "id": "the-idolmaster-summerlivestage",
@@ -7908,6 +7846,18 @@
           "image_url": "https://kujibikido.com/lp/degarashi_oji/img/og.png"
         },
         {
+          "id": "owataonodera",
+          "title": "終わったおのでら オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/owataonodera/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-08",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/owataonodera/",
+          "image_url": "https://kujibikido.com/lp/owataonodera/img/og.png"
+        },
+        {
           "id": "1bankuji_10751",
           "title": "一番くじ 〈くまのプーさん〉100th Anniversary",
           "brand": "一番くじ",
@@ -7930,6 +7880,43 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/girls-und-panzer-finale_3/",
           "image_url": "https://kujibikido.com/lp/girls-und-panzer-finale_3/img/og.png"
+        },
+        {
+          "id": "hikaru_bd_2026",
+          "title": "TVアニメ「ヒカルの碁」進藤ヒカルBirthdayくじ2026",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/hikaru_bd_2026/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-15",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/hikaru_bd_2026/",
+          "image_url": "https://kujibikido.com/lp/hikaru_bd_2026/img/og.png"
+        },
+        {
+          "id": "mobpsycho_gohan",
+          "title": "モブサイコ100 Ⅲ いっしょにごはん オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/mobpsycho_gohan/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-15",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/mobpsycho_gohan/",
+          "image_url": "https://kujibikido.com/lp/mobpsycho_gohan/img/og.png"
+        },
+        {
+          "id": "101dalmatians",
+          "title": "Happyくじ『Disney 101匹わんちゃん』",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/101dalmatians/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-17",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/101dalmatians/",
+          "image_url": "https://www.h-kuji.com/wp-content/uploads/2026/09/101_Bnr_N2-01.jpg",
+          "end_date": null
         },
         {
           "id": "1bankuji_10727",
@@ -8104,6 +8091,19 @@
           "price": null,
           "official_url": "https://segaplaza.jp/lp/pingu_pds_kuji/",
           "image_url": null
+        },
+        {
+          "id": "the-idolmaster-million-live04",
+          "title": "コトブキヤくじ アイドルマスター ミリオンライブ！ stage04",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/the-idolmaster-million-live04/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/the-idolmaster-million-live04/",
+          "image_url": null,
+          "end_date": "2026-10-18"
         }
       ]
     },
