@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T11:43:18.334564+09:00",
+  "generated_at": "2026-09-24T11:35:41.611205+09:00",
   "pokemon": [
     {
       "id": "pkm_https_www_pokemon_card_com_ex_m6_4fafc8",
@@ -256,6 +256,20 @@
       "stores": ""
     },
     {
+      "id": "op_baseshop-binder001",
+      "game": "onepiece",
+      "category": "その他",
+      "title": "ONE PIECEカードゲーム BASE SHOPリミテッドバインダー vol.1",
+      "date": "2026-10-09",
+      "date_raw": "2026.10.09(金)",
+      "month_key": "2026-10",
+      "price": "1,650円(税込)",
+      "image_url": "images/tcg/op_baseshop-binder001.webp",
+      "url": "https://www.onepiece-cardgame.com/products/baseshop-binder001.html",
+      "buy_url": "",
+      "stores": ""
+    },
+    {
       "id": "op_playmat_flame-flame-fruit",
       "game": "onepiece",
       "category": "その他",
@@ -392,20 +406,6 @@
       "price": "990円(税込)",
       "image_url": "images/tcg/op_sleeve042.webp",
       "url": "https://www.onepiece-cardgame.com/products/sleeve042.html",
-      "buy_url": "",
-      "stores": ""
-    },
-    {
-      "id": "op_op17",
-      "game": "onepiece",
-      "category": "ブースターパック",
-      "title": "ブースターパック 世界最強の戦士【OP-17】",
-      "date": "2026-08-22",
-      "date_raw": "2026.08.22(土)",
-      "month_key": "2026-08",
-      "price": "240円(税込)",
-      "image_url": "images/tcg/op_op17.webp",
-      "url": "https://www.onepiece-cardgame.com/products/boosters/op17/",
       "buy_url": "",
       "stores": ""
     }

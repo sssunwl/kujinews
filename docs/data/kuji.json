@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T11:43:15.466301+09:00",
+  "generated_at": "2026-09-24T11:35:37.421346+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7058,19 +7058,6 @@
           "end_date": "2026-08-26"
         },
         {
-          "id": "rakshaana",
-          "title": "コトブキヤくじ ラクシャーナ",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/rakshaana/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/rakshaana/",
-          "image_url": null,
-          "end_date": "2026-08-02"
-        },
-        {
           "id": "you-zitsu",
           "title": "コトブキヤくじ TVアニメ『ようこそ実力至上主義の教室へ』",
           "brand": "コトブキヤくじ",
@@ -7399,18 +7386,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/kimishinu",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10741/00947fbf-e2c4-4a92-8ab1-d6d8af9c58c7.webp"
-        },
-        {
-          "id": "queensblade",
-          "title": "『クイーンズブレイド』20th Anniversary オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/queensblade/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-24",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/queensblade/",
-          "image_url": "https://kujibikido.com/lp/queensblade/img/og.png"
         },
         {
           "id": "yukari",
@@ -7955,6 +7930,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/umamusume17",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10726/8bc745ec-1c0d-4531-9b1c-ec480d742c10.webp"
+        },
+        {
+          "id": "yofukashi-no-uta_4",
+          "title": "TVアニメ『よふかしのうた』七草ナズナBirthdayくじ Vol.4",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/yofukashi-no-uta_4/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-21",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/yofukashi-no-uta_4/",
+          "image_url": "https://kujibikido.com/lp/yofukashi-no-uta_4/img/og.png"
         },
         {
           "id": "1bankuji_10753",
