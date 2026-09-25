@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T11:35:37.421346+09:00",
+  "generated_at": "2026-09-25T11:55:50.191455+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7388,18 +7388,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10741/00947fbf-e2c4-4a92-8ab1-d6d8af9c58c7.webp"
         },
         {
-          "id": "yukari",
-          "title": "「結月ゆかり」オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/yukari/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-24",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/yukari/",
-          "image_url": "https://kujibikido.com/lp/yukari/img/og.png"
-        },
-        {
           "id": "1bankuji_10728",
           "title": "一番くじ 幽☆遊☆白書 魔界の扉編",
           "brand": "一番くじ",
@@ -7433,7 +7421,7 @@
           "date": "2026-09-25",
           "price": null,
           "official_url": "https://www.taito.co.jp/taitokuji/item/0000011845",
-          "image_url": "https://www.taito.co.jp/Content/images/zone/0/201407/d11a2b55-d278-4021-9648-3f4821b1ba52_p_01_ja.jpg"
+          "image_url": "https://www.taito.co.jp/Content/images/zone/0/201407/ed9c12fe-7f56-4885-b26f-fac7f5f75530_p_01_ja.jpg"
         },
         {
           "id": "kujimate_3530897",
@@ -7571,18 +7559,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10746/4ac99d74-8fbf-4a1b-a9c8-c247c8746b29.webp"
         },
         {
-          "id": "jujutsukaisen-4",
-          "title": "【再販】「呪術廻戦」くじ～POP＆POP～",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/jujutsukaisen-4/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-30",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/jujutsukaisen-4/",
-          "image_url": "https://kujibikido.com/lp/jujutsukaisen-4/img/og.png"
-        },
-        {
           "id": "hanaorisan-anime",
           "title": "コトブキヤくじ TVアニメ『花織さんは転生しても喧嘩がしたい』",
           "brand": "コトブキヤくじ",
@@ -7698,18 +7674,6 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/sl-stage_2/",
           "image_url": "https://kujibikido.com/lp/sl-stage_2/img/og.png"
-        },
-        {
-          "id": "slayers",
-          "title": "『スレイヤーズ』巫女シリーズ オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/slayers/",
-          "month_key": "2026-10",
-          "ip_tags": [],
-          "date": "2026-10-01",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/slayers/",
-          "image_url": "https://kujibikido.com/lp/slayers/img/og.png"
         },
         {
           "id": "1bankuji_10812",
@@ -7942,6 +7906,42 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/yofukashi-no-uta_4/",
           "image_url": "https://kujibikido.com/lp/yofukashi-no-uta_4/img/og.png"
+        },
+        {
+          "id": "aoharutetsudou",
+          "title": "ミュージカル『青春-AOHARU-鉄道』10周年記念オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/aoharutetsudou/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-22",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/aoharutetsudou/",
+          "image_url": "https://kujibikido.com/lp/aoharutetsudou/img/og.png"
+        },
+        {
+          "id": "kamiina-botan",
+          "title": "TVアニメ「上伊那ぼたん、酔へる姿は百合の花」 オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/kamiina-botan/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-22",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/kamiina-botan/",
+          "image_url": "https://kujibikido.com/lp/kamiina-botan/img/og.png"
+        },
+        {
+          "id": "syunkasyuutou",
+          "title": "春夏秋冬代行者 オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/syunkasyuutou/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-22",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/syunkasyuutou/",
+          "image_url": "https://kujibikido.com/lp/syunkasyuutou/img/og.png"
         },
         {
           "id": "1bankuji_10753",
