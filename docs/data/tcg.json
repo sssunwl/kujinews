@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T11:55:52.358421+09:00",
+  "generated_at": "2026-09-26T12:03:24.378524+09:00",
   "pokemon": [
     {
       "id": "pkm_https_www_pokemon_card_com_ex_m6_4fafc8",
@@ -242,6 +242,20 @@
   ],
   "onepiece": [
     {
+      "id": "op_op18",
+      "game": "onepiece",
+      "category": "ブースターパック",
+      "title": "ブースターパック 神の支配【OP-18】",
+      "date": "2026-11-21",
+      "date_raw": "2026.11.21(土)",
+      "month_key": "2026-11",
+      "price": "240円(税込)",
+      "image_url": "images/tcg/op_op18.webp",
+      "url": "https://www.onepiece-cardgame.com/products/op18.html",
+      "buy_url": "",
+      "stores": ""
+    },
+    {
       "id": "op_eb05",
       "game": "onepiece",
       "category": "ブースターパック",
@@ -392,20 +406,6 @@
       "price": "1,100円(税込)",
       "image_url": "images/tcg/op_sleeve041.webp",
       "url": "https://www.onepiece-cardgame.com/products/sleeve041.html",
-      "buy_url": "",
-      "stores": ""
-    },
-    {
-      "id": "op_sleeve042",
-      "game": "onepiece",
-      "category": "その他",
-      "title": "オフィシャルカードスリーブ 16",
-      "date": "2026-08-22",
-      "date_raw": "2026.08.22(土)",
-      "month_key": "2026-08",
-      "price": "990円(税込)",
-      "image_url": "images/tcg/op_sleeve042.webp",
-      "url": "https://www.onepiece-cardgame.com/products/sleeve042.html",
       "buy_url": "",
       "stores": ""
     }

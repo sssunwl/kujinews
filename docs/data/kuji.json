@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T11:55:50.191455+09:00",
+  "generated_at": "2026-09-26T12:03:19.376805+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6783,19 +6783,6 @@
       "label": "2026年7月",
       "items": [
         {
-          "id": "kujimate_3530895",
-          "title": "劇場アニメ『ひゃくえむ。』くじメイト",
-          "brand": "くじメイト",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E5%8A%87%E5%A0%B4%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%81%B2%E3%82%83%E3%81%8F%E3%81%88%E3%82%80%E3%80%82%E3%80%8F%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3530895/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-17",
-          "price": null,
-          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E5%8A%87%E5%A0%B4%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%81%B2%E3%82%83%E3%81%8F%E3%81%88%E3%82%80%E3%80%82%E3%80%8F%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3530895/",
-          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=07141248_6a55b193bcaf7.jpg&width=400&height=400&square=1",
-          "end_date": "2026-08-23"
-        },
-        {
           "id": "min_153",
           "title": "フリューくじ 「COJI-COJI 〜遊んで食べて寝てちゃダメ？〜」",
           "brand": "みんなのくじ",
@@ -6845,19 +6832,6 @@
           "end_date": "2026-08-24"
         },
         {
-          "id": "kujimate_3530896",
-          "title": "映画『超かぐや姫！』超ファンサ！ver. くじメイト",
-          "brand": "くじメイト",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E6%98%A0%E7%94%BB%E3%80%8E%E8%B6%85%E3%81%8B%E3%81%90%E3%82%84%E5%A7%AB%EF%BC%81%E3%80%8F%E8%B6%85%E3%83%95%E3%82%A1%E3%83%B3%E3%82%B5%EF%BC%81ver.+%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3530896/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-24",
-          "price": null,
-          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E6%98%A0%E7%94%BB%E3%80%8E%E8%B6%85%E3%81%8B%E3%81%90%E3%82%84%E5%A7%AB%EF%BC%81%E3%80%8F%E8%B6%85%E3%83%95%E3%82%A1%E3%83%B3%E3%82%B5%EF%BC%81ver.+%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3530896/",
-          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=07211348_6a5efa256fe90.jpg&width=400&height=400&square=1",
-          "end_date": "2026-08-23"
-        },
-        {
           "id": "anymy_26",
           "title": "エニマイくじ ちいかわ ～ちいかわと夏の思い出～",
           "brand": "エニマイくじ",
@@ -6870,19 +6844,6 @@
           "price": null,
           "official_url": "https://anymy.jp/kuji/projects/26",
           "image_url": null
-        },
-        {
-          "id": "kujimate_3526045",
-          "title": "ハイキュー!!　ぬいくじ2",
-          "brand": "くじメイト",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%21%21%E3%80%80%E3%81%AC%E3%81%84%E3%81%8F%E3%81%982/pd/3526045/",
-          "month_key": "2026-07",
-          "ip_tags": [],
-          "date": "2026-07-31",
-          "price": null,
-          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E3%83%8F%E3%82%A4%E3%82%AD%E3%83%A5%E3%83%BC%21%21%E3%80%80%E3%81%AC%E3%81%84%E3%81%8F%E3%81%982/pd/3526045/",
-          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=07011054_6a447339ad133.jpg&width=400&height=400&square=1",
-          "end_date": "2026-08-23"
         },
         {
           "id": "sankyupitch-ino-kuji-online",
@@ -7005,19 +6966,6 @@
           "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E7%B5%B6%E5%AF%BEBL%E3%81%AB%E3%81%AA%E3%82%8B%E4%B8%96%E7%95%8CVS%E7%B5%B6%E5%AF%BEBL%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%9F%E3%81%8F%E3%81%AA%E3%81%84%E7%94%B7+%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3526981/",
           "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=07011721_6a44cdffa67ad.jpg&width=400&height=400&square=1",
           "end_date": "2026-09-23"
-        },
-        {
-          "id": "kujimate_3520340",
-          "title": "『終天教団』オンラインくじ",
-          "brand": "くじメイト",
-          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E3%80%8E%E7%B5%82%E5%A4%A9%E6%95%99%E5%9B%A3%E3%80%8F%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%8F%E3%81%98/pd/3520340/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": "2026-08-23",
-          "price": null,
-          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E3%80%8E%E7%B5%82%E5%A4%A9%E6%95%99%E5%9B%A3%E3%80%8F%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%81%8F%E3%81%98/pd/3520340/",
-          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=06251214_6a3c9d2c893a6.jpg&width=400&height=400&square=1",
-          "end_date": null
         },
         {
           "id": "honpo_ccsakura_magic",
@@ -7437,6 +7385,19 @@
           "end_date": "2026-10-25"
         },
         {
+          "id": "kujimate_3599646",
+          "title": "TVアニメ「ゆゆ式」くじメイト",
+          "brand": "くじメイト",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%82%86%E3%82%86%E5%BC%8F%E3%80%8D%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3599646/",
+          "month_key": "2026-09",
+          "ip_tags": [],
+          "date": "2026-09-25",
+          "price": null,
+          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91TV%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%82%86%E3%82%86%E5%BC%8F%E3%80%8D%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3599646/",
+          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=09161120_6aa9fd0629552.jpg&width=400&height=400&square=1",
+          "end_date": "2026-10-25"
+        },
+        {
           "id": "1bankuji_10729",
           "title": "一番くじ プリキュア ~Endless Grace~",
           "brand": "一番くじ",
@@ -7445,8 +7406,8 @@
           "ip_tags": [],
           "date": "2026-09-26",
           "price": null,
-          "official_url": "https://1kuji.com/products/precure4",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10587/059968a2-fb3e-490d-bcba-5b4f71e9d614.webp"
+          "official_url": "https://1kuji.com/products/precure5",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10729/182a1f9a-b82f-42fb-a6fe-65c42a8a76f5.webp"
         },
         {
           "id": "1bankuji_10730",
@@ -7628,6 +7589,32 @@
           "image_url": "https://kujibikido.com/lp/kaiju-no8/img/og.png"
         },
         {
+          "id": "kujimate_3562870",
+          "title": "私がモテてどうすんだ くじメイト",
+          "brand": "くじメイト",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E7%A7%81%E3%81%8C%E3%83%A2%E3%83%86%E3%81%A6%E3%81%A9%E3%81%86%E3%81%99%E3%82%93%E3%81%A0+%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3562870/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-01",
+          "price": null,
+          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E7%A7%81%E3%81%8C%E3%83%A2%E3%83%86%E3%81%A6%E3%81%A9%E3%81%86%E3%81%99%E3%82%93%E3%81%A0+%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3562870/",
+          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=08071556_6a7581a1af9fb.jpg&width=400&height=400&square=1",
+          "end_date": "2026-10-31"
+        },
+        {
+          "id": "kujimate_3571244",
+          "title": "ヤマトナデシコ七変化 くじメイト",
+          "brand": "くじメイト",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E3%83%A4%E3%83%9E%E3%83%88%E3%83%8A%E3%83%87%E3%82%B7%E3%82%B3%E4%B8%83%E5%A4%89%E5%8C%96+%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3571244/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-01",
+          "price": null,
+          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E3%83%A4%E3%83%9E%E3%83%88%E3%83%8A%E3%83%87%E3%82%B7%E3%82%B3%E4%B8%83%E5%A4%89%E5%8C%96+%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3571244/",
+          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=08191258_6a852a03dce4c.jpg&width=400&height=400&square=1",
+          "end_date": "2026-10-31"
+        },
+        {
           "id": "neptune2",
           "title": "超新時空ゲイム ネプテューヌ∞ オンラインくじ",
           "brand": "くじ引き堂",
@@ -7699,6 +7686,19 @@
           "official_url": "https://www.h-kuji.com/goods/disney-halloween2026/",
           "image_url": "https://www.h-kuji.com/wp-content/uploads/2026/08/6b51fd85e8b8ac1e70b77e384223bc22.jpg",
           "end_date": null
+        },
+        {
+          "id": "kujimate_3590784",
+          "title": "しゅごキャラ！ キャンディーver. くじメイト",
+          "brand": "くじメイト",
+          "url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E3%81%97%E3%82%85%E3%81%94%E3%82%AD%E3%83%A3%E3%83%A9%EF%BC%81+%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%87%E3%82%A3%E3%83%BCver.+%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3590784/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-02",
+          "price": null,
+          "official_url": "https://www.animate-onlineshop.jp/pn/%E3%80%90%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88%E3%80%91%E3%81%97%E3%82%85%E3%81%94%E3%82%AD%E3%83%A3%E3%83%A9%EF%BC%81+%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%87%E3%82%A3%E3%83%BCver.+%E3%81%8F%E3%81%98%E3%83%A1%E3%82%A4%E3%83%88/pd/3590784/",
+          "image_url": "https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=09081517_6a9fa866d823d.jpg&width=400&height=400&square=1",
+          "end_date": "2026-11-01"
         },
         {
           "id": "1bankuji_10691",
@@ -7783,6 +7783,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/owataonodera/",
           "image_url": "https://kujibikido.com/lp/owataonodera/img/og.png"
+        },
+        {
+          "id": "anymy_28",
+          "title": "エニマイくじ　リラックマ",
+          "brand": "エニマイくじ",
+          "url": "https://kujimap.com/others/anymy_28",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-09",
+          "price": null,
+          "official_url": "https://anymy.jp/kuji/projects/28",
+          "image_url": null
         },
         {
           "id": "1bankuji_10751",
@@ -8573,6 +8585,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/db_do",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10837/97150792-4a4c-4d72-88a7-63953995b12e.png"
+        },
+        {
+          "id": "1bankuji_10828",
+          "title": "一番くじ ガンダムG・W・X 30th Anniversary",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202702/1bankuji_10828",
+          "month_key": "2027-02",
+          "ip_tags": [],
+          "date": "2027-02-26",
+          "price": null,
+          "official_url": "https://1kuji.com/products/gundam_gwx",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10828/34e47112-74a8-4718-92f8-c023defecc57.webp"
         },
         {
           "id": "sega_bluearchive_bc_kuji",
