@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T11:55:20.582204+09:00",
+  "generated_at": "2026-09-28T12:01:37.203416+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7905,7 +7905,7 @@
           "date": "2026-10-17",
           "price": null,
           "official_url": "https://1kuji.com/products/umamusume17",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10726/8bc745ec-1c0d-4531-9b1c-ec480d742c10.webp"
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10726/83adc030-5a0f-4362-af96-afd1c38c4bf7.webp"
         },
         {
           "id": "yofukashi-no-uta_4",
@@ -8608,6 +8608,36 @@
           "date": null,
           "price": null,
           "official_url": "https://segaplaza.jp/lp/bluearchive_bc_kuji/",
+          "image_url": null
+        }
+      ]
+    },
+    {
+      "key": "2027-03",
+      "label": "2027年3月",
+      "items": [
+        {
+          "id": "min_44600",
+          "title": "フリューくじ 初音ミク 初音ミク×チロルチョコ",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_44600",
+          "month_key": "2027-03",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=44600",
+          "image_url": null
+        },
+        {
+          "id": "min_44800",
+          "title": "フリューくじ アニメ「ハイキュー!!」 グッズコレクション3",
+          "brand": "みんなのくじ",
+          "url": "https://kujimap.com/minkuji/min_44800",
+          "month_key": "2027-03",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://charahiroba.com/minkuji/lineup/detail?id=44800",
           "image_url": null
         }
       ]
@@ -14332,19 +14362,6 @@
           "price": null,
           "official_url": null,
           "image_url": null
-        },
-        {
-          "id": "kotobukiya_plamodel2",
-          "title": "コトブキヤくじ プラモデルセレクション2上限数に達し次第終了",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/kotobukiya_plamodel2/",
-          "month_key": null,
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/kotobukiya_plamodel2/",
-          "image_url": null,
-          "end_date": null
         },
         {
           "id": "sega_golden-kamuy_puchima",
