@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T12:38:25.733255+09:00",
+  "generated_at": "2026-09-30T12:27:42.458168+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7471,18 +7471,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10774/3fe67923-dfb7-4c0c-89b3-c2379acdd7da.webp"
         },
         {
-          "id": "shugochara_2",
-          "title": "『しゅごキャラ！』オンラインくじ vol.2",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/shugochara_2/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-29",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/shugochara_2/",
-          "image_url": "https://kujibikido.com/lp/shugochara_2/img/og.png"
-        },
-        {
           "id": "1bankuji_10746",
           "title": "一番くじ 〈トイ・ストーリー〉～Playtime pals forever（遊び仲間は永遠に）～",
           "brand": "一番くじ",
@@ -7638,6 +7626,18 @@
           "image_url": "https://kujibikido.com/lp/sl-stage_2/img/og.png"
         },
         {
+          "id": "slayers",
+          "title": "『スレイヤーズ』巫女シリーズ オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/slayers/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-01",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/slayers/",
+          "image_url": "https://kujibikido.com/lp/slayers/img/og.png"
+        },
+        {
           "id": "1bankuji_10812",
           "title": "一番くじちょこっと 転生したらスライムだった件",
           "brand": "一番くじ",
@@ -7711,6 +7711,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/fairytail",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10763/033e0bc2-41e6-4387-a6ed-4ab443799d5f.webp"
+        },
+        {
+          "id": "sanrio_mymero2026_10",
+          "title": "サンリオ マイメロディ クロミ当りくじ(2026.10)",
+          "brand": "サンリオ当りくじ",
+          "url": "https://kujimap.com/others/sanrio_mymero2026_10",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-03",
+          "price": null,
+          "official_url": null,
+          "image_url": null
         },
         {
           "id": "mushokutensei3_cheer",
@@ -7956,6 +7968,18 @@
           "image_url": "https://kujibikido.com/lp/syunkasyuutou/img/og.png"
         },
         {
+          "id": "1bankuji_10778",
+          "title": "一番くじ ムーミン ～A day like this～",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202610/1bankuji_10778",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-23",
+          "price": null,
+          "official_url": "https://1kuji.com/products/moomin11",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10778/f50bb4da-3624-43e7-91af-a7095f29a7aa.webp"
+        },
+        {
           "id": "1bankuji_10753",
           "title": "一番くじ 桜蘭高校ホスト部～20th Anniversary～",
           "brand": "一番くじ",
@@ -7992,6 +8016,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10777/449ab156-d0f6-402e-a85c-a12c9fff8ae5.webp"
         },
         {
+          "id": "1bankuji_10795",
+          "title": "一番くじちょこっと mojojojo",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202610/1bankuji_10795",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-28",
+          "price": null,
+          "official_url": "https://1kuji.com/products/mojojojo",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10795/ce2c44c6-07a9-4148-8c94-6358a2e455ca.webp"
+        },
+        {
           "id": "1bankuji_10770",
           "title": "一番くじ ONE PIECE -空に奏でる”島の歌声”（ラブ・ソング）-",
           "brand": "一番くじ",
@@ -8004,6 +8040,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/onep_o12/",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10770/183d4578-65fd-4ac2-b429-9366b63c76c1.webp"
+        },
+        {
+          "id": "sega_pingu_pds_kuji",
+          "title": "セガ ラッキーくじ　PINGU™　～PINGU’S Donut Shop～",
+          "brand": "セガラッキーくじ",
+          "url": "https://kujimap.com/segaluck/sega_pingu_pds_kuji",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-29",
+          "price": null,
+          "official_url": "https://segaplaza.jp/lp/pingu_pds_kuji/",
+          "image_url": null
         },
         {
           "id": "1bankuji_10756",
@@ -8066,18 +8114,6 @@
           "official_url": "https://kuji.kotobukiya.co.jp/lp/otomekaiju/",
           "image_url": null,
           "end_date": "2026-10-12"
-        },
-        {
-          "id": "sega_pingu_pds_kuji",
-          "title": "セガ ラッキーくじ　PINGU™　～PINGU’S Donut Shop～",
-          "brand": "セガラッキーくじ",
-          "url": "https://kujimap.com/segaluck/sega_pingu_pds_kuji",
-          "month_key": "2026-10",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://segaplaza.jp/lp/pingu_pds_kuji/",
-          "image_url": null
         },
         {
           "id": "the-idolmaster-million-live04",
