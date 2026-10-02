@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T12:34:20.834831+09:00",
+  "generated_at": "2026-10-02T12:31:46.964882+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7350,30 +7350,6 @@
           "end_date": "2026-10-31"
         },
         {
-          "id": "neptune2",
-          "title": "超新時空ゲイム ネプテューヌ∞ オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/neptune2/",
-          "month_key": "2026-10",
-          "ip_tags": [],
-          "date": "2026-10-01",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/neptune2/",
-          "image_url": "https://kujibikido.com/lp/neptune2/img/og.png"
-        },
-        {
-          "id": "prilover",
-          "title": "TVアニメ『プリンセスラバー！』オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/prilover/",
-          "month_key": "2026-10",
-          "ip_tags": [],
-          "date": "2026-10-01",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/prilover/",
-          "image_url": "https://kujibikido.com/lp/prilover/img/og.png"
-        },
-        {
           "id": "1bankuji_10812",
           "title": "一番くじちょこっと 転生したらスライムだった件",
           "brand": "一番くじ",
@@ -7543,6 +7519,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/spicy_wolf_3/",
           "image_url": "https://kujibikido.com/lp/spicy_wolf_3/img/og.png"
+        },
+        {
+          "id": "yu-yu-hakusho",
+          "title": "賞品公開TVアニメ『幽☆遊☆白書』オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/yu-yu-hakusho/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-08",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/yu-yu-hakusho/",
+          "image_url": "https://kujibikido.com/lp/yu-yu-hakusho/img/og.png"
         },
         {
           "id": "anymy_28",
@@ -7850,6 +7838,18 @@
           "image_url": null
         },
         {
+          "id": "yominotsugai",
+          "title": "TVアニメ「黄泉のツガイ」オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/yominotsugai/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-29",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/yominotsugai/",
+          "image_url": "https://kujibikido.com/lp/yominotsugai/img/og.png"
+        },
+        {
           "id": "1bankuji_10756",
           "title": "一番くじ Fate/Grand Order（仮）",
           "brand": "一番くじ",
@@ -8127,6 +8127,32 @@
           "price": null,
           "official_url": "https://1kuji.com/products/streetfighter3",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10786/710c538f-1ff0-4a03-8387-31940c093a5a.webp"
+        },
+        {
+          "id": "capkuji_onimusha",
+          "title": "鬼武者 way of the sword くじ",
+          "brand": "カプくじ",
+          "url": "https://capcom-capkujionline.com/lp/onimusha/",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://capcom-capkujionline.com/lp/onimusha/",
+          "image_url": "https://capcom-capkujionline.com/lp/onimusha/img/og.png",
+          "end_date": "2026-11-13"
+        },
+        {
+          "id": "magic-kyun",
+          "title": "コトブキヤくじ TVアニメ『マジきゅんっ！ルネッサンス』～10th Anniversary～",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/magic-kyun/",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/magic-kyun/",
+          "image_url": null,
+          "end_date": "2026-11-08"
         },
         {
           "id": "min_156",
@@ -8431,6 +8457,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10837/690cd4a7-124e-4270-ad6c-12b886526828.png"
         },
         {
+          "id": "1bankuji_10825",
+          "title": "一番くじ 僕のヒーローアカデミア -うなれ体育祭-",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202702/1bankuji_10825",
+          "month_key": "2027-02",
+          "ip_tags": [],
+          "date": "2027-02-13",
+          "price": null,
+          "official_url": "https://1kuji.com/products/myhero49",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10825/d6e16ddf-3cb9-4ceb-8f5f-cf2faa9b9b1e.webp"
+        },
+        {
           "id": "1bankuji_10828",
           "title": "一番くじ ガンダムG・W・X 30th Anniversary",
           "brand": "一番くじ",
@@ -8441,6 +8479,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/gundam_gwx",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10828/34e47112-74a8-4718-92f8-c023defecc57.webp"
+        },
+        {
+          "id": "1bankuji_10839",
+          "title": "一番くじ 刃牙～世界は、拳ひとつで変えられる～（再販売）",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202702/1bankuji_10839",
+          "month_key": "2027-02",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://1kuji.com/products/baki2-2",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10839/9141e83c-ec44-40ec-b632-c4ea696759ac.webp"
         },
         {
           "id": "sega_bluearchive_bc_kuji",

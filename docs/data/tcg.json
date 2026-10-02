@@ -1,20 +1,6 @@
 {
-  "generated_at": "2026-10-01T12:34:23.279699+09:00",
+  "generated_at": "2026-10-02T12:31:48.837097+09:00",
   "pokemon": [
-    {
-      "id": "pkm_https_www_pokemon_card_com_ex_m6_4fafc8",
-      "game": "pokemon",
-      "category": "拡張パック",
-      "title": "拡張パック「ストームエメラルダ」",
-      "date": "2026-07-31",
-      "date_raw": "2026年 7月31日（金）",
-      "month_key": "2026-07",
-      "price": "200円（税込）",
-      "image_url": "images/tcg/pkm_https_www_pokemon_card_com_ex_m6_4fafc8.jpg",
-      "url": "https://www.pokemon-card.com/ex/m6/",
-      "buy_url": "",
-      "stores": ""
-    },
     {
       "id": "pkm_ps_www_30th_pokemon_card_com_product_m6a_2b1916",
       "game": "pokemon",
@@ -26,48 +12,6 @@
       "price": "360円（税込）",
       "image_url": "images/tcg/pkm_ps_www_30th_pokemon_card_com_product_m6a_2b1916.jpg",
       "url": "https://www.30th.pokemon-card.com/product/m6a",
-      "buy_url": "",
-      "stores": ""
-    },
-    {
-      "id": "pkm_https_www_pokemon_card_com_ex_me_mee_033123",
-      "game": "pokemon",
-      "category": "構築デッキ",
-      "title": "スターターセットex イーブイex",
-      "date": "2026-07-31",
-      "date_raw": "2026年 7月31日（金）",
-      "month_key": "2026-07",
-      "price": "1,800円（税込）",
-      "image_url": "images/tcg/pkm_https_www_pokemon_card_com_ex_me_mee_033123.jpg",
-      "url": "https://www.pokemon-card.com/ex/me/#mee",
-      "buy_url": "",
-      "stores": ""
-    },
-    {
-      "id": "pkm_https_www_pokemon_card_com_ex_me_mez_d8236a",
-      "game": "pokemon",
-      "category": "構築デッキ",
-      "title": "スターターセットex ゾロア＆ゾロアークex",
-      "date": "2026-07-31",
-      "date_raw": "2026年 7月31日（金）",
-      "month_key": "2026-07",
-      "price": "1,800円（税込）",
-      "image_url": "images/tcg/pkm_https_www_pokemon_card_com_ex_me_mez_d8236a.jpg",
-      "url": "https://www.pokemon-card.com/ex/me/#mez",
-      "buy_url": "",
-      "stores": ""
-    },
-    {
-      "id": "pkm_https_www_pokemon_card_com_ex_me_mem_e35f96",
-      "game": "pokemon",
-      "category": "構築デッキ",
-      "title": "スターターセットex ニャオハ＆マスカーニャex",
-      "date": "2026-07-31",
-      "date_raw": "2026年 7月31日（金）",
-      "month_key": "2026-07",
-      "price": "1,800円（税込）",
-      "image_url": "images/tcg/pkm_https_www_pokemon_card_com_ex_me_mem_e35f96.jpg",
-      "url": "https://www.pokemon-card.com/ex/me/#mem",
       "buy_url": "",
       "stores": ""
     },
