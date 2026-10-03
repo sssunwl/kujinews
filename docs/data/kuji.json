@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T12:31:46.964882+09:00",
+  "generated_at": "2026-10-03T12:15:59.115083+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7177,19 +7177,6 @@
           "image_url": null
         },
         {
-          "id": "spv-bb-2026",
-          "title": "MARVEL『SPIDER-MAN: SPIDER-VERSE』 / Happyくじ「BE@RBRICK」",
-          "brand": "Happyくじ",
-          "url": "https://www.h-kuji.com/goods/spv-bb-2026/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": "2026-09-19",
-          "price": null,
-          "official_url": "https://www.h-kuji.com/goods/spv-bb-2026/",
-          "image_url": "https://www.h-kuji.com/wp-content/uploads/2026/08/ead62a2802a9c1f4579d45b0d1bb0b4b.jpg",
-          "end_date": null
-        },
-        {
           "id": "honpo_hajimemashitematsuodesu",
           "title": "タイトーくじ 「はじめまして松尾です」",
           "brand": "タイトーくじ",
@@ -7437,6 +7424,19 @@
           "image_url": null
         },
         {
+          "id": "spv-bb-2026",
+          "title": "MARVEL『SPIDER-MAN: SPIDER-VERSE』 / Happyくじ「BE@RBRICK」",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/spv-bb-2026/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-03",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/spv-bb-2026/",
+          "image_url": "https://www.h-kuji.com/wp-content/uploads/2026/08/ead62a2802a9c1f4579d45b0d1bb0b4b.jpg",
+          "end_date": null
+        },
+        {
           "id": "mushokutensei3_cheer",
           "title": "「無職転生Ⅲ ～異世界行ったら本気だす～」チアガール オンラインくじ",
           "brand": "くじ引き堂",
@@ -7618,6 +7618,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/db_z8",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10727/400fefae-ab68-40b8-abd5-98acbc301603.webp"
+        },
+        {
+          "id": "1bankuji_10752",
+          "title": "一番くじ 〈モンスターズ・インク〉",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202610/1bankuji_10752",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-17",
+          "price": null,
+          "official_url": "https://1kuji.com/products/disney_monsters-inc",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10752/b86bb919-5eab-4caa-9752-1f2fad6dbda4.webp"
         },
         {
           "id": "1bankuji_10762",

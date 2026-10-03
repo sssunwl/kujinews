@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T12:31:48.837097+09:00",
+  "generated_at": "2026-10-03T12:16:04.508892+09:00",
   "pokemon": [
     {
       "id": "pkm_ps_www_30th_pokemon_card_com_product_m6a_2b1916",
@@ -200,16 +200,44 @@
       "stores": ""
     },
     {
+      "id": "op_playmat007",
+      "game": "onepiece",
+      "category": "その他",
+      "title": "オフィシャルプレイマット -ナミ&ロビン-",
+      "date": null,
+      "date_raw": "",
+      "month_key": null,
+      "price": "4,730円(税込)",
+      "image_url": "images/tcg/op_playmat007.webp",
+      "url": "https://www.onepiece-cardgame.com/products/playmat007.html",
+      "buy_url": "",
+      "stores": ""
+    },
+    {
       "id": "op_eb05",
       "game": "onepiece",
       "category": "ブースターパック",
       "title": "エクストラブースター ONE PIECE Heroines Edition vol.2【EB-05】",
-      "date": null,
-      "date_raw": "2026.10",
+      "date": "2026-10-31",
+      "date_raw": "2026.10.31(土)",
       "month_key": "2026-10",
       "price": "240円(税込)",
       "image_url": "images/tcg/op_eb05.webp",
       "url": "https://www.onepiece-cardgame.com/products/eb05.html",
+      "buy_url": "",
+      "stores": ""
+    },
+    {
+      "id": "op_heroines-special.php",
+      "game": "onepiece",
+      "category": "その他",
+      "title": "ONE PIECEカードゲーム ONE PIECE HEROINES PRECIOUS BOX",
+      "date": "2026-10-31",
+      "date_raw": "2026.10.31(土)",
+      "month_key": "2026-10",
+      "price": "8,470円(税込)",
+      "image_url": "images/tcg/op_heroines-special.php.webp",
+      "url": "https://www.onepiece-cardgame.com/products/other/heroines-special.php",
       "buy_url": "",
       "stores": ""
     },
@@ -322,34 +350,6 @@
       "price": "2,640円(税込)",
       "image_url": "images/tcg/op_card_collection_007.webp",
       "url": "https://www.onepiece-cardgame.com/products/card_collection_007.html",
-      "buy_url": "",
-      "stores": ""
-    },
-    {
-      "id": "op_playmat_limited006",
-      "game": "onepiece",
-      "category": "その他",
-      "title": "オフィシャルプレイマット リミテッドエディションvol.6",
-      "date": null,
-      "date_raw": "",
-      "month_key": null,
-      "price": "4,730円(税込)",
-      "image_url": "images/tcg/op_playmat_limited006.webp",
-      "url": "https://www.onepiece-cardgame.com/products/playmat_limited006.html",
-      "buy_url": "",
-      "stores": ""
-    },
-    {
-      "id": "op_sleeve041",
-      "game": "onepiece",
-      "category": "その他",
-      "title": "リミテッドカードスリーブ プレミアムマットvol.6",
-      "date": null,
-      "date_raw": "",
-      "month_key": null,
-      "price": "1,100円(税込)",
-      "image_url": "images/tcg/op_sleeve041.webp",
-      "url": "https://www.onepiece-cardgame.com/products/sleeve041.html",
       "buy_url": "",
       "stores": ""
     }
