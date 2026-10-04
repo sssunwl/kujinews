@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T12:15:59.115083+09:00",
+  "generated_at": "2026-10-04T12:44:13.684863+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6951,7 +6951,7 @@
           "date": "2026-08-28",
           "price": null,
           "official_url": "https://www.taito.co.jp/taitokuji/item/0000011823",
-          "image_url": "https://www.taito.co.jp/Content/images/zone/0/201407/9a798756-0624-436f-afc1-cc2ed0282226_p_01_ja.jpg"
+          "image_url": null
         },
         {
           "id": "mushokutensei3",
@@ -7497,18 +7497,6 @@
           "image_url": "https://kujibikido.com/lp/owataonodera/img/og.png"
         },
         {
-          "id": "shadow-garden_5",
-          "title": "賞品公開【再販】TVアニメ 陰の実力者になりたくて！ オンラインくじ～漆黒の万聖節～",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/shadow-garden_5/",
-          "month_key": "2026-10",
-          "ip_tags": [],
-          "date": "2026-10-08",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/shadow-garden_5/",
-          "image_url": "https://kujibikido.com/lp/shadow-garden_5/img/og.png"
-        },
-        {
           "id": "spicy_wolf_3",
           "title": "賞品公開【再販】「狼と香辛料」 まるごとホロづくし！オンラインくじ",
           "brand": "くじ引き堂",
@@ -7567,6 +7555,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/girls-und-panzer-finale_3/",
           "image_url": "https://kujibikido.com/lp/girls-und-panzer-finale_3/img/og.png"
+        },
+        {
+          "id": "newpsg_2",
+          "title": "賞品公開「New PANTY & STOCKING with GARTERBELT」ハロウィンくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/newpsg_2/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-13",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/newpsg_2/",
+          "image_url": "https://kujibikido.com/lp/newpsg_2/img/og.png"
         },
         {
           "id": "hikaru_bd_2026",
@@ -8481,6 +8481,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10825/d6e16ddf-3cb9-4ceb-8f5f-cf2faa9b9b1e.webp"
         },
         {
+          "id": "sega_bluearchive_bc_kuji",
+          "title": "セガ ラッキーくじ　ブルーアーカイブ -BUNNY CHASER-",
+          "brand": "セガラッキーくじ",
+          "url": "https://kujimap.com/segaluck/sega_bluearchive_bc_kuji",
+          "month_key": "2027-02",
+          "ip_tags": [],
+          "date": "2027-02-16",
+          "price": null,
+          "official_url": "https://segaplaza.jp/lp/bluearchive_bc_kuji/",
+          "image_url": null
+        },
+        {
           "id": "1bankuji_10828",
           "title": "一番くじ ガンダムG・W・X 30th Anniversary",
           "brand": "一番くじ",
@@ -8503,18 +8515,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/baki2-2",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10839/9141e83c-ec44-40ec-b632-c4ea696759ac.webp"
-        },
-        {
-          "id": "sega_bluearchive_bc_kuji",
-          "title": "セガ ラッキーくじ　ブルーアーカイブ -BUNNY CHASER-",
-          "brand": "セガラッキーくじ",
-          "url": "https://kujimap.com/segaluck/sega_bluearchive_bc_kuji",
-          "month_key": "2027-02",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://segaplaza.jp/lp/bluearchive_bc_kuji/",
-          "image_url": null
         }
       ]
     },
