@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T12:44:16.127088+09:00",
+  "generated_at": "2026-10-05T12:19:05.906130+09:00",
   "pokemon": [
     {
       "id": "pkm_ps_www_30th_pokemon_card_com_product_m6a_2b1916",
@@ -228,7 +228,7 @@
       "stores": ""
     },
     {
-      "id": "op_heroines-special.php",
+      "id": "op_heroines-box",
       "game": "onepiece",
       "category": "その他",
       "title": "ONE PIECEカードゲーム ONE PIECE HEROINES PRECIOUS BOX",
@@ -236,8 +236,8 @@
       "date_raw": "2026.10.31(土)",
       "month_key": "2026-10",
       "price": "8,470円(税込)",
-      "image_url": "images/tcg/op_heroines-special.php.webp",
-      "url": "https://www.onepiece-cardgame.com/products/other/heroines-special.php",
+      "image_url": "images/tcg/op_heroines-box.webp",
+      "url": "https://www.onepiece-cardgame.com/products/heroines-box.html",
       "buy_url": "",
       "stores": ""
     },
