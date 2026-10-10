@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T13:01:11.292505+09:00",
+  "generated_at": "2026-10-10T12:39:55.260315+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7407,6 +7407,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10778/f50bb4da-3624-43e7-91af-a7095f29a7aa.webp"
         },
         {
+          "id": "1bankuji_10750",
+          "title": "一番くじ すみっコぐらし～もしもすみっコが進化したら？～",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202610/1bankuji_10750",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-24",
+          "price": null,
+          "official_url": "https://1kuji.com/products/sumikko27",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10750/86f07f60-2d2a-4f4b-816f-e0ba671e4cf5.webp"
+        },
+        {
           "id": "1bankuji_10753",
           "title": "一番くじ 桜蘭高校ホスト部～20th Anniversary～",
           "brand": "一番くじ",
@@ -7447,6 +7459,18 @@
           "title": "一番くじ 進撃の巨人 ～心臓を捧げよ～",
           "brand": "一番くじ",
           "url": "https://kujimap.com/1bankuji/1bankuji_202610/1bankuji_10760/comment-page-1#comment-5947",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-24",
+          "price": null,
+          "official_url": "https://1kuji.com/products/shingeki16",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10760/297cb29d-7678-4f2a-9f86-28bdf55d3a2b.webp"
+        },
+        {
+          "id": "comment-page-1#comment-5948",
+          "title": "一番くじ 進撃の巨人 ～心臓を捧げよ～",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202610/1bankuji_10760/comment-page-1#comment-5948",
           "month_key": "2026-10",
           "ip_tags": [],
           "date": "2026-10-24",
@@ -7602,7 +7626,7 @@
         },
         {
           "id": "1bankuji_10756",
-          "title": "一番くじ Fate/Grand Order（仮）",
+          "title": "一番くじ Fate/Grand Order 〜カルデアピックアップメモリー〜",
           "brand": "一番くじ",
           "url": "https://kujimap.com/1bankuji/1bankuji_202610/1bankuji_10756",
           "month_key": "2026-10",
@@ -7610,7 +7634,7 @@
           "date": "2026-10-31",
           "price": null,
           "official_url": "https://1kuji.com/products/fate29",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10756/7e1e0530-0310-4381-961b-6930189ba124.webp"
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10756/5f55c805-da19-4a27-9e4e-10f7bd768bd0.webp"
         },
         {
           "id": "1bankuji_10757",
@@ -8246,6 +8270,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/onep106",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10827/bd05f42f-381d-4c73-8d73-e7c61bded625.webp"
+        },
+        {
+          "id": "1bankuji_10808",
+          "title": "一番くじ 機動戦士ガンダムSEED FREEDOM & FREEDOM ZERO",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202701/1bankuji_10808",
+          "month_key": "2027-01",
+          "ip_tags": [],
+          "date": "2027-01-16",
+          "price": null,
+          "official_url": "https://1kuji.com/products/gundam-seed",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10808/7f4c5ca7-ba64-4d0e-91bd-7d71858ddade.webp"
         },
         {
           "id": "1bankuji_10809",
