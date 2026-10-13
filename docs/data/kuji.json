@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T12:33:34.926706+09:00",
+  "generated_at": "2026-10-13T13:51:07.276842+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6889,19 +6889,6 @@
           "image_url": null
         },
         {
-          "id": "mushokutensei3",
-          "title": "BS11×KOTOBUKIYA コトブキヤくじ TVアニメ「無職転生Ⅲ 〜異世界行ったら本気だす〜」",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/mushokutensei3/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/mushokutensei3/",
-          "image_url": null,
-          "end_date": "2026-08-23"
-        },
-        {
           "id": "p30th_bkb",
           "title": "P30th 主人公 × ぶくぶ マーカーチャーム",
           "brand": "コトブキヤくじ",
@@ -6913,19 +6900,6 @@
           "official_url": "https://kuji.kotobukiya.co.jp/lp/p30th_bkb/",
           "image_url": null,
           "end_date": "2026-08-26"
-        },
-        {
-          "id": "you-zitsu",
-          "title": "コトブキヤくじ TVアニメ『ようこそ実力至上主義の教室へ』",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/you-zitsu/",
-          "month_key": "2026-08",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/you-zitsu/",
-          "image_url": null,
-          "end_date": "2026-08-16"
         }
       ]
     },
@@ -7200,30 +7174,6 @@
           "image_url": null
         },
         {
-          "id": "girls-und-panzer-finale_3",
-          "title": "ガールズ＆パンツァー 最終章 Newtype オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/girls-und-panzer-finale_3/",
-          "month_key": "2026-10",
-          "ip_tags": [],
-          "date": "2026-10-13",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/girls-und-panzer-finale_3/",
-          "image_url": "https://kujibikido.com/lp/girls-und-panzer-finale_3/img/og.png"
-        },
-        {
-          "id": "everydayhost",
-          "title": "賞品公開えぶりでいホスト＜原作＞オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/everydayhost/",
-          "month_key": "2026-10",
-          "ip_tags": [],
-          "date": "2026-10-15",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/everydayhost/",
-          "image_url": "https://kujibikido.com/lp/everydayhost/img/og.png"
-        },
-        {
           "id": "hikaru_bd_2026",
           "title": "TVアニメ「ヒカルの碁」進藤ヒカルBirthdayくじ2026",
           "brand": "くじ引き堂",
@@ -7323,16 +7273,28 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10726/83adc030-5a0f-4362-af96-afd1c38c4bf7.webp"
         },
         {
-          "id": "majotabi-2026",
-          "title": "賞品公開TVアニメ「魔女の旅々」イレイナ Happy Birthday 2026 オンラインくじ",
+          "id": "edgerunners_2",
+          "title": "賞品公開【再販】サイバーパンク: エッジランナーズ オンラインくじ",
           "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/majotabi-2026/",
+          "url": "https://kujibikido.com/lp/edgerunners_2/",
           "month_key": "2026-10",
           "ip_tags": [],
-          "date": "2026-10-17",
+          "date": "2026-10-20",
           "price": null,
-          "official_url": "https://kujibikido.com/lp/majotabi-2026/",
-          "image_url": "https://kujibikido.com/lp/majotabi-2026/img/og.png"
+          "official_url": "https://kujibikido.com/lp/edgerunners_2/",
+          "image_url": "https://kujibikido.com/lp/edgerunners_2/img/og.png"
+        },
+        {
+          "id": "mahoro-matic",
+          "title": "賞品公開「まほろまてぃっく」オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/mahoro-matic/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": "2026-10-20",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/mahoro-matic/",
+          "image_url": "https://kujibikido.com/lp/mahoro-matic/img/og.png"
         },
         {
           "id": "yofukashi-no-uta_4",
@@ -7825,6 +7787,18 @@
           "official_url": "https://www.h-kuji.com/goods/ornament2026/",
           "image_url": "https://www.h-kuji.com/wp-content/uploads/2026/09/Onmnt26_Relse_0930_01.jpg",
           "end_date": null
+        },
+        {
+          "id": "newpsg_2",
+          "title": "「New PANTY & STOCKING with GARTERBELT」ハロウィンくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/newpsg_2/",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": "2026-11-10",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/newpsg_2/",
+          "image_url": "https://kujibikido.com/lp/newpsg_2/img/og.png"
         },
         {
           "id": "1bankuji_10769",
