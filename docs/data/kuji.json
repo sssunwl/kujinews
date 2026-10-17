@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T11:33:50.341530+09:00",
+  "generated_at": "2026-10-17T11:23:29.685702+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7236,18 +7236,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10726/83adc030-5a0f-4362-af96-afd1c38c4bf7.webp"
         },
         {
-          "id": "yofukashi-no-uta_4",
-          "title": "TVアニメ『よふかしのうた』七草ナズナBirthdayくじ Vol.4",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/yofukashi-no-uta_4/",
-          "month_key": "2026-10",
-          "ip_tags": [],
-          "date": "2026-10-21",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/yofukashi-no-uta_4/",
-          "image_url": "https://kujibikido.com/lp/yofukashi-no-uta_4/img/og.png"
-        },
-        {
           "id": "aoharutetsudou",
           "title": "ミュージカル『青春-AOHARU-鉄道』10周年記念オンラインくじ",
           "brand": "くじ引き堂",
@@ -7801,6 +7789,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/newpsg_2/",
           "image_url": "https://kujibikido.com/lp/newpsg_2/img/og.png"
+        },
+        {
+          "id": "ao-buta_dearfriend",
+          "title": "『青春ブタ野郎はディアフレンドの夢を見ない』オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/ao-buta_dearfriend/",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": "2026-11-12",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/ao-buta_dearfriend/",
+          "image_url": "https://kujibikido.com/lp/ao-buta_dearfriend/img/og.png"
         },
         {
           "id": "chiramune",
