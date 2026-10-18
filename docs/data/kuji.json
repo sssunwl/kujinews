@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T11:23:29.685702+09:00",
+  "generated_at": "2026-10-18T11:26:59.252172+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7272,18 +7272,6 @@
           "image_url": "https://kujibikido.com/lp/kamiina-botan/img/og.png"
         },
         {
-          "id": "syunkasyuutou",
-          "title": "春夏秋冬代行者 オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/syunkasyuutou/",
-          "month_key": "2026-10",
-          "ip_tags": [],
-          "date": "2026-10-22",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/syunkasyuutou/",
-          "image_url": "https://kujibikido.com/lp/syunkasyuutou/img/og.png"
-        },
-        {
           "id": "1bankuji_10778",
           "title": "一番くじ ムーミン ～A day like this～",
           "brand": "一番くじ",
@@ -7619,18 +7607,6 @@
       "label": "2026年11月",
       "items": [
         {
-          "id": "1bankuji_10788",
-          "title": "一番くじ HUNTER×HUNTER CHMERA ANT ②（再販売）",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202611/1bankuji_10788",
-          "month_key": "2026-11",
-          "ip_tags": [],
-          "date": "2026-07-13",
-          "price": null,
-          "official_url": "https://1kuji.com/products/hxh8_2",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10788/c2f8ee0d-8933-40b8-9034-f0597e793ccd.webp"
-        },
-        {
           "id": "5hanayome_wedding",
           "title": "TVスペシャルアニメ『五等分の花嫁＊』メロいウェディングくじ",
           "brand": "くじ引き堂",
@@ -7815,6 +7791,18 @@
           "image_url": "https://kujibikido.com/lp/chiramune/img/og.png"
         },
         {
+          "id": "majotabi-2026",
+          "title": "TVアニメ「魔女の旅々」イレイナ Happy Birthday 2026 オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/majotabi-2026/",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": "2026-11-12",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/majotabi-2026/",
+          "image_url": "https://kujibikido.com/lp/majotabi-2026/img/og.png"
+        },
+        {
           "id": "yowaki-max",
           "title": "『弱気MAX令嬢なのに、辣腕婚約者様の賭けに乗ってしまった』オンラインくじ",
           "brand": "くじ引き堂",
@@ -7849,6 +7837,18 @@
           "price": null,
           "official_url": "https://1kuji.com/products/godzilla10",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10789/827adbcd-6f7c-4d71-8285-79a543854a79.webp"
+        },
+        {
+          "id": "1bankuji_10788",
+          "title": "一番くじ HUNTER×HUNTER CHMERA ANT ②（再販売）",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202611/1bankuji_10788",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": "2026-11-14",
+          "price": null,
+          "official_url": "https://1kuji.com/products/hxh8_2",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10788/c2f8ee0d-8933-40b8-9034-f0597e793ccd.webp"
         },
         {
           "id": "bankuji_10785",
