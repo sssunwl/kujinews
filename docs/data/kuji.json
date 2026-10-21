@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T11:56:25.326960+09:00",
+  "generated_at": "2026-10-21T11:49:06.878472+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -7223,42 +7223,6 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10726/83adc030-5a0f-4362-af96-afd1c38c4bf7.webp"
         },
         {
-          "id": "aoharutetsudou",
-          "title": "ミュージカル『青春-AOHARU-鉄道』10周年記念オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/aoharutetsudou/",
-          "month_key": "2026-10",
-          "ip_tags": [],
-          "date": "2026-10-22",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/aoharutetsudou/",
-          "image_url": "https://kujibikido.com/lp/aoharutetsudou/img/og.png"
-        },
-        {
-          "id": "iwamoto-anime",
-          "title": "「岩元先輩ノ推薦」オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/iwamoto-anime/",
-          "month_key": "2026-10",
-          "ip_tags": [],
-          "date": "2026-10-22",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/iwamoto-anime/",
-          "image_url": "https://kujibikido.com/lp/iwamoto-anime/img/og.png"
-        },
-        {
-          "id": "kamiina-botan",
-          "title": "TVアニメ「上伊那ぼたん、酔へる姿は百合の花」 オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/kamiina-botan/",
-          "month_key": "2026-10",
-          "ip_tags": [],
-          "date": "2026-10-22",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/kamiina-botan/",
-          "image_url": "https://kujibikido.com/lp/kamiina-botan/img/og.png"
-        },
-        {
           "id": "1bankuji_10778",
           "title": "一番くじ ムーミン ～A day like this～",
           "brand": "一番くじ",
@@ -7852,6 +7816,42 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10785/5830b985-0600-4dba-bcfd-7eb921117413.webp"
         },
         {
+          "id": "edgerunners_2",
+          "title": "【再販】サイバーパンク: エッジランナーズ オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/edgerunners_2/",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": "2026-11-17",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/edgerunners_2/",
+          "image_url": "https://kujibikido.com/lp/edgerunners_2/img/og.png"
+        },
+        {
+          "id": "mahoro-matic",
+          "title": "「まほろまてぃっく」オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/mahoro-matic/",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": "2026-11-17",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/mahoro-matic/",
+          "image_url": "https://kujibikido.com/lp/mahoro-matic/img/og.png"
+        },
+        {
+          "id": "osomatsusan",
+          "title": "TVアニメ『おそ松さん』シャンパンファイトくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/osomatsusan/",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": "2026-11-17",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/osomatsusan/",
+          "image_url": "https://kujibikido.com/lp/osomatsusan/img/og.png"
+        },
+        {
           "id": "1bankuji_10794",
           "title": "一番くじ To LOVEる-とらぶる-ダークネス",
           "brand": "一番くじ",
@@ -8129,6 +8129,18 @@
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10819/69aa85a5-de3f-4840-bee7-02424f2a363e.webp"
         },
         {
+          "id": "1bankuji_10734",
+          "title": "一番くじ 五等分の花嫁＊ ~beachside memories~",
+          "brand": "一番くじ",
+          "url": "https://kujimap.com/1bankuji/1bankuji_202612/1bankuji_10734",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": "2026-12-16",
+          "price": null,
+          "official_url": "https://1kuji.com/products/5Hanayome22",
+          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10734/71cba6ca-9dc1-4e96-adde-7b6680f7abb1.webp"
+        },
+        {
           "id": "1bankuji_10830",
           "title": "一番くじ　Mrs. GREEN APPLE ～SCENT OF WINTER～",
           "brand": "一番くじ",
@@ -8175,18 +8187,6 @@
           "price": null,
           "official_url": "https://1kuji.com/products/bluearchive4",
           "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10781/e51116f3-1105-4889-ba53-b775b4cb3875.webp"
-        },
-        {
-          "id": "1bankuji_10734",
-          "title": "一番くじ 五等分の花嫁＊ ~beachside memories~",
-          "brand": "一番くじ",
-          "url": "https://kujimap.com/1bankuji/1bankuji_202612/1bankuji_10734",
-          "month_key": "2026-12",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://1kuji.com/products/5Hanayome22",
-          "image_url": "https://assets.1kuji.com/uploads/product/top_banner/10734/da439ebb-45fa-427c-b952-e0d781a6f1b6.webp"
         },
         {
           "id": "anymy_31",
