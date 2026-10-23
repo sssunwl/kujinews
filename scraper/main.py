@@ -195,6 +195,40 @@ def fmt_ip_news(seen_news: list[str]) -> tuple[str, list[str]]:
     return block, new_uids
 
 
+# ── KUJIUNI 發文提醒（讀 kujiuni.sssuni.com/plan.json，規則喺 Kujiuni/public/assets/plan.js）──
+PLAN_URL = "https://kujiuni.sssunjp.workers.dev/plan.json"  # 自訂網域有 Access,機械人走 workers.dev
+
+
+def fmt_publish_plan() -> str:
+    key = os.environ.get("KUJIUNI_PLAN_KEY", "")
+    if not key:
+        return ""
+    try:
+        import requests
+        r = requests.get(PLAN_URL, headers={"x-plan-key": key}, timeout=20)
+        r.raise_for_status()
+        data = r.json()
+    except Exception as e:
+        print(f"[warn] plan: {e}")
+        return ""
+    days = data.get("days", [])
+    if not days:
+        return ""
+    lines = ["📮 <b>今日要發</b>"]
+    today = [t for t in days[0]["tasks"] if not t.get("done")]
+    if today:
+        lines += [f"・{t['time']} {t['name']}（{t['fmt']}）{t['title']}" for t in today]
+    else:
+        lines.append("・今日冇要發，休息 🛸")
+    lines += ["", "🗓 <b>本週要發</b>"]
+    for d in days[1:]:
+        ts = [t for t in d["tasks"] if not t.get("done")]
+        if ts:
+            lines.append(f"{d['label']} " + "、".join(f"{t['name']}" for t in ts))
+    lines += ["", f'👉 <a href="{data.get("url", "")}">打開發文台：下載圖＋複製文案</a>']
+    return "\n".join(lines)
+
+
 # ── 主程序 ────────────────────────────────────────────────
 def main() -> None:
     seen = load_seen()
@@ -210,8 +244,10 @@ def main() -> None:
     ip_block, new_news_uids = fmt_ip_news(seen["news"])
 
     sep = "──────────────"
+    publish_block = fmt_publish_plan()
     msg_parts = [
         f"🌟 <b>Kuji宇宙 每日報告</b>\n📅 {date_label}",
+        *([f"{sep}\n{publish_block}"] if publish_block else []),
         f"{sep}\n⏰ <b>近期發售くじ（前後3天）</b>\n\n{fmt_upcoming(upcoming)}",
         f"{sep}\n🆕 <b>今日新公告</b>\n\n{fmt_announcements(new_announcements)}",
         f"{sep}\n📰 <b>IP 最新消息</b>\n\n{ip_block}",
