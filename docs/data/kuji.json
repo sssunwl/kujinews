@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T11:47:22.606386+09:00",
+  "generated_at": "2026-10-23T21:54:35.635390+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -16946,6 +16946,18 @@
           "title": "サンリオ あつめて物語シリーズ×ハローキティ カプセルくじ",
           "brand": "サンリオ当りくじ",
           "url": "https://kujimap.com/others/sanrio_monogatari_kitty",
+          "month_key": null,
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": null,
+          "image_url": null
+        },
+        {
+          "id": "sanrio_mx-atarikuji-20261009",
+          "title": "2026年サンリオキャラクター大賞当りくじ",
+          "brand": "サンリオ当りくじ",
+          "url": "https://kujimap.com/others/sanrio_mx-atarikuji-20261009",
           "month_key": null,
           "ip_tags": [],
           "date": null,

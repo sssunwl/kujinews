@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T11:47:30.145799+09:00",
+  "generated_at": "2026-10-23T21:54:39.763279+09:00",
   "pokemon": [
     {
       "id": "pkm_ps_www_30th_pokemon_card_com_product_m6a_2b1916",
@@ -256,6 +256,20 @@
       "stores": ""
     },
     {
+      "id": "op_sleeve047",
+      "game": "onepiece",
+      "category": "その他",
+      "title": "オフィシャルカードスリーブ 17",
+      "date": "2026-12-19",
+      "date_raw": "2026.12.19(土)",
+      "month_key": "2026-12",
+      "price": "990円(税込)",
+      "image_url": "images/tcg/op_sleeve047.webp",
+      "url": "https://www.onepiece-cardgame.com/products/sleeve047.html",
+      "buy_url": "",
+      "stores": ""
+    },
+    {
       "id": "op_st38",
       "game": "onepiece",
       "category": "news",
@@ -350,20 +364,6 @@
       "price": "1,650円(税込)",
       "image_url": "images/tcg/op_baseshop-binder001.webp",
       "url": "https://www.onepiece-cardgame.com/products/baseshop-binder001.html",
-      "buy_url": "",
-      "stores": ""
-    },
-    {
-      "id": "op_playmat_flame-flame-fruit",
-      "game": "onepiece",
-      "category": "その他",
-      "title": "オフィシャルプレイマット＆カードセット-メラメラの実争奪戦Edition-",
-      "date": "2026-10-03",
-      "date_raw": "2026.10.03(土)",
-      "month_key": "2026-10",
-      "price": "4,730円(税込)",
-      "image_url": "images/tcg/op_playmat_flame-flame-fruit.webp",
-      "url": "https://www.onepiece-cardgame.com/products/playmat_flame-flame-fruit.html",
       "buy_url": "",
       "stores": ""
     }
