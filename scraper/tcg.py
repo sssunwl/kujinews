@@ -214,9 +214,16 @@ def fetch_yugioh() -> list[dict]:
             continue
         thumb = o.get("thumbnail", "")
         img = "" if not thumb or "nowprinting" in thumb else YGO_BASE + thumb
-        url = o.get("url") or YGO_BASE
-        if url.startswith("/"):
+        # 官網 url 欄有三種:商品代號(例 wpp7)→ 獨立頁;#cg2087 → 商品列表錨點;空 → 商品列表
+        url = (o.get("url") or "").strip()
+        if not url:
+            url = YGO_BASE
+        elif url.startswith("/"):
             url = "https://www.yugioh-card.com" + url
+        elif url.startswith("#"):
+            url = YGO_BASE + url
+        elif not url.startswith("http"):
+            url = YGO_BASE + url.strip("/") + "/"
         items.append({
             "id": "ygo_" + o.get("id", ""), "game": "yugioh", "category": o.get("class-name", ""),
             "title": re.sub(r"\s+", " ", o.get("title", "")).strip(), "date": date, "date_raw": rd, "month_key": mk,
