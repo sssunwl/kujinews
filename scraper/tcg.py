@@ -3,6 +3,10 @@ Generate docs/data/tcg.json — Pokemon TCG (ポケカ) + ONE PIECE カードゲ
 
 Pokemon: official JSON API  pokemon-card.com/products/resultAPI.php
 OPTCG:   static HTML        onepiece-cardgame.com/products/
+遊戯王OCG: 商品頁 inline JS  yugioh-card.com/japan/products/(p[n]={...})
+DBFW:    static HTML        dbs-cardgame.com/fw/jp/products/
+抽選販売: 各官方新聞頁標題含「抽選／受注／予約受付」(排除大會、活動報名)
+ポケモンセンターオンライン 抽選頁有 Queue-it 排隊系統,唔抓;用ポケカ官網資訊頁嘅公告代替。
 """
 import hashlib
 import json
@@ -178,14 +182,140 @@ def fetch_optcg() -> list[dict]:
     return items
 
 
+YGO_BASE = "https://www.yugioh-card.com/japan/products/"
+DBFW_BASE = "https://www.dbs-cardgame.com"
+RECENT_DAYS = 120  # 只收最近 4 個月同之後嘅商品,舊貨唔要
+
+
+def _recent(date: Optional[str], month_key: Optional[str]) -> bool:
+    cut = (datetime.now(JST) - timedelta(days=RECENT_DAYS)).strftime("%Y-%m-%d")
+    return (date or (month_key + "-28" if month_key else "9999")) >= cut
+
+
+def fetch_yugioh() -> list[dict]:
+    try:
+        r = requests.get(YGO_BASE, headers=HEADERS, timeout=20)
+        r.raise_for_status()
+        html = r.content.decode("utf-8", "ignore")
+    except Exception as e:
+        print(f"[tcg] yugioh error: {e}")
+        return []
+    items = []
+    for m in re.finditer(r"p\[\d+\]=(\{.*?\});?\s*$", html, re.M):
+        raw = re.sub(r":'([^']*)'", r':"\1"', m.group(1))
+        try:
+            o = json.loads(raw)
+        except ValueError:
+            continue
+        rd = o.get("release-date", "")
+        date = _pkm_parse_date(rd)
+        mk = _pkm_month_key(rd)
+        if not _recent(date, mk):
+            continue
+        thumb = o.get("thumbnail", "")
+        img = "" if not thumb or "nowprinting" in thumb else YGO_BASE + thumb
+        url = o.get("url") or YGO_BASE
+        if url.startswith("/"):
+            url = "https://www.yugioh-card.com" + url
+        items.append({
+            "id": "ygo_" + o.get("id", ""), "game": "yugioh", "category": o.get("class-name", ""),
+            "title": re.sub(r"\s+", " ", o.get("title", "")).strip(), "date": date, "date_raw": rd, "month_key": mk,
+            "price": o.get("price-intax", ""), "image_url": img, "url": url, "buy_url": "", "stores": "",
+        })
+    print(f"[tcg] yugioh: {len(items)} items")
+    return items
+
+
+def fetch_dbfw() -> list[dict]:
+    try:
+        r = requests.get(DBFW_BASE + "/fw/jp/products/", headers=HEADERS, timeout=20)
+        soup = BeautifulSoup(r.content, "lxml")
+    except Exception as e:
+        print(f"[tcg] dbfw error: {e}")
+        return []
+    items, seen = [], set()
+    for a in soup.select("li.prpductListItem a.cardLink, li.cardCol a.cardLink"):
+        href = a.get("href", "")
+        uid = "dbfw_" + href.rstrip("/").split("/")[-1].replace(".html", "")
+        if uid in seen:
+            continue
+        seen.add(uid)
+        title = (a.select_one(".cardText") or a).get_text(" ", strip=True)
+        info = {dl.select_one("dt").get_text(strip=True): dl.select_one("dd").get_text(" ", strip=True) for dl in a.select("dl.cardInfoBox") if dl.select_one("dt") and dl.select_one("dd")}
+        rd = info.get("発売日", "")
+        m = re.search(r"(20\d\d)\.(\d{1,2})\.(\d{1,2})", rd)
+        date = f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}" if m else None
+        m2 = re.search(r"(20\d\d)\.(\d{1,2})", rd)
+        mk = date[:7] if date else (f"{m2.group(1)}-{int(m2.group(2)):02d}" if m2 else None)
+        if not _recent(date, mk):
+            continue
+        im = a.find("img")
+        img = (im.get("data-src") or im.get("src") or "") if im else ""
+        if "noimage" in img:
+            img = ""
+        if img.startswith("/"):
+            img = DBFW_BASE + img
+        items.append({
+            "id": uid, "game": "dbfw", "category": "", "title": title, "date": date, "date_raw": rd, "month_key": mk,
+            "price": info.get("メーカー希望小売価格", ""), "image_url": img, "url": href if href.startswith("http") else DBFW_BASE + href,
+            "buy_url": "", "stores": "",
+        })
+    print(f"[tcg] dbfw: {len(items)} items")
+    return items
+
+
+LOTTERY_KW = re.compile(r"抽選|受注|予約受付|先行販売")
+LOTTERY_SKIP = re.compile(r"エントリー|大会|イベント|リーグ|CUP|カップ|チャンピオン|参加|結果発表")
+NEWS = [
+    ("pokemon", "https://www.pokemon-card.com/info/", "https://www.pokemon-card.com"),
+    ("onepiece", "https://www.onepiece-cardgame.com/news/", "https://www.onepiece-cardgame.com"),
+    ("yugioh", "https://www.yugioh-card.com/japan/information/", "https://www.yugioh-card.com/japan/information/"),
+    ("dbfw", "https://www.dbs-cardgame.com/fw/jp/archive/?subcategory=news&series=fw_real", "https://www.dbs-cardgame.com"),
+]
+
+
+def fetch_lottery() -> list[dict]:
+    """抽選販売／受注／予約受付公告(只係官方公告標題+連結+日期,唔入購物網站)。"""
+    out, seen = [], set()
+    for game, url, base in NEWS:
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=20)
+            soup = BeautifulSoup(r.content, "lxml")
+        except Exception as e:
+            print(f"[tcg] lottery {game} error: {e}")
+            continue
+        for a in soup.find_all("a", href=True):
+            t = re.sub(r"\s+", " ", a.get_text(" ", strip=True))
+            if not LOTTERY_KW.search(t) or LOTTERY_SKIP.search(t) or len(t) < 8:
+                continue
+            href = a["href"].strip()
+            if not href.startswith("http"):
+                href = (base.rstrip("/") + "/" + href.lstrip("/")) if not href.startswith("/") else re.match(r"https?://[^/]+", base).group(0) + href
+            m = re.search(r"(20\d\d)[./年]\s*(\d{1,2})[./月]\s*(\d{1,2})", t)
+            date = f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}" if m else None
+            title = re.sub(r"\s*(20\d\d[./年]\s*\d{1,2}[./月]\s*\d{1,2}日?)\s*$", "", t)
+            title = re.sub(r"^(その他|商品|イベント|お知らせ)\s+", "", title).replace("(外部リンク)", "").strip()
+            key = (game, href)
+            if key in seen:
+                continue
+            seen.add(key)
+            out.append({"id": "lot_" + hashlib.md5(href.encode()).hexdigest()[:10], "game": game, "title": title, "date": date, "url": href})
+    out.sort(key=lambda x: x["date"] or "", reverse=True)
+    print(f"[tcg] lottery: {len(out)} notices")
+    return out[:60]
+
+
 def build_tcg() -> dict:
     pokemon = fetch_pokemon()
     onepiece = fetch_optcg()
-    for it in pokemon + onepiece:
+    yugioh = fetch_yugioh()
+    dbfw = fetch_dbfw()
+    lottery = fetch_lottery()
+    for it in pokemon + onepiece + yugioh + dbfw:
         it["image_url"] = _mirror_image(it["image_url"], it["id"])
     # 清掉不再被引用的鏡像圖,避免累積
     if IMG_DIR.exists():
-        used = {it["image_url"].split("/")[-1] for it in pokemon + onepiece
+        used = {it["image_url"].split("/")[-1] for it in pokemon + onepiece + yugioh + dbfw
                 if it["image_url"].startswith("images/")}
         for f in IMG_DIR.iterdir():
             if f.name not in used:
@@ -194,6 +324,9 @@ def build_tcg() -> dict:
         "generated_at": datetime.now(JST).isoformat(),
         "pokemon": pokemon,
         "onepiece": onepiece,
+        "yugioh": yugioh,
+        "dbfw": dbfw,
+        "lottery": lottery,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, ensure_ascii=False, indent=2))
