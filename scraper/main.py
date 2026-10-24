@@ -225,6 +225,10 @@ def fmt_publish_plan() -> str:
         ts = [t for t in d["tasks"] if not t.get("done")]
         if ts:
             lines.append(f"{d['label']} " + "、".join(f"{t['name']}" for t in ts))
+    online = data.get("online", [])
+    if online:
+        lines += ["", "🌐 <b>一番くじONLINE 開賣</b>（日本時間）"]
+        lines += [f"・{o['day']} {o['time']} {o['name']}" for o in online]
     lines += ["", f'👉 <a href="{data.get("url", "")}">打開發文台：下載圖＋複製文案</a>']
     return "\n".join(lines)
 
