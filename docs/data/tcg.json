@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T11:21:57.122928+09:00",
+  "generated_at": "2026-10-26T11:22:06.128499+09:00",
   "pokemon": [
     {
       "id": "pkm_ps_www_30th_pokemon_card_com_product_m6a_2b1916",
@@ -730,20 +730,6 @@
       "price": "1パック 198円",
       "image_url": "images/tcg/ygo_cg2119.png",
       "url": "https://www.yugioh-card.com/japan/products/betb/",
-      "buy_url": "",
-      "stores": ""
-    },
-    {
-      "id": "ygo_cg2090",
-      "game": "yugioh",
-      "category": "コンセプトパック",
-      "title": "WORLD PREMIERE PACK 2026",
-      "date": "2026-06-27",
-      "date_raw": "2026年6月27日(土)",
-      "month_key": "2026-06",
-      "price": "1パック 198円",
-      "image_url": "images/tcg/ygo_cg2090.png",
-      "url": "https://www.yugioh-card.com/japan/products/wpp7/",
       "buy_url": "",
       "stores": ""
     }
