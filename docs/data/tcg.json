@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T11:22:06.128499+09:00",
+  "generated_at": "2026-10-27T11:57:28.263011+09:00",
   "pokemon": [
     {
       "id": "pkm_ps_www_30th_pokemon_card_com_product_m6a_2b1916",
@@ -272,12 +272,12 @@
     {
       "id": "op_st38",
       "game": "onepiece",
-      "category": "news",
+      "category": "スタートデッキ",
       "title": "スタートデッキ バロックワークス【ST-38】",
       "date": "2026-12-19",
       "date_raw": "2026.12.19(土)",
       "month_key": "2026-12",
-      "price": "1,320円(税込)",
+      "price": "1,430円(税込)",
       "image_url": "images/tcg/op_st38.webp",
       "url": "https://www.onepiece-cardgame.com/products/st38.html",
       "buy_url": "",
@@ -291,7 +291,7 @@
       "date": "2026-12-19",
       "date_raw": "2026.12.19(土)",
       "month_key": "2026-12",
-      "price": "1,320円(税込)",
+      "price": "1,430円(税込)",
       "image_url": "images/tcg/op_st37.webp",
       "url": "https://www.onepiece-cardgame.com/products/st37.html",
       "buy_url": "",
