@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T11:57:19.413973+09:00",
+  "generated_at": "2026-10-28T12:06:53.392588+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6616,6 +6616,19 @@
           "official_url": "https://kuji.kotobukiya.co.jp/lp/arcanadea2/",
           "image_url": null,
           "end_date": "2026-10-12"
+        },
+        {
+          "id": "kuruiduki",
+          "title": "コトブキヤくじ 狂い月",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/kuruiduki/",
+          "month_key": "2026-10",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/kuruiduki/",
+          "image_url": null,
+          "end_date": "2026-10-30"
         },
         {
           "id": "otomekaiju",
