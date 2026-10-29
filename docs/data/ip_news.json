@@ -1,6 +1,26 @@
 {
   "ワンピース": [
     {
+      "title": "フィギュアページに「モンキー・D・ルフィ」「ナミ」ほかのアイテムを追加！",
+      "title_zh": "人物頁面追加了「蒙奇·D·路飛」、「娜美」等商品！",
+      "url": "https://one-piece.com/news/83133/index.html"
+    },
+    {
+      "title": "「S.H.Figuarts エドワード・ニューゲート(白ひげ) -マリンフォード頂上決戦-」10月30日(金)16:00より二次受注受付決定",
+      "title_zh": "「S.H.Figuarts 愛德華·紐蓋特（白鬍子）-馬林福德山頂之戰-」將於 10 月 30 日星期五 16:00 開始接受二次訂購",
+      "url": "https://one-piece.com/news/82918/index.html"
+    },
+    {
+      "title": "ONE PIECE BASE SHOPにてONE PIECEカードゲーム カードコレクション第2弾が先行販売",
+      "title_zh": "海賊王卡牌遊戲卡牌合輯第2版在ONE PIECE BASE SHOP提前販售",
+      "url": "https://one-piece.com/news/83105/index.html"
+    },
+    {
+      "title": "『ONE PIECE×NBA』「ミッチ・リッチモンド」インタビュー動画公開",
+      "title_zh": "《ONE PIECE x NBA》「米奇·里士滿」訪談影片公開",
+      "url": "https://one-piece.com/news/83136/index.html"
+    },
+    {
       "title": "「LUFFY’s ONE PIECE新幹線 -せとうちブルー号-」が10月28日(水)よりプレミアムバンダイで受注開始",
       "title_zh": "《路飛的海盜王 新幹線 -瀨戶內藍-》將於 10 月 28 日（週三）起在 Premium Bandai 開始發售",
       "url": "https://one-piece.com/news/82984/index.html"
@@ -17,7 +37,7 @@
     },
     {
       "title": "『ONE PIECE』コラボデザインの花王「バブ」が11月7日(土)より数量限定発売",
-      "title_zh": "花王「Bub」與「ONE PIECE」合作設計將於11月7日（週六）起限量發售",
+      "title_zh": "《ONE PIECE》合作設計花王「Bub」將於11月7日（週六）起限量發售",
       "url": "https://one-piece.com/news/83049/index.html"
     },
     {
@@ -27,7 +47,7 @@
     },
     {
       "title": "麦わらストアの1月バースデー商品にエース、キッドが登場",
-      "title_zh": "",
+      "title_zh": "Ace 和 Kid 出現在 Mugiwara Store 的 1 月生日產品中",
       "url": "https://one-piece.com/news/83032/index.html"
     },
     {
@@ -37,7 +57,7 @@
     },
     {
       "title": "バンプレストの「BATTLE RECORD COLLECTION」にロロノア・ゾロが登場",
-      "title_zh": "",
+      "title_zh": "羅羅諾亞·索隆出現在 Banpresto 的“BATTLE RECORD COLLECTION”中",
       "url": "https://one-piece.com/news/83027/index.html"
     },
     {
@@ -47,36 +67,46 @@
     },
     {
       "title": "「ONE PIECE × ナムコキャンペーン2026」に「ワンピース ちびぐるみ～エルバフ～」が追加",
-      "title_zh": "",
+      "title_zh": "“ONE PIECE×Namco Campaign 2026”中追加“海賊王Chibigurumi ~Elbaf~”",
       "url": "https://one-piece.com/news/83029/index.html"
     },
     {
       "title": "バンプレストより11月登場予定の『ONE PIECE』最新プライズ商品情報が公開",
       "title_zh": "Banpresto發表預定11月發售的《ONE PIECE》最新獎品訊息",
       "url": "https://one-piece.com/news/83013/index.html"
-    },
-    {
-      "title": "麦わらストアに「銀座 松﨑煎餅」とコラボレーションした特製瓦煎餅が登場",
-      "title_zh": "與「銀座松崎仙貝」合作的特別瓷磚仙貝現已在麥原店發售",
-      "url": "https://one-piece.com/news/83031/index.html"
-    },
-    {
-      "title": "麦わらストア各店デザインの「ストアネームシリーズ」が全店登場",
-      "title_zh": "由各麥原店設計的「店名系列」現已在全店發售",
-      "url": "https://one-piece.com/news/83030/index.html"
-    },
-    {
-      "title": "『ONE PIECE トレジャークルーズ』で「12.5th Anniv.超スゴフェス!!」が開催中",
-      "title_zh": "",
-      "url": "https://one-piece.com/news/83004/index.html"
-    },
-    {
-      "title": "「ONE PIECE×NBA」S.H.Figuartsアイテム3商品が10月24日(土)に一般発売",
-      "title_zh": "「ONE PIECE x NBA」S.H.Figuarts 3 款單品將於 10 月 24 日（星期六）公開發售",
-      "url": "https://one-piece.com/news/83076/index.html"
     }
   ],
   "ドラゴンボール": [
+    {
+      "title": "森永アロエヨーグルト×『ドラゴンボール超 ビルス』コラボキャンペーン開催！GOODS2026.10.29",
+      "title_zh": "森永蘆薈優格×《七龍珠超比魯斯》合作活動舉辦！商品2026.10.29",
+      "url": "https://dragon-ball-official.com/news/01_4534.html"
+    },
+    {
+      "title": "「ドラゴンボール ゼノバース３」の「マルチプレイ」試遊動画をVジャンプチャンネルにて公開中！GAME2026.10.29",
+      "title_zh": "《七龍珠Xenoverse 3》「多人遊戲」試玩影片現已在V Jump頻道上架！遊戲2026.10.29",
+      "url": "https://dragon-ball-official.com/news/01_4514.html"
+    },
+    {
+      "title": "[鳥山明ほぼ全仕事] 1日おきに更新24時間限定公開！　2026/10/29COLUMNS2026.10.29",
+      "title_zh": "【鳥山明幾乎全部作品】隔日更新，24小時開放！　2026/10/29專欄2026.10.29",
+      "url": "https://dragon-ball-official.com/news/01_4525.html"
+    },
+    {
+      "title": "【第104回】とよたろうが描いてみた！【フリーザ軍のあの人！】COLUMNS2026.10.28",
+      "title_zh": "[不。 104]丰太郎尝试画画！ 【弗利萨军的那个人！ 】專欄2026.10.28",
+      "url": "https://dragon-ball-official.com/news/01_4539.html"
+    },
+    {
+      "title": "「ニューヨーク・コミコン2026」の「ドラゴンボールブース」フォトレポート！EVENT2026.10.28",
+      "title_zh": "《紐約動漫展 2026》《七龍珠攤位》圖片報導！活動2026.10.28",
+      "url": "https://dragon-ball-official.com/news/01_4515.html"
+    },
+    {
+      "title": "日本のギターブランドIbanez（アイバニーズ）が『ドラゴンボールZ』とのコラボレーションを発表！GOODS2026.10.28",
+      "title_zh": "日本吉他品牌Ibanez宣布與《七龍珠Z》合作！商品2026.10.28",
+      "url": "https://dragon-ball-official.com/news/01_4521.html"
+    },
     {
       "title": "DRAGON BALL SPIRITFLICKS 03が登場！FIGURE2026.10.28",
       "title_zh": "《七龍珠魂》03來了！圖2026.10.28",
@@ -84,7 +114,7 @@
     },
     {
       "title": "ドラゴンボール超 ビルス SOLID EDGE WORKS-THE出陣-ウイスが登場！FIGURE2026.10.28",
-      "title_zh": "龙珠超比鲁斯 SOLID EDGE WORKS-THE Departure-Whis 登场！圖2026.10.28",
+      "title_zh": "七龍珠超比魯斯 SOLID EDGE WORKS-THE Departure-Whis 登場！圖2026.10.28",
       "url": "https://dragon-ball-official.com/news/01_4501.html"
     },
     {
@@ -106,36 +136,6 @@
       "title": "【10月26日（月）】「Weekly Dragonball News」配信！COLUMNS2026.10.27",
       "title_zh": "【10月26日（週一）】《七龍珠新聞週刊》發行！專欄2026.10.27",
       "url": "https://dragon-ball-official.com/news/01_4532.html"
-    },
-    {
-      "title": "「マルちゃん正麺×ドラゴンボール超 ビルス」限定グッズが当たるキャンペーンが開催！GOODS2026.10.27",
-      "title_zh": "正在舉辦有機會贏取「丸燦正面×龍珠超級比魯斯」限定商品的活動！商品2026.10.27",
-      "url": "https://dragon-ball-official.com/news/01_4520.html"
-    },
-    {
-      "title": "リカバリーウェアのパイオニアブランド「VENEX」とのコラボリカバリーウェア第二弾が発売！GOODS2026.10.27",
-      "title_zh": "与康复服先锋品牌“VENEX”的第二款合作康复服现已发售！商品2026.10.27",
-      "url": "https://dragon-ball-official.com/news/01_4524.html"
-    },
-    {
-      "title": "ウィークリー☆キャラクター紹介！第279回目は『ドラゴンボール超』の「ユズン」！COLUMNS2026.10.27",
-      "title_zh": "每週☆人物介紹！第279集是《七龍珠超》中的「玉尊」！專欄2026.10.27",
-      "url": "https://dragon-ball-official.com/news/01_4528.html"
-    },
-    {
-      "title": "ドラゴンボールZ SOFVIMATES～魔人ブウ～が登場！FIGURE2026.10.27",
-      "title_zh": "七龍珠Z SOFVIMATES ～魔人佈歐～登場！圖2026.10.27",
-      "url": "https://dragon-ball-official.com/news/01_4499.html"
-    },
-    {
-      "title": "Vジャンプ12月特大号発売中!!「ドラゴンボール」のゲーム＆グッズの最新情報が満載！BOOKS2026.10.21",
-      "title_zh": "V Jump 12月特刊發售！ ！匯集了《七龍珠》遊戲和周邊的最新資訊！書籍2026.10.21",
-      "url": "https://dragon-ball-official.com/news/01_4505.html"
-    },
-    {
-      "title": "【フュージョンワールド情報】Vジャンプ1月特大号付録カード「孫悟飯：SH」のスキルを公開！CARD2026.10.21",
-      "title_zh": "【融合世界情報】V Jump 1月號特刊附錄卡「孫悟飯：SH」技能公開！卡2026.10.21",
-      "url": "https://dragon-ball-official.com/news/01_4513.html"
     }
   ],
   "REBORN!": [
@@ -151,7 +151,7 @@
     },
     {
       "title": "キャラソンリスニングパーティー開催！",
-      "title_zh": "",
+      "title_zh": "舉辦角色歌聆聽會！",
       "url": "https://khreborn-anime.jp/news/370/"
     },
     {
@@ -176,7 +176,7 @@
     },
     {
       "title": "アニメ『家庭教師ヒットマンREBORN!』公式オンラインショップOPEN！20th ANNIVERSARYグッズも販売！",
-      "title_zh": "动画《家庭教师杀手 REBORN!》官方网上商店开业！ 20th ANNIVERSARY 商品也正在販售！",
+      "title_zh": "動畫《家庭教師殺手 REBORN!》官方網路商店開幕！ 20th ANNIVERSARY 商品也正在販售！",
       "url": "https://khreborn-anime.jp/news/75/"
     },
     {
@@ -192,82 +192,92 @@
   ],
   "ちいかわ": [
     {
-      "title": "しまむらで「ちいかわ」グッズが11月3日15時よりオンライン販売！寒い季節にピッタリなもこもこルームシューズ全4種 - インサイド",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wbGJndndxVDBCa1hKRnVOZ0psX1hXbkdxMkNmVHlVR0x1ZDlEampzNkhzbG5hMzFuUzRVcjY3eHJBN3dlU05oN05kNHhvZzh2SENTRE1pMm1jdy1QcDdneVZmbWxsZm0tbWc?oc=5"
+      "title": "画像・写真 | 77歳・糸井重里『ちいかわ』イラスト描きネット注目 少し雰囲気が変わり「可愛い」 2枚目 - オリコンニュース",
+      "title_zh": "圖片/照片 | 77歲糸井茂裡的《千井川》插畫在網上引起關注；氣氛有點變化，第二張照片“可愛” - Oricon News",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBrSTM5N29IcTBhSUluY1cwbTA4WFBfRktIUzdPbll0bWRyTTVMcnR3cndzb0plamRHaUFlbFRDRDJKM1FxQzB4anNWZ2pHc3JMNTZkNHBFa0dDUQ?oc=5"
     },
     {
-      "title": "【しまむら×ちいかわ】「メンズがない…涙」 税込み869円「メンズも売って」！ 要望あいつぐ、冬の “あったか” グッズ（LASISA） - Yahoo!ニュース",
-      "title_zh": "[島村×千川]「沒有男裝…眼淚」含稅869日圓「男裝也有賣」！冬季“溫暖”商品需求（LASISA） - 雅虎！訊息",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4dVUxR3lTMW96VHVteVJ6QktMejNvNkJFTTZRM2pYcWpXNzIwZEtWNVVaQ2pqZEVJM2N1Z1hPdjdrbUpBRG83Tk9DYWNIaXZCRzZTb2hLaDVNMWtPc0IwV0F2aGVpT2V1LWxNeVRiNWdCOFViekdLOEpXX1hVVzg?oc=5"
+      "title": "77歳・糸井重里『ちいかわ』イラスト描きネット注目 少し雰囲気が変わり「可愛い」 - 佐賀新聞",
+      "title_zh": "77歲糸井重裡的插畫《千井川》在網路上引起關注，氣氛有點變化，很「可愛」 - 佐賀新聞",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1yZnBzR0VuQVNDQXhVWExXOG1vM09Vd2RxLWVrS1ZIbzltX1RlR1hlb0dqZ0lucE05UGI3TEs2S3pVNGdfLTZXVHBKYkhnLWpSQ1pkTzJR?oc=5"
     },
     {
-      "title": "ちいかわ ふわふわルームシューズ しまむらで11月3日発売! - コラボカフェ",
-      "title_zh": "Chikawa Fluffy Room Shoes 將於 11 月 3 日在島村發售！ - 合作咖啡廳",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNN0RWVGluSUhGSTNhNHZ3S3dCM0N6WmRKVWV2V2hVcV9TLUpVb3R3YktUM2tYYlBNX2oyallRVTVzTE1oWk4xX3JYaFJUazlwUG9vWDRIa1J0dzc2WE5lYzFFbEllaEFQLVhQN1FWTzFERXlKU0RGSDZvVW5sTXNTTWxJSHFwVkxN?oc=5"
+      "title": "画像・写真 | 77歳・糸井重里『ちいかわ』イラスト描きネット注目 少し雰囲気が変わり「可愛い」 3枚目 - オリコンニュース",
+      "title_zh": "圖片/照片 | 77歲糸井茂裡的《千井川》插畫在網上引起關注；氣氛有點變化，第3張照片‘可愛’ - Oricon新聞",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45d0tQdFNiOEV3ZUdpV3hQblBPMzhoTnh5aFBad2NkSnE2ZTBFSUE3R1F1bmVYVDFvVHJHQ2kwVlV2Ym5MaG9mbXlEQjZPamtSc2pfZFNJUW10dw?oc=5"
     },
     {
-      "title": "「映画が最高すぎました」　“ちいかわのキャラ”人気ランキング上位に「とにかく可愛い！」「声もいい」「最推しです」の声（1/3） | 漫画 ねとらぼリサーチ - ねとらぼ",
-      "title_zh": "「電影太棒了」人氣排名第一的「千井川角色」：「太可愛了！」「她的聲音很棒」「她是我的最愛」(1/3) |漫畫 Netorabo 研究 - Netorabo",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ZS3ZCc3M3d1EyRVdDZ0tjSGt5dGdXeW03LU5wS3N1ZGNZQVVCME9mUDZiTElfdlhIT0ZBQ282bU1oMmt3bUVOVF85V2kyV1FTbXljSVM2Z3U4b19OeUEyZ204d9IBaEFVX3lxTE9tRVFyUzZrcFJ5aDNYc1lYUWlOX0tXajI5bDNpS3lGM20wSVBTLXpwT0xQeFdRYlR4bW04RGNMdUx3amp0ZnhYbl9Ic0NOblVZTGEwMUFSQklDOGJCNUZtVE9aZWRCUWZu?oc=5"
+      "title": "ちいかわ×GU、寒い雪の日も楽しめる新作アイテム ニットやルームウェアなど（画像106枚） - ナタリー",
+      "title_zh": "Chikawa x GU，寒冷下雪天也能享受的新單品 - 針織品、家居服等（106 張） - Natalie",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1sdHVDdldla0FzOFhyYzdBTW9vY3lHUGoycWJwN0JmMF96YVBvSVBNZ2o5b2taX2dHbEtqZ1JGVFF2VHZiLWFMcUlZTHE?oc=5"
     },
     {
-      "title": "テイクアウトショップ「ちいかわベビーカステラ 京都錦店」が11月18日(水)、錦市場にグランドオープン！ - PR TIMES",
-      "title_zh": "外賣店「Chiikawa Baby Castella京都錦店」將於11月18日（週三）在錦市場盛大開幕！ - 公關時報",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBqajNQb1cxTXV2aWxYMngyQTV2TTRhdjhHeEpVNWZMZjA1TW1fZmRJRzZvYjVuMG45XzI5dUh4OEgyNDVDZGtBZExtZHhTdGtyZ3lHcU1sUXVTcjc2MWdya2NETVBjMWh5YWc?oc=5"
+      "title": "『ちいかわ』最新話にディッピンドッツ公式が反応「実写すぎる」「再現度高いですね」「仕事が早い」【ネタバレあり】（オリコン） - Yahoo!ニュース",
+      "title_zh": "Dippin' Dots 官方對《Chiikawa》最新一集的反應：“太真人化了”“再現非常好”“工作速度很快” [包含劇透]（Oricon） - 雅虎！訊息",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qVnZ2U3ZfYmpqbC1WOTZxVGtiVU1MeXZsS0dYQUpMOU0zMTljTnhLUWtrekVJNUQ1X0VrVnVMcDRHRmJrUlk3REpaOGFEZDlOOGhVeHE3MlM0QlJrb05GVkJiNWJ5ak5EMG9YUU11cU1yckk0X1NpcFlJZzlxOUU?oc=5"
     },
     {
-      "title": "京都・錦市場に「ちいかわベビーカステラ」2号店がオープン（GAME Watch） - Yahoo!ニュース",
-      "title_zh": "Chikawa Baby Castella 第二家店在京都錦市場開幕（GAME Watch） - 雅虎！訊息",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qVXNzOGFaeWZkOXZSaV9aNnFoMzU4VnBDa1p4REpCWC1RQnl4NVZjdDBQU0s0LWlmSnYteFZBcGFsQ09qbmVzVnppRFdVRDd4cG1GLXBWSnc0a25EVXJGZVloczlfMXhsU1VCT0NoRUZUWXFJUEZuQlNzejV2bVk?oc=5"
+      "title": "『ちいかわ』最新話にディッピンドッツ公式が反応「実写すぎる」「再現度高いですね」「仕事が早い」【ネタバレあり】 - オリコンニュース",
+      "title_zh": "Dippin' Dots官方對《Chiikawa》最新一集的反應：“太真人化了”“再現非常好”“工作速度很快”[包含劇透] - Oricon新聞",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1kUE5CWUNZYUpEcGRmeksxLWZ4YXdzWXRNRTVNZlZmeW9DeVh0ZS1PYl9adzMyQm1UQTlqeDJXWHZoMlRuMEw2WkdhT1hLV1U?oc=5"
     },
     {
-      "title": "大人気「ちいかわ」のかわいいイラストがいっぱい！ “おふろに貼れるおけいこポスター”『ちいかわ おふろでたのしく おけいこポスター もじ＆かず＆とけい』が10月28日(水)発売！ - KADOKAWAオフィシャルサイト",
-      "title_zh": "超多人氣「Chiikawa」的可愛插畫！ 「可以貼在浴缸裡的惠子海報」「Chiikawa Bath Fun Poster Moji＆Kazu＆Tokei」將於10月28日（週三）發行！ - 角川官方網站",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSbzhDY2dSUEt1YnkwbmN1Z0VDMEp5dFhIU2t4aGg4LUdZQzFRYVNieUlMU3dXQXN6OHBHMHRmZWhDUVg4Y05IMHEwNk95djVFblE?oc=5"
+      "title": "【実際の投稿】「サイコーじゃんッ」まさかの『ちいかわ』「巨ディッピンドッツ」再現 - 中日新聞Web",
+      "title_zh": "[實際帖子]“驚人”再現“Chiikawa”和“Giant Dippin' Dots” - 中日新聞 Web",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAtUmo1dVBVV1lKYk1DR0Y3N3FMbXIza2tnbTA3YnF0ajd3QldHNjlId0xTODIwaEtfZ3BINU1hazllZ1dnVGJfcVJmaTNwaS00eVNSRA?oc=5"
     },
     {
-      "title": "「ちいかわ」テディベア姿のクリスマスぬいぐるみ登場！「Kiramekko Teddy Bear Christmas」11月6日発売（アニメ！アニメ！） - Yahoo!ニュース",
-      "title_zh": "戴著泰迪熊的聖誕毛絨玩具“Chiikawa”現已上市！ 「Kiramekko 泰迪熊聖誕節」於 11 月 6 日發售（動漫！動漫！） - 雅虎！訊息",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1SSzc2cjFmNklyOEVZcDVRTW9zQ0RDUXFTOTFCNlRfcmlrVWtueHhLQ2U4Y3pXdmMtSTZqX01XdHp1bHpNT2NwOTRHeGF1S0tkUV9QTDdVbnRIcXktRjM3bnRHNWRhcVE3WmwteHdDQ1czbFBfMjhxbE12MXF3WlU?oc=5"
+      "title": "「ちいかわは悩めるギグワーカー」米教授が語る世界的人気の背景 - 毎日新聞",
+      "title_zh": "「千井川是一名正在受苦受難的零工」 美國教授談其風靡全球的背景 - 《每日新聞》",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15dVVXYkZ5QkNvcUtablJMYVhGUlViVEk0WjdPZGR3d3pTQkhPdWIxdzlvNEFlb1RqMXJBYjE5eGtnWTJlcm8zOGlHbWtqNzdkdWRoSjc4aEN3N25WWDZvNVV2aVd6bGMz?oc=5"
     },
     {
-      "title": "「ちいかわ シーサーだらけくじ」発売！ “ハズレなし”の豪華ラインナップにファン歓喜（ふたまん＋） - Yahoo!ニュース",
-      "title_zh": "「Chikawa Shisa Darake Lottery」現已發售！粉絲們對“不容錯過”的豪華陣容（Futaman+）感到高興 - 雅虎！訊息",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5rMUtSVEJBOFRLUnR3TXZrd2g1WTFOOGhPVm1DZTE3UF80LWFXRHBUQXFXVDFHMnJiOU1SRDVyejFoYXBIT1dySEJsVTZMRV9PM2lMdDM3WTNsWnhjUXFJdk5ZZE10S0JLWHFLYmxjcXNlX0EzT21HYmFHZktTQlk?oc=5"
+      "title": "囚人服姿のちいかわ、ハチワレたちをデザイン「プリズンポテト 濃厚サワクリ味」 - ナタリー",
+      "title_zh": "身穿囚服的千井川和八件設計的「監獄馬鈴薯濃鬱酸櫻桃味」 - 娜塔莉",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5Td1pIVGd0d2pfd2dnWnY5aTRJakg0ODlYalVOUXJaMExsWXUyMVhDelJCY3JyUXAtTENCYVdrYkhpdlJ5MnJDcnhub0U?oc=5"
     },
     {
-      "title": "「ちいかわ シーサーだらけくじ」いよいよ10月28日発売！くやシーサーなクッション、スーパーアルバイターや交通整理のマスコットも - インサイド",
-      "title_zh": "《Chiikawa Shisa Darake Lottery》終於將於 10 月 28 日發售！ Kuya Shisa 坐墊、超級兼職人員和交通管制吉祥物 - 內部",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GZHZ1SmEzcGVfdEQ0Yk45NUROaWUxY1NiYzduXzNLYUpOVmQ0RDItazk3a0VIYTlranh1SktWdzl3a1h1WkswN05fbTFoQmZnTWpoLURaQUdEdDRKampuMkswN21hQWMwVnc?oc=5"
+      "title": "ちいかわ＞“罪深～いお味”「プリズンポテト 濃厚サワクリ味」 囚人服姿のちいかわ、ハチワレ、うさぎ、モモンガ（MANTANWEB） - Yahoo!ニュース",
+      "title_zh": "千川 > 「罪惡的味道」「監獄馬鈴薯濃鬱的酸櫻桃味」穿著囚服的千川、八割、阿兔和飛鼠 (MANTANWEB) - 雅虎！訊息",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQa2I3MkEybldEdHVRZjVwcUFrd1JBSERsTjZSSy1FSS1PYTBWRHJ4UGFSdnFQWUZmcVpBNUlqalRlU1pNZHNnMldETnM2YnpkWnFDbHpvSFRYYTBrSnZTRXFmbllzb0JacGVXdExqT1BnSTlscDl5N2VrUW50ZlU?oc=5"
     },
     {
-      "title": "ちいかわ「シーサーだらけくじ」きょう発売！　A賞の巨大ぬいぐるみは当選確率1％ - ｄメニューニュース",
-      "title_zh": "千川“Shisa Darake 彩票”今天發布！奖品 巨型毛绒动物有 1% 的获胜机会 - d Menu 新闻",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOM3pLTXhXUW4tdmlONXRxWFBTYVhoV2J2dElDeFdmN1RfaHpDazltalY0c0Q2RGNHeUZfRDdENWd3QlNHZUhXd0tHcmlFaUtDdjZqaVlpU0NLbnlGcERyV252TXUtLUFPaDhfSVNaaExsTVU5Y25MWVhlRENKbThGOThfbC1hVEpKd2fSAY8BQVVfeXFMTjJGZFhTQk4xZGlkWVBjWjhKblJsMUZqWGQzb3pSSnhMTWdxWk9ya1MxVnhnbm0xZ1lxVk5CVFI4ZkpmQ3V1NnJ5R1ozVmZzaERHa1lZbWVHVUk3cFFOcnJFUXZLakg5bFJIcllnNE9FMGdZcDlHczYwTHFBS3h4Snd5eXNMY1VaQ2dGUHFYakk?oc=5"
+      "title": "「ちいかわ プリズンポテト 濃厚サワクリ味」、11月2日発売 「オデと牢獄」エピソードをモチーフにした4種のパッケージ - GAME Watch",
+      "title_zh": "《千井川監獄馬鈴薯濃鬱酸櫻桃味》將於11月2日發售，以《頌與監獄》為主題的4種包裝 - GAME Watch",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XaXQ5VWtBV21DTXQxdmwzU2Z5YmhqTUJka2QweW9Nd3QzdThNaVJyVTlnX19sLU1JTmRhQTVWVDQyU1FUTVdqWTdCOUpHNmxmSDU0b2RHeTVjOXNSYmwtY0FLalFUZw?oc=5"
     },
     {
-      "title": "「ちいかわ」くりまんじゅう秋冬コレクション！「お酒の資格」「毛量くりまんじゅう」など全8種デザインが「Talking ODM」に追加 - アニメ！アニメ！",
-      "title_zh": "「Chiikawa」栗子饅頭秋冬系列！ 《會說話的ODM》動畫中新增了「酒資」、「毛栗子饅頭」等共8款設計！日本卡通！",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1jUTVXajRuZzNHdEM3Tm1JVHhnM0t4dDY2X0JfU1k4elRNV3ZWVGRMc2o1RFVkSG1oUHU1QzBLQWN0alZUOHdQTlRnZ3lmNkp1V0tmaGVERkpIY09TQ09wWTlR?oc=5"
+      "title": "「ちいかわ」はかわいい顔した現代社会？ 死生学者が紐解く、大人たちが惹かれる理由 - Fashionsnap.com",
+      "title_zh": "「千井川」在現代社會是一張可愛的臉孔嗎？一位死亡學家解釋了為什麼成年人會被它們吸引 - Fashionsnap.com",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE05SWdKR09WS0VDMjBlelNlUW45b0xMb1JYR2VUVXNEb05sMUdISG9oQmVfNWpGMkkzd0drX2RzeTJlYVRWMU5wNi01UGlucnk0REdUa0p3MHJpazV6NXV6SXZHeGtMYllG?oc=5"
+    },
+    {
+      "title": "「ちいかわ」くりまんじゅう秋冬コレクション！「お酒の資格」「毛量くりまんじゅう」など全8種デザインが「Talking ODM」に追加 - インサイド",
+      "title_zh": "「Chiikawa」栗子饅頭秋冬系列！ 《會說話的ODM》新增「白酒資質」、「毛栗子饅頭」等共8款設計 - Inside",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMakN2R0czQUFIdlRtX3I4ZzZSbDZnQTQwSGM3Y1hoa0ZPWnFXVGE0STVwMk05Skk4N2NfMWl0ZHZDN0cteGdZNjcyTzR1R0VvTjlSQlJLZHBXbi1lZXlxcWJjUHpRT3BZT3c?oc=5"
+    },
+    {
+      "title": "『ちいかわ』のリボンデザインが可愛いチャームグミがバンダイの食玩で登場！プレミアムバンダイでは12個入りセットが予約受付開始!! - 電撃ホビーウェブ",
+      "title_zh": "帶有可愛“Chiikawa”絲帶設計的魅力軟糖現已作為萬代糖果玩具上市！ Premium Bandai 現已接受 12 件套預購！ - 電擊愛好網",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFByRjlHbUlYYm9OVGk0NV9zcEdMbjBWbEIwWWxGSXM4SUJIVnpkNV9EQXo5RHdSVkxmX1Z5Z21WMTRhU2VTVHFNN2dzTDRxZlJx?oc=5"
     },
     {
       "title": "期間限定の「ちいかわ」2026ハロウィンデザインは、もうチェックした？「Talking ODM」にて展開（インサイド） - Yahoo!ニュース",
       "title_zh": "你看過2026年萬聖節限時「Chiikawa」設計了嗎？擴展“會說話的 ODM”（內部） - Yahoo!訊息",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvTUpRWjdrbWNJUGMwY1N3Y21zNERzWHZCQ3UxQVdMNkkxZWdTYU9PZE54d0pvQmludEZ5cl9ycWVnMXFQRWFobW1mZmpNUmlsZC1fUDRFVW1zc0M0UlRUQlZfR043S3RUb0V1MzhYOTNHYUhZdW5MeE9TZzRub0E?oc=5"
-    },
-    {
-      "title": "「ちいかわ」くりまんじゅう秋冬コレクション！「お酒の資格」「毛量くりまんじゅう」など全8種デザインが「Talking ODM」に追加 2枚目の写真・画像 - アニメ！アニメ！",
-      "title_zh": "「Chiikawa」栗子饅頭秋冬系列！ 「會說話的ODM」第2張照片/圖像-動漫中添加了「酒資格」和「毛栗子饅頭」等總共8種設計！日本卡通！",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GSUdDd3g0a0xicnM4c2ZaUEh3a2NTOHZ4UkJTY2hSS1BGN3EtS3F4NDBrcmczUkViVWlVaGhLczZyN1VRT01nNExaTUpNeHdCd3lNVHFVVWItZkVkQWhNM09zSmhKVkx4VDZUQTlFSERhZ0E?oc=5"
-    },
-    {
-      "title": "GUで「ちいかわ」コラボグッズが11月2日より先行予約！“雪の日”テーマのおでかけ着、ルームウェアなど豊富なラインナップ - インサイド",
-      "title_zh": "11月2日起在GU預購「Chiikawa」合作商品！以“下雪天”為主題的外出服、家居服等豐富的陣容 - Inside",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UZXg4M3FRQWpFVS10NU9vZ285MmlXYnJ1ZTZYSkpFNDU0UUVzejhJRGNVZHNEeVJmblVTRkpxQXYwMkpsTXU1TWxHbDdtejk4emtwWjN5dTdNYkc4VjVWZ2NiSWswcm9VeFE?oc=5"
     }
   ],
   "ジョジョ": [
+    {
+      "title": "シュトロハイム役 伊丸岡篤インタビュー公開",
+      "title_zh": "斯特羅海姆發佈時今丸岡敦接受採訪",
+      "url": "https://jojo-portal.com/news/anime/663/"
+    },
+    {
+      "title": "ジョジョの奇妙な冒険  アニメ『スティール・ボール・ラン』×『ラストサバイバー』スペシャルイベント",
+      "title_zh": "JoJo的奇妙冒險動畫「鋼珠跑」×「最後生還者」特別活動",
+      "url": "https://jojo-portal.com/news/event/662/"
+    },
     {
       "title": "オープニングテーマ『SPIN』発売記念！フォロー＆リポストキャンペーン",
       "title_zh": "慶祝片頭曲《SPIN》發售！關注並轉發活動",
@@ -295,7 +305,7 @@
     },
     {
       "title": "ウルトラジャンプ2026年11月号発売!!『The JOJOLands』最新話掲載！敵スタンドに見つかった潜水艇。浮上は許されない状況での、ジョディオの次なる一手は…！？",
-      "title_zh": "Ultra Jump 202611月號發售！ ！ 《JOJOLands》最新一集公開！在敵方基地發現的潛水器。在不允許浮出水面的情況下，喬迪奧的下一步……！ ？",
+      "title_zh": "Ultra Jump 202611月號發售！ ！ 《JOJOLands》最新一集公開！在敵方基地發現的潛水器。在不允許浮出水面的情況下，喬迪奧的下一步行動…！ ？",
       "url": "https://jojo-portal.com/news/comics/657/"
     },
     {
@@ -317,23 +327,18 @@
       "title": "ジョジョの奇妙な冒険 スターダストクルセイダース ダイカットクリアステッカーガムが登場！！",
       "title_zh": "JoJo的奇妙冒險星塵鬥士模切透明貼紙膠現已上市！ ！",
       "url": "https://jojo-portal.com/news/goods/651/"
-    },
-    {
-      "title": "ジョジョの奇妙な冒険 スターダストクルセイダース クリアフォトカードガムが登場！！",
-      "title_zh": "JoJo的奇妙冒險星塵鬥士透明照片卡口香糖現已上市！ ！",
-      "url": "https://jojo-portal.com/news/goods/652/"
-    },
-    {
-      "title": "ジョジョの奇妙な冒険 スターダストクルセイダース スクエアコースターガムが登場！！",
-      "title_zh": "JoJo的奇妙冒險星塵鬥士方形杯墊口香糖現已上市！ ！",
-      "url": "https://jojo-portal.com/news/goods/653/"
     }
   ],
   "バンダイ": [
     {
-      "title": "「ワンピース」空島島編の新作一番くじにワクワク！ルフィやナミのフィギュア、シルエットが投影される「黄金の大鐘楼」まで豪華ラインナップ（インサイド） - Yahoo!ニュース",
-      "title_zh": "對《海賊王》天空之島海島版的全新一番簽感到興奮！包括魯夫和娜美人物在內的豪華陣容以及投影剪影的“金鐘樓”（內部） - 雅虎！訊息",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBza0prZlZpaFVac2p1VHZZSmZnaC1sRUl3WUlYaGRBRFhEOHllWG9sb2VMMEwtZkJsS2VwdllxWUlMQjRUbFdXQWRxWEtzSjBGZlZiRXpuM0RkVDBnYzlIcHBHN1JHTEE2Wk00bGR4cGdMOFJjUUJqUjFpSGxuU3c?oc=5"
+      "title": "新作一番くじ「メイドインアビス」がアベイルでも買える！目玉のボンドルドやナナチ＆ミーティフィギュア、祈手たちもアクスタで集合 - Yahoo!ニュース",
+      "title_zh": "新一番簽「Made in Abyss」可在 Avail 上購買！特色 Bondrud、Nanachi & Mitty 人物以及祈禱之手也將聚集在 Axta - Yahoo!消息",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBadkdZMHZkN2RVMEpJLV9zTnotdlJmcm9QbU5uUHRtcFVYbi1xZnRQc00ydWNLNVVjVV8xSFJUVElpU2RvSDBReXY5a1ZxVGhwUkdTZUpwUDhmZUcwSndUaUVrQWY5ZENCZVhZSHM5bl9kQ0FTeEgwZG1QV0NYMjQ?oc=5"
+    },
+    {
+      "title": "「一番くじ ONE PIECE -空に奏でる\"島の歌声\"（ラブ・ソング）-」本日より順次発売！ - hobby Watch",
+      "title_zh": "《一番久事 ONE PIECE -《海島的歌聲》在天空中演奏（情歌）-》將從今天起依次發行！ - 愛好手錶",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tbWpnckxJWTVzRVNEYUR5eWMtbGFaZ1hmaUNxcFFhSHJqeGl6MjJ3RzZGdTV6OUY0eGFQOUZLQVhBYkdDV2xxNXBtM2p5S2lFMDAzU3pwdWYyUWZJWjZrSUlhSTBlSkk?oc=5"
     },
     {
       "title": "「一番くじ ONLINE」の配送情報漏えいか バンダイナムコの物流子会社に不正アクセス - ITmedia",
@@ -341,14 +346,14 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05dnFEejhUUUpXRzBMOEJGOFV0dmVJcXFtUnNDN3lVbGQtQjgtUGJEdTRISmhqbEhHTFRMWEVwNngyZFNZcEh2ZjZKVXpjZXl5emhPQ2owN2Nva2VndGo1TUpCRnp4d0M1UGc?oc=5"
     },
     {
-      "title": "「一番くじ NARUTO-ナルト- 疾風伝 サスケvsイタチ編」のページが公開。E賞には鮫肌のフィギュアが登場 - hobby Watch",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9NSy16SHVEdFM5YUl2OXlXQXdFQ29hcUp6ZldrVlBLYThaV2oyX2RlSmtlYm9ja3I5Zk9uSjd2SW1PYlgxcWFiY3N4X2wtQzNjckNyRlhrTTVLTkMyMnhrNnNVVVpfQWs?oc=5"
-    },
-    {
       "title": "「一番くじONLINE」の配送先情報が流出か 物流システムに不正アクセス、出荷にも影響 - おたくま経済新聞",
       "title_zh": "一番簽ONLINE的配送目的地資訊是否洩漏？未經授權存取物流系統，影響出貨 - Otakuma Keizai Shimbun",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5xRXcwdzJvZ0t3YVNjLTV3UlVCT0VkZm5DMVk5aW9DNXdlUHZsaHphQ0FmU3M3TkZfaXlUN1kxOWI2TWJ4aGxxVlM4TE9PRV8wekUteHR4RQ?oc=5"
+    },
+    {
+      "title": "「ワンピース」空島島編の新作一番くじにワクワク！ルフィやナミのフィギュア、シルエットが投影される「黄金の大鐘楼」まで豪華ラインナップ - Excite エキサイト",
+      "title_zh": "對《海賊王》天空之島海島版的全新一番簽感到興奮！包括魯夫和娜美人物在內的豪華陣容以及投影剪影的“金鐘樓” - Excite Excite",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16Qk1OclpIRE4xT194MF9VbjBybW1lZjlEVW1pRjFOZzQtQzNkWlZFZ2hPMF9FeEd6VzBCODBKejJSM05CZElWb1hMMUk0M2doVW4yOGc1TVJSVHZ2R2RSYg?oc=5"
     },
     {
       "title": "「一番くじ すみっコぐらし～もしもすみっコが進化したら？～」がオンライン販売！進化過程が楽しめるぬいぐるみや温感マグなど - Yahoo!ニュース",
@@ -367,7 +372,7 @@
     },
     {
       "title": "バンダイナムコホールディングス、物流子会社に不正アクセスを受けたことを発表、「一番くじONLINE」の配送情報漏洩の可能性 - Yahoo!ニュース",
-      "title_zh": "万代南梦宫控股宣布旗下物流子公司收到未经授权的访问，《一番签ONLINE》的配送信息可能泄露 - 雅虎！訊息",
+      "title_zh": "萬代南夢宮控股宣布旗下物流子公司收到未經授權的訪問，《一番簽ONLINE》的配送資訊可能洩漏 - 雅虎！訊息",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ZTDFLN2pzTEd0cVhpU2ZjSGY2eFJZTC1WaER1X3ItVnZUcU9zWDM3R2x4VjBlRnRPTGI1VjFTemp3YkdHZXQyNUFNS3lmX05MZkhDZ3NqRHFXZ1cwdk5sUDB5MmFfVC04eEhVZ0pNV21CVkZaWmYxMEE2MjR0NjQ?oc=5"
     },
     {
@@ -376,41 +381,36 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iblg3X0g2YTUydWpSRGI1RXV3YWtZZzNDVXhTTHo5YTZqVUFnVE5pRjdXRlJPczRsUmFKcmR6eWpSM0o5S0QzcnRpQ0huUjAzZlpHMlloNDBRM1NFcjBCajc4a3lEU0NkUFhRS3pTN21YeWhnS05pYk9MVDhLeEE?oc=5"
     },
     {
-      "title": "『ガンダムSEED』新作に新MS登場／『To LOVEる』一番くじ内容に衝撃【10／27よく読まれたアニメ＆ゲームニュース】 - オリコンニュース",
-      "title_zh": "新作《鋼彈SEED》新MS登場 / 《To LOVE-Ru》一番簽內容震撼 [10/27 動畫遊戲新聞] - Oricon 新聞",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBMZnFOdTRjbWJENTVnNFBiSm0tUVhfcDI3cnlPOWlxZFNUcXZ5cFdZUVJ5NG5RWjhtOUZYSGtMLU44NEthdDRqa21pNGZ1Tmh1?oc=5"
+      "title": "一番くじ『ゼルダの伝説』が発売決定 マスターソードの目覚まし時計やルピー付ツボ型貯金箱などラインナップも公開 - Yahoo!ニュース",
+      "title_zh": "一番久事《薩爾達傳說》即將發售；包括大師劍鬧鐘和盧比罐形存錢筒在內的產品陣容也已發布 - 雅虎！訊息",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KcDZtaDE5emlhWmgwQzFpV0w4QzgwY2tkai1vMlJ0bnhrTFZnMHVFYmxfX1VVZ0RuclpvRWIyYVFsZXhjdDdGc0c3YzJDZFhzTWZWZnM2ak1hb0gtel90LXZHV1NfVGIzVjBaZEZqU1BGRkhFQ3dXb0NnYlN5SFk?oc=5"
     },
     {
-      "title": "BANDAI SPIRITS、不正アクセスにより「THE GUNDAM BASE MEMBERS」のメールアドレスが漏洩したことを告知 - hobby Watch",
-      "title_zh": "BANDAI SPIRITS 宣布「THE GUNDAM BASE MEMBERS」的電子郵件地址因未經授權的存取而洩露 - Hobby Watch",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE01TmpldE5GdDZ1ZVBnZ081empzNTZBRjhabjYwUFhaUDc1alIzU1U1amhGdHNScUlxUEVHSmIzX1lIbU1mdHlsMkRManNJbzVveU5HV3dxZWFuMHlLNUhOUXNGNERhemc?oc=5"
+      "title": "「一番くじ ゼルダの伝説 ハイラルコレクション」12月5日（土）より順次発売予定！マスターソードの目覚まし時計やルピー付ツボ型貯金箱（サウンド付き）がラインナップ！ - 電撃ホビーウェブ",
+      "title_zh": "《一番簽 The Legend of Zelda Hyrule Collection》將於 12 月 5 日星期六起依序發售！該系列包括大師劍鬧鐘和裝有盧比的罐形存錢筒（帶聲音）！ - 電擊愛好網",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1nWFFOWW5ZRlJQY09iSWhpWndTYlhzN1ZRSzJBMjZPb2Z4RENDc2NOel9LRHpQUU8teUpIcTc3ZUxpdmx4ODJPd2ZwN2VGRkUx?oc=5"
     },
     {
-      "title": "バンダイナムコ、バンダイスピリッツ 「THE GUNDAM BASE MEMBERS」 で34万6,247件の個人情報漏洩の恐れ-ユミルリンクへの不正アクセスが波及、バンダイナムコIDが発表|セキュリティニュースのセキュリティ対策Lab - 合同会社ロケットボーイズ",
-      "title_zh": "Bandai Namco、Bandai Spirits「高達基地成員」可能會洩露 346,247 條個人資訊 - Bandai Namco ID 宣布未經授權訪問 Ymir Link 蔓延 |安全新聞安全措施實驗室 - Rocket Boys LLC",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaGpTVXBMdlprVXZ4eU9hVVQxc1hHZk9uaFVYeUlvNmVSUmM2X3l3YWgwckNlLTAxT3dhajNPb0c2SmJRUU9icV8taVpmOGpSYlRKTGd0MF82aU14T1hDUnRBemd5R09zTTRkVWxQbVFVQmNSOU9paE1FWkNkd3I1UjBTY0NnbmhsRUxUbzhwajBkYnZydEdkVm9yNXo5U2ZhVUJrVmRRM1RUaDF3Y0RQTw?oc=5"
+      "title": "『ガンダムSEED』一番くじに衝撃／『BLEACH』織姫が死ぬルートあった【10／28よく読まれたアニメ＆ゲームニュース】 - オリコンニュース",
+      "title_zh": "《鋼彈SEED》良品抽籤震撼/《死神》織姬有死亡路線【10/28最看動畫&遊戲新聞】 - Oricon新聞",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80RDFXbEtIdWsxWEU1ZHQzQlNIQlU5VUx2N1diZkdlOGdyNWVpTlRqOUpnajBuNVF5X3RUVk0teVpMcnp4VEhKdW9lZWVpNHpJRnNHV2RJZ19faGFwNmExUFZoNDJsZzVtTnc?oc=5"
     },
     {
-      "title": "「ヒロアカ」“体育祭”テーマの新作一番くじに「エンデヴァー」「しょうと：オリジン」が登場！「轟焦凍」など注目のフィギュアをチェック - Infoseek",
-      "title_zh": "《奮進》和《松濤：起源》以《英雄阿卡》和《體育祭》為主題，出現在新一番簽中！查看“Shoto Todoroki”等熱門人物 - Infoseek",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EVTlHYVhXVHRuaVRlSEtDN3FiUnlSR3B1RDNtZWxFd3pUZ2Z4SVdtRzJJalNuRVZoSjFlNUd1bW5SY3plbEN4QzU2ZFdHS1FyOVRRNnNNSEprcGwzcnhr?oc=5"
+      "title": "フィギュアページに「モンキー・D・ルフィ」「ナミ」ほかのアイテムを追加！ - ONE PIECE.com",
+      "title_zh": "人物頁面追加了「蒙奇·D·路飛」、「娜美」等商品！ -海賊王.com",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WaWtKZmRrUEdRTHZBQThzdndZcDd4c1QyTjdsY1d1MXdmc29rRDVQSkl0UXo0V09pVFk1RFJjSTAyaFk1dFdfTmNsWUszdDVlX19MUDNn?oc=5"
     },
     {
-      "title": "バンナムHD、物流子会社に不正アクセス 一番くじの顧客情報流出か - 日本経済新聞",
-      "title_zh": "Bannam HD非法存取物流子公司，可能洩露Ichiban Kuji客戶資訊 - 日本經濟新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZVEJoRHlPTWM4b2hOSEc0eDh0UkQ4eGZZLUl1VFdYWjVwd3BYck44a183NEZPZGRkYkp0OW9MaE9KZmZpRHlnZkNuamFza1dHdzh1MXJtRDB5VHo5emRIdFJYbEVkQlVobmtxeQ?oc=5"
-    },
-    {
-      "title": "【一番くじONLINE】配送情報が漏洩した可能性。バンダイ系物流への不正アクセスで出荷停止へ - 電撃オンライン",
-      "title_zh": "[一番久事ONLINE]運送資訊可能已洩露。因未經授權訪問萬代物流而暫停發貨 - 電擊在線",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9YUlNJaXpvdFJ1MXhhV05oODJRVE9icE1NNldrN1V4V1N6a0c5dVZEeEM0M001N0tvM1hfaTM1UTNPZC1ZUFJXbTd0LUFVZ3NPSm84Vng0VG55Zw?oc=5"
+      "title": "『ゼルダの伝説』新作一番くじが12月5日発売！A賞は剣を引き抜いて止める、「マスターソードの目覚まし時計」 - インサイド",
+      "title_zh": "《薩爾達傳說》新一番簽名將於12月5日發售！ A獎是拔劍並阻止它，《劍大師的鬧鐘》 - 裡面",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jTVYyZmpPbzVTQUVGam96bDNWNy1jdEcyQlAwNml3bmpiVlF1S2owSEEwS0E2ajhLQ2h2eDFfaE9HV2h6VnQ1dF9Pc0dMdy1rczhobGxic0tXNjhMRERhR3B2ZU1SUmJUT1E?oc=5"
     }
   ],
   "ジャンプ": [
     {
       "title": "週刊少年ジャンプ ワンピース応募者サービス ABワールドコレクタブルフィギュア 応募者全員サービス！ボリュームが凄い2体セット】週刊少年 - ciiblog.in",
       "title_zh": "每週少年Jump海賊王應徵服務AB世界收藏級手辦應徵服務面向所有人！ 2 件套，容量驚人] 周刊少年 - ciiblog.in",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBfZUJwX3E2d2pDSjdzLTlTVXViX0tKWFJSeHJVMEloUTRlbkctT0tST19IeklFM2t1T3BDTjg2M3dKcFo3d3ZXa1FiWUFxeWxRc3N3?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBqTDhQTG9HR3F0aXNiTDVHbGp3VGo5N2Q2c1pHaEhyaDhSSFlHanlYMXNBNENlMEQ2b0RWSENKWEZaTlFCU3ZqZXpFTGo0Q3A1clZz?oc=5"
     },
     {
       "title": "うずまきナルトのゴーグル姿立体マグネットがキュート！ ジャンプショップの新商品が北海道に集結（アニメ！アニメ！） - Yahoo!ニュース",
@@ -423,18 +423,23 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZlJVODh0cm94Qks3VDItVmlmNnAwaTgxRThhcjhjQnNianlpLXFlUGRCRlMyUUJhcnpLd2V3YnlCeFNEV2FGUGh3eFpiaF94OHhFLTdxeG9LX1BROTI4VDhGcnRJTUV6dlBURk9BZWVSWE9sZ2Z4ZTNvRXJycjRxR21aQUFXbzRnMnlmdHFR0gGTAUFVX3lxTE1PQXdwdWVHdExGeWlPUXRGa2lQOHFsNVYwdVF3cUR3ZldIUVM4NUxkUFBNbGQ3clVBNW91M1pjUjdfd21HNUZUWHQwUjZfZ0xFZTRoOEFzRzZtZXpHcE10QjZGUFBIY09fVzlpNFB1eDBEOExZYTkzQldjX05ZSVZKbERBSzhfaFJtb3lKSzA1M3M3NA?oc=5"
     },
     {
+      "title": "週刊少年ジャンプ ワンピース応募者サービス ABワールドコレクタブルフィギュア 少年ジャンプ編集部 on X: - ciiblog.in",
+      "title_zh": "周刊少年Jump海盜王應徵服務AB世界收藏手辦少年Jump編輯部X： - ciiblog.in",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEY2lNcm9VSGFwVE9NbDZmWi1nUktTc1lJUTFCN1pJU2NaMG5QcnlNeC1wZFkxNUk3OVF3Z1lQQWViSGhWYUIyWHBFSDVDeGs1akQ0?oc=5"
+    },
+    {
       "title": "「週刊少年ジャンプ」ちばてつやさんを追悼「偉大なご功績に、深い敬意と感謝」漫画界の発展と後進育成に貢献 - 読売新聞",
       "title_zh": "《周刊少年Jump》向千葉哲也致敬「對他的偉大成就深表敬意和感謝」為漫畫界的發展和下一代的培養做出了貢獻 - 讀賣新聞",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1MQVpCUGtBamI4Y2JvQ0RseFZZMTBWUTFGVUhpTTFlS1ZlcWRfWHpsMVVBUE9mYURrc1NqcTE1UG9Bb2xsMTJaZzF3MFZXbXlaZUFhU0MwQnlYcDlFZUlCa2VDYzB2OERaZjFCQ1M3Yjg?oc=5"
     },
     {
       "title": "『週刊少年ジャンプ』漫画家×タレント夫妻、互いにファンのまま5年経過…交際後→結婚式でファーストキス - Lmaga.jp",
-      "title_zh": "《週刊少年JUMP》漫畫家和明星情侶已經互相粉絲5年了…約會後→婚禮上的初吻 - Lmaga.jp",
+      "title_zh": "《週刊少年Jump》漫畫家和名人情侶已經互相粉絲5年了…約會後→婚禮上的初吻 - Lmaga.jp",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tV1lORnN2U2pDYzN2MjJMZUhOcENCbmVKYjUzcmgyOWpGeTl2RlQ0Q3p1bi1OQk10QzBLdGNmNlhrXzZYcVplcExaUmtzbWk1WjB6YQ?oc=5"
     },
     {
       "title": "『週刊少年ジャンプ』初の100万部割れより深刻…紙は売れず､電子でも稼げない中小･零細出版社の行く末 - PRESIDENT Online（プレジデントオンライン）",
-      "title_zh": "比《週刊少年JUMP》首次銷量不足100萬冊更嚴重…不能賣紙、不能電子賺錢的中小出版商的未來 - PRESIDENT Online",
+      "title_zh": "比《週刊少年Jump》首次銷量不足100萬冊更嚴重…不能賣紙、不能電子賺錢的中小出版商的未來 - PRESIDENT Online",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0wRF9nLThqdm9wQmFMQjQyTnQwZXBna016VjJCb3R2VEZNV01iMXE3ZHNMWUoxQ2p0QlZwbkZTMm82ejdIQ2lEeTFpUHBmazJnMkM0TTlpcTQ?oc=5"
     },
     {
@@ -443,24 +448,14 @@
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5MdzY1WEtTdW1vaGxxUlFxbkVRQnBCTy12UHRMWmIwcDNweTdldjU4X01zSXc2U2tRV0NTZ3I0VFZnZmRPTjhqdjRldlBZV1Bv?oc=5"
     },
     {
-      "title": "週刊少年ジャンプ (Weekly Shonen Jump) 2026 #48 Reviews - League of Comic Geeks",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9pMGZ4ZWRITTlvSTByV0dkSmtfdGFNTDlDUUNDb0V0bElHaUpObmd2Q0EyRzBwb1FheEhXOTRMOGwxRDkyNUhHSXdnVzdoQmxXdmNGelA3NWROcUFsaHAzU1g0MDNTMFRnQzlvUTBrOGV3Tkk2WlN1QzBwNA?oc=5"
-    },
-    {
       "title": "「週刊少年ジャンプ」33号の付録に連載29周年記念『ONE PIECEカードゲーム』が登場！電子版「週刊少年ジャンプ」定期購読者限定の「応募者全員サービス」も！ - ONE PIECE.com",
-      "title_zh": "系列紀念29週年的《海賊王卡牌遊戲》現已在《周刊少年JUMP》第33期附錄中公開！還有僅限《週刊少年Jump》電子版訂閱者的「面向所有申請者的服務」！ -海贼王.com",
+      "title_zh": "系列紀念29週年的《海賊王卡牌遊戲》現已在《周刊少年JUMP》第33期附錄中公開！還有僅限《週刊少年Jump》電子版訂閱者的「面向所有申請者的服務」！ -海賊王.com",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XdjNneGNjTm5va0hSZlVvTXVlbVhtSzU1NHpyYUxiLXIyM3RqNXV1NnpmSFg0VHlrTFZDNU92LUZvemxDZGsyaHI3cWJ2cTRuTnV3X013?oc=5"
     },
     {
-      "title": "週刊少年ジャンプ、発行部数100万部を下回る 94年は653万部 - 朝日新聞",
-      "title_zh": "周刊少年Jump發行量跌破100萬份，1994年為653萬份 - 朝日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPVDRDcEJnMWF4R0w5R29KTU1aZVFXNl9LUTQ2NGU2NzVzeXZsZUliZktHdTVmamMxTWN2VVMwN3ZlcnVNM1RHekZWM2F4ZTJVb0cwTmtZaE11OW5acWtBQVp5UnE0eUk?oc=5"
-    },
-    {
-      "title": "週刊少年ジャンプ ワンピース応募者サービス ABワールドコレクタブルフィギュア 少年ジャンプ編集部 on X: - ciiblog.in",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1PTzBLak00dnY1MndtWEdHRUdSSTJhZEpqdEFHNjBlb25XQ2drM0tIZFZ1c0dwcExpVkZnZmdIQW1FQWRYRndLSmVlQ0hBYlZpekhr?oc=5"
+      "title": "JUMP SHOP限定!!パッケージリニューアルした「四星球チョコクランチ」「仙豆スナック」が登場!! - ドラゴンボールオフィシャルサイト",
+      "title_zh": "JUMP SHOP獨家！ ！推出重新設計的「四星球巧克力脆餅」和「仙女零食」包裝！ ！ - 七龍珠官方網站",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UbWtKWjlsNjI1OTQ0U2hXSkdhZ185YTQ1ckFTbllSTHc2SWU2azFfSGE3OXdGT2Fqb0hnWFdBV05sa1g1R2tpZ0daVFVldmxWZXdJbHRkSFRQTkdlZ2U4?oc=5"
     },
     {
       "title": "「週刊少年ジャンプ」漫画家×タレント、9年越しの“相互ファン婚”結婚式までキスできなかった理由とは（モデルプレス） - Yahoo!ニュース",
@@ -468,36 +463,31 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRblNNMzR3cTg1b2VGYXRDTUZVQ1B2SGdSSFNWV3ZnbGs0TURIUGwzRVI3YndCcjJkTVFIeDRya2xmYm16NlktczdGeVVQMkE2RzY5RlpJTnpKNFB6ekF4My1xZUJsV3BCWWMwMU14SC1uRnRudFluaS1INmxSWHc?oc=5"
     },
     {
+      "title": "週刊少年ジャンプ ワンピース応募者サービス ABワールドコレクタブルフィギュア 少年ジャンプ編集部 on X: - ciiblog.in",
+      "title_zh": "周刊少年Jump海盜王應徵服務AB世界收藏手辦少年Jump編輯部X： - ciiblog.in",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1PTzBLak00dnY1MndtWEdHRUdSSTJhZEpqdEFHNjBlb25XQ2drM0tIZFZ1c0dwcExpVkZnZmdIQW1FQWRYRndLSmVlQ0hBYlZpekhr?oc=5"
+    },
+    {
       "title": "「週刊少年ジャンプ」漫画家と「メロン界のアイドル」が結婚 5年間「お互いのファン」だった2人、ファーストキスは結婚式【新婚さん】 - Yahoo!ニュース",
       "title_zh": "《周刊少年JUMP》漫畫家與「瓜界偶像」結婚。他們「互為粉絲」5年，初吻是婚禮[新婚夫婦] - 雅虎！訊息",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lX3ZEaE9nY2pSRWNxeTM0eXdWb0R0ODZ4SmhaTG1qajVZczVSdl9jeVFHdEZJTGZvdkFRVWtCOFFqOHpZYnFwbzVMbDdtNF85dzZ5S0tHUWpUMFlHLUZUTV9CVHBaWlNmOE1TMmZSdlNTOGlZYU84NGtiUF9ENU0?oc=5"
     },
     {
+      "title": "週刊少年ジャンプ、発行部数100万部を下回る 94年は653万部 - 朝日新聞",
+      "title_zh": "周刊少年Jump發行量跌破100萬份，1994年為653萬份 - 朝日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPVDRDcEJnMWF4R0w5R29KTU1aZVFXNl9LUTQ2NGU2NzVzeXZsZUliZktHdTVmamMxTWN2VVMwN3ZlcnVNM1RHekZWM2F4ZTJVb0cwTmtZaE11OW5acWtBQVp5UnE0eUk?oc=5"
+    },
+    {
       "title": "メディア情報更新（週刊少年ジャンプ 39号） | 中島健人 | ソニーミュージックオフィシャルサイト - ソニーミュージックオフィシャルサイト",
       "title_zh": "媒體資訊更新（週刊少年Jump第39期）|中島賢人 |索尼音樂官方網站 - 索尼音樂官方網站",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1mZVdGOFVkY2x3aWRVZ0hsdE9NZnU5WFNvREFoX3RpZjBBYmtNVDl1YU8zOFNSaXpaVU1rYjhtMUY1bFZ4OUpxdW9WakFSblA0NUJrOWMyanF1U3N1MjRSUkdaa2lFZmQyR192Wg?oc=5"
-    },
-    {
-      "title": "「週刊少年ジャンプ」公式YouTubeチャンネルとのコラボが実現 「JUMP MV」がカラオケに初登場！ 9月1日よりDAMに配信 - 株式会社第一興商",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA0MFNzako2N215dHcwNlRaMkY1MUk5STlSNmJSSUdNdUxqNFdGTG14a3Z1RVdRTHlWUHlfWE1EOThyRGdOTnc2QXN6cTJORVdHYXZPMWYzMWpZbG8?oc=5"
     }
   ],
   "ポケカ": [
     {
-      "title": "【ポケカ】ハドウシーカーの予約・抽選情報まとめ【10/27更新】 | スニーカーダンク - SNKRDUNK",
-      "title_zh": "[Pokeka] Hadowseeker 預約/抽獎資訊摘要 [10/27 更新] |運動鞋 Dunk - SNKRDUNK",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBCb3A0WnB6T1FOZnZLeTZJR2hQSlIzcXlCLWYxT0NzQlZSbHpvVWFiTl9qM0laRE1hM0VWb2hCRUc1eVdaT0ZKWW0walI?oc=5"
-    },
-    {
-      "title": "ポケカ新弾の発売スケジュール2026！次の発売はいつ？2027年の予想も - トレカプロ株式会社",
-      "title_zh": "Pokeka 2026 年新品發佈時間表！下一個版本什麼時候發布？ 2027 年預測 - Trading Card Co., Ltd.",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5DUWVndnN0LWpvWmRiX1E1M1NuSVR2a2hHX3BRMXZsbEV4V192TS0zakJxMEdrSFIwRE9FZkNqczdCSWdHakxlV2pTVklOaGVZOTliNDBSemlScUkxYjNzMg?oc=5"
-    },
-    {
-      "title": "【ポケカ】30th CELEBRATION グミ 商品＆カードリスト紹介【30周年】 - ポケカポケット開封日記",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82TUVYQXpLNmExV3VZTFV1ejdreDljU25PU2VyZU5CSDZ3Z1loc2JzUHM3b3I1d3B1OUpyVGtSRGFSRHJlaTYwRUZZWWtQd0QzaTVJd1VsdHIwR2pfaUNUUTRMUGNqdE1iOHc?oc=5"
+      "title": "【ポケカ】30th CELEBRATION(30th セレブレーション)の予約・抽選情報まとめ【9/15更新】 | スニーカーダンク - SNKRDUNK",
+      "title_zh": "[Pokeka] 30th CELEBRATION 預約及抽獎資訊摘要[9/15更新] |運動鞋 Dunk - SNKRDUNK",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE16Y1BNa2hNSWxFV2JrY1hqWVE0WEFYZXphTFVIQXJSWjJvUjNvNV9xUWRsWFE5RklTY3BnWDJYaUVWaUhMdmI1ZnRfdWg?oc=5"
     },
     {
       "title": "【ポケモンカードゲーム MEGA 「30th CELEBRATION カードセット フシギダネ・ヒトカゲ・ゼニガメ/ニャオハ・ホゲータ・クワッス」販売のご案内】｜ローソン公式サイト - LAWSON",
@@ -505,9 +495,14 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5tUkRfSVF4Yy1LZExtU0MwOEpDLTVIelVsaEFvZW1VOWhEV1ItUzFIR2cwaUZlZHItdTFRTF9HZU5PdV9uaGxMb1ZXNTJXdHR2MkQ3UnY4RlpLSEZINVNuXzdKUHc2Qks2VGlpNnlEdVNSOFZuN0F4M3p5SQ?oc=5"
     },
     {
-      "title": "【ポケカ】30th CELEBRATION(30th セレブレーション)の予約・抽選情報まとめ【9/15更新】 | スニーカーダンク - SNKRDUNK",
-      "title_zh": "[Pokeka] 30th CELEBRATION 預約及抽籤資訊摘要[9/15更新] |運動鞋 Dunk - SNKRDUNK",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE16Y1BNa2hNSWxFV2JrY1hqWVE0WEFYZXphTFVIQXJSWjJvUjNvNV9xUWRsWFE5RklTY3BnWDJYaUVWaUhMdmI1ZnRfdWg?oc=5"
+      "title": "【ポケカ】30th CELEBRATION グミ 商品＆カードリスト紹介【30周年】 - ポケカポケット開封日記",
+      "title_zh": "【Pokeka】30th CELEBRATION Gummy 產品及卡牌清單介紹【30週年紀念】- Pokeka Pocket 開箱日記",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82TUVYQXpLNmExV3VZTFV1ejdreDljU25PU2VyZU5CSDZ3Z1loc2JzUHM3b3I1d3B1OUpyVGtSRGFSRHJlaTYwRUZZWWtQd0QzaTVJd1VsdHIwR2pfaUNUUTRMUGNqdE1iOHc?oc=5"
+    },
+    {
+      "title": "【ポケカ】ハドウシーカーがAmazonで招待販売リクエスト開始。メガルカリオZ、メガアブソルZ、メガガブリアスZが登場する最新パック - ファミ通",
+      "title_zh": "[Pokeka] Hadowseeker 已開始在亞馬遜上邀請銷售請求。最新包款包含 Mega Lucario Z、Mega Absol Z 和 Mega Gabriel Z - Fami通",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9QRkZDY3p3WjMwRlpGS0JJQnVxN0ZySk13VVpoaV9lQlBMdzhiZk5rWVF3QnEyS2FkdTlSbXFacWZrX2JSckdIQWNJRUhidHF0NjJvbEZhbw?oc=5"
     },
     {
       "title": "『ポケカ』新拡張パック「ハドウシーカー」11月27日発売決定！「メガルカリオZex」「コルニの本気」など、Zと名のつくメガシンカに注目 - インサイド",
@@ -515,24 +510,9 @@
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXMTNYV19UT2R5bGx3dFlOTTN3Z3pPRjc5blNnSVp0aGVDZDhYbkUxMUxESHdqSnRlalc2R3JjNG1zN1lJOU1KNUVhd1BTQUUzcjFnTGtUWXNOX1RycUNPZ1N2U003c19pYUE?oc=5"
     },
     {
-      "title": "「ポケモンカードゲームMEGA」の拡張パック「ハドウシーカー」が2026年11月27日発売！メガルカリオZex、メガアブソルZex、メガガブリアスZexなどの収録カードをチェック！ - 電撃ホビーウェブ",
-      "title_zh": "《精靈寶可夢卡牌遊戲 MEGA》資料片《暗影探索者》將於 2026 年 11 月 27 日發售！請查看隨附的卡片，例如 Mega Lucario Zex、Mega Absol Zex 和 Mega Gabriaus Zex！ - 電擊愛好網",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1LQmVLQi10VHJpNkNuODJUcHBKOW9mcVBvWDRvcVNtSU9fODUweU8tLTg2Rks4SHpaY3RST2pyeUN2OV80dnFOeVRrbUJHejlM?oc=5"
-    },
-    {
       "title": "「ポケカ」30周年商品、買取・転売で“中身すり替え”不正続出…実店舗やネットで規制強化 シュリンクなしを悪用（オタク総研） - Yahoo!ニュース",
-      "title_zh": "《精灵宝可梦》30周年纪念商品，进货、转售时“内容被改动”欺诈行为持续发生……实体店、线上加强监管，不缩水被滥用（宅男研究所） - 雅虎！訊息",
+      "title_zh": "《精靈寶可夢》30週年紀念商品，進貨、轉售時「內容被改動」詐欺行為持續發生…實體店、線上加強監管，不縮水被濫用（宅男研究所） - 雅虎！訊息",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xdGZMOE1jcTJUNHBqUWRKVjBYb09kOW9jWGp3S2FGSk94TjFsN3JYVm1NQ1JjajJGQ3hwajZGOUZmVjNCZUlRa0pqY3ZFd3pNdldseHRpcXgyQ0lFZTljdjF6bTB5SjRIT2RjYjdxQkkzeUprQnNOVXdvQmdsc0U?oc=5"
-    },
-    {
-      "title": "ポケカ拡張パック“ハドウシーカー”が11/27（金）発売。ガルカリオZexなどZの名がつくのメガシンカポケモンのカードが登場 - 電撃オンライン",
-      "title_zh": "Pokeka 資料片《Hadow Seeker》將於 11 月 27 日（星期五）發售。帶有 Z 名稱（例如 Galcario Zex）的 Mega Evolution 神奇寶貝卡現已上市 - 電擊在線",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE82N3VqaXlzTi1Na0JzajBQOWdJSndPdEZCaU5VVllWeHpjNW1MN2ktVDNOc2hmMmlPVWw5WE5jRkM1ckc0Q21sb29wYnBKYzVEckhRNjZsQU1QQQ?oc=5"
-    },
-    {
-      "title": "【ポケカ】ハドウシーカーがAmazonで招待販売リクエスト開始。メガルカリオZ、メガアブソルZ、メガガブリアスZが登場する最新パック - ファミ通",
-      "title_zh": "[Pokeka] Hadowseeker 已開始在亞馬遜上邀請銷售請求。最新包裝包含 Mega Lucario Z、Mega Absol Z 和 Mega Gabriel Z - Fami通",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9QRkZDY3p3WjMwRlpGS0JJQnVxN0ZySk13VVpoaV9lQlBMdzhiZk5rWVF3QnEyS2FkdTlSbXFacWZrX2JSckdIQWNJRUhidHF0NjJvbEZhbw?oc=5"
     },
     {
       "title": "ポケモンカードゲーム MEGA 拡張パック「30th CELEBRATION」，事前抽選販売を全国のポケモンセンターで実施。9月11日23：59まで受け付け - 4Gamer.net",
@@ -540,51 +520,61 @@
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1feDFwVjZJYUl1TnZYRFdKZGowSXlhdzlzaDhIUlR3cmc2UXExYXpOYkRJSGx4a1FJMFdHcFVacTFNNWNsYmdNcnRhd1JLelVRbXN0UlRRYVMyRlBvX0xKVXE5UQ?oc=5"
     },
     {
-      "title": "【ポケカ】拡張パック『ハドウシーカー』カードリスト【メガルカリオZex】 - ポケカポケット開封日記",
-      "title_zh": "[Pokeka] 擴充包「Hadowseeker」卡片列表 [Mega Lucario Zex] - Pokeka Pocket 開日記",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82dmRfZlBWU3F4RGZvc3VJV1BFZzhQU2FxSWpLU1VjQUl6dExmRjNLdTV1UzBteUpZRzc1Q3htZjZBYTZ2TUEzZUt1akJyREFHS1N6d25WanJ5dzUyVnI4Ug?oc=5"
+      "title": "「ポケモンカードゲーム 30th CELEBRATION」関連商品 抽選への今後の手続き・お問い合わせについて - カードラボ",
+      "title_zh": "《精靈寶可夢卡牌遊戲 30th CELEBRATION》相關產品 關於抽籤的今後手續及諮詢 - Card Lab",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvTVJ5SEZ5aVBMdFVwa2xNRUw5azR4OURzU3BSSXhUaGVEY0IwaklMSGtDMUJ3WTFvV1NFMVRmMlZMYjFBelFSOUt5VU5OWFFfUFlZ?oc=5"
     },
     {
-      "title": "ポケモン30周年記念カード、米大手が定価の2倍超で販売へ 転売相場を見て強気に？（多根清史） - エキスパート - Yahoo!ニュース",
-      "title_zh": "美國大公司以標價兩倍以上的價格出售《精靈寶可夢》30 週年紀念卡 看了轉售市場後看好嗎？ (Kiyoshi Tane) - 專家 - 雅虎！訊息",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQVV1dThxSzFINlNETzBfLS1NZHVOdk5XMkdDVEk0Q1NSdDE5ZlJnZEpBSE5vdDNRUkRlZWRJQWFseXowQk0wMUdYbzJCbTFTVWpOUXFqOEQyT2hOdFZUSEFlXzVraUREZXVLTTlyTnZBd09YaWx2QmQxOG1VM3JQdXhES2Fwbi1R?oc=5"
+      "title": "ポケカ30周年『御三家カードセット』当選率90.5%！買取予想は定価の10倍・10.8万円！トレゲト(@cardchusen_com)が調査 - www.tv-tokyo.co.jp",
+      "title_zh": "Pokeka 30週年「Gosanke卡組」中獎率90.5%！預計購買價格為108,000日元，是標價的10倍！由 Toreget (@cardchusen_com) 研究 - www.tv-tokyo.co.jp",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1RQlpaUVlRa0pLZmliMDBnZEJ2TjdJblVjRndpT2lvQ0JyYV9SS0ZDdVF2SGtBQUFYR1dWU3NDY1lwaFdDNzhCMVFYa1cwV3hqSkdKUTRyN0R1TEc3c280Y3A5NFlQaW9GeXloM3lB?oc=5"
     },
     {
-      "title": "「ポケモンカードゲーム MEGA」の「スペシャルデッキセットMEGA メガオーダイル・メガカイリュー・メガゲンガー」が11月13日に発売！ - Gamer",
-      "title_zh": "《精靈寶可夢卡牌遊戲 MEGA》的「特別卡組套裝 MEGA Mega Ordile、Mega Cairyu、Mega Gengar」將於 11 月 13 日發售！ -遊戲玩家",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1GOG9ndzFHWllqd1M5TXlVUjFxc056QXBrRHBKaE83VkdodDlxUi1sSENrTW1jMUJic0l2TlBBZmtRNmM4SWtpdWdmcU1NQTdVcjBudg?oc=5"
+      "title": "7月31日（金）発売ポケモンカードゲーム関連商品の事前抽選について - ポケットモンスターオフィシャルサイト",
+      "title_zh": "",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVmZpYmxhQzAydmhZdUVHeTVUN0NfeFRUbWZvcnpxdzRxeVZQT2l3Y0wyaURfUFRoUmpVUEwzdXJaZk9IcVNISTctNmNiWnQzQXRlLWIwc1pSeC1HRFdiZUlrbFNTR1hCYXVmazhfdVQ4UzFvNWltSjgtQTl5M1hJZFM3eDRLQ1E?oc=5"
     },
     {
-      "title": "【ポケカ】ストームエメラルダの予約・抽選情報まとめ【7/30更新】 | スニーカーダンク - SNKRDUNK",
-      "title_zh": "[Pokeka] Storm Emeralda 預約/抽獎資訊摘要[7/30 更新] |運動鞋 Dunk - SNKRDUNK",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5rYTVkODVGUUtEZXhCQkRRUjMwc2dkRmFVX3NyWU03OWFhczF6QnNEQnJ4UXJyOWRRb1c4RnVyWXpOWWF6dnV0YW9TUTY?oc=5"
+      "title": "【ポケカ】Amazon抽選販売まとめ。30周年カードセット“30th CELEBRATION”やストームエメラルダ、MEGAドリームexなど - ファミ通",
+      "title_zh": "[Pokeka] 亞馬遜彩券銷售摘要。 30週年紀念卡組“30th CELEBRATION”、Storm Emeralda、MEGA Dream ex等 - Fami通",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE80V1lQNjlFa3d4RTZreW5yX3hhS3JEaDRzbWpNLTlLWnZ2VU5tWjdFZzBhRlZMUE5hLVBtdHJoSU9HbDQ1UVh3TVRMdzNCMWxRRmkyVFROQQ?oc=5"
+    },
+    {
+      "title": "【2026.08.04】※応募は終了しました「当選者代金前払い必要 ポケモンカードゲームMEGA 拡張パック 30th CELEBRATION」 - ホビーステーション",
+      "title_zh": "[2026.08.04] *申請已結束「得獎者必須提前支付 Pokemon Card Game MEGA Expansion Pack 30th CELEBRATION」 - Hobby Station",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE0tRXB3aEltQ0xDWk5HSlNjTDNsbW9yVmxVX2ttSFNkWE5mb214elp4OVJWZEhUcEJrSHA3ckxtU0x2bk14?oc=5"
+    },
+    {
+      "title": "【ポケカ】ハドウシーカーの当たりランキング/買取相場/カードリスト/封入率/予約抽選/値段まとめ【2026年11月27日発売】 - SNKRDUNK",
+      "title_zh": "[Pokeka] Hadou Seeker命中排名/購買市場價格/卡片列表/包含率/預約抽獎/價格匯總[2026年11月27日發布] - SNKRDUNK",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1wOU1YellPR0t6em5jMVp6TVZzaEFyZVRHaGFxZ3hvVTFoZDRkVkI3LWpoUWtFdDJHeHVSZFdlNkZmTng2ZG83d2ZfT28?oc=5"
+    },
+    {
+      "title": "Loppi・ローソンオンラインにて、「ポケモンカードゲーム MEGA 30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー」の予約販売を6月23日(火)～開始します。｜ローソン公式サイト - LAWSON",
+      "title_zh": "《精靈寶可夢卡牌遊戲 MEGA 30th CELEBRATION Premium Deck Set Effie Blackie》將於 6 月 23 日（週二）在 Loppi/Lawson Online 開始預購。 ｜羅森官方網站-LAWSON",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9WUXhDckpXRXNMSDRUMXR1cXRqcktMSmtJUHlsYmJta2JrQ0taaEtIdTkzNlBPU2VHLWhOM0IzZHkwa3QzZzd1WlBNZnJXQWN5dUdCcDllM0NuYjlveUFxeTRsaHFhQmMySlA5V216QnJBXzhuQ2Q0RFBubDg?oc=5"
+    },
+    {
+      "title": "※9月9日（水）14時更新※ 9月16日（水）発売ポケモンカードゲーム関連商品の事前抽選について - ポケットモンスターオフィシャルサイト",
+      "title_zh": "*9月9日（週三）14:00更新 *關於9月16日（週三）發售的寶可夢卡牌遊戲相關產品的預抽籤 - 寶可夢官方網站",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNkFDaUd0d0hHQkt4VmdnNmhMWVd3X250bkFMeVpYMEh6a1lGV3lncjFrbm5WX3NVbjVwSE03eEdqaS1SQ3pJc0p5OUk0cTdub08xdjFETngxcHBWZ2ZIczFsX19RQmJRaUFRU1FtX1hPY3gzSG0xMEVMYWJmQWZEbVBwemFhS2UzTlE?oc=5"
     }
   ],
   "ワンピカード": [
     {
-      "title": "【ワンピースカード】神の支配の予約・抽選情報まとめ【10/27更新】 - SNKRDUNK",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1hQWhGWEJ2Z3VaZmdHMGhNSHBVNUFtSzJ2WDVqb3RjdWdzNzZSb24yRklfdktLZ2N1MHpfQlNRT20zTTByUlFOdHZHNzE?oc=5"
+      "title": "【ONE PIECEカードゲーム 最新情報】ONE PIECE BASE SHOPにてカードコレクション第2弾の先行販売が決定！ - ONE PIECE.com",
+      "title_zh": "【海賊王卡牌遊戲最新情報】第二張卡牌集已在ONE PIECE BASE SHOP決定預售！ -海賊王.com",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zakNucGhTcGdraWl3YThYVDQxdUtmMDhCN1c4S015OFNZZHdDQ3o5bGdPOEg3NW5kTV85MXk3WUZIREdtcVdpcUh6THZSMUFaSVE1QnpR?oc=5"
+    },
+    {
+      "title": "【ワンピースカード】ONE PIECE Heroines Edition vol.2(ヒロインズエディション vol.2)の予約・抽選情報まとめ【10/28更新】 - SNKRDUNK",
+      "title_zh": "[海賊王卡] ONE PIECE Heroines Edition vol.2 (Heroines Edition vol.2) 預約/抽籤資訊摘要 [10/28 更新] - SNKRDUNK",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1jbUU3dktwME1sMjVfc001N21ITWlvZHREbzA5Y2U5bTJ6WThKa29ObHBLdlJCSXh2dGR2NklNYmpUZVBRWmVlbjQxaXc?oc=5"
     },
     {
       "title": "「LUFFY's ONE PIECEカードゲーム -ドン!!カード-」が本日2026年10月27日(火)16:00よりプレミアムバンダイにて2次予約受付開始！ - ONE PIECE.com",
       "title_zh": "《路飛的海盜王卡牌遊戲 -Don!! Card-》將於 2026 年 10 月 27 日（星期二）今天 16:00 在 Premium Bandai 開始接受第二次預訂！ -海賊王.com",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WVlFycmZ4SVlmTmtOc3VJeDFGNVhCeDNtR0dMOE5LWVdsOTUtN0dKVnJDRnhEaHlsR3NsNnFaYWxnRURwWnhtSmdELUNUSzRZVDIwMWRR?oc=5"
-    },
-    {
-      "title": "【ワンピースカード】ONE PIECE Heroines Edition vol.2(ヒロインズエディション vol.2)の予約・抽選情報まとめ【10/27更新】 - SNKRDUNK",
-      "title_zh": "[海賊王卡] ONE PIECE Heroines Edition vol.2 (Heroines Edition vol.2) 預約/抽籤資訊摘要 [10/27 更新] - SNKRDUNK",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1jbUU3dktwME1sMjVfc001N21ITWlvZHREbzA5Y2U5bTJ6WThKa29ObHBLdlJCSXh2dGR2NklNYmpUZVBRWmVlbjQxaXc?oc=5"
-    },
-    {
-      "title": "【ONE PIECE BASE SHOP】「ONE PIECEカードゲーム BASE SHOPリミテッドカードコレクション vol.2」など、新たなオリジナル商品が登場！ - ONE PIECE.com",
-      "title_zh": "[ONE PIECE BASE SHOP] 「ONE PIECE 卡牌遊戲 BASE SHOP 限定卡牌收藏vol.2」等全新原創商品現已上市！ -海賊王.com",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1odmU4SGx6R0h0dkV2V3VCWlA5VkJEMkdrUGlubEdMYU5aWVdZd2RjaGpuZ29IbW9xVmp4ZWVPSFRkZHNaSHI5bDdQY3AxX1BCbXJsaWdR?oc=5"
-    },
-    {
-      "title": "【ワンピースカード】世界最強の戦士の予約・抽選情報まとめ【8/21更新】 - SNKRDUNK",
-      "title_zh": "",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBVcXJtXzNBLUZrZ2pZR3ZUblhLV2NHQ2MtMXlmbnZHV011Z0c5N0QyTGVLSFcwTlNlVlRjUXhGeFNHWW1WZVBoaHRCMDY?oc=5"
     },
     {
       "title": "『ワンピース カードゲーム』“ONE PIECE DAY'26”記念商品がプレバンで3次予約！特別な「ルフィ」と「ドン！！カード」の2枚セット - インサイド",
@@ -597,13 +587,28 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1hWkJXOURXYXp5TnB2MGxtOGZQMVlTbTN6ZDY4cVlLaklHWmpzTkZFbHZiUTlLa0NXNzNTcE13SU5EWEFYc2EwT01PWDhaNi1iWHhBbGZnd1k0UQ?oc=5"
     },
     {
+      "title": "ワンピースカード抽選予約一覧｜公式・通販・店頭10店の応募方法 - キャラグー",
+      "title_zh": "一張卡彩票預訂清單|官方/郵購/如何在10家商店申請 - Chara Goo",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1qelBuN2dxdHhKUG1tSjFSS2RqWnlIOFYxVlQwRHh4czYyY0d1d3JaM2dIR3daeTd2UDFMVzBHa1lyTGo1UWc2QzRncVE5UG5rajBN?oc=5"
+    },
+    {
+      "title": "【ワンピースカード】神の支配の予約・抽選情報まとめ【10/27更新】 - SNKRDUNK",
+      "title_zh": "【海賊王卡】神之法則預約及抽籤資訊總結【10/27更新】 - SNKRDUNK",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1hQWhGWEJ2Z3VaZmdHMGhNSHBVNUFtSzJ2WDVqb3RjdWdzNzZSb24yRklfdktLZ2N1MHpfQlNRT20zTTByUlFOdHZHNzE?oc=5"
+    },
+    {
       "title": "【ONE PIECEカードゲーム 最新情報】ブースターパック 神の支配【OP-18】発売記念イベントが開催決定！ - ONE PIECE.com",
-      "title_zh": "[海贼王卡牌游戏最新情报]补充包神之法则[OP-18]发售纪念活动即将举行！ -海賊王.com",
+      "title_zh": "[海賊王卡牌遊戲最新情報]補充包神之法[OP-18]發售紀念活動即將舉行！ -海賊王.com",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FVXE4NlBFQk8tOFZSZUlGdTNZdUpVZmNGZ2Nhc2xyRXhnd0x6TVIwOHNSM0QtSERfa0lNRXBTNE5ZTWlCTFRFcmJQUHVGN0ZqQVNacjd3?oc=5"
     },
     {
+      "title": "【ONE PIECE BASE SHOP】「ONE PIECEカードゲーム BASE SHOPリミテッドカードコレクション vol.2」など、新たなオリジナル商品が登場！ - ONE PIECE.com",
+      "title_zh": "[ONE PIECE BASE SHOP] 「ONE PIECE 卡牌遊戲 BASE SHOP 限定卡牌收藏vol.2」等全新原創商品現已上市！ -海賊王.com",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1odmU4SGx6R0h0dkV2V3VCWlA5VkJEMkdrUGlubEdMYU5aWVdZd2RjaGpuZ29IbW9xVmp4ZWVPSFRkZHNaSHI5bDdQY3AxX1BCbXJsaWdR?oc=5"
+    },
+    {
       "title": "『ONE PIECE 海のごちそうレストラン』が本日10月22日(木)開店！ - ONE PIECE.com",
-      "title_zh": "《海賊王海宴餐廳》今天10月22日（星期四）開幕！ -海賊王.com",
+      "title_zh": "『ONE PIECE 海のごちそうresutoran』が本日10月22日(木)開店！ -ONE PIECE.com",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1FSFRPUEU5MTlZZVdBRkhjVDJUZnFwWC1xOFpNLUlLZmJIZzVOT3pUWElVMGZadEczQjBWZlRYVHptTllQRnhFZUxCX1E1a2RWcjNxODVn?oc=5"
     },
     {
@@ -612,29 +617,24 @@
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxTkNDeGNJeDFROVpxTHhDeG1jT19mc3hqSXRmdldkMVU5QU5LMDdpTjEzWFB3WU4wdFZSVUNTSVpHc3J3ZExzUVVfV0huU0hGa0RaNUp3?oc=5"
     },
     {
-      "title": "【ONE PIECEカードゲーム 最新情報】「BANDAI CARD GAMES ネクストプラン発表会2026.06」にて最新情報解禁！ - ONE PIECE.com",
-      "title_zh": "【ONE PIECE卡牌游戏最新情报】最新情报将在「BANDAI CARD GAMES Next Plan发表会2026.06」公开！ -海賊王.com",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1YR3FOQXUtY2JOTlpVeUYtUk95MUVTT1BqWlpON25Rcm1WaFZiNVFZQTZYX3phV1RXREhiUkpLMFE2WklGUS1oTW91dnZ1c2NfX0d6Rm93?oc=5"
-    },
-    {
       "title": "【ONE PIECEカードゲーム 最新情報】ブースターパック 世界最強の戦士【OP-17】発売記念イベントが開催決定！ - ONE PIECE.com",
       "title_zh": "【海賊王卡牌遊戲最新情報】補充包世界最強戰士【OP-17】發售紀念活動即將舉辦！ -海賊王.com",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5UcHA1bVNHUmpfa1JFUnBJM2lmY3RZNVNzQ1o2UEZtLVpZTmNpdU1JbjEwU0xjZWsyMGwxYTFsX2xDaFJXZmlLOG13U0lKcWZHTnFZTDBB?oc=5"
     },
     {
+      "title": "【ONE PIECEカードゲーム 最新情報】「BANDAI CARD GAMES ネクストプラン発表会2026.06」にて最新情報解禁！ - ONE PIECE.com",
+      "title_zh": "【ONE PIECE卡牌遊戲最新情報】最新情報將在「BANDAI CARD GAMES Next Plan發表會2026.06」公開！ -海賊王.com",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1YR3FOQXUtY2JOTlpVeUYtUk95MUVTT1BqWlpON25Rcm1WaFZiNVFZQTZYX3phV1RXREhiUkpLMFE2WklGUS1oTW91dnZ1c2NfX0d6Rm93?oc=5"
+    },
+    {
       "title": "【ONE PIECEカードゲーム 最新情報】「ONE PIECE DAY’26」にて特報を解禁!! - ONE PIECE.com",
-      "title_zh": "[ONE PIECE 卡牌游戏最新情报] 「ONE PIECE DAY’26」特别消息公开！ ！ - 海賊王.com",
+      "title_zh": "[ONE PIECE 卡牌遊戲最新情報] “ONE PIECE DAY’26”特別消息公開！ ！ - 海賊王.com",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rR3FmVjR4Njh1VGhiRWpWOEtLaUZ4Z3Y0cjJITy1nejluSGJDRDN2REFGSWZyYXZmWVpPeENhSVBpMTc4M3V1TlJNcDdDNWU0bzQ2aWNn?oc=5"
     },
     {
       "title": "【ONE PIECEカードゲーム 最新情報】明日8月22日(土)にブースターパック 世界最強の戦士【OP-17】が新発売！ - ONE PIECE.com",
       "title_zh": "【海賊王卡牌遊戲最新資訊】全新補充包世界最強戰士【OP-17】將於明日8月22日（週六）發售！ -海賊王.com",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHMGR3ZHY5MUZ3Yl9IQWE4TEF4S0JzWkczcGV6aTlqM1pxc2xYT1BGTUVfT0xuekp1M1VIaG9jVkJjTVJUYTZySjlhemZ1cXZQMnhBS1Vn?oc=5"
-    },
-    {
-      "title": "【ONE PIECEカードゲーム 最新情報】「エクストラブースター ONE PIECE Heroines Edition vol.2【EB-05】」発売記念イベントが開催決定！ - ONE PIECE.com",
-      "title_zh": "【海賊王卡牌遊戲最新情報】「Extra Booster ONE PIECE Heroine Edition vol.2 [EB-05]」發售紀念活動即將舉行！ -海賊王.com",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE81U2c0Q0ZHNzFsMl9tbVR2OFBTdUhMdWRlU3lNQWtTb0hQTlZGMG5uazNSX2pKdFFDem5JeVRkTDBFcUV5SnFHUkxaMGViN3ZKbWdZZzZR?oc=5"
     }
   ]
 }
