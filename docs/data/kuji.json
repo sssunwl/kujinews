@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T12:34:37.654860+09:00",
+  "generated_at": "2026-10-30T12:35:37.519941+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6367,19 +6367,6 @@
       "label": "2026年5月",
       "items": [
         {
-          "id": "baymax3-0",
-          "title": "Happyくじ『ベイマックス』vol.3.0",
-          "brand": "Happyくじ",
-          "url": "https://www.h-kuji.com/goods/baymax3-0/",
-          "month_key": "2026-05",
-          "ip_tags": [],
-          "date": "2026-05-15",
-          "price": null,
-          "official_url": "https://www.h-kuji.com/goods/baymax3-0/",
-          "image_url": "https://www.h-kuji.com/wp-content/uploads/2026/04/HappyKUJi_Baymax_0507_t1.jpg",
-          "end_date": null
-        },
-        {
           "id": "swmandg",
           "title": "Happyくじ / STAR WARS™ 『マンダロリアン・アンド・グローグー』",
           "brand": "Happyくじ",
@@ -6618,19 +6605,6 @@
           "end_date": "2026-10-12"
         },
         {
-          "id": "kuruiduki",
-          "title": "コトブキヤくじ 狂い月",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/kuruiduki/",
-          "month_key": "2026-10",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/kuruiduki/",
-          "image_url": null,
-          "end_date": "2026-10-30"
-        },
-        {
           "id": "otomekaiju",
           "title": "BS11×KOTOBUKIYA コトブキヤくじ TVアニメ「乙女怪獣キャラメリゼ」",
           "brand": "コトブキヤくじ",
@@ -6689,6 +6663,19 @@
           "end_date": null
         },
         {
+          "id": "zootopia-nick",
+          "title": "Happyくじ『ズートピア』ニック コレクション",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/zootopia-nick/",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": "2026-11-28",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/zootopia-nick/",
+          "image_url": "https://www.h-kuji.com/wp-content/uploads/2026/10/9274c8ccd4a07dea8be31ed08750fce9.jpg",
+          "end_date": null
+        },
+        {
           "id": "capkuji_TOBA_AQUARIUM_3rd",
           "title": "ラッコのメイちゃん＆キラちゃん with 鳥羽水族館のなかまたち くじ",
           "brand": "カプくじ",
@@ -6713,6 +6700,19 @@
           "official_url": "https://capcom-capkujionline.com/lp/onimusha/",
           "image_url": "https://capcom-capkujionline.com/lp/onimusha/img/og.png",
           "end_date": "2026-11-13"
+        },
+        {
+          "id": "kuruiduki",
+          "title": "コトブキヤくじ 狂い月",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/kuruiduki/",
+          "month_key": "2026-11",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/kuruiduki/",
+          "image_url": null,
+          "end_date": "2026-11-29"
         },
         {
           "id": "magic-kyun",
