@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T12:57:42.932127+09:00",
+  "generated_at": "2026-11-05T13:18:44.909987+09:00",
   "pokemon": [
     {
       "id": "pkm_ps_www_30th_pokemon_card_com_product_m6a_2b1916",
@@ -750,16 +750,16 @@
       "stores": ""
     },
     {
-      "id": "dbfw_01_477",
+      "id": "dbfw_01_479",
       "game": "dbfw",
       "category": "",
-      "title": "ブースターパック REACH THE GOD [FB12]",
+      "title": "スタートデッキ サイヤ人の王子[FS14]",
       "date": "2026-12-12",
       "date_raw": "2026.12.12",
       "month_key": "2026-12",
-      "price": "￥240(税込)",
-      "image_url": "images/tcg/dbfw_01_477.png",
-      "url": "https://www.dbs-cardgame.com/fw/jp/products/01_477.html",
+      "price": "￥1,650(税込)",
+      "image_url": "images/tcg/dbfw_01_479.png",
+      "url": "https://www.dbs-cardgame.com/fw/jp/products/01_479.html",
       "buy_url": "",
       "stores": ""
     },
@@ -778,16 +778,16 @@
       "stores": ""
     },
     {
-      "id": "dbfw_01_479",
+      "id": "dbfw_01_477",
       "game": "dbfw",
       "category": "",
-      "title": "スタートデッキ サイヤ人の王子[FS14]",
+      "title": "ブースターパック REACH THE GOD [FB12]",
       "date": "2026-12-12",
       "date_raw": "2026.12.12",
       "month_key": "2026-12",
-      "price": "￥1,650(税込)",
-      "image_url": "images/tcg/dbfw_01_479.png",
-      "url": "https://www.dbs-cardgame.com/fw/jp/products/01_479.html",
+      "price": "￥240(税込)",
+      "image_url": "images/tcg/dbfw_01_477.png",
+      "url": "https://www.dbs-cardgame.com/fw/jp/products/01_477.html",
       "buy_url": "",
       "stores": ""
     }
