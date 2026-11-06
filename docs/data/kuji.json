@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T13:18:36.934706+09:00",
+  "generated_at": "2026-11-06T13:16:19.787571+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6367,19 +6367,6 @@
       "label": "2026年5月",
       "items": [
         {
-          "id": "swmandg",
-          "title": "Happyくじ / STAR WARS™ 『マンダロリアン・アンド・グローグー』",
-          "brand": "Happyくじ",
-          "url": "https://www.h-kuji.com/goods/swmandg/",
-          "month_key": "2026-05",
-          "ip_tags": [],
-          "date": "2026-05-22",
-          "price": null,
-          "official_url": "https://www.h-kuji.com/goods/swmandg/",
-          "image_url": "https://www.h-kuji.com/wp-content/uploads/2026/05/Mandalorian_KV_0511_banner_260518.jpg",
-          "end_date": null
-        },
-        {
           "id": "puppet-sunsun",
           "title": "Happyくじ「パペットスンスン」",
           "brand": "Happyくじ",
@@ -6702,19 +6689,6 @@
           "end_date": "2026-11-13"
         },
         {
-          "id": "capkuji_pometone",
-          "title": "賞品公開ポメトーン くじ2026.11.6（金）販売予定",
-          "brand": "カプくじ",
-          "url": "https://capcom-capkujionline.com/lp/pometone/",
-          "month_key": "2026-11",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://capcom-capkujionline.com/lp/pometone/",
-          "image_url": "https://capcom-capkujionline.com/lp/pometone/img/og.png",
-          "end_date": "2026-11-06"
-        },
-        {
           "id": "kuruiduki",
           "title": "コトブキヤくじ 狂い月",
           "brand": "コトブキヤくじ",
@@ -6739,6 +6713,44 @@
           "official_url": "https://kuji.kotobukiya.co.jp/lp/magic-kyun/",
           "image_url": null,
           "end_date": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "key": "2026-12",
+      "label": "2026年12月",
+      "items": [
+        {
+          "id": "sanrio-holiday2026",
+          "title": "Happyくじ『Sanrio characters Holiday Collection 2026』",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/sanrio-holiday2026/",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": "2026-12-04",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/sanrio-holiday2026/",
+          "image_url": "https://www.h-kuji.com/wp-content/uploads/2026/11/S_Hldy_ImgCut_1105_01.jpg",
+          "end_date": null
+        }
+      ]
+    },
+    {
+      "key": "2027-01",
+      "label": "2027年1月",
+      "items": [
+        {
+          "id": "capkuji_pometone",
+          "title": "ポメトーン くじ",
+          "brand": "カプくじ",
+          "url": "https://capcom-capkujionline.com/lp/pometone/",
+          "month_key": "2027-01",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://capcom-capkujionline.com/lp/pometone/",
+          "image_url": "https://capcom-capkujionline.com/lp/pometone/img/og.png",
+          "end_date": "2027-01-08"
         }
       ]
     },
