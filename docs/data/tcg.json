@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-11-06T13:16:27.710636+09:00",
+  "generated_at": "2026-11-07T12:47:07.870950+09:00",
   "pokemon": [
+    {
+      "id": "pkm_https_www_pokemon_card_com_ex_m7_2b7b0b",
+      "game": "pokemon",
+      "category": "拡張パック",
+      "title": "拡張パック「ハドウシーカー」",
+      "date": "2026-11-27",
+      "date_raw": "2026年11月27日（金）",
+      "month_key": "2026-11",
+      "price": "200円（税込）",
+      "image_url": "images/tcg/pkm_https_www_pokemon_card_com_ex_m7_2b7b0b.jpg",
+      "url": "https://www.pokemon-card.com/ex/m7/",
+      "buy_url": "",
+      "stores": ""
+    },
     {
       "id": "pkm_ps_www_30th_pokemon_card_com_product_m6a_2b1916",
       "game": "pokemon",
@@ -186,6 +200,20 @@
   ],
   "onepiece": [
     {
+      "id": "op_per01",
+      "game": "onepiece",
+      "category": "ブースターパック",
+      "title": "プレミアムエクストラブースター 夢の一枚【PEB-01】",
+      "date": "2027-04-24",
+      "date_raw": "2027.04.24(土)",
+      "month_key": "2027-04",
+      "price": "440円(税込)",
+      "image_url": "images/tcg/op_per01.webp",
+      "url": "https://www.onepiece-cardgame.com/products/per01.html",
+      "buy_url": "",
+      "stores": ""
+    },
+    {
       "id": "op_collection-6assort-vol2",
       "game": "onepiece",
       "category": "その他",
@@ -238,6 +266,34 @@
       "price": "990円(税込)",
       "image_url": "images/tcg/op_sleeve046.webp",
       "url": "https://www.onepiece-cardgame.com/products/sleeve046.html",
+      "buy_url": "",
+      "stores": ""
+    },
+    {
+      "id": "op_op19",
+      "game": "onepiece",
+      "category": "ブースターパック",
+      "title": "ブースターパック 応答せよ、世界【OP-19】",
+      "date": "2027-02-27",
+      "date_raw": "2027.02.27(土)",
+      "month_key": "2027-02",
+      "price": "240円(税込)",
+      "image_url": "images/tcg/op_op19.webp",
+      "url": "https://www.onepiece-cardgame.com/products/op19.html",
+      "buy_url": "",
+      "stores": ""
+    },
+    {
+      "id": "op_eb06",
+      "game": "onepiece",
+      "category": "ブースターパック",
+      "title": "エクストラブースター EAST BLUE【EB-06】",
+      "date": "2027-01-30",
+      "date_raw": "2027.01.30(土)",
+      "month_key": "2027-01",
+      "price": "240円(税込)",
+      "image_url": "images/tcg/op_eb06.webp",
+      "url": "https://www.onepiece-cardgame.com/products/eb06.html",
       "buy_url": "",
       "stores": ""
     },
@@ -308,48 +364,6 @@
       "price": "4,730円(税込)",
       "image_url": "images/tcg/op_playmat007.webp",
       "url": "https://www.onepiece-cardgame.com/products/playmat007.html",
-      "buy_url": "",
-      "stores": ""
-    },
-    {
-      "id": "op_eb05",
-      "game": "onepiece",
-      "category": "ブースターパック",
-      "title": "エクストラブースター ONE PIECE Heroines Edition vol.2【EB-05】",
-      "date": "2026-10-31",
-      "date_raw": "2026.10.31(土)",
-      "month_key": "2026-10",
-      "price": "240円(税込)",
-      "image_url": "images/tcg/op_eb05.webp",
-      "url": "https://www.onepiece-cardgame.com/products/eb05.html",
-      "buy_url": "",
-      "stores": ""
-    },
-    {
-      "id": "op_heroines-box",
-      "game": "onepiece",
-      "category": "その他",
-      "title": "ONE PIECEカードゲーム ONE PIECE HEROINES PRECIOUS BOX",
-      "date": "2026-10-31",
-      "date_raw": "2026.10.31(土)",
-      "month_key": "2026-10",
-      "price": "8,470円(税込)",
-      "image_url": "images/tcg/op_heroines-box.webp",
-      "url": "https://www.onepiece-cardgame.com/products/heroines-box.html",
-      "buy_url": "",
-      "stores": ""
-    },
-    {
-      "id": "op_baseshop-binder001",
-      "game": "onepiece",
-      "category": "その他",
-      "title": "ONE PIECEカードゲーム BASE SHOPリミテッドバインダー vol.1",
-      "date": "2026-10-09",
-      "date_raw": "2026.10.09(金)",
-      "month_key": "2026-10",
-      "price": "1,650円(税込)",
-      "image_url": "images/tcg/op_baseshop-binder001.webp",
-      "url": "https://www.onepiece-cardgame.com/products/baseshop-binder001.html",
       "buy_url": "",
       "stores": ""
     }
@@ -750,6 +764,20 @@
       "stores": ""
     },
     {
+      "id": "dbfw_01_477",
+      "game": "dbfw",
+      "category": "",
+      "title": "ブースターパック REACH THE GOD [FB12]",
+      "date": "2026-12-12",
+      "date_raw": "2026.12.12",
+      "month_key": "2026-12",
+      "price": "￥240(税込)",
+      "image_url": "images/tcg/dbfw_01_477.png",
+      "url": "https://www.dbs-cardgame.com/fw/jp/products/01_477.html",
+      "buy_url": "",
+      "stores": ""
+    },
+    {
       "id": "dbfw_01_479",
       "game": "dbfw",
       "category": "",
@@ -774,20 +802,6 @@
       "price": "￥1,650(税込)",
       "image_url": "images/tcg/dbfw_01_478.png",
       "url": "https://www.dbs-cardgame.com/fw/jp/products/01_478.html",
-      "buy_url": "",
-      "stores": ""
-    },
-    {
-      "id": "dbfw_01_477",
-      "game": "dbfw",
-      "category": "",
-      "title": "ブースターパック REACH THE GOD [FB12]",
-      "date": "2026-12-12",
-      "date_raw": "2026.12.12",
-      "month_key": "2026-12",
-      "price": "￥240(税込)",
-      "image_url": "images/tcg/dbfw_01_477.png",
-      "url": "https://www.dbs-cardgame.com/fw/jp/products/01_477.html",
       "buy_url": "",
       "stores": ""
     }
