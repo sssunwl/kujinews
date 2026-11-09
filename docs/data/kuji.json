@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T12:26:43.915699+09:00",
+  "generated_at": "2026-11-09T12:43:30.379922+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6506,19 +6506,6 @@
           "official_url": "https://kuji.kotobukiya.co.jp/lp/hanaorisan-anime/",
           "image_url": null,
           "end_date": "2026-09-27"
-        },
-        {
-          "id": "kizuyome",
-          "title": "コトブキヤくじ 傷モノの花嫁",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/kizuyome/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/kizuyome/",
-          "image_url": null,
-          "end_date": "2026-09-06"
         },
         {
           "id": "the-idolmaster-summerlivestage",
