@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T13:57:33.399242+09:00",
+  "generated_at": "2026-11-13T13:10:26.975722+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6637,30 +6637,6 @@
           "end_date": null
         },
         {
-          "id": "index_4",
-          "title": "「とある魔術の禁書目録Ⅲ」Newtype オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/index_4/",
-          "month_key": "2026-11",
-          "ip_tags": [],
-          "date": "2026-11-19",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/index_4/",
-          "image_url": "https://kujibikido.com/lp/index_4/img/og.png"
-        },
-        {
-          "id": "mahoako-anime_6",
-          "title": "「魔法少女にあこがれて」オンラインくじ パイレーツビキニver.",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/mahoako-anime_6/",
-          "month_key": "2026-11",
-          "ip_tags": [],
-          "date": "2026-11-19",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/mahoako-anime_6/",
-          "image_url": "https://kujibikido.com/lp/mahoako-anime_6/img/og.png"
-        },
-        {
           "id": "reborn_medieval",
           "title": "TVアニメ『家庭教師ヒットマンREBORN!』西洋中世風描き下ろしくじ",
           "brand": "くじ引き堂",
@@ -6673,18 +6649,6 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/reborn_medieval/",
           "image_url": "https://kujibikido.com/lp/reborn_medieval/img/og.png"
-        },
-        {
-          "id": "shadow-garden_5",
-          "title": "【再販】TVアニメ 陰の実力者になりたくて！ オンラインくじ～漆黒の万聖節～",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/shadow-garden_5/",
-          "month_key": "2026-11",
-          "ip_tags": [],
-          "date": "2026-11-26",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/shadow-garden_5/",
-          "image_url": "https://kujibikido.com/lp/shadow-garden_5/img/og.png"
         },
         {
           "id": "spicy_wolf_3",
@@ -6830,6 +6794,18 @@
           "image_url": "https://kujibikido.com/lp/majotabi-2026/img/og.png"
         },
         {
+          "id": "silentwitch_5th",
+          "title": "『サイレント・ウィッチ 沈黙の魔女の隠しごと』5th Anniversaryオンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/silentwitch_5th/",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": "2026-12-03",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/silentwitch_5th/",
+          "image_url": "https://kujibikido.com/lp/silentwitch_5th/img/og.png"
+        },
+        {
           "id": "yowaki-max",
           "title": "『弱気MAX令嬢なのに、辣腕婚約者様の賭けに乗ってしまった』オンラインくじ",
           "brand": "くじ引き堂",
@@ -6961,6 +6937,30 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/kamisamakitsune/",
           "image_url": "https://kujibikido.com/lp/kamisamakitsune/img/og.png"
+        },
+        {
+          "id": "roshidere_anime_bd2026",
+          "title": "TVアニメ「時々ボソッとロシア語でデレる隣のアーリャさん」アーリャ HAPPY BIRTHDAY オンラインくじ2026",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/roshidere_anime_bd2026/",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": "2026-12-17",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/roshidere_anime_bd2026/",
+          "image_url": "https://kujibikido.com/lp/roshidere_anime_bd2026/img/og.png"
+        },
+        {
+          "id": "kimishinu_sheenabd",
+          "title": "きみが死ぬまで恋をしたい シーナBirthdayくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/kimishinu_sheenabd/",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": "2026-12-24",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/kimishinu_sheenabd/",
+          "image_url": "https://kujibikido.com/lp/kimishinu_sheenabd/img/og.png"
         }
       ]
     },
