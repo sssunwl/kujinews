@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T13:10:35.757774+09:00",
+  "generated_at": "2026-11-14T13:06:43.638168+09:00",
   "pokemon": [
     {
       "id": "pkm_https_www_pokemon_card_com_ex_m7_2b7b0b",
@@ -764,6 +764,20 @@
       "stores": ""
     },
     {
+      "id": "dbfw_01_477",
+      "game": "dbfw",
+      "category": "",
+      "title": "ブースターパック REACH THE GOD [FB12]",
+      "date": "2026-12-12",
+      "date_raw": "2026.12.12",
+      "month_key": "2026-12",
+      "price": "￥240(税込)",
+      "image_url": "images/tcg/dbfw_01_477.png",
+      "url": "https://www.dbs-cardgame.com/fw/jp/products/01_477.html",
+      "buy_url": "",
+      "stores": ""
+    },
+    {
       "id": "dbfw_01_479",
       "game": "dbfw",
       "category": "",
@@ -788,20 +802,6 @@
       "price": "￥1,650(税込)",
       "image_url": "images/tcg/dbfw_01_478.png",
       "url": "https://www.dbs-cardgame.com/fw/jp/products/01_478.html",
-      "buy_url": "",
-      "stores": ""
-    },
-    {
-      "id": "dbfw_01_477",
-      "game": "dbfw",
-      "category": "",
-      "title": "ブースターパック REACH THE GOD [FB12]",
-      "date": "2026-12-12",
-      "date_raw": "2026.12.12",
-      "month_key": "2026-12",
-      "price": "￥240(税込)",
-      "image_url": "images/tcg/dbfw_01_477.png",
-      "url": "https://www.dbs-cardgame.com/fw/jp/products/01_477.html",
       "buy_url": "",
       "stores": ""
     }

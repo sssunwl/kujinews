@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T13:10:26.975722+09:00",
+  "generated_at": "2026-11-14T13:06:35.917404+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6711,19 +6711,6 @@
           "official_url": "https://capcom-capkujionline.com/lp/TOBA_AQUARIUM_3rd/",
           "image_url": "https://capcom-capkujionline.com/lp/TOBA_AQUARIUM_3rd/img/og.png",
           "end_date": "2026-11-20"
-        },
-        {
-          "id": "capkuji_onimusha",
-          "title": "鬼武者 way of the sword くじ",
-          "brand": "カプくじ",
-          "url": "https://capcom-capkujionline.com/lp/onimusha/",
-          "month_key": "2026-11",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://capcom-capkujionline.com/lp/onimusha/",
-          "image_url": "https://capcom-capkujionline.com/lp/onimusha/img/og.png",
-          "end_date": "2026-11-13"
         },
         {
           "id": "kuruiduki",
