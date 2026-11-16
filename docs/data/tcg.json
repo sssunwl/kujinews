@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T12:53:10.052155+09:00",
+  "generated_at": "2026-11-16T12:53:16.799123+09:00",
   "pokemon": [
     {
       "id": "pkm_https_www_pokemon_card_com_ex_m7_2b7b0b",
@@ -716,20 +716,6 @@
       "price": "3,600円",
       "image_url": "images/tcg/ygo_cg2087.png",
       "url": "https://www.yugioh-card.com/japan/products/#cg2087",
-      "buy_url": "",
-      "stores": ""
-    },
-    {
-      "id": "ygo_cg2119",
-      "game": "yugioh",
-      "category": "基本パック",
-      "title": "BEYOND THE BRAVE",
-      "date": "2026-07-18",
-      "date_raw": "2026年7月18日(土)",
-      "month_key": "2026-07",
-      "price": "1パック 198円",
-      "image_url": "images/tcg/ygo_cg2119.png",
-      "url": "https://www.yugioh-card.com/japan/products/betb/",
       "buy_url": "",
       "stores": ""
     }
