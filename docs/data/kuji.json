@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T12:53:09.812630+09:00",
+  "generated_at": "2026-11-17T14:46:11.191010+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6651,30 +6651,6 @@
           "image_url": "https://kujibikido.com/lp/reborn_medieval/img/og.png"
         },
         {
-          "id": "spicy_wolf_3",
-          "title": "【再販】「狼と香辛料」 まるごとホロづくし！オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/spicy_wolf_3/",
-          "month_key": "2026-11",
-          "ip_tags": [],
-          "date": "2026-11-26",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/spicy_wolf_3/",
-          "image_url": "https://kujibikido.com/lp/spicy_wolf_3/img/og.png"
-        },
-        {
-          "id": "yu-yu-hakusho",
-          "title": "TVアニメ『幽☆遊☆白書』オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/yu-yu-hakusho/",
-          "month_key": "2026-11",
-          "ip_tags": [],
-          "date": "2026-11-26",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/yu-yu-hakusho/",
-          "image_url": "https://kujibikido.com/lp/yu-yu-hakusho/img/og.png"
-        },
-        {
           "id": "zootopia-nick",
           "title": "Happyくじ『ズートピア』ニック コレクション",
           "brand": "Happyくじ",
@@ -6890,6 +6866,18 @@
           "image_url": "https://kujibikido.com/lp/tanmoshi-s2/img/og.png"
         },
         {
+          "id": "iriya",
+          "title": "電撃文庫『イリヤの空、UFOの夏』原作25周年記念オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/iriya/",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": "2026-12-15",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/iriya/",
+          "image_url": "https://kujibikido.com/lp/iriya/img/og.png?d=20261030"
+        },
+        {
           "id": "kaito_20th",
           "title": "『KAITO』20周年記念 オンラインくじ",
           "brand": "くじ引き堂",
@@ -6900,6 +6888,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/kaito_20th/",
           "image_url": "https://kujibikido.com/lp/kaito_20th/img/og.png"
+        },
+        {
+          "id": "kamisama_2",
+          "title": "「神様はじめました◎」オンラインくじ 読書ver.",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/kamisama_2/",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": "2026-12-15",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/kamisama_2/",
+          "image_url": "https://kujibikido.com/lp/kamisama_2/img/og.png"
         },
         {
           "id": "dariya",
