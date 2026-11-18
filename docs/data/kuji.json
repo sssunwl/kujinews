@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T14:46:11.191010+09:00",
+  "generated_at": "2026-11-18T14:11:41.246592+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6721,18 +6721,6 @@
       "label": "2026年12月",
       "items": [
         {
-          "id": "newpsg_2",
-          "title": "「New PANTY & STOCKING with GARTERBELT」ハロウィンくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/newpsg_2/",
-          "month_key": "2026-12",
-          "ip_tags": [],
-          "date": "2026-12-01",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/newpsg_2/",
-          "image_url": "https://kujibikido.com/lp/newpsg_2/img/og.png"
-        },
-        {
           "id": "everydayhost",
           "title": "えぶりでいホスト＜原作＞オンラインくじ",
           "brand": "くじ引き堂",
@@ -6767,18 +6755,6 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/silentwitch_5th/",
           "image_url": "https://kujibikido.com/lp/silentwitch_5th/img/og.png"
-        },
-        {
-          "id": "yowaki-max",
-          "title": "『弱気MAX令嬢なのに、辣腕婚約者様の賭けに乗ってしまった』オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/yowaki-max/",
-          "month_key": "2026-12",
-          "ip_tags": [],
-          "date": "2026-12-03",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/yowaki-max/",
-          "image_url": "https://kujibikido.com/lp/yowaki-max/img/og.png"
         },
         {
           "id": "sanrio-holiday2026",
@@ -6900,6 +6876,30 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/kamisama_2/",
           "image_url": "https://kujibikido.com/lp/kamisama_2/img/og.png"
+        },
+        {
+          "id": "link-click_4",
+          "title": "【再販】時光代理人 -LINK CLICK-Ⅱ オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/link-click_4/",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": "2026-12-15",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/link-click_4/",
+          "image_url": "https://kujibikido.com/lp/link-click_4/img/og.png"
+        },
+        {
+          "id": "odekakekozame_tenshi",
+          "title": "アニメ「おでかけ子ザメ」オンラインくじ てんしとこあくま",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/odekakekozame_tenshi/",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": "2026-12-15",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/odekakekozame_tenshi/",
+          "image_url": "https://kujibikido.com/lp/odekakekozame_tenshi/img/og.png"
         },
         {
           "id": "dariya",
