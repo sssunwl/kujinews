@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T14:11:49.147405+09:00",
+  "generated_at": "2026-11-19T14:05:54.825832+09:00",
   "pokemon": [
     {
       "id": "pkm_https_www_pokemon_card_com_ex_m7_2b7b0b",
@@ -200,7 +200,7 @@
   ],
   "onepiece": [
     {
-      "id": "op_per01",
+      "id": "op_peb01",
       "game": "onepiece",
       "category": "ブースターパック",
       "title": "プレミアムエクストラブースター 夢の一枚【PEB-01】",
@@ -208,8 +208,8 @@
       "date_raw": "2027.04.24(土)",
       "month_key": "2027-04",
       "price": "440円(税込)",
-      "image_url": "images/tcg/op_per01.webp",
-      "url": "https://www.onepiece-cardgame.com/products/per01.html",
+      "image_url": "images/tcg/op_peb01.webp",
+      "url": "https://www.onepiece-cardgame.com/products/peb01.html",
       "buy_url": "",
       "stores": ""
     },

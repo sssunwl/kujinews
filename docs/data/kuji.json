@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T14:11:41.246592+09:00",
+  "generated_at": "2026-11-19T14:05:47.536243+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6637,20 +6637,6 @@
           "end_date": null
         },
         {
-          "id": "reborn_medieval",
-          "title": "TVアニメ『家庭教師ヒットマンREBORN!』西洋中世風描き下ろしくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/reborn_medieval/",
-          "month_key": "2026-11",
-          "ip_tags": [
-            "REBORN!"
-          ],
-          "date": "2026-11-25",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/reborn_medieval/",
-          "image_url": "https://kujibikido.com/lp/reborn_medieval/img/og.png"
-        },
-        {
           "id": "zootopia-nick",
           "title": "Happyくじ『ズートピア』ニック コレクション",
           "brand": "Happyくじ",
@@ -6926,6 +6912,18 @@
           "image_url": "https://kujibikido.com/lp/kamisamakitsune/img/og.png"
         },
         {
+          "id": "milkysubway",
+          "title": "『銀河特急 ミルキー☆サブウェイ』オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/milkysubway/",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": "2026-12-17",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/milkysubway/",
+          "image_url": "https://kujibikido.com/lp/milkysubway/img/og.png"
+        },
+        {
           "id": "roshidere_anime_bd2026",
           "title": "TVアニメ「時々ボソッとロシア語でデレる隣のアーリャさん」アーリャ HAPPY BIRTHDAY オンラインくじ2026",
           "brand": "くじ引き堂",
@@ -6936,6 +6934,19 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/roshidere_anime_bd2026/",
           "image_url": "https://kujibikido.com/lp/roshidere_anime_bd2026/img/og.png"
+        },
+        {
+          "id": "avdd",
+          "title": "Happyくじ / MARVEL『アベンジャーズ / ドゥームズデイ』",
+          "brand": "Happyくじ",
+          "url": "https://www.h-kuji.com/goods/avdd/",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": "2026-12-18",
+          "price": null,
+          "official_url": "https://www.h-kuji.com/goods/avdd/",
+          "image_url": "https://www.h-kuji.com/wp-content/uploads/2026/11/AVDD_Teaser_1112-01.jpg",
+          "end_date": null
         },
         {
           "id": "kimishinu_sheenabd",
