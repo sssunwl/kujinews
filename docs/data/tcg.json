@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T14:05:54.825832+09:00",
+  "generated_at": "2026-11-20T13:55:44.551748+09:00",
   "pokemon": [
     {
       "id": "pkm_https_www_pokemon_card_com_ex_m7_2b7b0b",
@@ -379,7 +379,7 @@
       "month_key": "2026-12",
       "price": "1ボックス 2,530円",
       "image_url": "images/tcg/ygo_cg2168.png",
-      "url": "https://www.yugioh-card.com/japan/products/",
+      "url": "https://www.yugioh-card.com/japan/products/27pp/",
       "buy_url": "",
       "stores": ""
     },
@@ -419,9 +419,9 @@
       "date": "2027-01-23",
       "date_raw": "2027年1月23日(土)",
       "month_key": "2027-01",
-      "price": "198円",
-      "image_url": "",
-      "url": "https://www.yugioh-card.com/japan/products/",
+      "price": "1パック 198円",
+      "image_url": "images/tcg/ygo_cg2163.png",
+      "url": "https://www.yugioh-card.com/japan/products/paso/",
       "buy_url": "",
       "stores": ""
     },

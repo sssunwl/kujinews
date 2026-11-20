@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T14:05:47.536243+09:00",
+  "generated_at": "2026-11-20T13:55:37.059163+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6707,18 +6707,6 @@
       "label": "2026年12月",
       "items": [
         {
-          "id": "everydayhost",
-          "title": "えぶりでいホスト＜原作＞オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/everydayhost/",
-          "month_key": "2026-12",
-          "ip_tags": [],
-          "date": "2026-12-03",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/everydayhost/",
-          "image_url": "https://kujibikido.com/lp/everydayhost/img/og.png"
-        },
-        {
           "id": "majotabi-2026",
           "title": "TVアニメ「魔女の旅々」イレイナ Happy Birthday 2026 オンラインくじ",
           "brand": "くじ引き堂",
@@ -6826,6 +6814,18 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/tanmoshi-s2/",
           "image_url": "https://kujibikido.com/lp/tanmoshi-s2/img/og.png"
+        },
+        {
+          "id": "mahoako-anime_7",
+          "title": "「魔法少女にあこがれて」マジアベーゼ＆柊うてな HappyBirthdayオンラインくじ with レオパルト＆キウィ♡",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/mahoako-anime_7/",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": "2026-12-11",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/mahoako-anime_7/",
+          "image_url": "https://kujibikido.com/lp/mahoako-anime_7/img/og.png"
         },
         {
           "id": "iriya",
