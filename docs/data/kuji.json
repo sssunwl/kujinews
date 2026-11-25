@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T16:39:18.563722+09:00",
+  "generated_at": "2026-11-25T15:09:00.552767+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6493,32 +6493,6 @@
           "official_url": "https://www.h-kuji.com/goods/disney-idol/",
           "image_url": "https://www.h-kuji.com/wp-content/uploads/2026/08/D_IDOL_Bnnr_0820_01.jpg",
           "end_date": null
-        },
-        {
-          "id": "hanaorisan-anime",
-          "title": "コトブキヤくじ TVアニメ『花織さんは転生しても喧嘩がしたい』",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/hanaorisan-anime/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/hanaorisan-anime/",
-          "image_url": null,
-          "end_date": "2026-09-27"
-        },
-        {
-          "id": "the-idolmaster-summerlivestage",
-          "title": "コトブキヤくじ アイドルマスター Summer Live st@ge",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/the-idolmaster-summerlivestage/",
-          "month_key": "2026-09",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/the-idolmaster-summerlivestage/",
-          "image_url": null,
-          "end_date": "2026-09-23"
         }
       ]
     },
@@ -6564,45 +6538,6 @@
           "official_url": "https://www.h-kuji.com/goods/101dalmatians/",
           "image_url": "https://www.h-kuji.com/wp-content/uploads/2026/09/101_Bnr_N2-01.jpg",
           "end_date": null
-        },
-        {
-          "id": "arcanadea2",
-          "title": "コトブキヤくじ アルカナディア 2nd",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/arcanadea2/",
-          "month_key": "2026-10",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/arcanadea2/",
-          "image_url": null,
-          "end_date": "2026-10-12"
-        },
-        {
-          "id": "otomekaiju",
-          "title": "BS11×KOTOBUKIYA コトブキヤくじ TVアニメ「乙女怪獣キャラメリゼ」",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/otomekaiju/",
-          "month_key": "2026-10",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/otomekaiju/",
-          "image_url": null,
-          "end_date": "2026-10-12"
-        },
-        {
-          "id": "the-idolmaster-million-live04",
-          "title": "コトブキヤくじ アイドルマスター ミリオンライブ！ stage04",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/the-idolmaster-million-live04/",
-          "month_key": "2026-10",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/the-idolmaster-million-live04/",
-          "image_url": null,
-          "end_date": "2026-10-18"
         }
       ]
     },
@@ -6648,44 +6583,6 @@
           "official_url": "https://www.h-kuji.com/goods/zootopia-nick/",
           "image_url": "https://www.h-kuji.com/wp-content/uploads/2026/10/9274c8ccd4a07dea8be31ed08750fce9.jpg",
           "end_date": null
-        },
-        {
-          "id": "ao-buta_dearfriend",
-          "title": "『青春ブタ野郎はディアフレンドの夢を見ない』オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/ao-buta_dearfriend/",
-          "month_key": "2026-11",
-          "ip_tags": [],
-          "date": "2026-11-30",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/ao-buta_dearfriend/",
-          "image_url": "https://kujibikido.com/lp/ao-buta_dearfriend/img/og.png"
-        },
-        {
-          "id": "kuruiduki",
-          "title": "コトブキヤくじ 狂い月",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/kuruiduki/",
-          "month_key": "2026-11",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/kuruiduki/",
-          "image_url": null,
-          "end_date": "2026-11-29"
-        },
-        {
-          "id": "magic-kyun",
-          "title": "コトブキヤくじ TVアニメ『マジきゅんっ！ルネッサンス』～10th Anniversary～",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/magic-kyun/",
-          "month_key": "2026-11",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/magic-kyun/",
-          "image_url": null,
-          "end_date": "2026-11-08"
         }
       ]
     },
@@ -6693,18 +6590,6 @@
       "key": "2026-12",
       "label": "2026年12月",
       "items": [
-        {
-          "id": "majotabi-2026",
-          "title": "TVアニメ「魔女の旅々」イレイナ Happy Birthday 2026 オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/majotabi-2026/",
-          "month_key": "2026-12",
-          "ip_tags": [],
-          "date": "2026-12-03",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/majotabi-2026/",
-          "image_url": "https://kujibikido.com/lp/majotabi-2026/img/og.png"
-        },
         {
           "id": "silentwitch_5th",
           "title": "『サイレント・ウィッチ 沈黙の魔女の隠しごと』5th Anniversaryオンラインくじ",
@@ -6765,18 +6650,6 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/kinonotabi_5/",
           "image_url": "https://kujibikido.com/lp/kinonotabi_5/img/og.png"
-        },
-        {
-          "id": "mahoro-matic",
-          "title": "「まほろまてぃっく」オンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/mahoro-matic/",
-          "month_key": "2026-12",
-          "ip_tags": [],
-          "date": "2026-12-10",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/mahoro-matic/",
-          "image_url": "https://kujibikido.com/lp/mahoro-matic/img/og.png"
         },
         {
           "id": "miabyss5",
@@ -6875,6 +6748,18 @@
           "image_url": "https://kujibikido.com/lp/odekakekozame_tenshi/img/og.png"
         },
         {
+          "id": "psyren_01",
+          "title": "『PSYREN -サイレン-』オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/psyren_01/",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": "2026-12-16",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/psyren_01/",
+          "image_url": "https://kujibikido.com/lp/psyren_01/img/og.png"
+        },
+        {
           "id": "dariya",
           "title": "『魔導具師ダリヤはうつむかない～今日から自由な職人ライフ～』オンラインくじ",
           "brand": "くじ引き堂",
@@ -6936,6 +6821,30 @@
           "end_date": null
         },
         {
+          "id": "yuyuyu_butai_1",
+          "title": "舞台『結城友奈は勇者である』オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/yuyuyu_butai_1/",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": "2026-12-23",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/yuyuyu_butai_1/",
+          "image_url": "https://kujibikido.com/lp/yuyuyu_butai_1/img/og.png"
+        },
+        {
+          "id": "yuyuyu_butai_2",
+          "title": "舞台『結城友奈は勇者である-絆-』オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/yuyuyu_butai_2/",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": "2026-12-23",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/yuyuyu_butai_2/",
+          "image_url": "https://kujibikido.com/lp/yuyuyu_butai_2/img/og.png"
+        },
+        {
           "id": "kimishinu_sheenabd",
           "title": "きみが死ぬまで恋をしたい シーナBirthdayくじ",
           "brand": "くじ引き堂",
@@ -6946,25 +6855,6 @@
           "price": null,
           "official_url": "https://kujibikido.com/lp/kimishinu_sheenabd/",
           "image_url": "https://kujibikido.com/lp/kimishinu_sheenabd/img/og.png"
-        }
-      ]
-    },
-    {
-      "key": "2027-01",
-      "label": "2027年1月",
-      "items": [
-        {
-          "id": "capkuji_pometone",
-          "title": "ポメトーン くじ",
-          "brand": "カプくじ",
-          "url": "https://capcom-capkujionline.com/lp/pometone/",
-          "month_key": "2027-01",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://capcom-capkujionline.com/lp/pometone/",
-          "image_url": "https://capcom-capkujionline.com/lp/pometone/img/og.png",
-          "end_date": "2027-01-08"
         }
       ]
     },
