@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T15:09:08.373604+09:00",
+  "generated_at": "2026-11-26T15:00:05.255992+09:00",
   "pokemon": [
     {
       "id": "pkm_https_www_pokemon_card_com_ex_m7_2b7b0b",
@@ -716,20 +716,6 @@
       "price": "1パック 396円",
       "image_url": "images/tcg/ygo_cg2128.png",
       "url": "https://www.yugioh-card.com/japan/products/ut01/",
-      "buy_url": "",
-      "stores": ""
-    },
-    {
-      "id": "ygo_cg2087",
-      "game": "yugioh",
-      "category": "スペシャルパック",
-      "title": "LIMITED PACK GX - ラーイエロー -",
-      "date": null,
-      "date_raw": "2026年7月下旬",
-      "month_key": "2026-07",
-      "price": "3,600円",
-      "image_url": "images/tcg/ygo_cg2087.png",
-      "url": "https://www.yugioh-card.com/japan/products/#cg2087",
       "buy_url": "",
       "stores": ""
     }
