@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T14:59:58.832288+09:00",
+  "generated_at": "2026-11-27T14:53:54.787036+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6674,19 +6674,6 @@
           "official_url": "https://kuji.kotobukiya.co.jp/lp/magic-kyun/",
           "image_url": null,
           "end_date": "2026-11-08"
-        },
-        {
-          "id": "magic_revo",
-          "title": "コトブキヤくじ TVアニメ「貸した魔力は【リボ払い】で強制徴収」",
-          "brand": "コトブキヤくじ",
-          "url": "https://kuji.kotobukiya.co.jp/lp/magic_revo/",
-          "month_key": "2026-11",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://kuji.kotobukiya.co.jp/lp/magic_revo/",
-          "image_url": null,
-          "end_date": "2026-11-27"
         }
       ]
     },
@@ -6694,18 +6681,6 @@
       "key": "2026-12",
       "label": "2026年12月",
       "items": [
-        {
-          "id": "silentwitch_5th",
-          "title": "『サイレント・ウィッチ 沈黙の魔女の隠しごと』5th Anniversaryオンラインくじ",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/silentwitch_5th/",
-          "month_key": "2026-12",
-          "ip_tags": [],
-          "date": "2026-12-03",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/silentwitch_5th/",
-          "image_url": "https://kujibikido.com/lp/silentwitch_5th/img/og.png"
-        },
         {
           "id": "sanrio-holiday2026",
           "title": "Happyくじ『Sanrio characters Holiday Collection 2026』",
@@ -6840,18 +6815,6 @@
           "image_url": "https://kujibikido.com/lp/falcom_45th/img/og.png"
         },
         {
-          "id": "kamisamakitsune",
-          "title": "かみさまキツネとサラリーマンくじ のんびりおうち時間",
-          "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/kamisamakitsune/",
-          "month_key": "2026-12",
-          "ip_tags": [],
-          "date": "2026-12-17",
-          "price": null,
-          "official_url": "https://kujibikido.com/lp/kamisamakitsune/",
-          "image_url": "https://kujibikido.com/lp/kamisamakitsune/img/og.png"
-        },
-        {
           "id": "milkysubway",
           "title": "『銀河特急 ミルキー☆サブウェイ』オンラインくじ",
           "brand": "くじ引き堂",
@@ -6876,16 +6839,42 @@
           "image_url": "https://kujibikido.com/lp/nagiasu_2026/img/og.png"
         },
         {
-          "id": "roshidere_anime_bd2026",
-          "title": "TVアニメ「時々ボソッとロシア語でデレる隣のアーリャさん」アーリャ HAPPY BIRTHDAY オンラインくじ2026",
+          "id": "nekotoshimobe",
+          "title": "ねことしもべ オンラインくじ",
           "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/roshidere_anime_bd2026/",
+          "url": "https://kujibikido.com/lp/nekotoshimobe/",
           "month_key": "2026-12",
           "ip_tags": [],
           "date": "2026-12-17",
           "price": null,
-          "official_url": "https://kujibikido.com/lp/roshidere_anime_bd2026/",
-          "image_url": "https://kujibikido.com/lp/roshidere_anime_bd2026/img/og.png"
+          "official_url": "https://kujibikido.com/lp/nekotoshimobe/",
+          "image_url": "https://kujibikido.com/lp/nekotoshimobe/img/og.png"
+        },
+        {
+          "id": "reborn_monochrome",
+          "title": "TVアニメ『家庭教師ヒットマンREBORN!』モノクロ衣装くじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/reborn_monochrome/",
+          "month_key": "2026-12",
+          "ip_tags": [
+            "REBORN!"
+          ],
+          "date": "2026-12-17",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/reborn_monochrome/",
+          "image_url": "https://kujibikido.com/lp/reborn_monochrome/img/og.png"
+        },
+        {
+          "id": "tongari",
+          "title": "TVアニメ『とんがり帽子のアトリエ』オンラインくじ",
+          "brand": "くじ引き堂",
+          "url": "https://kujibikido.com/lp/tongari/",
+          "month_key": "2026-12",
+          "ip_tags": [],
+          "date": "2026-12-17",
+          "price": null,
+          "official_url": "https://kujibikido.com/lp/tongari/",
+          "image_url": "https://kujibikido.com/lp/tongari/img/og.png"
         },
         {
           "id": "avdd",
@@ -6949,16 +6938,16 @@
           "image_url": "https://kujibikido.com/lp/growupshow/img/og.png"
         },
         {
-          "id": "kimishinu_sheenabd",
-          "title": "きみが死ぬまで恋をしたい シーナBirthdayくじ",
+          "id": "lovelive_aqours_marinestyle",
+          "title": "『ラブライブ！サンシャイン!!』オンラインくじ Ver.LoveLive!Days ～Marine Style～",
           "brand": "くじ引き堂",
-          "url": "https://kujibikido.com/lp/kimishinu_sheenabd/",
+          "url": "https://kujibikido.com/lp/lovelive_aqours_marinestyle/",
           "month_key": "2026-12",
           "ip_tags": [],
           "date": "2026-12-24",
           "price": null,
-          "official_url": "https://kujibikido.com/lp/kimishinu_sheenabd/",
-          "image_url": "https://kujibikido.com/lp/kimishinu_sheenabd/img/og.png"
+          "official_url": "https://kujibikido.com/lp/lovelive_aqours_marinestyle/",
+          "image_url": "https://kujibikido.com/lp/lovelive_aqours_marinestyle/img/og.png"
         }
       ]
     },
@@ -6966,6 +6955,19 @@
       "key": "2027-01",
       "label": "2027年1月",
       "items": [
+        {
+          "id": "capkuji_memoryofkenji_s",
+          "title": "逆転裁判 メモリーオブ検事 くじ【再販】",
+          "brand": "カプくじ",
+          "url": "https://capcom-capkujionline.com/lp/memoryofkenji_s/",
+          "month_key": "2027-01",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://capcom-capkujionline.com/lp/memoryofkenji_s/",
+          "image_url": "https://capcom-capkujionline.com/lp/memoryofkenji_s/img/og.png",
+          "end_date": "2027-01-15"
+        },
         {
           "id": "capkuji_pometone",
           "title": "ポメトーン くじ",
@@ -6978,6 +6980,19 @@
           "official_url": "https://capcom-capkujionline.com/lp/pometone/",
           "image_url": "https://capcom-capkujionline.com/lp/pometone/img/og.png",
           "end_date": "2027-01-08"
+        },
+        {
+          "id": "magic_revo",
+          "title": "コトブキヤくじ TVアニメ「貸した魔力は【リボ払い】で強制徴収」",
+          "brand": "コトブキヤくじ",
+          "url": "https://kuji.kotobukiya.co.jp/lp/magic_revo/",
+          "month_key": "2027-01",
+          "ip_tags": [],
+          "date": null,
+          "price": null,
+          "official_url": "https://kuji.kotobukiya.co.jp/lp/magic_revo/",
+          "image_url": null,
+          "end_date": "2027-01-11"
         }
       ]
     },
