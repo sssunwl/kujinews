@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T14:53:54.787036+09:00",
+  "generated_at": "2026-11-28T14:34:11.562898+09:00",
   "months": [
     {
       "key": "2011-02",
@@ -6955,32 +6955,6 @@
       "key": "2027-01",
       "label": "2027年1月",
       "items": [
-        {
-          "id": "capkuji_memoryofkenji_s",
-          "title": "逆転裁判 メモリーオブ検事 くじ【再販】",
-          "brand": "カプくじ",
-          "url": "https://capcom-capkujionline.com/lp/memoryofkenji_s/",
-          "month_key": "2027-01",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://capcom-capkujionline.com/lp/memoryofkenji_s/",
-          "image_url": "https://capcom-capkujionline.com/lp/memoryofkenji_s/img/og.png",
-          "end_date": "2027-01-15"
-        },
-        {
-          "id": "capkuji_pometone",
-          "title": "ポメトーン くじ",
-          "brand": "カプくじ",
-          "url": "https://capcom-capkujionline.com/lp/pometone/",
-          "month_key": "2027-01",
-          "ip_tags": [],
-          "date": null,
-          "price": null,
-          "official_url": "https://capcom-capkujionline.com/lp/pometone/",
-          "image_url": "https://capcom-capkujionline.com/lp/pometone/img/og.png",
-          "end_date": "2027-01-08"
-        },
         {
           "id": "magic_revo",
           "title": "コトブキヤくじ TVアニメ「貸した魔力は【リボ払い】で強制徴収」",
